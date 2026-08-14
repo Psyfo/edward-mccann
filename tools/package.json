@@ -1,0 +1,9 @@
+{
+  "name": "edward-mccann-audit-tools",
+  "private": true,
+  "type": "module",
+  "description": "One-off tooling used to archive and audit the legacy edwardmccann.studio site",
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
