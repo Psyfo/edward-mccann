@@ -4,7 +4,7 @@ import { byNumber } from "@/lib/content";
 const base = process.env.NEXT_PUBLIC_SITE_URL ?? "https://edwardmccann.studio";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = ["", "/index", "/practice", "/press", "/contact"].map((path) => ({
+  const pages = ["", "/archive", "/practice", "/press", "/contact"].map((path) => ({
     url: `${base}${path}`,
     changeFrequency: "monthly" as const,
     priority: path === "" ? 1 : 0.7,

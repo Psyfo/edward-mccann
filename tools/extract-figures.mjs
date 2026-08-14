@@ -11,6 +11,13 @@ import path from 'node:path';
 
 const ARCHIVE = path.resolve('..', 'site-archive');
 const PAGES = path.join(ARCHIVE, 'pages', 'projects');
+// The design phase art-directed one cover per project. Those crops are what the
+// boards were approved on, and they are landscape where the hero frame is
+// landscape, so they are used as figure 0 in preference to whatever image
+// happened to come first on the legacy page.
+const CURATED_HEROES = path.resolve(
+  '..', 'design_handoff_edward_mccann_brand', 'assets', 'heroes',
+);
 // Raw archive references. tools/prepare-media.mjs consumes this and produces
 // the web-ready content/figures.json; keeping the two separate makes both
 // steps idempotent and re-runnable in any order.
@@ -63,6 +70,21 @@ for (const file of readdirSync(PAGES).filter((f) => f.endsWith('.html'))) {
       bytes: statSync(local).size,
       alt: decode(alt),
     });
+  }
+
+  // Prepend the approved cover when the design phase supplied one. It is
+  // referenced by an absolute path because it lives outside the archive.
+  for (const ext of ['jpg', 'png']) {
+    const cover = path.join(CURATED_HEROES, `${slug}.${ext}`);
+    if (existsSync(cover)) {
+      figures.unshift({
+        file: path.relative(ARCHIVE, cover).replace(/\\/g, '/'),
+        bytes: statSync(cover).size,
+        alt: '',
+        curated: true,
+      });
+      break;
+    }
   }
 
   result[slug] = figures;

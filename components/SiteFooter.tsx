@@ -8,7 +8,7 @@ export function SiteFooter() {
       <div className="through-line" aria-hidden="true" />
       <div className={styles.row}>
         <p className={styles.archive}>
-          <Link href="/index">
+          <Link href="/archive">
             <span className={styles.archiveTitle}>The complete archive</span>{" "}
             <span className={styles.archiveMeta}>— 27 works</span>{" "}
             <span className="mark" aria-hidden="true">

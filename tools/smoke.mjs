@@ -22,9 +22,34 @@ async function expect(label, url, predicate) {
   }
 }
 
-const pages = ['/', '/index', '/practice', '/press', '/contact', '/sitemap.xml', '/robots.txt'];
+// Status alone is not enough: /index used to return 200 while serving the
+// homepage, because the route name collided with index.html in static serving.
+// Each page therefore has to prove it is itself.
+const pages = [
+  { path: '/', contains: 'Nose to tail design' },
+  { path: '/archive', contains: '27 WORKS' },
+  { path: '/practice', contains: 'RIBA CHARTERED' },
+  { path: '/press', contains: 'Recognition' },
+  { path: '/contact', contains: 'WRITE TO THE STUDIO' },
+  { path: '/sitemap.xml', contains: '/projects/' },
+  { path: '/robots.txt', contains: 'Sitemap:' },
+];
+
 for (const p of pages) {
-  await expect(`page ${p}`, `${BASE}${p}`, (r) => (r.ok ? null : `HTTP ${r.status}`));
+  checked++;
+  try {
+    const res = await fetch(`${BASE}${p.path}`);
+    if (!res.ok) {
+      failures.push(`page ${p.path}: HTTP ${res.status}`);
+    } else {
+      const body = await res.text();
+      if (!body.includes(p.contains)) {
+        failures.push(`page ${p.path}: served 200 but does not contain "${p.contains}", so it is rendering the wrong page`);
+      }
+    }
+  } catch (err) {
+    failures.push(`page ${p.path}: ${err.message}`);
+  }
 }
 
 for (const project of facts.projects) {

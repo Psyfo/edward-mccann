@@ -14,6 +14,12 @@ export type Figure = {
   src: string;
   width: number;
   height: number;
+  /**
+   * Whether the image may be cropped to fill a frame. Photographs may be;
+   * drawings and white-ground renders may not, because cropping them destroys
+   * the information they exist to carry. Set by tools/prepare-media.mjs.
+   */
+  fit?: "cover" | "contain";
   /** Declared medium, e.g. "PHOTOGRAPH" or "VISUALISATION". */
   medium: string;
   caption: string;
