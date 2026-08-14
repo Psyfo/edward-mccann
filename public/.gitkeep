@@ -1,0 +1,7 @@
+This directory is intentionally kept.
+
+Next.js serves anything here at the site root, and the Dockerfile copies it
+into the runtime image. The site currently has no static files (the favicon is
+generated from app/icon.svg, and robots and sitemap are route handlers), so
+without this placeholder the directory would not exist in a fresh clone and the
+image build would fail on COPY.
