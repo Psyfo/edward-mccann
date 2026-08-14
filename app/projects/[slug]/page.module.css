@@ -17,7 +17,8 @@
 
 .fact {
   display: grid;
-  grid-template-columns: 11ch 1fr;
+  /* Wide enough for the longest label ("PHOTOGRAPHY") plus its gap. */
+  grid-template-columns: 13ch 1fr;
   gap: calc(var(--u) * 1.5);
   padding: calc(var(--u) * 0.75) 0;
 }

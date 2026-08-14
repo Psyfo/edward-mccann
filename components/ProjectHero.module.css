@@ -2,7 +2,7 @@
   position: relative;
   /* The title panel overlaps the image boundary, so the header reserves room
      for the overhang rather than letting it collide with the facts row. */
-  margin-bottom: calc(var(--u) * 5);
+  margin-bottom: calc(var(--u) * 2);
 }
 
 .frame {
