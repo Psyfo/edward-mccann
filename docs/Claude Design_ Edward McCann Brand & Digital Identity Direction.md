@@ -1,460 +1,954 @@
 # Edward McCann Architecture
-## Brand Identity, Art Direction & Digital Experience Creation
 
-You are acting as the **Creative Director, Brand Strategist, Art Director, Identity Designer, Digital Product Designer, and Design Systems Lead** for Edward McCann, an architecture practice undergoing a complete digital and visual identity evolution.
+## Comprehensive Brand Identity, Art Direction & Digital Experience Design
 
-You have been given a comprehensive **Design Intelligence & Creative Direction Handoff Package** produced by a separate analysis agent.
+You are acting as the **Creative Director, Brand Strategist, Senior Identity Designer, Art Director, Editorial Designer, Digital Product Designer, UX/UI Director, Design Systems Lead, and Presentation Designer** for Edward McCann Architecture.
 
-Your job is to turn that intelligence into a **coherent, sophisticated, ownable visual identity system**.
+You have been given a comprehensive forensic analysis of the existing practice and website inside the `design-intelligence/` workspace.
 
-Do not treat this as a website beautification exercise.
+Your task is to transform that intelligence into a **coherent, distinctive, professionally credible brand identity system and digital design direction**.
 
-This is a **brand identity and digital experience project**.
+This is not simply a website redesign.
 
-The website is one application of the identity.
+This is an **identity evolution for an architecture practice**, with the website serving as one major expression of the resulting brand system.
 
 ---
 
-# 1. Start With the Evidence
+# 1. START WITH RESEARCH
 
-Before designing anything:
+Before creating visual work:
 
 Read the entire `design-intelligence/` directory.
 
-Pay particular attention to:
+Prioritise:
 
 - `executive-summary.md`
 - `design-handoff.md`
 - `brand-analysis.md`
-- `visual-analysis.md`
-- `recommended-design-direction.md`
-- `competitive-positioning.md`
-- `photography-analysis.md`
+- `brand-language.md`
+- `positioning-analysis.md`
+- `architectural-language.md`
+- `portfolio-analysis.md`
+- `visual-language.md`
 - `typography-analysis.md`
-- `responsive-analysis.md`
+- `colour-analysis.md`
+- `imagery-and-art-direction.md`
+- `competitive-landscape.md`
+- `creative-territories.md`
+- `identity-implications.md`
 - `opportunities.md`
 - `screenshot-index.md`
 
 Review the supplied screenshots.
 
-Understand the current website before attempting to replace it.
+Understand the existing website before replacing it.
 
-You are allowed to disagree with the previous analysis when you have a strong creative reason.
+The research is not a constraint.
 
-However, do not ignore the evidence.
-
----
-
-# 2. Creative Objective
-
-Develop a visual identity that makes Edward McCann feel:
-
-- distinctive
-- credible
-- intentional
-- architecturally sophisticated
-- contemporary
-- memorable
-- premium where appropriate
-- editorial rather than templated
-- confident without being loud
-- restrained without becoming sterile
-
-These are examples of possible qualities, not mandatory conclusions.
-
-Use the research to determine the actual creative personality.
-
-The final identity should feel like it belongs to **an architecture practice**, not a generic luxury property company, generic design studio, SaaS company, real-estate developer, or fashionable portfolio template.
+It is the raw material for creative direction.
 
 ---
 
-# 3. Establish Creative Territories First
+# 2. CREATIVE MANDATE
 
-Before committing to one identity, explore **3 genuinely different creative territories**.
+Develop an identity that feels intrinsically connected to **Edward McCann Architecture**.
 
-Do not produce three cosmetic variations of the same idea.
+Do not create a generic:
 
-Each territory should have a different conceptual foundation.
+- luxury architecture brand
+- minimalist design studio
+- property developer identity
+- interior design studio
+- lifestyle brand
+- architecture-template aesthetic
 
-For example, one might be:
+The identity should emerge from the actual practice and its body of work.
 
-- typographic/editorial
-- geometric/architectural
-- material/spatial
+The strongest result should feel like:
 
-But determine the actual territories from the research.
+> "Of course this is Edward McCann."
 
-For each territory establish:
+rather than:
 
-### Concept
-
-What is the underlying idea?
-
-### Brand Personality
-
-5 to 8 precise descriptors.
-
-### Visual Language
-
-Describe the visual grammar.
-
-### Typography
-
-Display and body directions.
-
-### Colour
-
-Primary, secondary and neutral palette.
-
-### Composition
-
-Grid, scale, whitespace, alignment, asymmetry.
-
-### Imagery
-
-Photography and image-treatment direction.
-
-### Motion
-
-How the identity could behave digitally.
-
-### Logo Strategy
-
-How the identity could become a mark.
-
-### Digital Expression
-
-How the territory translates to the website.
-
-### Physical Expression
-
-How it translates to stationery and printed material.
-
-### Strengths
-
-Why this direction works.
-
-### Risks
-
-Where it could become generic, pretentious, cold, trendy, etc.
+> "This is another beautiful architecture website."
 
 ---
 
-# 4. Select a Primary Creative Direction
+# 3. CREATIVE STRATEGY
 
-After exploring the territories, select the strongest direction.
+Establish:
 
-Explain:
+## Brand Essence
 
-- why it is strategically appropriate
-- why it differentiates Edward McCann
-- why it fits architecture
-- why it can survive beyond the website
-- why it works across digital and physical media
-- what makes it ownable
+One concise central idea.
 
-Do not select something merely because it looks attractive.
+## Brand Promise
 
-The winning direction needs to function as an **identity system**, not a single moodboard.
+What the practice gives its clients.
+
+## Brand Character
+
+5 to 8 precise characteristics.
+
+## Positioning Statement
+
+A concise strategic description of where the practice sits.
+
+## Distinctive Attributes
+
+What makes the practice recognisable.
+
+## Emotional Territory
+
+What the brand should make a visitor feel.
+
+## Verbal Territory
+
+What kind of language the practice should use.
+
+Avoid corporate marketing language.
+
+The practice should retain the intellectual and architectural credibility of the existing voice.
 
 ---
 
-# 5. Create the Brand Board
+# 4. EXPLORE THREE DISTINCT BRAND TERRITORIES
 
-Create a polished **Brand Identity Board**.
+Before selecting the identity, create 3 genuinely different creative routes.
 
-It should communicate the identity at a glance.
+Each route should contain:
+
+- conceptual idea
+- visual thesis
+- personality
+- typography direction
+- colour direction
+- graphic language
+- image language
+- logo strategy
+- digital expression
+- print expression
+- motion expression
+- strengths
+- weaknesses
+- differentiation
+
+The routes must be strategically distinct.
+
+Do not present three slight aesthetic variations.
+
+---
+
+# 5. SELECT THE PRIMARY DIRECTION
+
+Select the strongest route and explain why.
+
+Evaluate it against:
+
+- authenticity
+- differentiation
+- architectural relevance
+- sophistication
+- longevity
+- usability
+- scalability
+- digital performance
+- print performance
+- recognisability
+- flexibility
+
+Do not select a concept solely because it looks attractive.
+
+Select the one with the strongest long-term identity potential.
+
+---
+
+# 6. MASTER BRAND BOARD
+
+Create a polished **Master Brand Identity Board**.
+
+It should present the identity as a professional design-studio presentation.
 
 Include:
 
-- logo direction
+- logo
 - typography
 - colour palette
 - imagery
 - graphic language
 - layout principles
-- texture/material references where relevant
+- texture/material references where appropriate
 - iconographic direction
-- motion cues where useful
-- short brand descriptors
-- visual keywords
+- brand descriptors
+- key brand statement
+- examples of identity application
 
-The board should look presentation-ready.
-
-It should feel like something a professional design studio could present to a client.
+The board should immediately communicate the visual system.
 
 ---
 
-# 6. Create a Visual Moodboard / Materiality Board
+# 7. ART DIRECTION / MOODBOARD
 
-Create a more expressive **Art Direction / Moodboard**.
+Create a sophisticated **Art Direction & Materiality Board**.
 
 Explore:
 
 - architecture
+- interiors
 - materials
-- textures
 - light
 - shadow
-- spatial compositions
-- editorial layouts
-- photography
-- typography
+- texture
+- structural elements
 - architectural drawings
-- geometry
-- physical materials
-- print finishes
-- environmental references
+- construction details
+- typography
+- editorial references
+- graphic composition
+- environmental context
 
-Avoid cliché architecture imagery unless it genuinely supports the concept.
+Use imagery that communicates the desired emotional territory.
 
-The moodboard should communicate the **emotional world** of the brand.
+Do not fill the board with generic architectural photographs.
+
+The references should reveal the identity's point of view.
 
 ---
 
-# 7. Develop the Logo Identity
+# 8. LOGO IDENTITY EXPLORATION
 
-Create a **real logo exploration**, not placeholder text.
+Create **3 to 5 strong, genuinely different logo candidates**.
 
-Explore between **3 and 5 genuinely strong logo concepts**.
+These are serious identity concepts, not placeholder wordmarks.
 
-Each concept should be meaningfully different.
+Explore intelligently among:
 
-Potential directions may include:
-
-- refined wordmark
-- typographic monogram
+- custom wordmark
+- typographic construction
+- monogram
 - architectural monogram
-- abstract geometric symbol
+- abstract symbol
+- geometric mark
 - negative-space mark
 - symbol + wordmark
-- custom letterform construction
+- flexible identity
 
-Do not force architectural symbolism into the mark.
+Do not force literal architecture imagery into the mark.
 
-Avoid generic:
+Avoid cliché:
 
 - roof icons
 - house outlines
-- building silhouettes
-- generic compass marks
-- obvious CAD/grid symbols
-- generic "A" logos
+- generic buildings
+- obvious compass marks
+- generic architectural grids
+- generic "A" symbols
 
-Unless there is a genuinely compelling reason.
+unless the research provides an unusually strong conceptual justification.
 
-The logo should be:
+Every candidate must work as an actual brand mark.
 
-- distinctive
-- reproducible
-- legible
-- scalable
-- recognisable
-- appropriate in monochrome
-- appropriate at favicon scale
-- suitable for print
-- suitable for signage
-- suitable for digital interfaces
-
-For every logo concept show:
+For each concept create:
 
 - primary lockup
 - horizontal lockup
 - stacked lockup where appropriate
-- symbol/monogram
-- monochrome version
-- reversed version
-- small-scale version
+- standalone symbol/mark
+- monochrome
+- reversed
+- small-scale
+- favicon-scale exploration
 
-Provide a concise rationale for each.
+Show each logo in real-world contexts.
 
-Then recommend the strongest candidate.
+Evaluate:
+
+- legibility
+- distinctiveness
+- scalability
+- memorability
+- reproduction quality
+- architecture-industry appropriateness
+- digital usefulness
+
+Recommend one primary direction and one backup.
 
 ---
 
-# 8. Establish the Typography System
+# 9. WORDMARK SYSTEM
 
-Create a proper **type system**, not just font selections.
+Develop a refined **wordmark and typographic identity system** around:
 
-Define:
+EDWARD McCANN
 
-- display face
-- headline face
-- body face
-- supporting face where necessary
-- navigation
-- metadata
-- captions
-- labels
-- numerical typography
+and
+
+ARCHITECTURE
+
+Investigate:
+
+- case
+- spacing
+- optical alignment
+- relationship between names
+- hierarchy
+- custom lettering
+- proportions
+- lockup behaviour
+
+Do not assume the existing typography should survive.
+
+---
+
+# 10. TYPOGRAPHIC IDENTITY
+
+Develop a complete **typographic system**.
+
+Establish:
+
+### Display Typeface
+
+### Editorial Typeface
+
+### Body Typeface
+
+### Utility / Metadata Typeface
+
+Where appropriate.
 
 Define:
 
 - hierarchy
+- sizes
 - weights
-- sizing
-- line-height
 - tracking
-- case
-- editorial conventions
+- line height
+- casing
+- numerals
+- captions
+- navigation
+- labels
+- project titles
+- project metadata
+- editorial copy
 
-Show typography in realistic architectural contexts.
+Demonstrate the system using authentic architectural content.
 
-Use:
+Show:
 
 - project titles
 - locations
-- years
-- project descriptions
+- dates
+- descriptions
 - captions
 - navigation
-- architectural metadata
-
-Typography should be evaluated as a structural part of the identity.
+- contact information
+- press references
 
 ---
 
-# 9. Establish the Colour System
+# 11. COLOUR SYSTEM
 
-Create a complete **brand colour system**.
+Develop a complete **brand colour system**.
 
 Include:
 
-### Core Palette
+### Primary palette
 
-Primary colours.
+### Supporting palette
 
-### Supporting Palette
+### Neutral palette
 
-Secondary colours.
+### Accent palette
 
-### Neutral Palette
+Only include an accent colour if justified.
 
-Backgrounds, surfaces, text, borders.
+Document:
 
-### Accent
+- HEX
+- RGB
+- CMYK where practical
+- contrast relationships
+- accessibility considerations
+- intended usage
 
-Only if justified.
-
-### Digital Usage
-
-Show how colours behave in interfaces.
-
-### Accessibility
-
-Check text/background combinations for sufficient contrast.
-
-Do not create a complicated colour system simply because brand guidelines usually have one.
-
-Architecture brands often benefit from disciplined colour use.
-
-Let the concept determine the palette.
+Show the palette in context rather than only as swatches.
 
 ---
 
-# 10. Create the Graphic Language
+# 12. GRAPHIC LANGUAGE
 
-Define the visual grammar beyond the logo.
+Create a coherent **graphic identity system**.
 
 Explore:
 
-- lines
 - grids
 - rules
+- lines
 - frames
-- cropping
 - numbering
-- coordinates
 - project metadata
 - architectural notation
-- geometric devices
+- geometric motifs
 - image masks
-- overlays
-- patterns
-- iconography
+- cropping conventions
+- borders
+- symbols
 - diagrams
 - page markers
+- labels
 
-These should feel like a coherent **graphic system** rather than decoration.
+The system should feel like it belongs to the practice.
+
+Avoid decoration for decoration's sake.
 
 ---
 
-# 11. Create Photography Art Direction
+# 13. IMAGE LANGUAGE
 
-Define a photography system.
+Develop an explicit **photographic and image art-direction system**.
 
-Show examples of:
-
-- exterior architecture
-- interior architecture
-- material details
-- contextual photography
-- human scale
-- environmental context
-- construction/process imagery where relevant
-- abstract architectural details
-
-Specify:
+Define:
 
 - framing
-- lighting
-- colour treatment
-- contrast
 - cropping
-- aspect ratios
 - sequencing
+- aspect ratios
+- contrast
+- colour treatment
+- full-bleed behaviour
+- detail imagery
+- contextual imagery
+- interior/exterior balance
+- drawing/model/render treatment
 - image hierarchy
 
-The goal is to create a recognisable **photographic language**.
+Demonstrate how architectural photography becomes part of the identity.
 
 ---
 
-# 12. Create a Responsive Device Mockup Board
+# 14. BRAND ICONOGRAPHY
 
-Yes, this is the thing you were trying to remember.
+Where relevant, develop:
 
-Create a polished **Responsive Device Mockup Board / Responsive Showcase** showing the proposed digital identity across:
+- directional icons
+- utility icons
+- project markers
+- navigation symbols
+- arrows
+- social symbols
+- contact indicators
+
+Keep the iconography consistent with the primary identity.
+
+Do not introduce an unrelated icon style.
+
+---
+
+# 15. DIGITAL DESIGN SYSTEM
+
+Create a **Digital Brand/UI Foundations Board**.
+
+Include:
+
+- navigation
+- mobile navigation
+- typography
+- project cards
+- image treatments
+- buttons
+- links
+- metadata
+- captions
+- pagination
+- project navigation
+- contact components
+- forms
+- footer
+- utility elements
+- focus states
+- hover states
+
+Show how the brand operates as an interface.
+
+---
+
+# 16. WEBSITE ART DIRECTION
+
+Now demonstrate how the identity could transform the website.
+
+Create key concept screens for:
+
+### Homepage
+
+The homepage should immediately communicate the identity and architectural point of view.
+
+### Project Archive
+
+Demonstrate how the portfolio becomes a curated body of work rather than merely a list of projects.
+
+### Project Detail
+
+Demonstrate hierarchy between:
+
+- project title
+- location
+- description
+- photographs
+- drawings
+- project information
+- navigation
+
+### About / Practice
+
+Demonstrate how the practice story and philosophy can be presented.
+
+### Press
+
+Demonstrate editorial credibility.
+
+### Contact
+
+Demonstrate a graceful conclusion to the experience.
+
+Do not design every possible page.
+
+Create enough screens to demonstrate the system.
+
+---
+
+# 17. RESPONSIVE DEVICE MOCKUP BOARD
+
+Create a polished:
+
+## Responsive Device Mockup Board
+
+Do not use the phrase "product collage" internally.
+
+Use professional terminology such as:
+
+- Responsive Device Mockup
+- Responsive Showcase
+- Device Presentation Board
+- Multi-Viewport Presentation
+
+Show the identity across:
 
 - desktop
 - laptop
 - tablet
 - mobile
 
-Use realistic device presentation.
+Use several realistic screens.
 
-Show several important screens, not merely one homepage.
+The board should demonstrate that the identity does not depend on a huge desktop canvas.
 
-For example:
+Show:
 
-- homepage
-- project archive
-- project detail
-- about/practice
-- contact
-
-Demonstrate how the identity survives across viewport sizes.
-
-The responsive system should preserve:
-
-- hierarchy
-- rhythm
-- typography
-- imagery
-- navigation
-- whitespace
-- interaction
-
-Do not simply shrink desktop layouts.
+- desktop project experience
+- tablet project experience
+- mobile project experience
+- mobile navigation
+- responsive typography
+- image adaptation
 
 ---
 
-# 13. Create Website UI Foundations
+# 18. STATIONERY SYSTEM
 
-Create a **Digital Design System Preview**.
+Create a professional **Stationery Suite**.
 
 Include:
 
-- navigation
+### Letterhead
+
+- primary
+- secondary where appropriate
+- print-ready hierarchy
+
+### Business Card
+
+Both sides.
+
+### Envelope
+
+Where appropriate.
+
+### Compliment / correspondence card
+
+### Presentation / proposal cover
+
+### Document cover
+
+### Invoice / formal document treatment
+
+### Drawing / project document title block
+
+The title-block concept is especially important for an architecture practice.
+
+Explore how the brand can live on:
+
+- drawings
+- specifications
+- project documentation
+- reports
+- presentations
+
+The stationery should feel coherent rather than like isolated mockups.
+
+---
+
+# 19. DIGITAL DOCUMENT SYSTEM
+
+Create examples of the identity applied to:
+
+- PDF report cover
+- project proposal
+- presentation cover
+- project factsheet
+- project case-study page
+- press document
+- quotation / fee proposal
+- formal letter
+- email attachment cover
+
+Create a coherent document hierarchy.
+
+---
+
+# 20. EMAIL SIGNATURE
+
+Design a polished **professional email signature**.
+
+Include:
+
+- Edward McCann
+- title
+- practice name
+- relevant contact information
+- website
+- address if known and verified
+- identity mark
+
+Do not invent contact details.
+
+Use placeholders for information that is unavailable.
+
+Create:
+
+- standard signature
+- compact signature
+
+---
+
+# 21. SOCIAL / DIGITAL SHARING SYSTEM
+
+Create a lightweight social/digital identity system.
+
+Include concepts for:
+
+- project announcement
+- project completion
+- press feature
+- award recognition
+- studio announcement
+- project detail
+- quote / insight
+
+Do not make it look like a consumer social-media brand.
+
+Maintain architectural/editorial credibility.
+
+---
+
+# 22. OPEN GRAPH / SOCIAL SHARING CARD
+
+Create an **Open Graph / Social Preview Card System**.
+
+Design at least:
+
+### Project OG card
+
+### Practice / homepage OG card
+
+### Press OG card
+
+The design must work at the small scale encountered in:
+
+- LinkedIn
+- Facebook
+- messaging previews
+- Slack
+- browser link previews
+
+Prioritise:
+
+- recognisable branding
+- clear project title
+- image hierarchy
+- typographic clarity
+
+---
+
+# 23. FAVICON / APP ICON
+
+Create favicon and small-format identity exploration.
+
+Demonstrate what survives at:
+
+- 16px
+- 32px
+- 48px
+- 180px
+- 512px
+
+The favicon should derive from the real identity rather than becoming a disconnected symbol.
+
+---
+
+# 24. PROJECT IDENTIFICATION SYSTEM
+
+Architecture practices benefit from disciplined metadata.
+
+Develop a project identification language.
+
+Explore:
+
+- project number
+- project name
+- location
+- year
+- status
+- project type
+- photography credit
+- press
+- awards
+- project navigation
+
+Determine which information belongs in the visual hierarchy.
+
+---
+
+# 25. BRAND APPLICATIONS
+
+Demonstrate the identity in at least several realistic contexts:
+
+- architecture drawing sheet
+- project presentation board
+- physical letterhead
+- business card
+- laptop
+- mobile
+- website
+- PDF document
+- email signature
+- Open Graph card
+- social image
+- project cover
+
+The point is to prove that the identity works beyond the logo.
+
+---
+
+# 26. BRAND GUIDELINES
+
+Create a concise **Brand Guidelines / Identity Standards** document.
+
+Include:
+
+## Brand essence
+
+## Logo
+
+- primary
+- secondary
+- clear space
+- minimum size
+- incorrect usage
+
+## Colour
+
+- palette
+- usage
+- contrast
+
+## Typography
+
+- families
+- hierarchy
+- usage
+
+## Grid
+
+- principles
+- margins
+- rhythm
+
+## Imagery
+
+- art direction
+- cropping
+- treatment
+
+## Graphic language
+
+- rules
+- motifs
+- metadata
+
+## Digital
+
 - buttons
 - links
--
+- navigation
+- responsive principles
+
+## Tone of voice
+
+- writing principles
+- examples
+
+## Applications
+
+- stationery
+- documents
+- digital
+- social
+
+The guidelines should be practical enough for future implementation.
+
+---
+
+# 27. BRAND PRESENTATION / CASE STUDY BOARD
+
+Finally, create a polished **Creative Direction Presentation Board** summarising the resulting identity.
+
+It should feel suitable for showing directly to the client.
+
+Include:
+
+- concept
+- logo
+- typography
+- colour
+- imagery
+- graphic language
+- website
+- stationery
+- applications
+- responsive showcase
+
+Make the presentation feel cohesive and professionally art-directed.
+
+---
+
+# 28. CRITICAL DESIGN RULES
+
+Do not chase trendiness.
+
+Do not create an identity that looks impressive only inside the design file.
+
+Do not overuse:
+
+- brutalist clichés
+- giant serif headlines
+- arbitrary grids
+- random architectural linework
+- beige palettes
+- black-and-white minimalism
+- excessive motion
+- pseudo-architectural symbols
+- generative visual noise
+
+unless the strategic research genuinely supports them.
+
+A sophisticated architecture identity often comes from **discipline rather than visual excess**.
+
+The identity needs to survive ten years, not ten months.
+
+---
+
+# 29. DESIGN FOR OWNERSHIP
+
+The identity must contain elements that are recognisable enough to become proprietary visual assets.
+
+Look for opportunities in:
+
+- custom lettering
+- proportions
+- unusual spacing
+- project notation
+- graphic devices
+- image treatment
+- distinctive layout logic
+- symbol construction
+- typography combinations
+- architectural metaphors
+
+The goal is to develop a **recognisable visual grammar**, not merely a good-looking logo.
+
+---
+
+# 30. PROFESSIONAL QUALITY BAR
+
+Work as though this is being presented by a serious independent branding studio.
+
+Every deliverable should be:
+
+- coherent
+- intentional
+- polished
+- internally consistent
+- realistic
+- reproducible
+- scalable
+- presentation-ready
+
+Avoid generic AI moodboard aesthetics.
+
+Avoid random asset generation.
+
+Avoid unexplained visual decisions.
+
+When choosing between several attractive possibilities, choose according to the strategic evidence from `design-intelligence/`.
+
+---
+
+# 31. FINAL OUTPUT STRUCTURE
+
+Organise the design workspace as:
+
+```text
+brand-design/
+├── README.md
+├── strategy/
+│   ├── brand-essence.md
+│   ├── positioning.md
+│   ├── creative-territories.md
+│   └── creative-direction.md
+│
+├── identity/
+│   ├── logo-concepts/
+│   ├── selected-identity/
+│   ├── wordmark/
+│   ├── monogram/
+│   ├── favicon/
+│   └── guidelines/
+│
+├── typography/
+├── colour/
+├── graphic-language/
+├── photography/
+├── digital/
+│   ├── design-system/
+│   ├── website-concepts/
+│   └── responsive-showcase/
+│
+├── stationery/
+├── documents/
+├── social/
+├── og-cards/
+├── email-signature/
+├── presentation/
+└── exports/
+```
