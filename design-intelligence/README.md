@@ -41,4 +41,4 @@ Project build-status per project; Cape Town office currency; account ownership (
 
 ## Repo context
 
-This folder lives in the `edward-mccann` repository, alongside `../docs/` (the audit brief this package answers, and the Claude Design brief that consumes it) and `../tools/` (the scrape/capture/digest scripts used here, re-runnable). The preservation scrape itself is deliberately kept out of the repository, one level up in the workspace at `../../site-archive/`, together with `../../design-resources/` where the design phase's output will land. The rebuild (Next.js) starts only after the design phase returns.
+This folder lives in the `edward-mccann` repository, alongside `../docs/` (the audit brief this package answers, and the Claude Design brief that consumes it) and `../tools/` (the scrape/capture/digest scripts used here, re-runnable). The preservation scrape itself is deliberately kept out of the repository, one level up in the workspace at `../../site-archive/`, together with `../../brand-design/` where the design phase's output will land. The rebuild (Next.js) starts only after the design phase returns.
