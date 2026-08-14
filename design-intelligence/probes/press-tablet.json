@@ -1,0 +1,62 @@
+{
+  "url": "/press",
+  "viewport": {
+    "w": 768,
+    "h": 1024
+  },
+  "scrollHeight": 2314,
+  "wordmark": {
+    "font": "Futura-pt",
+    "size": "24.64px",
+    "weight": "400",
+    "lh": "36.96px",
+    "style": "normal",
+    "transform": "none",
+    "align": "center",
+    "color": "rgb(0, 0, 0)"
+  },
+  "h1": {
+    "font": "adobe-garamond-pro",
+    "size": "21.56px",
+    "weight": "400",
+    "lh": "32.34px",
+    "style": "normal",
+    "transform": "none",
+    "align": "center",
+    "color": "rgb(0, 0, 0)"
+  },
+  "h3": null,
+  "navLink": {
+    "font": "adobe-garamond-pro",
+    "size": "18.48px",
+    "weight": "400",
+    "lh": "27.72px",
+    "style": "normal",
+    "transform": "none",
+    "align": "center",
+    "color": "rgb(0, 0, 0)"
+  },
+  "bodyP": {
+    "font": "adobe-garamond-pro",
+    "size": "13.86px",
+    "weight": "400",
+    "lh": "24.948px",
+    "style": "normal",
+    "transform": "none",
+    "align": "center",
+    "color": "rgb(0, 0, 0)"
+  },
+  "containerWidth": 750,
+  "imageCount": 3,
+  "backgrounds": [
+    "rgba(255, 255, 255, 0.9)",
+    "rgba(0, 0, 0, 0.7)"
+  ],
+  "textColors": [
+    "rgb(0, 0, 0)",
+    "rgb(66, 139, 202)",
+    "rgb(34, 34, 34)",
+    "rgb(128, 128, 128)",
+    "rgb(255, 255, 255)"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "url": "/contact",
+  "viewport": {
+    "w": 768,
+    "h": 1024
+  },
+  "scrollHeight": 1024,
+  "wordmark": {
+    "font": "Futura-pt",
+    "size": "24.64px",
+    "weight": "400",
+    "lh": "36.96px",
+    "style": "normal",
+    "transform": "none",
+    "align": "center",
+    "color": "rgb(0, 0, 0)"
+  },
+  "h1": null,
+  "h3": null,
+  "navLink": {
+    "font": "adobe-garamond-pro",
+    "size": "18.48px",
+    "weight": "400",
+    "lh": "27.72px",
+    "style": "normal",
+    "transform": "none",
+    "align": "center",
+    "color": "rgb(0, 0, 0)"
+  },
+  "bodyP": {
+    "font": "adobe-garamond-pro",
+    "size": "13.86px",
+    "weight": "400",
+    "lh": "24.948px",
+    "style": "normal",
+    "transform": "none",
+    "align": "center",
+    "color": "rgb(0, 0, 0)"
+  },
+  "containerWidth": 753,
+  "imageCount": 0,
+  "backgrounds": [
+    "rgba(255, 255, 255, 0.9)",
+    "rgba(0, 0, 0, 0.7)"
+  ],
+  "textColors": [
+    "rgb(0, 0, 0)",
+    "rgb(66, 139, 202)",
+    "rgb(34, 34, 34)",
+    "rgb(255, 255, 255)"
+  ]
+}
