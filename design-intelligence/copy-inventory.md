@@ -1,6 +1,6 @@
 # Copy Inventory
 
-Every string a visitor can read, with verbatim quotes where the language matters. Complete raw text for all 32 pages is in `data/content-digest.json`; archived HTML in `../site-archive/pages/`.
+Every string a visitor can read, with verbatim quotes where the language matters. Complete raw text for all 32 pages is in `data/content-digest.json`; archived HTML in `../../site-archive/pages/`.
 
 ## Global chrome
 

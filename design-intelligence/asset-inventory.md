@@ -1,6 +1,6 @@
 # Asset Inventory
 
-Everything the site serves, preserved in `../site-archive/` (350+ files, ~110 MB, manifest at `../site-archive/manifest.json`).
+Everything the site serves, preserved in `../../site-archive/` (350+ files, ~110 MB, manifest at `../../site-archive/manifest.json`).
 
 ## Identity assets
 

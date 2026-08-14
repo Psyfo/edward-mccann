@@ -1,6 +1,6 @@
 # Page Inventory
 
-Derived from a live crawl on 2026-08-14. The site has no sitemap.xml or robots.txt; the route list below was extracted from rendered navigation and verified page by page. Raw HTML for every route is preserved in `../site-archive/pages/`.
+Derived from a live crawl on 2026-08-14. The site has no sitemap.xml or robots.txt; the route list below was extracted from rendered navigation and verified page by page. Raw HTML for every route is preserved in `../../site-archive/pages/`.
 
 ## Route map (32 routes)
 
