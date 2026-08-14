@@ -1,0 +1,45 @@
+.card {
+  display: block;
+  min-width: 0;
+}
+
+.card:hover {
+  color: inherit;
+}
+
+.line {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: calc(var(--u) * 2);
+  margin-top: calc(var(--u) * 1.5);
+}
+
+.name {
+  font-size: 1.1875rem;
+  transition: color var(--t-state) var(--ease);
+}
+
+.card[data-size="lead"] .name {
+  font-size: 1.3125rem;
+}
+
+.card:hover .name {
+  color: var(--oxide);
+}
+
+.facts {
+  text-align: right;
+  flex: 0 1 auto;
+}
+
+@media (max-width: 700px) {
+  .line {
+    flex-direction: column;
+    gap: calc(var(--u) * 0.5);
+  }
+
+  .facts {
+    text-align: left;
+  }
+}

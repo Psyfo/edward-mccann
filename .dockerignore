@@ -1,0 +1,11 @@
+node_modules
+.next
+.git
+.github
+design-intelligence
+docs
+tools
+*.md
+.env*
+.claude
+.mcp.json

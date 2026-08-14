@@ -1,0 +1,85 @@
+.track {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  position: relative;
+  display: block;
+  height: 9px;
+  background: var(--paper);
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/*
+ * The hairline draws left to right and the solid terminus rides its leading
+ * edge, arriving at the right only at 100%. Both are driven by the same
+ * progress value so they can never separate.
+ */
+.line {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 100%;
+  height: 1px;
+  background: var(--ink);
+  transform: scaleX(0);
+  transform-origin: left center;
+  will-change: transform;
+}
+
+.terminus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 9px;
+  height: 9px;
+  background: var(--ink);
+  /* Offset by its own width so the square stops flush with the right edge. */
+  transform: translateX(0);
+  will-change: transform;
+}
+
+@supports (animation-timeline: scroll()) {
+  .line {
+    animation: draw-progress linear both;
+    animation-timeline: scroll(root block);
+  }
+
+  .terminus {
+    animation: ride-progress linear both;
+    animation-timeline: scroll(root block);
+  }
+}
+
+@keyframes draw-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes ride-progress {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(100vw - 9px));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .line,
+  .terminus {
+    animation: none;
+  }
+
+  .line {
+    transform: scaleX(1);
+  }
+
+  .terminus {
+    transform: translateX(calc(100vw - 9px));
+  }
+}

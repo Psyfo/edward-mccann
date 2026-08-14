@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "edward-mccann",
+      "runtimeExecutable": "doppler",
+      "runtimeArgs": ["run", "--project", "edward-mccann", "--config", "dev", "--", "npx", "next", "dev", "--port", "3210"],
+      "port": 3210
+    }
+  ]
+}
