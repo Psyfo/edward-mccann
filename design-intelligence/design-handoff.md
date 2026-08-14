@@ -14,7 +14,7 @@ Edward McCann Architecture: an RIBA Chartered, ARB registered architecture pract
 - Flat IA: home = 27-card project grid; About; Press (3 entries, frozen 2019); Contact. No footer, no CTA, no filtering, no project facts, no captions, no forms, no socials.
 - ~470 images: strong recent professional photography (Lyndon Douglas, Emma Lewis, Travis Levius, Sebastian Tiew) mixed uncurated with CAD axons, model shots and dated record photography.
 - Genuinely literate project texts (references: Sverre Fehn, Josef Albers, Lubetkin, Eames) and a client-first About with the phrase **"nose to tail design"**.
-- Full scrape of everything in `../site-archive/`; 86 screenshots + measured style probes in this folder.
+- Full scrape of everything in `../../site-archive/`; 86 screenshots + measured style probes in this folder.
 
 ## What Works
 
@@ -131,7 +131,7 @@ Over-correction into generic grotesque minimalism (the saturated category defaul
 
 ## Technical Constraints
 
-Greenfield rebuild (Next.js planned); nothing from the old stack survives except 31 URLs needing 301s (map in `page-inventory.md` + `../site-archive/manifest.json`). Fonts must be re-licensed under client control. GA4 property exists (ownership unresolved). Image masters capped at preserved resolutions pending photographer re-sourcing. Email `info@edwardmccann.studio` must survive migration. No integrations, no cookie debt, no forms to migrate.
+Greenfield rebuild (Next.js planned); nothing from the old stack survives except 31 URLs needing 301s (map in `page-inventory.md` + `../../site-archive/manifest.json`). Fonts must be re-licensed under client control. GA4 property exists (ownership unresolved). Image masters capped at preserved resolutions pending photographer re-sourcing. Email `info@edwardmccann.studio` must survive migration. No integrations, no cookie debt, no forms to migrate.
 
 ## Open Questions (for the client, non-blocking for territory work)
 

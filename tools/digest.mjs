@@ -1,8 +1,11 @@
 // Builds a per-page content digest (titles, meta, headings, copy, image counts)
-// from the archived HTML in site-archive/pages, for the audit inventories.
+// from the archived HTML in the workspace's site-archive/pages, for the audit
+// inventories.
 // Usage: node tools/digest.mjs   (run from repo root)
 
 import { readFileSync, readdirSync, writeFileSync, mkdirSync } from 'node:fs';
+
+const ARCHIVE = '../site-archive';
 
 const strip = (h) => h.replace(/<script[\s\S]*?<\/script>/gi, '').replace(/<style[\s\S]*?<\/style>/gi, '');
 const text = (h) => h
@@ -11,8 +14,8 @@ const text = (h) => h
   .replace(/\s+/g, ' ').trim();
 
 const pages = ['home', 'about', 'press', 'contact', 'page_not_found']
-  .map((s) => ({ slug: s, file: `site-archive/pages/${s}.html` }))
-  .concat(readdirSync('site-archive/pages/projects').map((f) => ({ slug: `projects/${f.replace('.html', '')}`, file: `site-archive/pages/projects/${f}` })));
+  .map((s) => ({ slug: s, file: `${ARCHIVE}/pages/${s}.html` }))
+  .concat(readdirSync(`${ARCHIVE}/pages/projects`).map((f) => ({ slug: `projects/${f.replace('.html', '')}`, file: `${ARCHIVE}/pages/projects/${f}` })));
 
 const digest = [];
 for (const p of pages) {

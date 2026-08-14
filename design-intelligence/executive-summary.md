@@ -44,6 +44,6 @@ Fonts are served from a Typekit kit on an unknown account (re-license or replace
 
 ## Certainty statement
 
-Everything above about the rendered site, its markup, CSS, assets, copy and behaviour is directly observed and archived in this repository (`../site-archive/`, `screenshots/`, `probes/`, `data/`). Statements about project status (built vs unbuilt), the Cape Town office, account ownerships and photographer licensing are flagged Unknown and listed as open questions in `design-handoff.md`. Nothing in this package is invented.
+Everything above about the rendered site, its markup, CSS, assets, copy and behaviour is directly observed and archived (`screenshots/`, `probes/`, `data/` in this folder; the full scrape in the workspace at `../../site-archive/`). Statements about project status (built vs unbuilt), the Cape Town office, account ownerships and photographer licensing are flagged Unknown and listed as open questions in `design-handoff.md`. Nothing in this package is invented.
 
 *(~1,050 words)*

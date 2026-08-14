@@ -5,7 +5,7 @@ A forensic audit of https://edwardmccann.studio/ conducted 2026-08-14, produced 
 ## How the analysis was conducted
 
 - Live crawl and interaction pass with Playwright (desktop 1440x900, tablet 768x1024 + the 769-991 band, mobile 375x812): navigation, hover states, overlay menu, scroll behaviour, network waterfall, computed-style probes.
-- Full preservation scrape of all 32 routes and 350+ assets into `../site-archive/` (raw HTML, every image at the largest hosted resolution, CSS/JS, fonts, press downloads, favicon; `manifest.json` maps URL → file).
+- Full preservation scrape of all 32 routes and 350+ assets into `../../site-archive/` (raw HTML, every image at the largest hosted resolution, CSS/JS, fonts, press downloads, favicon; `manifest.json` maps URL → file).
 - Source-level analysis of the archived HTML/CSS/JS (breakpoints, grid rules, metadata, content extraction into `data/content-digest.json`).
 - Competitive research across live comparator practices (McLaren Excell, Al-Jawad Pike, 31/44, William Smalley, Proctor & Shaw, Studio McW, Tuckey Design Studio, plus sampled others).
 - No CMS/server access existed; everything is inferred from the rendered site and marked Unknown where uncertain. The production site was not modified in any way.
@@ -27,7 +27,7 @@ All 32 public routes (home, about, press, contact, 404, 27 projects), at three v
 
 ## What the design model should take from here
 
-Give the design phase, at minimum: `executive-summary.md`, `design-handoff.md`, `recommended-design-direction.md`, `brand-analysis.md`, `competitive-positioning.md`, `photography-analysis.md`, `typography-analysis.md`, `colour-analysis.md`, `responsive-analysis.md`, `opportunities.md`, `screenshot-index.md`, and the `screenshots/` folder. Everything else is depth on demand. Source imagery for moodboards/mockups can be pulled from `../site-archive/assets/` (highest-resolution preserved masters listed in `asset-inventory.md`).
+Give the design phase, at minimum: `executive-summary.md`, `design-handoff.md`, `recommended-design-direction.md`, `brand-analysis.md`, `competitive-positioning.md`, `photography-analysis.md`, `typography-analysis.md`, `colour-analysis.md`, `responsive-analysis.md`, `opportunities.md`, `screenshot-index.md`, and the `screenshots/` folder. Everything else is depth on demand. Source imagery for moodboards/mockups can be pulled from `../../site-archive/assets/` (highest-resolution preserved masters listed in `asset-inventory.md`).
 
 ## Assumptions made
 
@@ -41,4 +41,4 @@ Project build-status per project; Cape Town office currency; account ownership (
 
 ## Repo context
 
-This folder lives in the `edward-mccann` repository alongside `../site-archive/` (the preservation scrape), `../tools/` (the scrape/capture/digest scripts used here, re-runnable), and `../docs/` (the audit brief this package answers, and the Claude Design brief that consumes it). The rebuild (Next.js) starts only after the design phase returns.
+This folder lives in the `edward-mccann` repository, alongside `../docs/` (the audit brief this package answers, and the Claude Design brief that consumes it) and `../tools/` (the scrape/capture/digest scripts used here, re-runnable). The preservation scrape itself is deliberately kept out of the repository, one level up in the workspace at `../../site-archive/`, together with `../../design-resources/` where the design phase's output will land. The rebuild (Next.js) starts only after the design phase returns.

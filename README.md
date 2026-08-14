@@ -13,14 +13,25 @@ Rebuild of [edwardmccann.studio](https://edwardmccann.studio/) for Edward McCann
 ## Repository layout
 
 ```text
-docs/                  The two working briefs (audit brief + design brief)
-design-intelligence/   The audit output: 20+ analysis documents, 86 screenshots,
+docs/                  Project documentation: the two working briefs today,
+                       north-star docs and ADRs as the rebuild proceeds
+design-intelligence/   The audit output: 24 analysis documents, 86 screenshots,
                        style probes, structured content digest. Start with
                        design-intelligence/README.md for the reading order.
-site-archive/          Preservation scrape of the legacy site (all HTML, all
-                       assets at largest hosted resolution, manifest).
-tools/                 Node scripts that produced the above (re-runnable):
+tools/                 Node scripts used for the audit (re-runnable):
                        scrape.mjs, capture.mjs, digest.mjs
+```
+
+This repository sits inside a workspace that also holds material deliberately kept
+out of version control for the rebuild:
+
+```text
+edward-mccann/              workspace (Doppler is scoped here)
+├── edward-mccann/          this repository
+├── site-archive/           preservation scrape of the legacy site (~112 MB:
+│                           all HTML, all assets at largest hosted resolution,
+│                           manifest). Produced by tools/scrape.mjs
+└── design-resources/       output of the brand/design phase, once returned
 ```
 
 ## Key entry points
@@ -31,9 +42,12 @@ tools/                 Node scripts that produced the above (re-runnable):
 
 ## Tooling
 
+Run these from the repository root, after `cd tools && npm install`. `scrape.mjs`
+and `digest.mjs` read and write the workspace's `../site-archive/`; `capture.mjs`
+writes into `design-intelligence/screenshots/`.
+
 ```bash
-cd tools && npm install
-node tools/scrape.mjs    # re-archive the live site
+node tools/scrape.mjs    # re-archive the live site into ../site-archive
 node tools/capture.mjs   # re-shoot the screenshot matrix (needs playwright chromium)
 node tools/digest.mjs    # re-extract structured copy from the archive
 ```

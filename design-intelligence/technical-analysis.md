@@ -42,7 +42,7 @@ The audit had no access to the CMS admin or server; findings come from rendered 
 
 1. **Freedom**: no CMS content API worth integrating with; content volume is small (32 pages, ~470 images, all archived here). Full re-platforming is unconstrained by legacy tech.
 2. **Constraint**: the Adobe Fonts kit belongs to an unknown account; the exact cuts (futura-pt, adobe-garamond-pro) require an Adobe subscription under the client's control if retained.
-3. **Constraint**: image masters top out at the CMS uploads preserved in `../site-archive/` (largest ~2500-3600px). True full-bleed art direction may want re-sourced originals from the photographers.
+3. **Constraint**: image masters top out at the CMS uploads preserved in `../../site-archive/` (largest ~2500-3600px). True full-bleed art direction may want re-sourced originals from the photographers.
 4. **Constraint**: redirect map required for 31 URLs x 4 host/alias variants; the new platform should own both apex and www with a single canonical redirect.
 5. **Constraint**: GA4 property G-3J3PKD0QQK exists and collects; decide whether to claim it or start clean (Unknown ownership).
 6. **Freedom**: no cookies/consent debt, no forms, no third-party integrations to migrate.

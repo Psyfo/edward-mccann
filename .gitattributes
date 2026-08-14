@@ -1,2 +1,2 @@
-# The site archive is a preservation snapshot; never rewrite its line endings.
-site-archive/** -text
+# Screenshots and probe data are audit evidence; keep them byte-exact.
+design-intelligence/screenshots/** -text
