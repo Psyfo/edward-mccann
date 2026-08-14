@@ -3,6 +3,7 @@
 // (images, CSS, JS, fonts, favicons), downloads them preserving URL paths,
 // attempts full-resolution originals for CMS thumbnails, and writes a manifest.
 // Usage: node tools/scrape.mjs   (run from repo root)
+// Writes to ../site-archive, i.e. the workspace beside the repo, not into it.
 
 import { mkdir, writeFile } from 'node:fs/promises';
 import { createWriteStream } from 'node:fs';
@@ -11,7 +12,7 @@ import { pipeline } from 'node:stream/promises';
 import path from 'node:path';
 
 const BASE = 'https://edwardmccann.studio';
-const OUT = path.resolve('site-archive');
+const OUT = path.resolve('..', 'site-archive');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) site-preservation-archive (client handover)';
 
 const PROJECT_SLUGS = [

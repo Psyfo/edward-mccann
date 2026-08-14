@@ -34,7 +34,7 @@ jobs:
               missing=1
             fi
           done
-          for d in design-intelligence/screenshots/desktop design-intelligence/screenshots/tablet design-intelligence/screenshots/mobile site-archive/pages site-archive/manifest.json; do
+          for d in design-intelligence/screenshots/desktop design-intelligence/screenshots/tablet design-intelligence/screenshots/mobile; do
             if [ ! -e "$d" ]; then
               echo "MISSING: $d"
               missing=1
