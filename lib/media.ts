@@ -6,8 +6,12 @@ import type { Figure } from "./content";
  * request path and the self-hosted server never touches an image. Objects are
  * content-addressed, so they can be cached immutably forever.
  */
+// The bucket's public download URL is neither secret nor likely to change, so
+// it is the built-in default. An env var can still override it (for a CDN in
+// front of the bucket, say), but no deployment breaks for want of one.
 export const MEDIA_BASE =
-  process.env.NEXT_PUBLIC_MEDIA_BASE_URL ?? "/media";
+  process.env.NEXT_PUBLIC_MEDIA_BASE_URL ??
+  "https://f005.backblazeb2.com/file/edward-mccann-media";
 
 export const WIDTHS = [640, 1280, 2000] as const;
 
