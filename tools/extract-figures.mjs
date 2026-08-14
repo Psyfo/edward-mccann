@@ -45,8 +45,14 @@ for (const file of readdirSync(PAGES).filter((f) => f.endsWith('.html'))) {
     if (!existsSync(local)) continue;
 
     const alt = (tag.match(/alt="([^"]*)"/i) || [, ''])[1];
-    // Award badges and press logos are brand pollution the redesign removes.
-    if (/badge|dmi_|granddesigns|riba/i.test(path.basename(local))) continue;
+
+    // Award badges and press logos are third-party branding inside the
+    // practice's own photography, which the brand rules banish. Filenames vary
+    // (dmi_, DM1_, GrandDesignsMagazine), so match the alt text too: the badges
+    // announce themselves there.
+    const name = path.basename(local);
+    if (/badge|dm[i1]_|granddesigns|riba|_arb/i.test(name)) continue;
+    if (/don'?t move improve|grand designs|award/i.test(alt)) continue;
 
     const key = path.relative(ARCHIVE, local).replace(/\\/g, '/');
     if (seen.has(key)) continue;

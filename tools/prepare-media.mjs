@@ -28,6 +28,8 @@ const DRY = process.argv.includes('--dry-run');
 
 const WIDTHS = [640, 1280, 2000];
 const QUALITY = { avif: 55, jpeg: 82 };
+// Below this the source is a badge or icon rather than project imagery.
+const MIN_SOURCE_WIDTH = 480;
 
 const { B2_S3_ENDPOINT, B2_REGION, B2_KEY_ID, B2_APPLICATION_KEY, B2_BUCKET_NAME } = process.env;
 if (!DRY && !(B2_S3_ENDPOINT && B2_KEY_ID && B2_APPLICATION_KEY && B2_BUCKET_NAME)) {
@@ -100,12 +102,23 @@ for (const [slug, list] of Object.entries(figures)) {
       console.warn(`  skipping dimensionless ${fig.file}`);
       continue;
     }
+    // Nothing this small is project photography; it is a badge, logo or icon
+    // that slipped the extractor's filter. Publishing it would put third-party
+    // branding back into the work.
+    if (meta.width < MIN_SOURCE_WIDTH) {
+      console.warn(`  skipping ${fig.file}: ${meta.width}px wide, below the ${MIN_SOURCE_WIDTH}px minimum`);
+      continue;
+    }
     const source = readFileSync(abs);
     const digest = createHash('sha256').update(source).digest('hex').slice(0, 12);
     const base = `projects/${slug}/${String(i).padStart(2, '0')}-${digest}`;
 
-    for (const w of WIDTHS) {
-      if (w > meta.width * 1.2) continue; // never upscale beyond a hair
+    // Never upscale beyond a hair, but always emit at least the smallest width,
+    // or a figure could be recorded with no image behind it at all.
+    const widths = WIDTHS.filter((w) => w <= meta.width * 1.2);
+    if (widths.length === 0) widths.push(WIDTHS[0]);
+
+    for (const w of widths) {
       for (const [fmt, mime] of [['avif', 'image/avif'], ['jpg', 'image/jpeg']]) {
         const key = `${base}-${w}.${fmt}`;
         if (await exists(key)) { skipped++; continue; }

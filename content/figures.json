@@ -2217,23 +2217,15 @@
  ],
  "oval-road": [
   {
-   "src": "projects/oval-road/00-ce31d8c01830",
-   "width": 300,
-   "height": 125,
+   "src": "projects/oval-road/00-8573af22ba11",
+   "width": 1440,
+   "height": 809,
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": "Lyndon Douglas"
   },
   {
-   "src": "projects/oval-road/01-8573af22ba11",
-   "width": 1440,
-   "height": 809,
-   "medium": "PHOTOGRAPH",
-   "caption": "",
-   "credit": null
-  },
-  {
-   "src": "projects/oval-road/02-1b94e0314b8c",
+   "src": "projects/oval-road/01-1b94e0314b8c",
    "width": 1440,
    "height": 964,
    "medium": "PHOTOGRAPH",
@@ -2241,7 +2233,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/03-4a1701574304",
+   "src": "projects/oval-road/02-4a1701574304",
    "width": 1440,
    "height": 964,
    "medium": "PHOTOGRAPH",
@@ -2249,7 +2241,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/04-cb2ab30b9eb4",
+   "src": "projects/oval-road/03-cb2ab30b9eb4",
    "width": 1412,
    "height": 1024,
    "medium": "PHOTOGRAPH",
@@ -2257,7 +2249,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/05-893220a1dca7",
+   "src": "projects/oval-road/04-893220a1dca7",
    "width": 1412,
    "height": 1024,
    "medium": "PHOTOGRAPH",
@@ -2265,7 +2257,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/06-9f4b3d6a0890",
+   "src": "projects/oval-road/05-9f4b3d6a0890",
    "width": 686,
    "height": 1024,
    "medium": "PHOTOGRAPH",
@@ -2273,7 +2265,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/07-4308da6878c9",
+   "src": "projects/oval-road/06-4308da6878c9",
    "width": 1440,
    "height": 964,
    "medium": "PHOTOGRAPH",
@@ -2281,7 +2273,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/08-a370af00a523",
+   "src": "projects/oval-road/07-a370af00a523",
    "width": 673,
    "height": 1024,
    "medium": "PHOTOGRAPH",
@@ -2289,7 +2281,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/09-71780d7b5627",
+   "src": "projects/oval-road/08-71780d7b5627",
    "width": 1440,
    "height": 964,
    "medium": "PHOTOGRAPH",
@@ -2297,7 +2289,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/10-8f76554e1166",
+   "src": "projects/oval-road/09-8f76554e1166",
    "width": 686,
    "height": 1024,
    "medium": "PHOTOGRAPH",
@@ -2305,7 +2297,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/11-b154e891bced",
+   "src": "projects/oval-road/10-b154e891bced",
    "width": 630,
    "height": 1024,
    "medium": "PHOTOGRAPH",
@@ -2313,7 +2305,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/12-36a68a42a582",
+   "src": "projects/oval-road/11-36a68a42a582",
    "width": 686,
    "height": 1024,
    "medium": "PHOTOGRAPH",
@@ -2321,7 +2313,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/13-6f82d67fe5c1",
+   "src": "projects/oval-road/12-6f82d67fe5c1",
    "width": 1440,
    "height": 964,
    "medium": "PHOTOGRAPH",
@@ -2329,7 +2321,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/14-8b1cafe6dfe3",
+   "src": "projects/oval-road/13-8b1cafe6dfe3",
    "width": 1440,
    "height": 575,
    "medium": "PHOTOGRAPH",
@@ -2337,7 +2329,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/15-a6e1607ad8f1",
+   "src": "projects/oval-road/14-a6e1607ad8f1",
    "width": 1440,
    "height": 568,
    "medium": "PHOTOGRAPH",
@@ -2345,7 +2337,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/16-f3f1d61545a3",
+   "src": "projects/oval-road/15-f3f1d61545a3",
    "width": 1219,
    "height": 1024,
    "medium": "PHOTOGRAPH",
@@ -2353,7 +2345,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/17-e8c98847189d",
+   "src": "projects/oval-road/16-e8c98847189d",
    "width": 1365,
    "height": 1024,
    "medium": "PHOTOGRAPH",
@@ -2361,7 +2353,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/18-d1b6415e9b8a",
+   "src": "projects/oval-road/17-d1b6415e9b8a",
    "width": 1440,
    "height": 844,
    "medium": "PHOTOGRAPH",
@@ -2369,7 +2361,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/19-228d9b0c8f41",
+   "src": "projects/oval-road/18-228d9b0c8f41",
    "width": 1440,
    "height": 783,
    "medium": "PHOTOGRAPH",
@@ -2377,7 +2369,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/20-bffc724b062a",
+   "src": "projects/oval-road/19-bffc724b062a",
    "width": 1440,
    "height": 883,
    "medium": "VISUALISATION",
@@ -2385,7 +2377,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/21-78fc62cd46e5",
+   "src": "projects/oval-road/20-78fc62cd46e5",
    "width": 1440,
    "height": 1008,
    "medium": "PHOTOGRAPH",
@@ -2393,7 +2385,7 @@
    "credit": null
   },
   {
-   "src": "projects/oval-road/22-2e0040c2df60",
+   "src": "projects/oval-road/21-2e0040c2df60",
    "width": 1440,
    "height": 986,
    "medium": "PHOTOGRAPH",
