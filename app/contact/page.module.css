@@ -1,0 +1,108 @@
+/* The contact page is the one ink-ground surface: a graceful conclusion. */
+.page {
+  background: var(--ink);
+  color: var(--on-dark);
+  padding: calc(var(--u) * 9) var(--gutter) calc(var(--u) * 10);
+  /* Bleed past the page padding of neighbouring sections. */
+  margin-bottom: calc(var(--u) * -1);
+}
+
+.inner {
+  max-width: 68ch;
+}
+
+.statement {
+  max-width: 22ch;
+  margin: 0;
+  line-height: 1.35;
+}
+
+.mark {
+  color: var(--accent-on-dark);
+  font-style: normal;
+}
+
+.lede {
+  color: var(--hairline);
+  margin-top: calc(var(--u) * 3);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  max-width: 56ch;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: calc(var(--u) * 1.75);
+  margin-top: calc(var(--u) * 4);
+  border: 1px solid var(--on-dark);
+  padding: 13px 24px;
+  font-family: var(--font-structural);
+  font-size: 0.78125rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  transition: background-color var(--t-state) var(--ease),
+    color var(--t-state) var(--ease);
+}
+
+.button:hover {
+  background: var(--on-dark);
+  color: var(--ink);
+}
+
+.button:hover .mark {
+  color: var(--oxide);
+}
+
+.addresses {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: calc(var(--u) * 4);
+  margin-top: calc(var(--u) * 5);
+  border-top: 1px solid var(--ink-secondary);
+  padding-top: calc(var(--u) * 3);
+}
+
+.city {
+  color: var(--on-dark-muted);
+  margin: 0 0 calc(var(--u) * 1);
+}
+
+.address {
+  margin: 0;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(var(--u) * 4);
+  margin-top: calc(var(--u) * 3.5);
+}
+
+.detail {
+  color: var(--on-dark);
+}
+
+.detail:hover {
+  color: var(--accent-on-dark);
+}
+
+.clocks {
+  display: flex;
+  gap: calc(var(--u) * 4);
+  flex-wrap: wrap;
+  margin-top: calc(var(--u) * 3);
+}
+
+.clock {
+  color: var(--on-dark-muted);
+}
+
+@media (max-width: 700px) {
+  .addresses {
+    grid-template-columns: 1fr;
+    gap: calc(var(--u) * 3);
+  }
+}

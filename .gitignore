@@ -14,3 +14,13 @@ Thumbs.db
 # Env files are never committed; secrets live in Doppler
 .env
 .env.*
+
+# Next.js
+/.next/
+/out/
+/build
+next-env.d.ts
+*.tsbuildinfo
+/coverage
+.vercel
+*.pem

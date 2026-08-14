@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "backblaze": {
+      "type": "stdio",
+      "command": "doppler",
+      "args": [
+        "run",
+        "--project",
+        "edward-mccann",
+        "--config",
+        "dev",
+        "--",
+        "npx",
+        "-y",
+        "backblaze-mcp"
+      ],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,113 @@
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1.7fr;
+  gap: calc(var(--u) * 9);
+  padding: calc(var(--u) * 3) var(--gutter) calc(var(--u) * 6);
+}
+
+.no {
+  margin: 0;
+}
+
+.facts {
+  margin: calc(var(--u) * 3) 0 0;
+  border-top: var(--rule-ink);
+  padding-top: calc(var(--u) * 2.5);
+}
+
+.fact {
+  display: grid;
+  grid-template-columns: 11ch 1fr;
+  gap: calc(var(--u) * 1.5);
+  padding: calc(var(--u) * 0.75) 0;
+}
+
+.factLabel {
+  color: var(--ink-muted);
+}
+
+.factValue {
+  margin: 0;
+  color: var(--ink-secondary);
+}
+
+.factValue[data-unbuilt="true"] {
+  color: var(--oxide);
+}
+
+.factsColumn .through-line,
+.factsColumn > :global(.through-line) {
+  margin-top: calc(var(--u) * 4);
+}
+
+.prose {
+  min-width: 0;
+}
+
+.paragraph {
+  font-size: 1.1875rem;
+  line-height: 1.7;
+  max-width: 64ch;
+}
+
+.paragraph + .paragraph {
+  margin-top: calc(var(--u) * 2.75);
+}
+
+/* Plates: portraits pair into two columns, landscapes take the full measure. */
+.plates {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: calc(var(--u) * 2.5);
+  padding: 0 var(--gutter);
+  align-items: start;
+}
+
+.landscape {
+  grid-column: 1 / -1;
+}
+
+.portrait {
+  grid-column: span 1;
+}
+
+.handoff {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: calc(var(--u) * 3);
+  flex-wrap: wrap;
+  margin: calc(var(--u) * 7) var(--gutter) 0;
+  border-top: var(--rule-ink);
+  padding-top: calc(var(--u) * 3.5);
+}
+
+.credits {
+  margin: 0;
+}
+
+.next {
+  font-size: 1.125rem;
+}
+
+.nextLabel {
+  font-style: italic;
+}
+
+@media (max-width: 900px) {
+  .body {
+    grid-template-columns: 1fr;
+    gap: calc(var(--u) * 4);
+  }
+}
+
+@media (max-width: 760px) {
+  .plates {
+    grid-template-columns: 1fr;
+  }
+
+  .portrait,
+  .landscape {
+    grid-column: 1 / -1;
+  }
+}

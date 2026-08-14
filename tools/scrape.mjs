@@ -12,6 +12,13 @@ import { pipeline } from 'node:stream/promises';
 import path from 'node:path';
 
 const BASE = 'https://edwardmccann.studio';
+// The legacy site links itself on both the apex and www hosts, and a large part
+// of the project galleries is only ever referenced on www. Both are the same
+// site, so both are in scope and both map to the same local path.
+// A third variant, mail.edwardmccann.studio, appears on some project pages
+// (a legacy CMS misconfiguration). It serves byte-identical files from the same
+// paths, so it is archived to the same location.
+const HOSTS = ['edwardmccann.studio', 'www.edwardmccann.studio', 'mail.edwardmccann.studio'];
 const OUT = path.resolve('..', 'site-archive');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) site-preservation-archive (client handover)';
 
@@ -45,7 +52,7 @@ function enqueue(rawUrl, from) {
   } catch {
     return;
   }
-  if (!url.startsWith(BASE)) return; // same-origin only
+  if (!HOSTS.includes(new URL(url).hostname)) return; // this site only
   url = url.split('#')[0];
   if (url.includes('/index.php/')) return; // page aliases, not assets
   const pathname = new URL(url).pathname;

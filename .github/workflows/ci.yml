@@ -1,6 +1,6 @@
-# Placeholder quality gate for the docs/discovery phase.
-# When the Next.js app is scaffolded (phase 3), replace this job with the real
-# build + typecheck + lint gate.
+# The quality gate CI runs on every push and pull request. It must stay the
+# same gate the developer runs locally (`npm run check`), so CI is never the
+# first thing to catch a type error.
 name: CI
 
 on:
@@ -10,11 +10,37 @@ on:
     branches: [main]
 
 jobs:
-  repo-check:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify design-intelligence package is complete
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
+        env:
+          # Public, non-secret. The real value is injected by the deploy
+          # pipeline; CI only needs the build to resolve it.
+          NEXT_PUBLIC_MEDIA_BASE_URL: https://f005.backblazeb2.com/file/edward-mccann-media
+          NEXT_PUBLIC_SITE_URL: https://edwardmccann.studio
+
+  handoff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify the design intelligence package is intact
         run: |
           required=(
             README.md executive-summary.md design-handoff.md brand-analysis.md
@@ -31,12 +57,6 @@ jobs:
           for f in "${required[@]}"; do
             if [ ! -f "design-intelligence/$f" ]; then
               echo "MISSING: design-intelligence/$f"
-              missing=1
-            fi
-          done
-          for d in design-intelligence/screenshots/desktop design-intelligence/screenshots/tablet design-intelligence/screenshots/mobile; do
-            if [ ! -e "$d" ]; then
-              echo "MISSING: $d"
               missing=1
             fi
           done

@@ -1,0 +1,176 @@
+.page {
+  padding: calc(var(--u) * 7) var(--gutter) calc(var(--u) * 4);
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: calc(var(--u) * 3);
+  flex-wrap: wrap;
+  margin-bottom: calc(var(--u) * 3);
+}
+
+.title {
+  font-size: 2.125rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.count {
+  font-size: 0.875rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(var(--u) * 3);
+}
+
+.filter {
+  font-family: var(--font-notation);
+  font-size: 0.71875rem;
+  letter-spacing: 0.06em;
+  color: var(--ink-muted);
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+  transition: color var(--t-state) var(--ease);
+}
+
+.filter[data-active="true"] {
+  color: var(--ink);
+  border-bottom-color: var(--oxide);
+}
+
+.filter:hover {
+  color: var(--ink);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.headRow {
+  border-top: var(--rule-ink);
+  border-bottom: var(--rule);
+}
+
+.th {
+  text-align: left;
+  padding: calc(var(--u) * 1.25) 0;
+  font-weight: 400;
+}
+
+.sort {
+  font-family: var(--font-structural);
+  font-size: 0.65625rem;
+  letter-spacing: 0.18em;
+  color: var(--ink-muted);
+  transition: color var(--t-state) var(--ease);
+}
+
+.sort[data-active="true"],
+.sort:hover {
+  color: var(--ink);
+}
+
+/* Ink hover: the row takes the surface tone and its number turns oxide. Two
+   coordinated changes, one duration. */
+.row {
+  border-bottom: var(--rule);
+  transition: background-color var(--t-state) var(--ease);
+}
+
+.row:hover {
+  background: var(--surface);
+}
+
+.row td {
+  padding: calc(var(--u) * 1.5) 0;
+  vertical-align: baseline;
+}
+
+.no {
+  width: 64px;
+  transition: color var(--t-state) var(--ease);
+}
+
+.row:hover .no {
+  color: var(--oxide);
+}
+
+.work {
+  width: 26%;
+}
+
+.link {
+  font-size: 1.09375rem;
+}
+
+.cell {
+  white-space: nowrap;
+}
+
+.type {
+  font-family: var(--font-structural);
+  font-size: 0.6875rem;
+  letter-spacing: var(--track-label);
+  color: var(--ink-secondary);
+}
+
+.status {
+  color: var(--ink-secondary);
+}
+
+.status[data-unbuilt="true"] {
+  color: var(--oxide);
+}
+
+.note {
+  margin-top: calc(var(--u) * 2.5);
+  max-width: 68ch;
+  line-height: 1.7;
+}
+
+/* The table collapses to stacked records rather than scrolling sideways. */
+@media (max-width: 860px) {
+  .table,
+  .table tbody,
+  .table tr,
+  .table td {
+    display: block;
+    width: auto;
+  }
+
+  .table thead {
+    display: none;
+  }
+
+  .row {
+    padding: calc(var(--u) * 2) 0;
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    gap: 0 calc(var(--u) * 1.5);
+    align-items: baseline;
+  }
+
+  .row td {
+    padding: 0;
+  }
+
+  .no {
+    grid-row: 1;
+  }
+
+  .work {
+    grid-row: 1;
+  }
+
+  .cell,
+  .type,
+  .status {
+    grid-column: 2;
+    margin-top: calc(var(--u) * 0.5);
+  }
+}

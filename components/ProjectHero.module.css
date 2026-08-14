@@ -1,0 +1,86 @@
+.hero {
+  position: relative;
+  /* The title panel overlaps the image boundary, so the header reserves room
+     for the overhang rather than letting it collide with the facts row. */
+  margin-bottom: calc(var(--u) * 5);
+}
+
+.frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 21 / 9.5;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.edge {
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 30%;
+  background: linear-gradient(to top, rgba(22, 20, 18, 0.55), transparent 100%);
+  pointer-events: none;
+}
+
+.registration {
+  position: absolute;
+  right: -0.06em;
+  bottom: -0.28em;
+  font-family: var(--font-notation);
+  font-size: 20vw;
+  line-height: 1;
+  color: var(--paper);
+  mix-blend-mode: overlay;
+  pointer-events: none;
+  user-select: none;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Solid paper panel breaking the photo boundary by 24-40px. */
+.panel {
+  position: relative;
+  margin-left: var(--gutter);
+  margin-top: -32px;
+  background: var(--paper);
+  display: inline-block;
+  padding: calc(var(--u) * 2.5) calc(var(--u) * 4) calc(var(--u) * 1.5) 0;
+  max-width: min(90%, 60ch);
+}
+
+.name {
+  font-size: clamp(1.75rem, 4vw, 2.625rem);
+  margin: 0;
+}
+
+.medium {
+  margin-top: calc(var(--u) * 0.75);
+}
+
+@media (max-width: 760px) {
+  .frame {
+    aspect-ratio: 4 / 3.4;
+  }
+
+  .registration {
+    font-size: 30vw;
+  }
+
+  .panel {
+    margin-top: -24px;
+    padding-right: calc(var(--u) * 2);
+  }
+}
+
+/* mix-blend-mode can render unpredictably against very light images; the
+   overlay layers are decorative, so drop them when the user prefers less. */
+@media (prefers-reduced-transparency: reduce) {
+  .registration,
+  .edge {
+    display: none;
+  }
+}
