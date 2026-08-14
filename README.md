@@ -31,7 +31,8 @@ edward-mccann/              workspace (Doppler is scoped here)
 ├── site-archive/           preservation scrape of the legacy site (~112 MB:
 │                           all HTML, all assets at largest hosted resolution,
 │                           manifest). Produced by tools/scrape.mjs
-└── design-resources/       output of the brand/design phase, once returned
+└── brand-design/           output of the brand/design phase, once returned
+                            (folder name set by the design brief in docs/)
 ```
 
 ## Key entry points
