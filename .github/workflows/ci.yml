@@ -1,0 +1,43 @@
+# Placeholder quality gate for the docs/discovery phase.
+# When the Next.js app is scaffolded (phase 3), replace this job with the real
+# build + typecheck + lint gate.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  repo-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify design-intelligence package is complete
+        run: |
+          required=(
+            README.md executive-summary.md design-handoff.md brand-analysis.md
+            content-analysis.md information-architecture.md ux-analysis.md
+            visual-analysis.md responsive-analysis.md interaction-analysis.md
+            photography-analysis.md typography-analysis.md colour-analysis.md
+            design-system-analysis.md technical-analysis.md
+            competitive-positioning.md opportunities.md risks-and-constraints.md
+            recommended-design-direction.md page-inventory.md
+            component-inventory.md asset-inventory.md copy-inventory.md
+            screenshot-index.md
+          )
+          missing=0
+          for f in "${required[@]}"; do
+            if [ ! -f "design-intelligence/$f" ]; then
+              echo "MISSING: design-intelligence/$f"
+              missing=1
+            fi
+          done
+          for d in design-intelligence/screenshots/desktop design-intelligence/screenshots/tablet design-intelligence/screenshots/mobile site-archive/pages site-archive/manifest.json; do
+            if [ ! -e "$d" ]; then
+              echo "MISSING: $d"
+              missing=1
+            fi
+          done
+          exit $missing

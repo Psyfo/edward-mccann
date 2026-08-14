@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Local browser-automation artefacts
+.playwright-mcp/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Env files are never committed; secrets live in Doppler
+.env
+.env.*
