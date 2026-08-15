@@ -74,6 +74,37 @@ rather than content, so they live in `content/facts.json`. Changing them is a
 developer job, because the filter row, the archive and the project schema all
 have to agree.
 
+## Accounts
+
+Two accounts exist:
+
+- **omotola@mahlangu.dev**, the owner account.
+- **agent@edwardmccann.invalid**, a standing account for automated and assisted
+  work, so a future session can review or make edits without anyone handling a
+  password. Its credentials live in Doppler as `PAYLOAD_AGENT_EMAIL` and
+  `PAYLOAD_AGENT_PASSWORD`, never on disk.
+
+To sign that account in and get a session token:
+
+```bash
+doppler run --project edward-mccann --config stg -- node tools/admin-session.mjs
+```
+
+Then set it on the admin origin: `document.cookie = "payload-token=<token>; path=/"`.
+
+The address uses the reserved `.invalid` domain deliberately: it can never
+receive mail, so the account cannot be recovered by email. The password in
+Doppler is the only way in, which is the intended trade for a credential nothing
+should be emailing.
+
+**Both accounts are full administrators.** Payload has no roles configured here,
+so either can edit content, delete it and manage users. If the standing account
+should be able to edit content but not manage users, that is a small change to
+the Users collection, worth making before the site is public.
+
+To rotate the password, re-run the account setup, which updates Doppler in the
+same step.
+
 ## Checks worth running
 
 ```bash
