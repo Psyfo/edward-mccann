@@ -170,6 +170,9 @@ async function buildFigure(slug, project, fig, i) {
 
     processed++;
     return {
+      // Where the original lives in the archive, so the CMS can take ownership
+      // of it later without needing to re-derive which file this came from.
+      source: fig.file,
       src: `${base}`,
       width: meta.width,
       height: meta.height,

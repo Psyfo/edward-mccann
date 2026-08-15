@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { projects } from "@/lib/content";
+import { getProjects } from "@/lib/content";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -15,8 +15,8 @@ export const metadata: Metadata = {
  * page did (frozen at 2019 while later accolades existed only as pixels baked
  * into thumbnails).
  */
-export default function PressPage() {
-  const recognised = projects
+export default async function PressPage() {
+  const recognised = (await getProjects())
     .filter((p) => p.press.length > 0)
     .sort((a, b) => b.year.localeCompare(a.year));
 

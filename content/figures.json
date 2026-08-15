@@ -1,6 +1,7 @@
 {
  "312-hackney-road": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/312-hackney-road.jpg",
    "src": "projects/312-hackney-road/7a044a24ecc01f90",
    "width": 1440,
    "height": 447,
@@ -10,6 +11,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c65bdaa2fc4dca4eca00ceda9c27e41c.jpg",
    "src": "projects/312-hackney-road/27734973b271e793",
    "width": 1440,
    "height": 960,
@@ -19,6 +21,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0fd646662fef96d662686665a9f62f38.jpg",
    "src": "projects/312-hackney-road/cec9817193a76089",
    "width": 1440,
    "height": 829,
@@ -28,6 +31,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/30f45e9f0d8ef37bcd73964ba45be47d.jpg",
    "src": "projects/312-hackney-road/3e7bda2ee68cfd34",
    "width": 1440,
    "height": 783,
@@ -37,6 +41,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f694bf2f844dea3c94934dd2cafb8dd1.jpg",
    "src": "projects/312-hackney-road/a57fde4d6c2d8aa6",
    "width": 1440,
    "height": 791,
@@ -46,6 +51,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7543f8bae396a9270c297d9cddf25175.jpg",
    "src": "projects/312-hackney-road/a44f135c7383f3aa",
    "width": 1440,
    "height": 960,
@@ -55,6 +61,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/5ab80e8b46e6283e380cc0c9d13e945a.jpg",
    "src": "projects/312-hackney-road/a7240ebbc36fdd99",
    "width": 1440,
    "height": 960,
@@ -64,6 +71,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ac500c50e5d89d9d2db25c791c841bf8.jpg",
    "src": "projects/312-hackney-road/7f970192faa3d1d0",
    "width": 1440,
    "height": 831,
@@ -73,6 +81,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c98bbc69b6492690be0dbcbc3f1cafad.jpg",
    "src": "projects/312-hackney-road/f1526880580f69ad",
    "width": 1440,
    "height": 866,
@@ -82,6 +91,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a470374ff43320a8542353bd04abfcba.jpg",
    "src": "projects/312-hackney-road/dcbe0ea738e6eeda",
    "width": 1440,
    "height": 989,
@@ -91,6 +101,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6a4d51c331b5983e91039a3070ddb04f.jpg",
    "src": "projects/312-hackney-road/67c21936a1f148c7",
    "width": 1440,
    "height": 1001,
@@ -100,6 +111,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f03cbc963317ea94a45d26990928d05c.jpg",
    "src": "projects/312-hackney-road/63c677bf1ef7c446",
    "width": 1440,
    "height": 981,
@@ -111,6 +123,7 @@
  ],
  "antidote": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/antidote.jpg",
    "src": "projects/antidote/065b3b2ce8e698fc",
    "width": 1440,
    "height": 960,
@@ -120,6 +133,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/4b30947ff22122a2176a218401869cbf.jpg",
    "src": "projects/antidote/b5fdcaedddd5949a",
    "width": 1440,
    "height": 960,
@@ -129,6 +143,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0a0a59216c010301eb3193e2ba2a3e7a.jpg",
    "src": "projects/antidote/a86249f7bcbd48ee",
    "width": 1440,
    "height": 960,
@@ -138,6 +153,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/1306f142e38c3527a29cf81d1f280361.jpg",
    "src": "projects/antidote/08e207bc716e5b8c",
    "width": 1440,
    "height": 960,
@@ -147,6 +163,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/fc96173c49ee9fccea0f849d3503e908.jpg",
    "src": "projects/antidote/294b13d4f4415ab7",
    "width": 1024,
    "height": 1024,
@@ -156,6 +173,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0240f661beb5f6eea09063909f387453.jpg",
    "src": "projects/antidote/5c1b7c8815b607e6",
    "width": 1440,
    "height": 960,
@@ -165,6 +183,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6e3e3b49ad64fb87e0182726bac9561d.jpg",
    "src": "projects/antidote/b5ac30ee84744179",
    "width": 1440,
    "height": 960,
@@ -174,6 +193,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d038bbcfa3257f197194909973135d15.jpg",
    "src": "projects/antidote/8c83e8d83307edb1",
    "width": 1440,
    "height": 960,
@@ -183,6 +203,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/4ee6283c9cf6bd4e8aab7eb23857b6aa.jpg",
    "src": "projects/antidote/377b3576b68edca6",
    "width": 1440,
    "height": 752,
@@ -194,6 +215,7 @@
  ],
  "archway-road": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/archway-road.jpg",
    "src": "projects/archway-road/57c2754ab3123d0f",
    "width": 1440,
    "height": 960,
@@ -203,6 +225,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/088eb0801f5f06db71f6e21bfb4ae7ce.jpg",
    "src": "projects/archway-road/29ae4a21c6591576",
    "width": 1440,
    "height": 960,
@@ -212,6 +235,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f1e74e22bc3281e8ebd390450dd6be43.png",
    "src": "projects/archway-road/1c9f83e3fbe4efc6",
    "width": 851,
    "height": 1024,
@@ -221,6 +245,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/915fe5a43006d180d337b5001e6d1e6b.png",
    "src": "projects/archway-road/17b04d76906e456b",
    "width": 1440,
    "height": 593,
@@ -230,6 +255,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/713a02840fa54f65ea0b6c0369972cc4.png",
    "src": "projects/archway-road/86d42139488b3dd4",
    "width": 1440,
    "height": 593,
@@ -239,6 +265,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f626b5d866c60acdb9044071e72551d8.png",
    "src": "projects/archway-road/26e8dba8dc0b7971",
    "width": 1440,
    "height": 593,
@@ -248,6 +275,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/92f0d0e0c6e5b24488b9dbdd78d47ab8.png",
    "src": "projects/archway-road/8508108621e59074",
    "width": 1440,
    "height": 593,
@@ -257,6 +285,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d7a4cae532d1a895d4bf001651c5c942.png",
    "src": "projects/archway-road/dc47702ea0e06e1d",
    "width": 1440,
    "height": 593,
@@ -266,6 +295,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c8c45b6268551061fd9b207dc040335c.png",
    "src": "projects/archway-road/fa6190df14bd1c49",
    "width": 1440,
    "height": 593,
@@ -275,6 +305,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/4f44cb6b5a7e2d9d374371cda92ac49b.png",
    "src": "projects/archway-road/a64778a266979d71",
    "width": 1440,
    "height": 807,
@@ -284,6 +315,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3ab38522c3e18f7a25493e2ec4903c6d.png",
    "src": "projects/archway-road/0bcb5c127522a084",
    "width": 1440,
    "height": 814,
@@ -293,6 +325,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/b3e504d4f70f5552e1b50e837d5174da.png",
    "src": "projects/archway-road/3dbb8ea67a724727",
    "width": 1440,
    "height": 830,
@@ -304,6 +337,7 @@
  ],
  "campden-house": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/campden-house.jpg",
    "src": "projects/campden-house/77a563c5fd8ce167",
    "width": 1920,
    "height": 1076,
@@ -313,6 +347,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0a7438dec34936d2c505a28f8237542b.jpg",
    "src": "projects/campden-house/3d98461f3acb0cbb",
    "width": 1429,
    "height": 1024,
@@ -322,6 +357,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3e3f4747efb99cdb511de15abf2db7bd.jpg",
    "src": "projects/campden-house/ba6c4605504cda7d",
    "width": 1440,
    "height": 810,
@@ -331,6 +367,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/471fcf9468518843509540c24c5092f8.jpg",
    "src": "projects/campden-house/ba9f9a16dab0fbe9",
    "width": 1440,
    "height": 810,
@@ -340,6 +377,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/8cb76ec596a543a029ce52bb3ec55576.jpg",
    "src": "projects/campden-house/99475c3bae91b7a4",
    "width": 880,
    "height": 1024,
@@ -349,6 +387,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/39673fe842638795f9a2716b3d4287df.jpg",
    "src": "projects/campden-house/70a0b831d18f2ff3",
    "width": 1059,
    "height": 1024,
@@ -358,6 +397,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e4edd540db771f45560419684fe33901.jpg",
    "src": "projects/campden-house/278b41699b8c7e5a",
    "width": 1133,
    "height": 1024,
@@ -367,6 +407,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2ce77c8f31e815e549eda6aceefcfe44.jpg",
    "src": "projects/campden-house/7ea65fe145b76fef",
    "width": 1332,
    "height": 1024,
@@ -376,6 +417,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9f640b23377db66ce42c754e180301f6.jpg",
    "src": "projects/campden-house/01a5d3261d7f2085",
    "width": 1303,
    "height": 1024,
@@ -385,6 +427,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/16a6856606ef99507bfbd3014e05f5ae.jpg",
    "src": "projects/campden-house/523bbb61480a56ad",
    "width": 1273,
    "height": 1024,
@@ -394,6 +437,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/afdd22d0924c5b94a75e172271390c58.jpg",
    "src": "projects/campden-house/31e64dcb68b7e9a9",
    "width": 1440,
    "height": 819,
@@ -403,6 +447,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ffbb4d9ee87fbe77e59cdc4c2e0f723a.jpg",
    "src": "projects/campden-house/2e117f92a995ad90",
    "width": 1440,
    "height": 878,
@@ -412,6 +457,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/298dc88570975eab5dfe18db4f19180b.jpg",
    "src": "projects/campden-house/f548113fd0668956",
    "width": 810,
    "height": 1024,
@@ -421,6 +467,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d352ceb0b1080e2d88c366bbaf7120af.jpg",
    "src": "projects/campden-house/4d09b344896f308a",
    "width": 863,
    "height": 1024,
@@ -430,6 +477,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d5868dd66c67b14a83ed228bfa6d53cf.jpg",
    "src": "projects/campden-house/97ff8900c38e2a8f",
    "width": 1440,
    "height": 547,
@@ -439,6 +487,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/268f9263365d70afc7ee591ff3250e50.jpg",
    "src": "projects/campden-house/473a8a1e96bd01cf",
    "width": 1430,
    "height": 1024,
@@ -448,6 +497,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7de6e07574cd2cab6bc1bc192b56848b.jpg",
    "src": "projects/campden-house/33e52e4668106ea6",
    "width": 1440,
    "height": 589,
@@ -457,6 +507,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/b71cb2f9f6c2d6c19a6cefcfb71f55c4.jpg",
    "src": "projects/campden-house/3f600af82123c2c3",
    "width": 1440,
    "height": 575,
@@ -466,6 +517,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/87e86dfadb1ae37d26ec4dfbfffe8eb9.jpg",
    "src": "projects/campden-house/296feed45ef50a0f",
    "width": 1381,
    "height": 1024,
@@ -475,6 +527,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0b68b33af3cd9ec99f0dff1ca753ca6e.jpg",
    "src": "projects/campden-house/4e47f12507cc1c31",
    "width": 1312,
    "height": 1024,
@@ -484,6 +537,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3f414cb44a672043572bed0649bc91b2.jpg",
    "src": "projects/campden-house/5f049f215f903bc7",
    "width": 1257,
    "height": 1024,
@@ -493,6 +547,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/1ae4df13e74743593039946e3db5e56a.jpg",
    "src": "projects/campden-house/d696387170f556a4",
    "width": 1440,
    "height": 453,
@@ -502,6 +557,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/68c3c9532df80d7aeb106416cbc13b86.jpg",
    "src": "projects/campden-house/454503cbe6686f4f",
    "width": 1204,
    "height": 1024,
@@ -511,6 +567,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/eb787b45ac632de8a4db32bca9f27744.jpg",
    "src": "projects/campden-house/067c14bc6c0fcbb0",
    "width": 1440,
    "height": 1012,
@@ -522,6 +579,7 @@
  ],
  "chamber": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/chamber.jpg",
    "src": "projects/chamber/9f794f60a0400f92",
    "width": 1440,
    "height": 872,
@@ -531,6 +589,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/8894845f00c1ab06931b8889b68a64b7.png",
    "src": "projects/chamber/de0e07a683580ddc",
    "width": 1047,
    "height": 1024,
@@ -540,6 +599,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/347c298113ab857b337d40acc53bc004.png",
    "src": "projects/chamber/beab2634feca11dd",
    "width": 1246,
    "height": 1024,
@@ -549,6 +609,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/de8271b00ef5e797d6fadf499314faba.png",
    "src": "projects/chamber/05edc9e0928712e3",
    "width": 1421,
    "height": 1024,
@@ -558,6 +619,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/87de48989a356719b4631cddf370cb06.png",
    "src": "projects/chamber/aaa5074c5b576d7e",
    "width": 1440,
    "height": 989,
@@ -567,6 +629,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2c672ea367e9b8d5a5d7146149d10d1b.png",
    "src": "projects/chamber/a436da2dcdbc6efc",
    "width": 1386,
    "height": 1024,
@@ -576,6 +639,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d7c4551fa4a2f241c3ca95aa4c7e1014.png",
    "src": "projects/chamber/b8a30bfaadb3efce",
    "width": 1440,
    "height": 858,
@@ -585,6 +649,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f7c7cee723b1099bd37275cf015db685.png",
    "src": "projects/chamber/bf47bfb807ab9dc0",
    "width": 1440,
    "height": 803,
@@ -594,6 +659,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/bc71e1dc5aa6603abe6f6d090495d4f5.png",
    "src": "projects/chamber/75b278ceea6a8919",
    "width": 1440,
    "height": 776,
@@ -603,6 +669,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e2544690bbd73a2ba52afec84e1ccbc2.png",
    "src": "projects/chamber/d70ba7b51cc11012",
    "width": 974,
    "height": 1024,
@@ -612,6 +679,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ee20662c6966e9625a733c976ca06f8b.jpg",
    "src": "projects/chamber/2dbb50afcc4bff0a",
    "width": 1352,
    "height": 1024,
@@ -623,6 +691,7 @@
  ],
  "chatsworth-rd": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/chatsworth-rd.jpg",
    "src": "projects/chatsworth-rd/1f0fbb1ff6f230d7",
    "width": 1440,
    "height": 960,
@@ -632,6 +701,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7ef40142b1b4ed5486c449403e834a1c.jpg",
    "src": "projects/chatsworth-rd/b5e23071b3d2fd8c",
    "width": 683,
    "height": 1024,
@@ -641,6 +711,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/edc29d03cbfe23cf559b5c92ede0c848.jpg",
    "src": "projects/chatsworth-rd/0a1a34fd50718647",
    "width": 683,
    "height": 1024,
@@ -650,6 +721,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7818418612e3dfa29ea058c6c6c31734.jpg",
    "src": "projects/chatsworth-rd/adde4e9efa4fe0de",
    "width": 683,
    "height": 1024,
@@ -659,6 +731,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/56e600f114e7e9d208d6a6b858c9b811.jpg",
    "src": "projects/chatsworth-rd/66af24128189265a",
    "width": 1146,
    "height": 1024,
@@ -668,6 +741,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/94bfcaa4b1223a4c55da4b11b8da2d25.jpg",
    "src": "projects/chatsworth-rd/1f8912b2275b7b98",
    "width": 683,
    "height": 1024,
@@ -677,6 +751,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/4e25ba2dda178cc965779cdc6824819f.jpg",
    "src": "projects/chatsworth-rd/07749ac758680596",
    "width": 683,
    "height": 1024,
@@ -686,6 +761,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/4f2217bac7f07a60ccbbe942c773e770.jpg",
    "src": "projects/chatsworth-rd/c3edd27f7451b20a",
    "width": 683,
    "height": 1024,
@@ -695,6 +771,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/94feef169701aed1a0dc09d0a8d8f312.jpg",
    "src": "projects/chatsworth-rd/e26f11603c5f91af",
    "width": 1179,
    "height": 1024,
@@ -704,6 +781,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f9e7d748a46e2fc6a28915709a15cb4d.jpg",
    "src": "projects/chatsworth-rd/d37271bada4fe2e8",
    "width": 979,
    "height": 1024,
@@ -713,6 +791,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/160bc9717fa8eb5eec76f9bc00d5a4b8.jpg",
    "src": "projects/chatsworth-rd/31cf4187c3d7e6a1",
    "width": 725,
    "height": 1024,
@@ -722,6 +801,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/4bc3f94842add452ad55784719c92b4d.jpg",
    "src": "projects/chatsworth-rd/b28a6e5cf2176063",
    "width": 860,
    "height": 1024,
@@ -731,6 +811,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/759357ae16dbb385f51ef50daa721426.jpg",
    "src": "projects/chatsworth-rd/9df18446f3baebe2",
    "width": 683,
    "height": 1024,
@@ -740,6 +821,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a1698c189c27380a2e366293a0936553.jpg",
    "src": "projects/chatsworth-rd/ec00d3c21c62d048",
    "width": 683,
    "height": 1024,
@@ -749,6 +831,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9f1f5b071121c748414c628a34071017.jpg",
    "src": "projects/chatsworth-rd/c163630e30e16fe7",
    "width": 683,
    "height": 1024,
@@ -758,6 +841,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c13d62eb97ec2a34f2cb4559449b76e4.jpg",
    "src": "projects/chatsworth-rd/a15b5418853511e1",
    "width": 1440,
    "height": 960,
@@ -767,6 +851,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a2d9198c78297d3c9479b387c66b9474.jpg",
    "src": "projects/chatsworth-rd/7879a908983b2a1a",
    "width": 1440,
    "height": 960,
@@ -776,6 +861,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/081293a40b128d9d181371e369876cf3.jpg",
    "src": "projects/chatsworth-rd/997601e626d606fc",
    "width": 683,
    "height": 1024,
@@ -785,6 +871,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/00941b5e5ff20a9f9275337881d80c76.jpg",
    "src": "projects/chatsworth-rd/a3226189ceccfe08",
    "width": 1440,
    "height": 960,
@@ -796,6 +883,7 @@
  ],
  "culford-mews": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/culford-mews.jpg",
    "src": "projects/culford-mews/6aa83ebc9af50183",
    "width": 1440,
    "height": 960,
@@ -805,6 +893,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/b8acba71e746e9df8eb421975eb563f4.jpg",
    "src": "projects/culford-mews/457dfd2fb1d0eb0c",
    "width": 1365,
    "height": 1024,
@@ -814,6 +903,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f6d14baade668064849cde847a217baa.jpg",
    "src": "projects/culford-mews/8f021b346a5e3cea",
    "width": 1440,
    "height": 945,
@@ -823,6 +913,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a72c8f191213046c2787b25544e789fa.jpg",
    "src": "projects/culford-mews/95ba0c5f08973504",
    "width": 1440,
    "height": 804,
@@ -832,6 +923,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2eb3cfa2e3839d357a72021b665d375a.jpg",
    "src": "projects/culford-mews/88f437ca1f05bbf6",
    "width": 1200,
    "height": 1024,
@@ -841,6 +933,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0c81807d7a05b4b11391d0d3673cac0f.jpg",
    "src": "projects/culford-mews/2c0c18623e875e86",
    "width": 1299,
    "height": 1024,
@@ -850,6 +943,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9de7af3fef5f042ea2b91bacadb08bd9.jpg",
    "src": "projects/culford-mews/ba59ae55b27b9b9c",
    "width": 1295,
    "height": 1024,
@@ -859,6 +953,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c31b59f709da99b307af981662234d43.jpg",
    "src": "projects/culford-mews/323da5da6ee83f6e",
    "width": 1440,
    "height": 530,
@@ -868,6 +963,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a383fa7de25a17c955b063d2dfa113b6.jpg",
    "src": "projects/culford-mews/2d7ae992535f50f0",
    "width": 1440,
    "height": 643,
@@ -877,6 +973,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ad62949a2a85379496dd957997f91dad.jpg",
    "src": "projects/culford-mews/1c943dace7dffa21",
    "width": 1440,
    "height": 542,
@@ -886,6 +983,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3c5b1017b666fd34e860b5ee4879c829.jpg",
    "src": "projects/culford-mews/23582383f357de9a",
    "width": 1440,
    "height": 548,
@@ -895,6 +993,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/808f2cd6ca7b84aaa0e1aa2df38d8b92.jpg",
    "src": "projects/culford-mews/6d803786ff294f22",
    "width": 1440,
    "height": 530,
@@ -904,6 +1003,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/80a754ec8acfa4c6b7b99d38ae8c7432.jpg",
    "src": "projects/culford-mews/69497eead4a28fa5",
    "width": 1440,
    "height": 533,
@@ -913,6 +1013,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e8c4b008d56ac3332f2599766bdcb0e4.jpg",
    "src": "projects/culford-mews/74bf69436d87b5f6",
    "width": 1440,
    "height": 662,
@@ -924,6 +1025,7 @@
  ],
  "firs-avenue": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/firs-avenue.jpg",
    "src": "projects/firs-avenue/92b9ea653449d6f4",
    "width": 1440,
    "height": 1000,
@@ -933,6 +1035,7 @@
    "credit": "Lyndon Douglas"
   },
   {
+   "source": "assets/application/files/cache/thumbnails/5a168c4ec8558cac5928f0d1faec344a.jpg",
    "src": "projects/firs-avenue/d0ee0d75c733e21f",
    "width": 713,
    "height": 1024,
@@ -942,6 +1045,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/b14b0ea8c838d79b68d9d760b676b721.jpg",
    "src": "projects/firs-avenue/ac10273971e972a1",
    "width": 1440,
    "height": 964,
@@ -951,6 +1055,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/34ea9800cbfc7ec419da9886fcdeddad.jpg",
    "src": "projects/firs-avenue/2b88df6d0d161012",
    "width": 686,
    "height": 1024,
@@ -960,6 +1065,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/38c44b2009f1f8f21011093bd49ca1fa.jpg",
    "src": "projects/firs-avenue/86d7160ecc98c402",
    "width": 1440,
    "height": 1000,
@@ -969,6 +1075,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/247cb8a73289da82472177c31193840c.jpg",
    "src": "projects/firs-avenue/2e8e97116cb6cca8",
    "width": 737,
    "height": 1024,
@@ -978,6 +1085,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/036600500d03a30f34f6005de51f9377.jpg",
    "src": "projects/firs-avenue/4cbce76a80d5fbec",
    "width": 1440,
    "height": 1010,
@@ -987,6 +1095,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/b061a7ab036a8719008a3ef0d8dc0358.jpg",
    "src": "projects/firs-avenue/244f4a30de8d97b8",
    "width": 698,
    "height": 1024,
@@ -996,6 +1105,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/785188ef132ec96f53a5f5159fe03c79.jpg",
    "src": "projects/firs-avenue/3eb1f551c7a77b16",
    "width": 1427,
    "height": 1024,
@@ -1005,6 +1115,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/5b061256a29e4baa1d2006c058666f49.jpg",
    "src": "projects/firs-avenue/87e699a8122c6406",
    "width": 1440,
    "height": 964,
@@ -1014,6 +1125,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e3fb9192070206f207bdcf2ab9b98aca.jpg",
    "src": "projects/firs-avenue/754034bcadb86a3f",
    "width": 1440,
    "height": 964,
@@ -1023,6 +1135,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c4d74d0ae69bc77fa8818aaf0a515694.jpg",
    "src": "projects/firs-avenue/3d6c9b363fe5f531",
    "width": 1440,
    "height": 964,
@@ -1032,6 +1145,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f87e73bbfc5ca773322399ac4af9e9ff.jpg",
    "src": "projects/firs-avenue/66bdcae5444a0d91",
    "width": 686,
    "height": 1024,
@@ -1041,6 +1155,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c40e9e83affd9eaf8d408bc4ae17f2ce.jpg",
    "src": "projects/firs-avenue/a45bd9ab6165c440",
    "width": 1440,
    "height": 964,
@@ -1050,6 +1165,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/96f1536df39b93483124b8134956797e.jpg",
    "src": "projects/firs-avenue/c1682affbdbbd88f",
    "width": 686,
    "height": 1024,
@@ -1059,6 +1175,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/21981c333aba1c4fdfc69cbad0bbdd86.jpg",
    "src": "projects/firs-avenue/88741acf5667581f",
    "width": 686,
    "height": 1024,
@@ -1068,6 +1185,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/25c3ec5114a569866d06a3ce0b84929c.jpg",
    "src": "projects/firs-avenue/81bb5b631c26a465",
    "width": 1440,
    "height": 1001,
@@ -1077,6 +1195,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ff8a41a8baa8699e7c467a9ce4ef3bf3.jpg",
    "src": "projects/firs-avenue/7facbcb6cbec21cb",
    "width": 686,
    "height": 1024,
@@ -1086,6 +1205,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/17bbcdf41c8b008ce85b5891fc216816.jpg",
    "src": "projects/firs-avenue/ce3ce3224bba1fc8",
    "width": 1440,
    "height": 964,
@@ -1095,6 +1215,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/1d0845a554268b81947d6b59015a42e6.jpg",
    "src": "projects/firs-avenue/902fe0e56558b230",
    "width": 1440,
    "height": 964,
@@ -1104,6 +1225,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c976c5f621a8f54fe387d17bc05729ac.jpg",
    "src": "projects/firs-avenue/197b307442cb5ba2",
    "width": 686,
    "height": 1024,
@@ -1113,6 +1235,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3971e9387b33c80ccc4df283440478cd.jpg",
    "src": "projects/firs-avenue/53ad1b191f945461",
    "width": 1440,
    "height": 831,
@@ -1122,6 +1245,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7083362af60ec9142926c39ca8304dad.jpg",
    "src": "projects/firs-avenue/f9abbacbd83a2e26",
    "width": 1440,
    "height": 688,
@@ -1131,6 +1255,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e63bca1bc2fcfe98dd67aa23451b762e.jpg",
    "src": "projects/firs-avenue/a24823d6213d191c",
    "width": 1249,
    "height": 1024,
@@ -1140,6 +1265,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c63d4fd0f0a63c8d8abe9fded0b78957.jpg",
    "src": "projects/firs-avenue/cd2d4fc1c82dd86d",
    "width": 1165,
    "height": 1024,
@@ -1149,6 +1275,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6df057b839be1e5ac42150783ef094f5.jpg",
    "src": "projects/firs-avenue/a6c7e6ebcf9f4c9e",
    "width": 1440,
    "height": 848,
@@ -1158,6 +1285,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a376aac769610f571229848fbdf74f02.jpg",
    "src": "projects/firs-avenue/1e586672826f3bfa",
    "width": 1440,
    "height": 770,
@@ -1167,6 +1295,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2137b071389bcc8865cabc2b8f3b6db7.jpg",
    "src": "projects/firs-avenue/6aef233661b468fd",
    "width": 732,
    "height": 1024,
@@ -1176,6 +1305,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/56332a2c230d1a5443a6098ee38fb421.jpg",
    "src": "projects/firs-avenue/a00740851d883b57",
    "width": 905,
    "height": 1024,
@@ -1185,6 +1315,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/5455331770308d37d1babb01cb105184.jpg",
    "src": "projects/firs-avenue/ee728ad327dded59",
    "width": 1001,
    "height": 1024,
@@ -1194,6 +1325,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/09eea34cb15cde378446d1027c9e1913.jpg",
    "src": "projects/firs-avenue/a894780a15b3dade",
    "width": 909,
    "height": 1024,
@@ -1205,6 +1337,7 @@
  ],
  "folly": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/folly.jpg",
    "src": "projects/folly/20d5882e21a64e7b",
    "width": 1440,
    "height": 1080,
@@ -1214,6 +1347,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/da277b09190397a8aead9b166c557314.jpg",
    "src": "projects/folly/b497259555cc98f2",
    "width": 697,
    "height": 1024,
@@ -1223,6 +1357,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a4db79f471c1caa77b0deb9ab835eb14.jpg",
    "src": "projects/folly/317641dc2b567c56",
    "width": 768,
    "height": 1024,
@@ -1232,6 +1367,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3d06b1eac64b0637b55e031d47b69970.jpg",
    "src": "projects/folly/c15daa06e416b821",
    "width": 768,
    "height": 1024,
@@ -1241,6 +1377,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c8c53f2c074316916cdef876d9a26b27.jpg",
    "src": "projects/folly/501ca0b9c58f9f1b",
    "width": 1365,
    "height": 1024,
@@ -1250,6 +1387,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/b678466aa5a2fb900bfd91ef87928881.jpg",
    "src": "projects/folly/dd280d6c800f1bce",
    "width": 768,
    "height": 1024,
@@ -1259,6 +1397,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/8a2a5299cf6437f042d8d2f5e0778345.jpg",
    "src": "projects/folly/4b15ab7ca1dc37b9",
    "width": 1365,
    "height": 1024,
@@ -1268,6 +1407,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d0bdc735c9f4f5e72dcad929e4ab0619.jpg",
    "src": "projects/folly/952df9ecbb7bb564",
    "width": 768,
    "height": 1024,
@@ -1277,6 +1417,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/b116c54b2dac574c831a14337feb2f48.jpg",
    "src": "projects/folly/0e8782bcba9434b6",
    "width": 768,
    "height": 1024,
@@ -1286,6 +1427,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/24b101ae87aaeb9f5b174db686a6105c.jpg",
    "src": "projects/folly/582b136ab3e2b125",
    "width": 768,
    "height": 1024,
@@ -1295,6 +1437,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/1fe6fb975178b098941191747f1cb3f8.jpg",
    "src": "projects/folly/d3cb679782fc38a2",
    "width": 1184,
    "height": 1024,
@@ -1304,6 +1447,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/28f18349e5a73ff892298c2a02bf8cf4.jpg",
    "src": "projects/folly/7558eccc4fd24570",
    "width": 1440,
    "height": 825,
@@ -1313,6 +1457,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e26672698675d8a3809044accba17d4e.jpg",
    "src": "projects/folly/8d434ef82f0fd085",
    "width": 1440,
    "height": 822,
@@ -1324,6 +1469,7 @@
  ],
  "goat-hill-house": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/goat-hill-house.jpg",
    "src": "projects/goat-hill-house/c4ffc155007f953c",
    "width": 1440,
    "height": 1017,
@@ -1333,6 +1479,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/91c440fb91cfd39dac611cc3280e61d0.jpg",
    "src": "projects/goat-hill-house/f29ac836c6ced38c",
    "width": 1251,
    "height": 1024,
@@ -1342,6 +1489,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e31dba309584493715e2b5e91a732be0.jpg",
    "src": "projects/goat-hill-house/e63f015424e9ce85",
    "width": 1440,
    "height": 1010,
@@ -1351,6 +1499,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/995ae25324bba80adb9a752d9b6a1986.jpg",
    "src": "projects/goat-hill-house/9d55411e2b6d11e3",
    "width": 1440,
    "height": 1009,
@@ -1360,6 +1509,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/29cbce89e23d4d4b0dd1b320ffbcdd2c.jpg",
    "src": "projects/goat-hill-house/decdfe84309d0e7e",
    "width": 1440,
    "height": 873,
@@ -1369,6 +1519,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ee527ac340ed750fd3bbba06e9cc1086.jpg",
    "src": "projects/goat-hill-house/049746c5b31f0086",
    "width": 1440,
    "height": 481,
@@ -1378,6 +1529,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a0e3dc6c1c4ae1982d164f487e94a4bd.jpg",
    "src": "projects/goat-hill-house/85efaa074b10d1f8",
    "width": 1440,
    "height": 403,
@@ -1387,6 +1539,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/054937b64c7b59efeb1de912721ac923.jpg",
    "src": "projects/goat-hill-house/f2a6d57bbd7c2b7d",
    "width": 1440,
    "height": 521,
@@ -1396,6 +1549,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/1afb1dbc5bdde9f9525d690c7cfbe31a.jpg",
    "src": "projects/goat-hill-house/3622690729e6572f",
    "width": 1440,
    "height": 510,
@@ -1405,6 +1559,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/1ffcd41f42080fe0629dcb0bb7c8937a.jpg",
    "src": "projects/goat-hill-house/3a5b5995969a2db0",
    "width": 1440,
    "height": 506,
@@ -1414,6 +1569,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e53759e7f69a320a0926f6b462fc1b04.jpg",
    "src": "projects/goat-hill-house/6b12d963c622a0b1",
    "width": 1440,
    "height": 458,
@@ -1423,6 +1579,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2327579075560b0b19a653ba5abd98ee.jpg",
    "src": "projects/goat-hill-house/3a56fe76f7b10933",
    "width": 1440,
    "height": 493,
@@ -1432,6 +1589,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/89a73fca83816c835f804734bdc3c281.jpg",
    "src": "projects/goat-hill-house/e39a225db0293da6",
    "width": 1440,
    "height": 475,
@@ -1441,6 +1599,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/63665fb527f00cef64e63f29f006911a.jpg",
    "src": "projects/goat-hill-house/322e004022871c59",
    "width": 1440,
    "height": 564,
@@ -1450,6 +1609,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/70de6a1b0c1d7a3ecc27034fabe406c5.jpg",
    "src": "projects/goat-hill-house/dff60849d878f597",
    "width": 1440,
    "height": 395,
@@ -1459,6 +1619,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/063d9df4a0c2a95be38cdd7f1c26668e.jpg",
    "src": "projects/goat-hill-house/0559d20bae297050",
    "width": 1440,
    "height": 473,
@@ -1468,6 +1629,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0e06dc322be8c45e281384f1cd206c92.jpg",
    "src": "projects/goat-hill-house/a0b8fa7cb51f8567",
    "width": 1056,
    "height": 1024,
@@ -1477,6 +1639,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c4904c9dd61bf37358c9d76b41f03caa.jpg",
    "src": "projects/goat-hill-house/67d7008501c54dc9",
    "width": 1131,
    "height": 1024,
@@ -1486,6 +1649,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7c692ee1c4dab82a06bf3aa1fb3cebd1.jpg",
    "src": "projects/goat-hill-house/4cb2606c2f925631",
    "width": 1400,
    "height": 1024,
@@ -1495,6 +1659,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6b54b4ab92bf87ac2992dd620bc00c66.jpg",
    "src": "projects/goat-hill-house/87008ac5b23493de",
    "width": 1310,
    "height": 1024,
@@ -1504,6 +1669,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7c4d8110264b2e0041931b0ce5943dea.jpg",
    "src": "projects/goat-hill-house/243ff001060101db",
    "width": 1206,
    "height": 1024,
@@ -1513,6 +1679,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/8ceb68d98f673daa6d25f8a872956994.jpg",
    "src": "projects/goat-hill-house/28747312d2eb9acd",
    "width": 1440,
    "height": 927,
@@ -1522,6 +1689,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6041ab716486e7fa15b0f0c5a1650586.jpg",
    "src": "projects/goat-hill-house/a23b30b37e90ebc1",
    "width": 1096,
    "height": 1024,
@@ -1531,6 +1699,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f75059fd3f49a4732955b195280bcf0c.jpg",
    "src": "projects/goat-hill-house/5581e879e612da7c",
    "width": 1440,
    "height": 848,
@@ -1540,6 +1709,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/35347ef094d6661efeed1e8d76d79c4e.jpg",
    "src": "projects/goat-hill-house/dd12a7d2db6e86af",
    "width": 1047,
    "height": 1024,
@@ -1549,6 +1719,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/709da21a8ee51238ca271a67889da841.jpg",
    "src": "projects/goat-hill-house/37ab320d0133bba2",
    "width": 1348,
    "height": 1024,
@@ -1558,6 +1729,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ad09a7dc7897ef324b2665062e1fa143.png",
    "src": "projects/goat-hill-house/8dbf60c5fd21c3c8",
    "width": 1024,
    "height": 1024,
@@ -1569,6 +1741,7 @@
  ],
  "hassett-road": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/hassett-road.jpg",
    "src": "projects/hassett-road/a5c2ffb982d26eb3",
    "width": 960,
    "height": 1440,
@@ -1578,6 +1751,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6444d1c248c3d873db8c653cf04fb20c.jpg",
    "src": "projects/hassett-road/31d8b315f4aa8702",
    "width": 1440,
    "height": 960,
@@ -1587,6 +1761,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/862252c21b4209a86ee35abe27bbd3e1.jpg",
    "src": "projects/hassett-road/7796fd6c14083b05",
    "width": 1386,
    "height": 1024,
@@ -1596,6 +1771,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f6b3fefc27e0045e99f8e790a7311a3c.jpg",
    "src": "projects/hassett-road/6e28510cafd00f4d",
    "width": 683,
    "height": 1024,
@@ -1605,6 +1781,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/fe04c4a75ff6ceec28798145315209b9.jpg",
    "src": "projects/hassett-road/e3a511d15aedd54c",
    "width": 683,
    "height": 1024,
@@ -1614,6 +1791,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/28c5540f31ab216a76c443a1152800c2.jpg",
    "src": "projects/hassett-road/e6a62bfb5eb949b3",
    "width": 1100,
    "height": 1024,
@@ -1623,6 +1801,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/acfc2daa6a5ac38a75ec61ab398016ad.jpg",
    "src": "projects/hassett-road/69736ebbed218ccb",
    "width": 1186,
    "height": 1024,
@@ -1632,6 +1811,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/820f340fcea8ee737d0daad5bb89fe9e.jpg",
    "src": "projects/hassett-road/a2339a84738e6546",
    "width": 683,
    "height": 1024,
@@ -1641,6 +1821,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/739135b8cc3c596f59a617fd07346055.jpg",
    "src": "projects/hassett-road/bb384114f9947d79",
    "width": 1440,
    "height": 960,
@@ -1650,6 +1831,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e7eb1be7eb4b4f50d7d8b5762e91684b.jpg",
    "src": "projects/hassett-road/9742c3de254abc7e",
    "width": 683,
    "height": 1024,
@@ -1659,6 +1841,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/14d1b0feb766654a6617569d7165aa38.jpg",
    "src": "projects/hassett-road/2dc95d9f9c1ffe64",
    "width": 683,
    "height": 1024,
@@ -1668,6 +1851,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c28d13a77a03e1c9bd9610afce194faf.jpg",
    "src": "projects/hassett-road/ce9a22bfd226dbcd",
    "width": 1440,
    "height": 960,
@@ -1677,6 +1861,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a9d02b9b5d0d811534ef798d541a4ba4.jpg",
    "src": "projects/hassett-road/d82d6332d2a54576",
    "width": 1440,
    "height": 960,
@@ -1686,6 +1871,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7035e1092e374ff7d1d472651430b8fd.jpg",
    "src": "projects/hassett-road/5b4f2899d8a1b8a2",
    "width": 683,
    "height": 1024,
@@ -1695,6 +1881,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/98f491ac8f7fcc70e53f5c3df192220d.jpg",
    "src": "projects/hassett-road/e2ba9032642da1f3",
    "width": 836,
    "height": 1024,
@@ -1704,6 +1891,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0809d2ecc7a9e54c4ebde1fcd897bee7.jpg",
    "src": "projects/hassett-road/16097915e858bd0c",
    "width": 683,
    "height": 1024,
@@ -1713,6 +1901,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e2899016f94c2827dca519395c2352f1.jpg",
    "src": "projects/hassett-road/0e1949dfc6137065",
    "width": 683,
    "height": 1024,
@@ -1722,6 +1911,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/32d0e77820423d3873a636e6d01e7be1.jpg",
    "src": "projects/hassett-road/2d8d1ddab6d56a3b",
    "width": 695,
    "height": 1024,
@@ -1731,6 +1921,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9e2cd9ef08a4b1b2282eba51574584b6.jpg",
    "src": "projects/hassett-road/131507c199e50079",
    "width": 1440,
    "height": 794,
@@ -1740,6 +1931,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7d9afa0bcd0023cd342f5a4f77f55c21.jpg",
    "src": "projects/hassett-road/c6ee0dec5ee6bc68",
    "width": 829,
    "height": 1024,
@@ -1749,6 +1941,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/315d600a98548d3971018a7d76931411.jpg",
    "src": "projects/hassett-road/13fefa329df735bf",
    "width": 848,
    "height": 1024,
@@ -1758,6 +1951,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/31c00cbf4c1412d37f03cdff7fb07b36.jpg",
    "src": "projects/hassett-road/191c3ce6bd8cd936",
    "width": 1440,
    "height": 718,
@@ -1767,6 +1961,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3b55ea428aca3ab861819f46a5330cf4.jpg",
    "src": "projects/hassett-road/2979f8bb5161c28f",
    "width": 1440,
    "height": 822,
@@ -1776,6 +1971,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7e8b6bd571c08d5cb117083c1e71b286.jpg",
    "src": "projects/hassett-road/da292e224074f01b",
    "width": 1440,
    "height": 749,
@@ -1785,6 +1981,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/b42d952929f2f6c9f6d73b0d327d64bd.jpg",
    "src": "projects/hassett-road/7a856065b8348f84",
    "width": 1440,
    "height": 735,
@@ -1794,6 +1991,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/62e4dd1b768b857e20f89e1d88521a0b.jpg",
    "src": "projects/hassett-road/0b254150b5744b71",
    "width": 1440,
    "height": 718,
@@ -1805,6 +2003,7 @@
  ],
  "highpoint": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/highpoint.jpg",
    "src": "projects/highpoint/6503f8a2cf91b850",
    "width": 1440,
    "height": 933,
@@ -1814,6 +2013,7 @@
    "credit": "Lyndon Douglas"
   },
   {
+   "source": "assets/application/files/cache/thumbnails/199c2dbad7730ccff6a3a16b29aa94ca.jpg",
    "src": "projects/highpoint/bb602487a3180ecd",
    "width": 686,
    "height": 1024,
@@ -1823,6 +2023,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/5c00dc96f2f6e4cd208274a73330ba07.jpg",
    "src": "projects/highpoint/b35baec07b367356",
    "width": 732,
    "height": 1024,
@@ -1832,6 +2033,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/bdc449d83e79cf441d8913c5e37e94b9.jpg",
    "src": "projects/highpoint/5a62bfa87a70cd6f",
    "width": 1310,
    "height": 1024,
@@ -1841,6 +2043,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/1373db817555f0db78b5d45687a682d7.jpg",
    "src": "projects/highpoint/fcb2ca44c460fd41",
    "width": 1440,
    "height": 980,
@@ -1850,6 +2053,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0980450969bf42e7bc19d3126feb85b0.jpg",
    "src": "projects/highpoint/83998f597f98c116",
    "width": 1404,
    "height": 1024,
@@ -1859,6 +2063,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9e1d975ae9fae63999fdc547e5672026.jpg",
    "src": "projects/highpoint/3161add1945ba11b",
    "width": 1440,
    "height": 913,
@@ -1868,6 +2073,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/83b92aa1380032580421c6371e03662a.jpg",
    "src": "projects/highpoint/7316fe6e368c21cd",
    "width": 1440,
    "height": 1017,
@@ -1879,6 +2085,7 @@
  ],
  "ibberton": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/ibberton.png",
    "src": "projects/ibberton/ec2e8ef3f1076502",
    "width": 1440,
    "height": 1022,
@@ -1888,6 +2095,7 @@
    "credit": "Emma Lewis"
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ef0f3f573fc43c5149a182186478beb8.jpg",
    "src": "projects/ibberton/aa37555239f7ace5",
    "width": 849,
    "height": 1024,
@@ -1897,6 +2105,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/57d250d7f3c6f72bd630e2de1a60736b.jpg",
    "src": "projects/ibberton/b4aafea44c07c422",
    "width": 683,
    "height": 1024,
@@ -1906,6 +2115,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/040a1165d956fee4f56248b192177728.jpg",
    "src": "projects/ibberton/7c2d00dfb90b914e",
    "width": 1440,
    "height": 960,
@@ -1915,6 +2125,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/8c7bf763dd0176a8974dfe75f15e3084.jpg",
    "src": "projects/ibberton/a102518f6e123bbc",
    "width": 1440,
    "height": 960,
@@ -1924,6 +2135,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6c93a3b5adfb9102ff13753d66e27f32.jpg",
    "src": "projects/ibberton/43c03494b8346475",
    "width": 683,
    "height": 1024,
@@ -1933,6 +2145,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/294562e50ad0d52b32f40235b0bd3530.jpg",
    "src": "projects/ibberton/103145d2eef8b5ea",
    "width": 683,
    "height": 1024,
@@ -1942,6 +2155,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/8b522df7a3c863edac0fe421c4dd6f25.jpg",
    "src": "projects/ibberton/12afc85d62f52109",
    "width": 683,
    "height": 1024,
@@ -1951,6 +2165,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7e9d8da79d0721ceccff2e6eef2b5d67.jpg",
    "src": "projects/ibberton/477937d278e4c78e",
    "width": 738,
    "height": 1024,
@@ -1960,6 +2175,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3dd5985744f4eb3c32152b13f55d55ab.jpg",
    "src": "projects/ibberton/dce5781a70b834d9",
    "width": 1024,
    "height": 1024,
@@ -1969,6 +2185,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/790210e64b3c3a1b1aa50e45aa2cc40b.jpg",
    "src": "projects/ibberton/62ae2b7469961cb6",
    "width": 1440,
    "height": 960,
@@ -1978,6 +2195,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/51db5ca6f8d322be36d7a6ad5a539dc8.jpg",
    "src": "projects/ibberton/cf827c2256c06339",
    "width": 683,
    "height": 1024,
@@ -1987,6 +2205,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9055bdfe41e729e4a26dab85ff396006.jpg",
    "src": "projects/ibberton/e5b9d2456524b51a",
    "width": 683,
    "height": 1024,
@@ -1996,6 +2215,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0063f31d72962489d47e6381fedba9da.jpg",
    "src": "projects/ibberton/6c8fb1f1834f8136",
    "width": 683,
    "height": 1024,
@@ -2005,6 +2225,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3b351ea2d56a0288d0fc4a07f9fc1611.jpg",
    "src": "projects/ibberton/8a70d181852c731d",
    "width": 683,
    "height": 1024,
@@ -2014,6 +2235,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d898f599f385bdd82bf7cdd2c2421e92.jpg",
    "src": "projects/ibberton/5041211e1fbf285f",
    "width": 683,
    "height": 1024,
@@ -2023,6 +2245,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/5ebff7ef50adbb4aa3d309ed729b7b91.jpg",
    "src": "projects/ibberton/39dca6a65ca13da4",
    "width": 682,
    "height": 1024,
@@ -2032,6 +2255,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6ab737041f12f52c1c6df6d678d6f767.jpg",
    "src": "projects/ibberton/1420755270c5ccfc",
    "width": 683,
    "height": 1024,
@@ -2041,6 +2265,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/bf7274aada72aa01195adc88e10aedb1.jpg",
    "src": "projects/ibberton/f46ec064b641a0a8",
    "width": 1440,
    "height": 960,
@@ -2050,6 +2275,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2fb4b7d0959e02848f5f5e31da56b0bd.jpg",
    "src": "projects/ibberton/cde94a6193519737",
    "width": 683,
    "height": 1024,
@@ -2059,6 +2285,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/b90a6c67dfb1c889855b5522d291945a.png",
    "src": "projects/ibberton/a4176d854f4662c9",
    "width": 1354,
    "height": 1024,
@@ -2068,6 +2295,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/8b57977c7b031833d4ed2893c35da4c4.png",
    "src": "projects/ibberton/18e2393f65a32b55",
    "width": 1440,
    "height": 947,
@@ -2077,6 +2305,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/5f9fe4385e40721eca285b938e70f086.png",
    "src": "projects/ibberton/4709b76ec1995b35",
    "width": 1440,
    "height": 893,
@@ -2086,6 +2315,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2f375cb6ab0e7876c7a0ef634f2cb21e.png",
    "src": "projects/ibberton/19db76b44dc7df8f",
    "width": 1440,
    "height": 971,
@@ -2095,6 +2325,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/37f6c5534ff8c97c231fd82307b4a9e5.png",
    "src": "projects/ibberton/49dd4e85c0259543",
    "width": 1440,
    "height": 870,
@@ -2104,6 +2335,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/29c3b740c634d87f1d6418cd9c9f252e.png",
    "src": "projects/ibberton/78efe95235f73d3a",
    "width": 868,
    "height": 1024,
@@ -2113,6 +2345,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/023480bb1ef63f7d3cd01d355e27bff5.png",
    "src": "projects/ibberton/cd94e48aab7330ec",
    "width": 1209,
    "height": 1024,
@@ -2122,6 +2355,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/35410850d056e405806014294477aa6b.png",
    "src": "projects/ibberton/d99497fec0c27f8d",
    "width": 1236,
    "height": 1024,
@@ -2131,6 +2365,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a7b274f2d3d9e118187f8593fd543065.png",
    "src": "projects/ibberton/de8b690d093dca54",
    "width": 1440,
    "height": 797,
@@ -2140,6 +2375,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/55c6dd2abf39d1dd24661d8bcfd652ac.png",
    "src": "projects/ibberton/e4edb55e6e117d69",
    "width": 1290,
    "height": 1024,
@@ -2149,6 +2385,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2a242755d6f74b12c030707e21b82308.png",
    "src": "projects/ibberton/ab5d0f2ca0736fd7",
    "width": 1440,
    "height": 624,
@@ -2158,6 +2395,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0ba67c03cdbdf0a38b7eeeb3ee814e82.png",
    "src": "projects/ibberton/f238bda4027ec161",
    "width": 1319,
    "height": 1024,
@@ -2167,6 +2405,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/275277894e4a8d6040516c0a06bae727.png",
    "src": "projects/ibberton/d98f04d5fdee96ee",
    "width": 1156,
    "height": 1024,
@@ -2176,6 +2415,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/bd717958f855e9a54ab17d83459e4358.jpg",
    "src": "projects/ibberton/a7c1416eee453238",
    "width": 1364,
    "height": 1024,
@@ -2185,6 +2425,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6a03649ad61659c4449ce42472380e62.jpg",
    "src": "projects/ibberton/94a551c7062e45a6",
    "width": 1364,
    "height": 1024,
@@ -2196,6 +2437,7 @@
  ],
  "kew-tree-house-competition": [
   {
+   "source": "assets/application/files/cache/thumbnails/fcd04e5b0a2406830dba25c10a7a57c0.jpg",
    "src": "projects/kew-tree-house-competition/895e82d291eba9ec",
    "width": 823,
    "height": 1024,
@@ -2205,6 +2447,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e06167ebc30c74d0b77b68d7e179b4b1.jpg",
    "src": "projects/kew-tree-house-competition/85545f6f2c41067d",
    "width": 1440,
    "height": 516,
@@ -2214,6 +2457,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2e009cd7c6b025377dbb8ef882671739.jpg",
    "src": "projects/kew-tree-house-competition/db33f0c8a6985ace",
    "width": 1440,
    "height": 669,
@@ -2223,6 +2467,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/5a00e60a4db457f99298a0ad3af97ff7.jpg",
    "src": "projects/kew-tree-house-competition/143ac2da5dfc1a61",
    "width": 1212,
    "height": 1024,
@@ -2232,6 +2477,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e133de49b3a0711ad4998ba548c2a04b.jpg",
    "src": "projects/kew-tree-house-competition/f87fd18f1a672d68",
    "width": 1440,
    "height": 811,
@@ -2241,6 +2487,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3e1b59e74a65a7013143518ce612dc7b.jpg",
    "src": "projects/kew-tree-house-competition/e42d6c43777f2219",
    "width": 1427,
    "height": 1024,
@@ -2250,6 +2497,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/06af7696a51015c694d185bdc1d51d2d.jpg",
    "src": "projects/kew-tree-house-competition/2e3b157133db24ed",
    "width": 874,
    "height": 1024,
@@ -2261,6 +2509,7 @@
  ],
  "latimer-road": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/latimer-road.jpg",
    "src": "projects/latimer-road/341427a7b0730900",
    "width": 2000,
    "height": 1334,
@@ -2270,6 +2519,7 @@
    "credit": "Lyndon Douglas"
   },
   {
+   "source": "assets/application/files/cache/thumbnails/db727afa524e1904016e82a7143a4601.jpg",
    "src": "projects/latimer-road/032f754a9ef29302",
    "width": 771,
    "height": 1024,
@@ -2279,6 +2529,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2e8a3ad8e8ec391b10d4e04fd5c90304.jpg",
    "src": "projects/latimer-road/62944326ec00e077",
    "width": 1440,
    "height": 964,
@@ -2288,6 +2539,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a0148ba991b866aefb4b4df44e2f85d3.jpg",
    "src": "projects/latimer-road/ba38ebf24c413365",
    "width": 1440,
    "height": 953,
@@ -2297,6 +2549,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/df879139b2a2e03e08c44e3964b65843.jpg",
    "src": "projects/latimer-road/eacdf79bb26db0b7",
    "width": 1440,
    "height": 964,
@@ -2306,6 +2559,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/16bce90b7d77efd179ad3d09d9e44e6f.jpg",
    "src": "projects/latimer-road/a0c04ea6383a74db",
    "width": 684,
    "height": 1024,
@@ -2315,6 +2569,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/1eaa29e31d661f96cb6e06b2fc40c489.jpg",
    "src": "projects/latimer-road/d5913a609c344b44",
    "width": 686,
    "height": 1024,
@@ -2324,6 +2579,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0462a7322584eb7497a90c9440a2a399.jpg",
    "src": "projects/latimer-road/e81ea2ddebeaf6ef",
    "width": 686,
    "height": 1024,
@@ -2333,6 +2589,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a5d668b9c8365fb9f3ebbe27c3f7fc49.jpg",
    "src": "projects/latimer-road/71dd6d52df900484",
    "width": 686,
    "height": 1024,
@@ -2342,6 +2599,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/75b1c1e1add46af27b6249162be755bb.jpg",
    "src": "projects/latimer-road/654d9ea8a0822b08",
    "width": 1440,
    "height": 989,
@@ -2351,6 +2609,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/392ded41019207093c32be121d70189d.jpg",
    "src": "projects/latimer-road/91a1df7e1fa7f934",
    "width": 1440,
    "height": 948,
@@ -2360,6 +2619,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f34f2f73d0e0d33db67b6bba2de93e6f.jpg",
    "src": "projects/latimer-road/516b9d8b7f3c207b",
    "width": 711,
    "height": 1024,
@@ -2369,6 +2629,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/06b20235ec50b93bdedccae3d0954f98.jpg",
    "src": "projects/latimer-road/140da300f32b9687",
    "width": 1440,
    "height": 648,
@@ -2378,6 +2639,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/486e24241c18b7191427c7edd22bb5a5.jpg",
    "src": "projects/latimer-road/f74f437ede113e7e",
    "width": 1440,
    "height": 629,
@@ -2387,6 +2649,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c2bbb4bf4c03554ef6ea773c8931a05b.jpg",
    "src": "projects/latimer-road/6331d936bff91d7a",
    "width": 1440,
    "height": 714,
@@ -2396,6 +2659,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/88c4c7b9469f54322e35ead098cbcc69.jpg",
    "src": "projects/latimer-road/ec0f563b54be7d4c",
    "width": 1378,
    "height": 1024,
@@ -2405,6 +2669,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d160ae7985b8bbed0227219d59efe2ac.jpg",
    "src": "projects/latimer-road/0d4371a96ca1c16d",
    "width": 1366,
    "height": 1024,
@@ -2414,6 +2679,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/560e212bfde1e6e3776c8392fca7dc5c.jpg",
    "src": "projects/latimer-road/e48cb7ae4ba1418b",
    "width": 1440,
    "height": 664,
@@ -2423,6 +2689,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/498fc6f2881d723016c30819040b5352.jpg",
    "src": "projects/latimer-road/a655047cd2175210",
    "width": 1226,
    "height": 1024,
@@ -2434,6 +2701,7 @@
  ],
  "lonsdale-square": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/lonsdale-square.jpg",
    "src": "projects/lonsdale-square/ad2697191325d470",
    "width": 1440,
    "height": 960,
@@ -2443,6 +2711,7 @@
    "credit": "Travis Levius"
   },
   {
+   "source": "assets/application/files/cache/thumbnails/31aee3813badc815ededcbbc17ddab49.jpg",
    "src": "projects/lonsdale-square/d71bf9c7786d5ffa",
    "width": 681,
    "height": 1024,
@@ -2452,6 +2721,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/bd365e9b499f9ad116d9f6a7780111ea.jpg",
    "src": "projects/lonsdale-square/38d13ace9d5a4d72",
    "width": 683,
    "height": 1024,
@@ -2461,6 +2731,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/94a5388298074ced92fa5586b5d6a99e.jpg",
    "src": "projects/lonsdale-square/4d14220307ceecff",
    "width": 745,
    "height": 1024,
@@ -2470,6 +2741,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/32896257fbc6edd5052584c737816767.jpg",
    "src": "projects/lonsdale-square/0030a0c85809b26c",
    "width": 683,
    "height": 1024,
@@ -2479,6 +2751,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a3ebf25f00595c95b1add36d465b2ab2.jpg",
    "src": "projects/lonsdale-square/cfbe8cba63022a55",
    "width": 683,
    "height": 1024,
@@ -2488,6 +2761,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/29673e435ed84a82f114a8b9853b3a68.jpg",
    "src": "projects/lonsdale-square/5b5f940c7d353a00",
    "width": 653,
    "height": 1024,
@@ -2497,6 +2771,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/af73cdf2110428be5afbe96f49f8dc88.jpg",
    "src": "projects/lonsdale-square/a21d544d086665a8",
    "width": 699,
    "height": 1024,
@@ -2506,6 +2781,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2e75d06a66841e668ead6f2390b0a3e9.jpg",
    "src": "projects/lonsdale-square/3ce9136514a5f94c",
    "width": 740,
    "height": 1024,
@@ -2515,6 +2791,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/68b580851354e214e123ef20925fbc4b.jpg",
    "src": "projects/lonsdale-square/a9e23e37be957eb9",
    "width": 683,
    "height": 1024,
@@ -2524,6 +2801,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/303ed31a5b9f5f69729ed4953c5ab41c.jpg",
    "src": "projects/lonsdale-square/97a40ceec56df350",
    "width": 1440,
    "height": 970,
@@ -2533,6 +2811,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/045902698d961045b57c949a728574d6.jpg",
    "src": "projects/lonsdale-square/578b40609a4c1a54",
    "width": 1440,
    "height": 531,
@@ -2542,6 +2821,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/08ff5808971b3056737e0e929bd2fab1.jpg",
    "src": "projects/lonsdale-square/f0c6774d6a155d69",
    "width": 1440,
    "height": 550,
@@ -2551,6 +2831,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e3270e186796a88b41b770b9ce700d2e.jpg",
    "src": "projects/lonsdale-square/b9aa79ad0e47777d",
    "width": 1440,
    "height": 847,
@@ -2560,6 +2841,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f73f93d27002e2abd3fcfd810e2f3961.jpg",
    "src": "projects/lonsdale-square/3d58ed99929ff353",
    "width": 1158,
    "height": 1024,
@@ -2569,6 +2851,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2700abf135e9c9b0c92bd81b1423914e.jpg",
    "src": "projects/lonsdale-square/f0b56e7758600cbf",
    "width": 683,
    "height": 1024,
@@ -2578,6 +2861,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f607ef66563a40320f363eeedc3e361e.jpg",
    "src": "projects/lonsdale-square/e62d84c6a9d55e5a",
    "width": 1440,
    "height": 960,
@@ -2587,6 +2871,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/cd10eee1669726f1612c841c4baf1f9c.jpg",
    "src": "projects/lonsdale-square/8911e8bd9fccdbac",
    "width": 683,
    "height": 1024,
@@ -2596,6 +2881,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3aa069152955508455a518543b765913.jpg",
    "src": "projects/lonsdale-square/769139f9c75d490e",
    "width": 683,
    "height": 1024,
@@ -2605,6 +2891,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/44550d95e87c6dab5ae3c5a3e530fb0c.jpg",
    "src": "projects/lonsdale-square/6c874ca0acd39a34",
    "width": 792,
    "height": 1024,
@@ -2614,6 +2901,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/4d70bfcb4248c78b8ce2af4221a52ad7.jpg",
    "src": "projects/lonsdale-square/dad5d6db06e4151a",
    "width": 683,
    "height": 1024,
@@ -2625,6 +2913,7 @@
  ],
  "oval-road": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/oval-road.jpg",
    "src": "projects/oval-road/32adb3058ab0ff3e",
    "width": 1440,
    "height": 1044,
@@ -2634,6 +2923,7 @@
    "credit": "Lyndon Douglas"
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c330e8ec63af7a11ad1e5d974a9b02c5.jpg",
    "src": "projects/oval-road/8573af22ba11748c",
    "width": 1440,
    "height": 809,
@@ -2643,6 +2933,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/13294ddcf2d7c158be1a56fd4792e7a4.jpg",
    "src": "projects/oval-road/1b94e0314b8c66dc",
    "width": 1440,
    "height": 964,
@@ -2652,6 +2943,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d60dc4d519e6a816dc76c2569ee40e01.jpg",
    "src": "projects/oval-road/4a170157430424f0",
    "width": 1440,
    "height": 964,
@@ -2661,6 +2953,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/1a0f8735e7b6b79730abd5d570c2e989.jpg",
    "src": "projects/oval-road/cb2ab30b9eb49850",
    "width": 1412,
    "height": 1024,
@@ -2670,6 +2963,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/bb9fb62ac93f7c73745e6306f9049b06.jpg",
    "src": "projects/oval-road/893220a1dca76006",
    "width": 1412,
    "height": 1024,
@@ -2679,6 +2973,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9f70062763102d99cdf11748d1687c1e.jpg",
    "src": "projects/oval-road/9f4b3d6a08907c50",
    "width": 686,
    "height": 1024,
@@ -2688,6 +2983,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ebce6866d8feba150d20b9d5539f7e64.jpg",
    "src": "projects/oval-road/4308da6878c911e9",
    "width": 1440,
    "height": 964,
@@ -2697,6 +2993,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7d416f8e61c601f66f935c8df47c814e.jpg",
    "src": "projects/oval-road/a370af00a5237d2b",
    "width": 673,
    "height": 1024,
@@ -2706,6 +3003,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/50057b300b85c8e571d7dc119164ac40.jpg",
    "src": "projects/oval-road/71780d7b5627b073",
    "width": 1440,
    "height": 964,
@@ -2715,6 +3013,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/aefadcfe348b95bf8b4e8a7536685795.jpg",
    "src": "projects/oval-road/8f76554e1166e7fe",
    "width": 686,
    "height": 1024,
@@ -2724,6 +3023,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/5bbe3b74f1af544db49da1c39f5c6985.jpg",
    "src": "projects/oval-road/b154e891bced11d2",
    "width": 630,
    "height": 1024,
@@ -2733,6 +3033,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6b77a357032859833ec6897c6b2706b9.jpg",
    "src": "projects/oval-road/36a68a42a5829e19",
    "width": 686,
    "height": 1024,
@@ -2742,6 +3043,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7fb7964576a5c661fb2a479f5be653c8.jpg",
    "src": "projects/oval-road/6f82d67fe5c1f9be",
    "width": 1440,
    "height": 964,
@@ -2751,6 +3053,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a8ee31c76c573847b548dff48f0a3831.jpg",
    "src": "projects/oval-road/8b1cafe6dfe3778c",
    "width": 1440,
    "height": 575,
@@ -2760,6 +3063,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ce6602a810efbbaeff41216e85317954.jpg",
    "src": "projects/oval-road/a6e1607ad8f1d767",
    "width": 1440,
    "height": 568,
@@ -2769,6 +3073,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6f28310ef32d095172c70ac312043c66.jpg",
    "src": "projects/oval-road/f3f1d61545a32a16",
    "width": 1219,
    "height": 1024,
@@ -2778,6 +3083,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/5fa1c6313ff21e32365bc91717ec7217.jpg",
    "src": "projects/oval-road/e8c98847189ddb84",
    "width": 1365,
    "height": 1024,
@@ -2787,6 +3093,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/038711a5c40bbd0d38386a30019d81cd.jpg",
    "src": "projects/oval-road/d1b6415e9b8ac1a1",
    "width": 1440,
    "height": 844,
@@ -2796,6 +3103,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e31b226c197946027a4d9f6ec6880ef0.jpg",
    "src": "projects/oval-road/228d9b0c8f413ccc",
    "width": 1440,
    "height": 783,
@@ -2805,6 +3113,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/402e3b0218793d6e0768a2d64e6d52b6.jpg",
    "src": "projects/oval-road/bffc724b062a1d06",
    "width": 1440,
    "height": 883,
@@ -2814,6 +3123,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7ab7dd0f7f6992d55ad774c83077a48c.jpg",
    "src": "projects/oval-road/78fc62cd46e56550",
    "width": 1440,
    "height": 1008,
@@ -2823,6 +3133,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9919ce417c0b9de6bed6a9785236aaec.jpg",
    "src": "projects/oval-road/2e0040c2df60ef55",
    "width": 1440,
    "height": 986,
@@ -2834,6 +3145,7 @@
  ],
  "park-village": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/park-village.jpg",
    "src": "projects/park-village/0fc276765f2d3671",
    "width": 2500,
    "height": 1169,
@@ -2843,6 +3155,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7b8629da9c0465ab823f7db6f76d3195.jpg",
    "src": "projects/park-village/f0337bad58031cef",
    "width": 1440,
    "height": 1017,
@@ -2852,6 +3165,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d06b309ce48bd6865fae8b9759d40a97.jpg",
    "src": "projects/park-village/b435da14e08ec7b2",
    "width": 626,
    "height": 1024,
@@ -2861,6 +3175,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d0abd04a9c821152288d10edd239941f.jpg",
    "src": "projects/park-village/040423d7ed021e2c",
    "width": 1440,
    "height": 1018,
@@ -2870,6 +3185,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/5ee5be939fa7cf3aa0a5a890c66da40e.jpg",
    "src": "projects/park-village/2451445c2949bdd5",
    "width": 566,
    "height": 1024,
@@ -2879,6 +3195,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/48e4a1b0cddbd807e995c4603c85b7b1.jpg",
    "src": "projects/park-village/9870652a9ee6c922",
    "width": 1440,
    "height": 809,
@@ -2888,6 +3205,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/26a3b86179e4d4a11d74f578b80f3f07.jpg",
    "src": "projects/park-village/b93b2134d512f4dc",
    "width": 1343,
    "height": 1024,
@@ -2897,6 +3215,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d49a5ed68172528938dee9efd6a8f11e.jpg",
    "src": "projects/park-village/3edd70d95b793aec",
    "width": 575,
    "height": 1024,
@@ -2906,6 +3225,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/97d36faa5266ca18f512ebbce97e075a.jpg",
    "src": "projects/park-village/d28d57f5cfd43fdb",
    "width": 578,
    "height": 1024,
@@ -2915,6 +3235,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/aaab9cfd1169972a7f95483ec07695a2.jpg",
    "src": "projects/park-village/ed34e2ee55b7d93c",
    "width": 585,
    "height": 1024,
@@ -2924,6 +3245,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ac1c8f421ec8b566066f24ff768889b2.jpg",
    "src": "projects/park-village/15fdde235184ac71",
    "width": 1440,
    "height": 1017,
@@ -2933,6 +3255,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f792bdcd5b75056af7e82511b3c9f4fe.jpg",
    "src": "projects/park-village/810ff3b158bbfefb",
    "width": 766,
    "height": 1024,
@@ -2942,6 +3265,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/751d9a971f63fc3953f60fdf735fc26c.jpg",
    "src": "projects/park-village/1ef003e54ed2f393",
    "width": 738,
    "height": 1024,
@@ -2951,6 +3275,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e8941846cc0a5d13bd582b4d3661adbd.jpg",
    "src": "projects/park-village/63b1ee2cb62610b9",
    "width": 1315,
    "height": 1024,
@@ -2960,6 +3285,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0b10a517f99f1451e428564cf510ba65.jpg",
    "src": "projects/park-village/ce8877c0d61e51ad",
    "width": 812,
    "height": 1024,
@@ -2969,6 +3295,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9e2ed4b7b4f776653d1ed779a738c70a.jpg",
    "src": "projects/park-village/95623659d337b73e",
    "width": 777,
    "height": 1024,
@@ -2978,6 +3305,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/97198146d8b9db9e40a0e3ccacdf9ff7.jpg",
    "src": "projects/park-village/bd8b7f8f83866210",
    "width": 1440,
    "height": 704,
@@ -2987,6 +3315,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/527e05d91992a5860c1c270422a221ab.jpg",
    "src": "projects/park-village/7319a61547b9d3b8",
    "width": 774,
    "height": 1024,
@@ -2996,6 +3325,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/234c89444d82d00b4c2d50da508cf32d.jpg",
    "src": "projects/park-village/97bb49265a221837",
    "width": 930,
    "height": 1024,
@@ -3005,6 +3335,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/858416162838ab3a6db123904ed8acd6.jpg",
    "src": "projects/park-village/d0440bb37b150003",
    "width": 703,
    "height": 1024,
@@ -3016,6 +3347,7 @@
  ],
  "pearson-st": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/pearson-st.jpg",
    "src": "projects/pearson-st/fdf76bf730466c38",
    "width": 1440,
    "height": 960,
@@ -3025,6 +3357,7 @@
    "credit": "Travis Levius"
   },
   {
+   "source": "assets/application/files/cache/thumbnails/24fcd88542bf4128947e2052f17f49b0.jpg",
    "src": "projects/pearson-st/41a6344bd057f3df",
    "width": 1440,
    "height": 960,
@@ -3034,6 +3367,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/06d8847601233f1469d73affd9aab2aa.jpg",
    "src": "projects/pearson-st/acbfa9871d58418b",
    "width": 683,
    "height": 1024,
@@ -3043,6 +3377,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/4367530400587f4d5cbc06bffc4e3546.jpg",
    "src": "projects/pearson-st/d336f1afa19143b1",
    "width": 673,
    "height": 1024,
@@ -3052,6 +3387,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/255a5317dabbca486736a00754d74b3b.jpg",
    "src": "projects/pearson-st/e78117cbe9f384bd",
    "width": 683,
    "height": 1024,
@@ -3061,6 +3397,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d4ae116dd1839013c0583c8ebd4c3aa6.jpg",
    "src": "projects/pearson-st/945d66d6b5a5cc03",
    "width": 686,
    "height": 1024,
@@ -3070,6 +3407,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0c6aaaf4c234a900b214ed6c18c11b44.jpg",
    "src": "projects/pearson-st/48ebe28e525d6191",
    "width": 1440,
    "height": 979,
@@ -3079,6 +3417,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c9b5aa9447d49111db885f073ef9844b.jpg",
    "src": "projects/pearson-st/c0b535d65574bf00",
    "width": 690,
    "height": 1024,
@@ -3088,6 +3427,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d30647972b5c6f1771473febd1d6a93a.jpg",
    "src": "projects/pearson-st/c4e874fa490cda90",
    "width": 678,
    "height": 1024,
@@ -3097,6 +3437,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/1f9bc4704b9455e20820c34007832d91.jpg",
    "src": "projects/pearson-st/7014cb11513da333",
    "width": 682,
    "height": 1024,
@@ -3106,6 +3447,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/bfad06169a3ea9eb2dc6d7f130318781.jpg",
    "src": "projects/pearson-st/a7889388c9900782",
    "width": 683,
    "height": 1024,
@@ -3115,6 +3457,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/8dfe82fa5d2510481c206f91206e1380.jpg",
    "src": "projects/pearson-st/4e43a3889c9b79ca",
    "width": 1440,
    "height": 960,
@@ -3124,6 +3467,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ffc5d740fef18469c7cf4f938258859a.jpg",
    "src": "projects/pearson-st/151ddd20e1f8a6f6",
    "width": 1440,
    "height": 960,
@@ -3133,6 +3477,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/b3a35f1de9c8d32bb46b3e74567f89a8.jpg",
    "src": "projects/pearson-st/194489b27970d623",
    "width": 504,
    "height": 1024,
@@ -3142,6 +3487,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9204d2f0f40fd989cb7642d6f6fbe4b5.jpg",
    "src": "projects/pearson-st/e3b910445789d28e",
    "width": 490,
    "height": 1024,
@@ -3151,6 +3497,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/1e5bddd3b6290cae7bce9e184383077b.jpg",
    "src": "projects/pearson-st/a99520bfbcc2cc7b",
    "width": 555,
    "height": 1024,
@@ -3160,6 +3507,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6360c5c587f4477843d9684db6ffc1bc.jpg",
    "src": "projects/pearson-st/3efb9118deeeb1f9",
    "width": 551,
    "height": 1024,
@@ -3169,6 +3517,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/33e77a1111f06ef2624ae177e1b438dc.jpg",
    "src": "projects/pearson-st/2cd549d5588253b9",
    "width": 1210,
    "height": 1024,
@@ -3178,6 +3527,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f003566a20a6ee723cd5efce63c889ac.jpg",
    "src": "projects/pearson-st/79c3a89f3af37a20",
    "width": 1440,
    "height": 732,
@@ -3187,6 +3537,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/1357ed742818e222b91c2f41c660776a.jpg",
    "src": "projects/pearson-st/90d97efa5cc3edfd",
    "width": 1440,
    "height": 798,
@@ -3196,6 +3547,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/b26dcf77c39a395c654f7fc80f6ceb21.jpg",
    "src": "projects/pearson-st/9130852dbd1a3bc3",
    "width": 1373,
    "height": 1024,
@@ -3207,6 +3559,7 @@
  ],
  "pennard-house": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/pennard-house.jpg",
    "src": "projects/pennard-house/25e9001aeaa88f33",
    "width": 1440,
    "height": 928,
@@ -3216,6 +3569,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a874dd9601c82e0ff3f13fd9dac7d8e2.jpg",
    "src": "projects/pennard-house/db7ca470e2e6411a",
    "width": 1440,
    "height": 960,
@@ -3225,6 +3579,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/44e4870e0558821e6d6469341905fbaa.jpg",
    "src": "projects/pennard-house/45144d3842761e7d",
    "width": 1440,
    "height": 872,
@@ -3234,6 +3589,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7204f881946a1ccf725d44c836c95f7e.jpg",
    "src": "projects/pennard-house/4c35f1d0c95412e9",
    "width": 1440,
    "height": 969,
@@ -3243,6 +3599,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0d779e42b6cf90272d4235e738c04369.jpg",
    "src": "projects/pennard-house/1ee8d8d4d6728cc7",
    "width": 803,
    "height": 1024,
@@ -3252,6 +3609,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c8dacc8aaaeb991740d3bb8ce345508b.jpg",
    "src": "projects/pennard-house/1f972c88bc0afcbd",
    "width": 828,
    "height": 1024,
@@ -3261,6 +3619,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c34f8834b9464b9b67d4da4274738945.jpg",
    "src": "projects/pennard-house/ca30d54ffb7beead",
    "width": 1440,
    "height": 693,
@@ -3270,6 +3629,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/4f4d7ce198360172cf784c1357efa23d.jpg",
    "src": "projects/pennard-house/69f7ae182bef58b3",
    "width": 1440,
    "height": 688,
@@ -3279,6 +3639,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9157c054d994d0531d63a0935fc8fc94.jpg",
    "src": "projects/pennard-house/4dacf09152d1236c",
    "width": 1440,
    "height": 662,
@@ -3288,6 +3649,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3f8e78dc8711a569f3d3747c949f39d6.jpg",
    "src": "projects/pennard-house/f9fec788927ba46b",
    "width": 1440,
    "height": 649,
@@ -3297,6 +3659,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a3b6b4acd4f16d7f1752612702231476.jpg",
    "src": "projects/pennard-house/faf86738a99acbf0",
    "width": 1440,
    "height": 699,
@@ -3306,6 +3669,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/b0b37d12d931754c39c5084e5c5f54b4.jpg",
    "src": "projects/pennard-house/5413aa2132391e37",
    "width": 1440,
    "height": 705,
@@ -3315,6 +3679,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e1a9e4d3b2d40de22ad06afb1466b080.jpg",
    "src": "projects/pennard-house/9288fc6504f0d207",
    "width": 1440,
    "height": 691,
@@ -3324,6 +3689,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2754e2182fd99e3b328123a02c577bac.jpg",
    "src": "projects/pennard-house/88a5ddb1e7e8f198",
    "width": 1440,
    "height": 646,
@@ -3335,6 +3701,7 @@
  ],
  "rylett-crescent": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/rylett-crescent.jpg",
    "src": "projects/rylett-crescent/22240b589db6dabf",
    "width": 1440,
    "height": 1245,
@@ -3344,6 +3711,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/41e407283d5eb8ac3263525f86264e9b.jpg",
    "src": "projects/rylett-crescent/6591ec11b7cddc67",
    "width": 683,
    "height": 1024,
@@ -3353,6 +3721,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d017b2ab822b94930a0b0705833dbcc5.jpg",
    "src": "projects/rylett-crescent/83337b6bd27d3692",
    "width": 1440,
    "height": 960,
@@ -3362,6 +3731,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6bb98b807560215dbb90db7ec42453ce.jpg",
    "src": "projects/rylett-crescent/c17a3a42b2fb18e5",
    "width": 1440,
    "height": 960,
@@ -3371,6 +3741,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2bd2478f54830c1a078e9a8049f5abe2.jpg",
    "src": "projects/rylett-crescent/f66c95fd0d9bf561",
    "width": 683,
    "height": 1024,
@@ -3380,6 +3751,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ea6c42e046d58da9a34f2eb3cec59cbb.jpg",
    "src": "projects/rylett-crescent/c355d961851174ed",
    "width": 1440,
    "height": 960,
@@ -3389,6 +3761,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ac099e59b445c18073c5f08d4472880e.jpg",
    "src": "projects/rylett-crescent/fad6984b34b58036",
    "width": 1440,
    "height": 960,
@@ -3398,6 +3771,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d01aadf6e66d98b82510eb131ed6708f.jpg",
    "src": "projects/rylett-crescent/ba6c6f230e000256",
    "width": 683,
    "height": 1024,
@@ -3407,6 +3781,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/fbfa18b69c90600b8fa420ad73b6589a.jpg",
    "src": "projects/rylett-crescent/65a14fad20eb9c2b",
    "width": 683,
    "height": 1024,
@@ -3416,6 +3791,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9bf34f2b508b3f10f67a31b41644503f.jpg",
    "src": "projects/rylett-crescent/6c0c6ff7c69d158b",
    "width": 683,
    "height": 1024,
@@ -3425,6 +3801,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3cb5b2fd6bb1ad8b260d6b61ed6bbbcd.jpg",
    "src": "projects/rylett-crescent/0058646b8cfba967",
    "width": 683,
    "height": 1024,
@@ -3434,6 +3811,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/1537cdf151183a40901ac0f73eb945e4.jpg",
    "src": "projects/rylett-crescent/201dd1cec6f185a6",
    "width": 683,
    "height": 1024,
@@ -3443,6 +3821,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/b5f5943e47f7bb80f1ebb44c339faff4.jpg",
    "src": "projects/rylett-crescent/f536ca734b799a58",
    "width": 683,
    "height": 1024,
@@ -3452,6 +3831,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/23688d73b7c6d1da510436848b704dbf.jpg",
    "src": "projects/rylett-crescent/24c45b9aca60649c",
    "width": 683,
    "height": 1024,
@@ -3461,6 +3841,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/1bb8b43be8a771c5554f56be36d4694e.jpg",
    "src": "projects/rylett-crescent/e5c429f8de9e2ac6",
    "width": 1440,
    "height": 702,
@@ -3470,6 +3851,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e505a93848caa690c62d57ec4f17688a.jpg",
    "src": "projects/rylett-crescent/d9f534469aadb719",
    "width": 1440,
    "height": 1013,
@@ -3479,6 +3861,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/59da31dd3e10c2494554e5e1844455cd.jpg",
    "src": "projects/rylett-crescent/565682671a3460e3",
    "width": 1440,
    "height": 759,
@@ -3488,6 +3871,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/b278d7fff4b86518397e1e573f9ad2fe.jpg",
    "src": "projects/rylett-crescent/f7a484b951f217dc",
    "width": 1440,
    "height": 788,
@@ -3497,6 +3881,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9b7fa39058b9485a279010f6ecbf3e13.jpg",
    "src": "projects/rylett-crescent/e5c78a29afbc382b",
    "width": 1423,
    "height": 1024,
@@ -3506,6 +3891,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3d84f616116bf6d2ef181e5c0b6b2f9f.jpg",
    "src": "projects/rylett-crescent/16aac31b0446dff8",
    "width": 1440,
    "height": 886,
@@ -3515,6 +3901,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/49de5ad1176513914763d68eca6c8b09.jpg",
    "src": "projects/rylett-crescent/70916ea66335e227",
    "width": 577,
    "height": 1024,
@@ -3524,6 +3911,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9ee315f13f0e284c3302ae779b11435b.jpg",
    "src": "projects/rylett-crescent/9e60a6872eff8626",
    "width": 661,
    "height": 1024,
@@ -3533,6 +3921,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/48197ed334a3f5c796cdf61c6a9c67f5.jpg",
    "src": "projects/rylett-crescent/1c842093dfc29e32",
    "width": 683,
    "height": 1024,
@@ -3542,6 +3931,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/1c56179c5672895e17456d9b6a4874e2.jpg",
    "src": "projects/rylett-crescent/6b26bfef4f459ac3",
    "width": 718,
    "height": 1024,
@@ -3551,6 +3941,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/106c8605f206ef70e4ba4d255e4296ae.jpg",
    "src": "projects/rylett-crescent/8a07acdc831f53e6",
    "width": 1440,
    "height": 849,
@@ -3560,6 +3951,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/fba82a760a9ca99870e4f06d3a503bb5.jpg",
    "src": "projects/rylett-crescent/a25b10bc6d0b9bcb",
    "width": 1440,
    "height": 1018,
@@ -3569,6 +3961,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ff39b68a369804f58259a52c74cdbaad.jpg",
    "src": "projects/rylett-crescent/97b56c11a9673409",
    "width": 1440,
    "height": 1018,
@@ -3578,6 +3971,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7c7e270a1b5f01e3ad1afadf3bddcc8f.jpg",
    "src": "projects/rylett-crescent/d642e33de2b4fb8e",
    "width": 1440,
    "height": 1018,
@@ -3587,6 +3981,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/5d5843b8d0e97bd3f7c91a5998310ed4.jpg",
    "src": "projects/rylett-crescent/28038163047480c9",
    "width": 1440,
    "height": 1018,
@@ -3596,6 +3991,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3c7895830e2f887c1fa587a836ea8aa3.jpg",
    "src": "projects/rylett-crescent/cb550affd83329d0",
    "width": 1440,
    "height": 1018,
@@ -3605,6 +4001,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0882bce995f82af8c5840f8c4f6deca9.jpg",
    "src": "projects/rylett-crescent/dc946cb9345b0860",
    "width": 1440,
    "height": 1018,
@@ -3616,6 +4013,7 @@
  ],
  "social-house": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/social-house.jpg",
    "src": "projects/social-house/216c949ccf17b36e",
    "width": 1440,
    "height": 1080,
@@ -3625,6 +4023,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2036de06d124193c2da52eb9a61a715b.jpg",
    "src": "projects/social-house/70b059f4a018986c",
    "width": 1399,
    "height": 1024,
@@ -3634,6 +4033,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2b789d375669993db6dac48f3fe3b52b.jpg",
    "src": "projects/social-house/1fd31653a2589b70",
    "width": 1330,
    "height": 1024,
@@ -3643,6 +4043,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2d0c43fc162a9608a58f4eff7e477243.jpg",
    "src": "projects/social-house/f668072f735aa63a",
    "width": 1235,
    "height": 1024,
@@ -3652,6 +4053,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/204ca641fca05578d64c30e8a50bb2b4.jpg",
    "src": "projects/social-house/1ae484d98e2e6d02",
    "width": 1028,
    "height": 1024,
@@ -3661,6 +4063,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/fbd8c472c0f98ddad9c9e6f4bbf274c8.jpg",
    "src": "projects/social-house/79b3f456f0ae8710",
    "width": 797,
    "height": 1024,
@@ -3670,6 +4073,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a897eba25efef5fdeea32c8f9388d08a.jpg",
    "src": "projects/social-house/240384966b4e82e8",
    "width": 797,
    "height": 1024,
@@ -3679,6 +4083,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/bd340f8ebda1d77a6d3b18ea937cc2d4.jpg",
    "src": "projects/social-house/70372758fb62b863",
    "width": 797,
    "height": 1024,
@@ -3688,6 +4093,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/4aa1b3158cc7f5fe71c16d0a7a57eac4.jpg",
    "src": "projects/social-house/6fb2713ae8ea9614",
    "width": 797,
    "height": 1024,
@@ -3697,6 +4103,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9321a56d302f2265a135b68747ea46e1.jpg",
    "src": "projects/social-house/e17eaf00e666d3af",
    "width": 797,
    "height": 1024,
@@ -3706,6 +4113,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d9d51d5d1594df6f1355718a3a85fa43.jpg",
    "src": "projects/social-house/00b1fdb792c37bdd",
    "width": 799,
    "height": 1024,
@@ -3717,6 +4125,7 @@
  ],
  "sourced": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/sourced.jpg",
    "src": "projects/sourced/c1f0183d2d269207",
    "width": 1440,
    "height": 965,
@@ -3726,6 +4135,7 @@
    "credit": "Travis Levius"
   },
   {
+   "source": "assets/application/files/cache/thumbnails/455da6566ef1b8ec55f0fed028fc720c.jpg",
    "src": "projects/sourced/20917a3ae143e67c",
    "width": 1440,
    "height": 959,
@@ -3735,6 +4145,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/8d0895fd8451ae92e8a4c7b20c923c87.jpg",
    "src": "projects/sourced/2de2215b47599cf2",
    "width": 1440,
    "height": 959,
@@ -3744,6 +4155,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7648bc337173d4599c2e009fff94f99e.jpg",
    "src": "projects/sourced/fd0636172e695550",
    "width": 1440,
    "height": 959,
@@ -3753,6 +4165,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/fc82a8f04d2c9a79f2360b693ad9aea9.jpg",
    "src": "projects/sourced/7115e2bfca7581b3",
    "width": 1440,
    "height": 959,
@@ -3762,6 +4175,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ba702efe0e3d23c302a25e1f6d7c3e53.jpg",
    "src": "projects/sourced/c155f79880fa35e4",
    "width": 1440,
    "height": 975,
@@ -3771,6 +4185,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6b64f0a5329852c12225aa46873d489d.jpg",
    "src": "projects/sourced/f9a6909b3b1e40ca",
    "width": 1440,
    "height": 965,
@@ -3780,6 +4195,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0c1bcb6c511de6327660f358a1e75096.jpg",
    "src": "projects/sourced/ac36748548ae04e8",
    "width": 1440,
    "height": 959,
@@ -3789,6 +4205,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/124f29b25eff2e6fbf1ed93240b33dc3.jpg",
    "src": "projects/sourced/b71a7dc609e1de32",
    "width": 1440,
    "height": 1018,
@@ -3798,6 +4215,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/885d2d8410423c705744d64b8571adfe.jpg",
    "src": "projects/sourced/7793964b75be527a",
    "width": 1440,
    "height": 1018,
@@ -3807,6 +4225,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/697a2c8b334a1cbb322da95271779603.jpg",
    "src": "projects/sourced/fc6c923946a0e87c",
    "width": 1440,
    "height": 1017,
@@ -3818,6 +4237,7 @@
  ],
  "union-wharf": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/union-wharf.jpg",
    "src": "projects/union-wharf/bf8ed0cf2530a3d2",
    "width": 1440,
    "height": 749,
@@ -3827,6 +4247,7 @@
    "credit": "Sebastian Tiew"
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6ad07e50570379efcbce5f650839f517.jpg",
    "src": "projects/union-wharf/fa6d03f70a4b5ac3",
    "width": 683,
    "height": 1024,
@@ -3836,6 +4257,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/f1ceabfff0c79d71145fe0e280087fe8.jpg",
    "src": "projects/union-wharf/f8c0541a1b155b3a",
    "width": 683,
    "height": 1024,
@@ -3845,6 +4267,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e8005be09270458464175e6e9d30abd7.jpg",
    "src": "projects/union-wharf/964ec20fc5d6505c",
    "width": 683,
    "height": 1024,
@@ -3854,6 +4277,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/8679eb57e80b65b0c828d72b1100dc7a.jpg",
    "src": "projects/union-wharf/6fe1e2a1f9e66fe9",
    "width": 683,
    "height": 1024,
@@ -3863,6 +4287,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/06ba2bfc4cdce6be211c9b63a3d7d509.jpg",
    "src": "projects/union-wharf/24d0b153034f5f71",
    "width": 683,
    "height": 1024,
@@ -3872,6 +4297,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e3bd954690c06f21acbdc4a6b8f45d85.jpg",
    "src": "projects/union-wharf/687ccf6eeacd4dac",
    "width": 683,
    "height": 1024,
@@ -3881,6 +4307,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ad3dcda97f484eae5c97727bd3c3bc40.jpg",
    "src": "projects/union-wharf/2799964a6334933d",
    "width": 1440,
    "height": 961,
@@ -3890,6 +4317,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3f34fd8a65f2e113a8da4168615faf90.jpg",
    "src": "projects/union-wharf/2d81233824645e5c",
    "width": 1440,
    "height": 942,
@@ -3899,6 +4327,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/fc1c60c41a8f582847d940a6397ad370.jpg",
    "src": "projects/union-wharf/2d4468a6ca14bf1f",
    "width": 718,
    "height": 1024,
@@ -3908,6 +4337,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0cc8b35403ea970c687026ef3e04ab2a.jpg",
    "src": "projects/union-wharf/ede8f969bd23ffd0",
    "width": 1440,
    "height": 994,
@@ -3917,6 +4347,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/be8a7085eae8fb517528a8ea8dafd11c.jpg",
    "src": "projects/union-wharf/119b82efe38d101d",
    "width": 1341,
    "height": 1024,
@@ -3926,6 +4357,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0972ab5430bc136445a4961173ebd4ad.jpg",
    "src": "projects/union-wharf/0a80ee49fa9922f6",
    "width": 1372,
    "height": 1024,
@@ -3935,6 +4367,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/5ad3d9f250f941080b7ecda812c84644.jpg",
    "src": "projects/union-wharf/bc3c86d2b65e0ae1",
    "width": 1368,
    "height": 1024,
@@ -3944,6 +4377,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/cfc1a1c015775cdb5886ea1e25794243.jpg",
    "src": "projects/union-wharf/22153db348794d08",
    "width": 797,
    "height": 1024,
@@ -3953,6 +4387,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/12ad1b7b1e6cd5fdb75a97bd657981d1.jpg",
    "src": "projects/union-wharf/08a644d81cd880d3",
    "width": 758,
    "height": 1024,
@@ -3964,6 +4399,7 @@
  ],
  "victualler": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/victualler.jpg",
    "src": "projects/victualler/99143697378633fd",
    "width": 1440,
    "height": 964,
@@ -3973,6 +4409,7 @@
    "credit": "Lyndon Douglas"
   },
   {
+   "source": "assets/application/files/cache/thumbnails/8cc7a81ef0a38810c8ecf2d6b39e01b0.jpg",
    "src": "projects/victualler/ccd2c8f573fd8767",
    "width": 1318,
    "height": 1024,
@@ -3982,6 +4419,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/bf66cefb62e4ade5e5e3bfadf51defeb.jpg",
    "src": "projects/victualler/9c8b6ef80cfd011e",
    "width": 691,
    "height": 1024,
@@ -3991,6 +4429,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e3263db7ada56354bab71258a19d649c.jpg",
    "src": "projects/victualler/218e73595a30eac6",
    "width": 1440,
    "height": 964,
@@ -4000,6 +4439,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/49a65783caa2bc188ecd49689833f2ec.jpg",
    "src": "projects/victualler/6a6c63cba548e45d",
    "width": 686,
    "height": 1024,
@@ -4009,6 +4449,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6732e6c0b183d6bb30f6d41f2ddca35c.jpg",
    "src": "projects/victualler/6847d4570e3ce5f0",
    "width": 686,
    "height": 1024,
@@ -4018,6 +4459,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/191711a32c4b5b7b5197c7b6966895d3.jpg",
    "src": "projects/victualler/b3cd07b1092a22dd",
    "width": 686,
    "height": 1024,
@@ -4027,6 +4469,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6ed1782215289f0bc500583efffe85ca.jpg",
    "src": "projects/victualler/9da4ca3e4bc2583b",
    "width": 1440,
    "height": 964,
@@ -4036,6 +4479,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/5a007de2ea6d0f796c46fe6cc5a1b27d.jpg",
    "src": "projects/victualler/028217dffe209d58",
    "width": 686,
    "height": 1024,
@@ -4045,6 +4489,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/38a733ff4515f5bff6b2703748a9555d.jpg",
    "src": "projects/victualler/73fd671e2e414ccc",
    "width": 1440,
    "height": 964,
@@ -4054,6 +4499,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/7454312833cd7acb3260f696924fb11b.jpg",
    "src": "projects/victualler/4111bb02fc76642e",
    "width": 686,
    "height": 1024,
@@ -4063,6 +4509,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a582cf2c2f89bb6702ba72279f15add0.jpg",
    "src": "projects/victualler/a248dde976e645fc",
    "width": 1440,
    "height": 977,
@@ -4072,6 +4519,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/a9d2d79d4a1dbffbcc250d870c7dd8e3.jpg",
    "src": "projects/victualler/a862141f2d56e1cc",
    "width": 693,
    "height": 1024,
@@ -4081,6 +4529,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/964b461a37011ba5f00280356a90549d.jpg",
    "src": "projects/victualler/c7dfe678f9e878dc",
    "width": 1440,
    "height": 964,
@@ -4090,6 +4539,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d1e5aa7f191dfcdf75819cee7ce4f599.jpg",
    "src": "projects/victualler/a23a57536a6131a1",
    "width": 1440,
    "height": 971,
@@ -4099,6 +4549,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/50eb85c900c9fef081048f39cea2633f.jpg",
    "src": "projects/victualler/ff9d648f00c723ba",
    "width": 779,
    "height": 1024,
@@ -4110,6 +4561,7 @@
  ],
  "west-suffolk": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/west-suffolk.jpg",
    "src": "projects/west-suffolk/e81c57db575a0fec",
    "width": 2000,
    "height": 1332,
@@ -4119,6 +4571,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2eaeb2cb1da8099ed839cdd4477ff33c.jpg",
    "src": "projects/west-suffolk/01f9d800dbbd12c4",
    "width": 1440,
    "height": 959,
@@ -4128,6 +4581,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/6a7518e081726d53326a7d5d96b7193f.jpg",
    "src": "projects/west-suffolk/e5b6f13d26c789ca",
    "width": 1440,
    "height": 960,
@@ -4137,6 +4591,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/8f7a5a5cd6e8708a13c3efeb86e2fbbd.jpg",
    "src": "projects/west-suffolk/e4a4acb869130c47",
    "width": 1440,
    "height": 960,
@@ -4146,6 +4601,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3db31791537644618542ba101c85b4e3.jpg",
    "src": "projects/west-suffolk/60795bd7b2df109f",
    "width": 1440,
    "height": 960,
@@ -4155,6 +4611,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/90a963d7eab956a3345fcb51129858b1.jpg",
    "src": "projects/west-suffolk/746cc4d40bc71e34",
    "width": 1440,
    "height": 960,
@@ -4164,6 +4621,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/929e02c1f84c62d9437d89c0e3a0fd71.jpg",
    "src": "projects/west-suffolk/c4d5cdb2e619ec0f",
    "width": 683,
    "height": 1024,
@@ -4173,6 +4631,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/72b43f0a4a237af9c5cf3ad0a7129682.jpg",
    "src": "projects/west-suffolk/7d3cc531fd3e7b56",
    "width": 662,
    "height": 1024,
@@ -4182,6 +4641,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/c9a7b12df976d381c26f3f9caf761fdc.jpg",
    "src": "projects/west-suffolk/6aca8a5c0b34303b",
    "width": 740,
    "height": 1024,
@@ -4191,6 +4651,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/0f1813142c06e965fc0ca3c6e5c1928a.jpg",
    "src": "projects/west-suffolk/da8600272533b930",
    "width": 738,
    "height": 1024,
@@ -4200,6 +4661,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/2fa4309a02b8ad35d38c258378ea2077.jpg",
    "src": "projects/west-suffolk/17690d5007236c62",
    "width": 683,
    "height": 1024,
@@ -4209,6 +4671,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/ff217759beb816118f843ac98774012a.jpg",
    "src": "projects/west-suffolk/4d57d159fddc4407",
    "width": 1440,
    "height": 960,
@@ -4218,6 +4681,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/d7e983f3b2d8e1cb5135484890d68443.jpg",
    "src": "projects/west-suffolk/5e2df403681594e4",
    "width": 1440,
    "height": 960,
@@ -4227,6 +4691,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/cc13932a497ed971dec2cacfa8d3504f.jpg",
    "src": "projects/west-suffolk/403cb0c2f2253242",
    "width": 1169,
    "height": 1024,
@@ -4236,6 +4701,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/dcfafa7ffe5bf489dcd487065dbea8d1.jpg",
    "src": "projects/west-suffolk/51306f50cdfa1db0",
    "width": 1440,
    "height": 960,
@@ -4245,6 +4711,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/3109d7d4b1cd99f65d9dc25afdacf276.jpg",
    "src": "projects/west-suffolk/11e5a1e1ce3dffde",
    "width": 683,
    "height": 1024,
@@ -4254,6 +4721,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/938c44022ecf0381d144bc06f0fa390c.jpg",
    "src": "projects/west-suffolk/f2182cd2b4a1e62f",
    "width": 683,
    "height": 1024,
@@ -4265,6 +4733,7 @@
  ],
  "willow-tree": [
   {
+   "source": "../design_handoff_edward_mccann_brand/assets/heroes/willow-tree.jpg",
    "src": "projects/willow-tree/ff4be703524b66e0",
    "width": 1440,
    "height": 438,
@@ -4274,6 +4743,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/146c7640c25d3d029a23e99b3fa4bdd6.jpg",
    "src": "projects/willow-tree/458180874538eae0",
    "width": 1440,
    "height": 994,
@@ -4283,6 +4753,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/9153df69122c86bef559ce6d0f51c5bb.jpg",
    "src": "projects/willow-tree/1e8fa6499f1531af",
    "width": 986,
    "height": 1024,
@@ -4292,6 +4763,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/e8c6026c55dd68f625e8bdb2ed650253.jpg",
    "src": "projects/willow-tree/4c79a30b8fbcc19b",
    "width": 712,
    "height": 1024,
@@ -4301,6 +4773,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/fd59553a4e4deef4ce549244285eb854.jpg",
    "src": "projects/willow-tree/a42429636cb02151",
    "width": 1421,
    "height": 1024,
@@ -4310,6 +4783,7 @@
    "credit": null
   },
   {
+   "source": "assets/application/files/cache/thumbnails/660d892abd9d8cc66349dd713f475b81.jpg",
    "src": "projects/willow-tree/08fdecdc8c48f3a1",
    "width": 1250,
    "height": 1024,

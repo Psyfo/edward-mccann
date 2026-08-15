@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { ProjectCard } from "@/components/ProjectCard";
 import { SectorFilter } from "@/components/SectorFilter";
-import { selected } from "@/lib/content";
+import { getSelected } from "@/lib/content";
 import styles from "./page.module.css";
 
-export default function HomePage() {
-  const [lead, second, ...rest] = selected;
+export default async function HomePage() {
+  const [lead, second, ...rest] = await getSelected();
 
   return (
     <div className={styles.page}>
