@@ -18,6 +18,12 @@ export default buildConfig({
     meta: {
       titleSuffix: " — Edward McCann Architecture",
     },
+    components: {
+      graphics: {
+        Logo: "@/payload/components/Logo",
+        Icon: "@/payload/components/Icon",
+      },
+    },
   },
 
   collections: [Projects, Media, Users],
