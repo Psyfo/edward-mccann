@@ -46,7 +46,14 @@ const orphans = [];
 let total = 0;
 
 do {
-  const res = await s3.send(new ListObjectsV2Command({ Bucket: B2_BUCKET_NAME, ContinuationToken: token }));
+  const res = await s3.send(new ListObjectsV2Command({
+    Bucket: B2_BUCKET_NAME,
+    // Only the generated renditions. Uploaded originals live under originals/
+    // and are owned by the CMS, not by this manifest: deleting those would
+    // destroy the only copy of the source image.
+    Prefix: 'projects/',
+    ContinuationToken: token,
+  }));
   for (const obj of res.Contents ?? []) {
     total++;
     if (!referenced.has(obj.Key)) orphans.push({ Key: obj.Key, size: obj.Size ?? 0 });

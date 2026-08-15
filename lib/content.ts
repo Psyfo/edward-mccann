@@ -10,7 +10,7 @@ export type Sector = {
 };
 
 export type Figure = {
-  /** Path within the media bucket, e.g. "projects/latimer-road/03.jpg" */
+  /** Path within the media bucket, e.g. "projects/latimer-road/a1b2c3d4" */
   src: string;
   width: number;
   height: number;
@@ -45,49 +45,83 @@ export type Project = {
   figures: Figure[];
 };
 
-type FactsFile = {
-  sectors: Sector[];
-  projects: Omit<Project, "body" | "hero" | "figures">[];
-  selected: string[];
-};
+/**
+ * The sector list stays in code. It is not content: the four sectors are a
+ * structural decision from the approved design, and the filter row, the index
+ * and the project schema all have to agree on them.
+ */
+export const sectors: Sector[] = (factsData as { sectors: Sector[] }).sectors;
 
-const facts = factsData as unknown as FactsFile;
-const figures = figuresData as unknown as Record<string, Figure[]>;
-const text = textData as unknown as Record<string, string[]>;
-
-function build(): Project[] {
-  return facts.projects.map((p) => {
-    const all = figures[p.slug] ?? [];
-    const [hero, ...rest] = all;
-    if (!hero) {
-      throw new Error(
-        `No imagery for project "${p.slug}". Run tools/extract-figures.mjs and tools/prepare-media.mjs.`,
-      );
-    }
-    return {
-      ...p,
-      body: text[p.slug] ?? [],
-      hero,
-      figures: rest,
-    };
-  });
+export function sectorLabel(id: SectorId): string {
+  return sectors.find((s) => s.id === id)?.label ?? "";
 }
 
-export const sectors: Sector[] = facts.sectors;
-export const projects: Project[] = build();
+type RawFigure = {
+  src: string;
+  width: number;
+  height: number;
+  fit?: string;
+  medium?: string;
+  caption?: string;
+  credit?: string | null;
+};
 
-export const byNumber: Project[] = [...projects].sort((a, b) =>
-  a.no.localeCompare(b.no),
-);
+const rawFigures = figuresData as unknown as Record<string, RawFigure[]>;
+const rawText = textData as unknown as Record<string, string[]>;
 
-/** Reverse chronological: the archive reads newest first everywhere but the index. */
-export const recentFirst: Project[] = [...byNumber].reverse();
+function toFigure(raw: RawFigure): Figure {
+  return {
+    src: raw.src,
+    width: raw.width,
+    height: raw.height,
+    fit: raw.fit === "contain" ? "contain" : "cover",
+    medium: raw.medium || "IMAGE",
+    caption: raw.caption || "",
+    credit: raw.credit ?? null,
+  };
+}
 
-export const selected: Project[] = facts.selected
-  .map((slug) => projects.find((p) => p.slug === slug))
-  .filter((p): p is Project => Boolean(p));
+/**
+ * The archive, read from the snapshot in content/.
+ *
+ * Payload is where the archive is edited; this file is what the site builds
+ * from. tools/export-content.mjs turns the former into the latter, which keeps
+ * the build free of any database (neither CI nor the image build has one) and
+ * keeps the published site independent of Neon being awake.
+ */
+let cache: Project[] | null = null;
 
-export function getProject(slug: string): Project | undefined {
+function build(): Project[] {
+  if (cache) return cache;
+
+  cache = (factsData as { projects: Omit<Project, "body" | "hero" | "figures">[] }).projects.map(
+    (p): Project => {
+      const all = (rawFigures[p.slug] ?? []).map(toFigure);
+      const [hero, ...rest] = all;
+      if (!hero) {
+        throw new Error(
+          `No imagery for project "${p.slug}". Run tools/export-content.mjs, or tools/prepare-media.mjs if the renditions are missing.`,
+        );
+      }
+      return { ...p, body: rawText[p.slug] ?? [], hero, figures: rest };
+    },
+  );
+
+  return cache;
+}
+
+export async function getProjects(): Promise<Project[]> {
+  return build();
+}
+
+/** Chronological, which is how the index reads. */
+export async function getByNumber(): Promise<Project[]> {
+  const projects = await getProjects();
+  return [...projects].sort((a, b) => a.no.localeCompare(b.no));
+}
+
+export async function getProject(slug: string): Promise<Project | undefined> {
+  const projects = await getProjects();
   return projects.find((p) => p.slug === slug);
 }
 
@@ -95,11 +129,17 @@ export function getProject(slug: string): Project | undefined {
  * The next work in the archive, wrapping at the end, so a case study always
  * hands off rather than dead-ending.
  */
-export function nextProject(slug: string): Project {
+export async function getNextProject(slug: string): Promise<Project> {
+  const byNumber = await getByNumber();
   const i = byNumber.findIndex((p) => p.slug === slug);
   return byNumber[(i + 1) % byNumber.length];
 }
 
-export function sectorLabel(id: SectorId): string {
-  return sectors.find((s) => s.id === id)?.label ?? "";
+/** The curated homepage set, in the order the design specifies. */
+export async function getSelected(): Promise<Project[]> {
+  const projects = await getProjects();
+  const order = (factsData as { selected: string[] }).selected;
+  return order
+    .map((slug) => projects.find((p) => p.slug === slug))
+    .filter((p): p is Project => Boolean(p));
 }

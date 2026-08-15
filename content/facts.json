@@ -1,174 +1,391 @@
 {
   "_note": "Authored project facts. Numbering, sectors and the index structure follow the approved brand board (boards/04). Places, types, statuses, photographers and press are reconciled against the practice's own project texts in the site archive, which is authoritative for content. Board 04 marks all years provisional and the index renders that disclaimer; see docs/content-open-questions.md for the confirmation checklist.",
   "sectors": [
-    { "id": "houses", "label": "HOUSES" },
-    { "id": "eat-drink", "label": "PLACES TO EAT & DRINK" },
-    { "id": "objects", "label": "OBJECTS" },
-    { "id": "public", "label": "PUBLIC WORK" }
+    {
+      "id": "houses",
+      "label": "HOUSES"
+    },
+    {
+      "id": "eat-drink",
+      "label": "PLACES TO EAT & DRINK"
+    },
+    {
+      "id": "objects",
+      "label": "OBJECTS"
+    },
+    {
+      "id": "public",
+      "label": "PUBLIC WORK"
+    }
   ],
   "projects": [
     {
-      "no": "001", "slug": "pearson-st", "name": "Pearson Street",
-      "place": "Hackney, E2", "year": "2012", "sector": "houses",
-      "type": "HOUSE / LISTED CONVERSION", "status": "BUILT", "unbuilt": false,
-      "photographer": "Travis Levius", "press": []
+      "no": "001",
+      "slug": "pearson-st",
+      "name": "Pearson Street",
+      "place": "Hackney, E2",
+      "year": "2012",
+      "sector": "houses",
+      "type": "HOUSE / LISTED CONVERSION",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": "Travis Levius",
+      "press": []
     },
     {
-      "no": "002", "slug": "union-wharf", "name": "Union Wharf",
-      "place": "Islington, N1", "year": "2013", "sector": "houses",
-      "type": "HOUSE / ROOF EXTENSION", "status": "BUILT", "unbuilt": false,
-      "photographer": "Sebastian Tiew", "press": []
+      "no": "002",
+      "slug": "union-wharf",
+      "name": "Union Wharf",
+      "place": "Islington, N1",
+      "year": "2013",
+      "sector": "houses",
+      "type": "HOUSE / ROOF EXTENSION",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": "Sebastian Tiew",
+      "press": []
     },
     {
-      "no": "003", "slug": "archway-road", "name": "Archway Road",
-      "place": "Highgate, N19", "year": "2014", "sector": "houses",
-      "type": "HOUSE / FACTORY CONVERSION", "status": "PROPOSAL", "unbuilt": true,
-      "photographer": null, "press": []
+      "no": "003",
+      "slug": "archway-road",
+      "name": "Archway Road",
+      "place": "Highgate, N19",
+      "year": "2014",
+      "sector": "houses",
+      "type": "HOUSE / FACTORY CONVERSION",
+      "status": "PROPOSAL",
+      "unbuilt": true,
+      "photographer": null,
+      "press": []
     },
     {
-      "no": "004", "slug": "lonsdale-square", "name": "Lonsdale Square",
-      "place": "Islington, N1", "year": "2015", "sector": "houses",
-      "type": "HOUSE / GRADE II* BASEMENT", "status": "BUILT", "unbuilt": false,
-      "photographer": "Travis Levius", "press": []
+      "no": "004",
+      "slug": "lonsdale-square",
+      "name": "Lonsdale Square",
+      "place": "Islington, N1",
+      "year": "2015",
+      "sector": "houses",
+      "type": "HOUSE / GRADE II* BASEMENT",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": "Travis Levius",
+      "press": []
     },
     {
-      "no": "005", "slug": "oval-road", "name": "Oval Road",
-      "place": "Camden, NW1", "year": "2016", "sector": "houses",
-      "type": "HOUSE / EXTENSION", "status": "BUILT", "unbuilt": false,
-      "photographer": "Lyndon Douglas", "press": ["DON'T MOVE IMPROVE 2017"]
+      "no": "005",
+      "slug": "oval-road",
+      "name": "Oval Road",
+      "place": "Camden, NW1",
+      "year": "2016",
+      "sector": "houses",
+      "type": "HOUSE / EXTENSION",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": "Lyndon Douglas",
+      "press": [
+        "DON'T MOVE IMPROVE 2017"
+      ]
     },
     {
-      "no": "006", "slug": "antidote", "name": "Antidote",
-      "place": "Soho, W1", "year": "2016", "sector": "eat-drink",
-      "type": "WINE BAR & RESTAURANT", "status": "BUILT", "unbuilt": false,
-      "photographer": null, "press": []
+      "no": "006",
+      "slug": "antidote",
+      "name": "Antidote",
+      "place": "Soho, W1",
+      "year": "2016",
+      "sector": "eat-drink",
+      "type": "WINE BAR & RESTAURANT",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": null,
+      "press": []
     },
     {
-      "no": "007", "slug": "sourced", "name": "Sourced",
-      "place": "Old Street, EC1", "year": "2016", "sector": "eat-drink",
-      "type": "FOOD SHOP / FIT-OUT", "status": "BUILT", "unbuilt": false,
-      "photographer": "Travis Levius", "press": []
+      "no": "007",
+      "slug": "sourced",
+      "name": "Sourced",
+      "place": "Old Street, EC1",
+      "year": "2016",
+      "sector": "eat-drink",
+      "type": "FOOD SHOP / FIT-OUT",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": "Travis Levius",
+      "press": []
     },
     {
-      "no": "008", "slug": "willow-tree", "name": "Willow Tree",
-      "place": "East London", "year": "2017", "sector": "public",
-      "type": "PUBLIC SCULPTURE", "status": "COMPETITION WIN", "unbuilt": true,
-      "photographer": null, "press": []
+      "no": "008",
+      "slug": "willow-tree",
+      "name": "Willow Tree",
+      "place": "East London",
+      "year": "2017",
+      "sector": "public",
+      "type": "PUBLIC SCULPTURE",
+      "status": "COMPETITION WIN",
+      "unbuilt": true,
+      "photographer": null,
+      "press": []
     },
     {
-      "no": "009", "slug": "firs-avenue", "name": "Firs Avenue",
-      "place": "Muswell Hill, N11", "year": "2017", "sector": "houses",
-      "type": "HOUSE / EXTENSION", "status": "BUILT", "unbuilt": false,
-      "photographer": "Lyndon Douglas", "press": ["DON'T MOVE IMPROVE 2019, FEATURED"]
+      "no": "009",
+      "slug": "firs-avenue",
+      "name": "Firs Avenue",
+      "place": "Muswell Hill, N11",
+      "year": "2017",
+      "sector": "houses",
+      "type": "HOUSE / EXTENSION",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": "Lyndon Douglas",
+      "press": [
+        "DON'T MOVE IMPROVE 2019, FEATURED"
+      ]
     },
     {
-      "no": "010", "slug": "hassett-road", "name": "Hassett Road",
-      "place": "Hackney, E9", "year": "2017", "sector": "houses",
-      "type": "HOUSE / EXTENSION", "status": "BUILT", "unbuilt": false,
-      "photographer": null, "press": ["DON'T MOVE IMPROVE 2022, LONGLISTED"]
+      "no": "010",
+      "slug": "hassett-road",
+      "name": "Hassett Road",
+      "place": "Hackney, E9",
+      "year": "2017",
+      "sector": "houses",
+      "type": "HOUSE / EXTENSION",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": null,
+      "press": [
+        "DON'T MOVE IMPROVE 2022, LONGLISTED"
+      ]
     },
     {
-      "no": "011", "slug": "ibberton", "name": "Ibberton",
-      "place": "Dorset", "year": "2018", "sector": "houses",
-      "type": "BARN CONVERSION & LANDSCAPE", "status": "BUILT", "unbuilt": false,
-      "photographer": "Emma Lewis", "press": []
+      "no": "011",
+      "slug": "ibberton",
+      "name": "Ibberton",
+      "place": "Dorset",
+      "year": "2018",
+      "sector": "houses",
+      "type": "BARN CONVERSION & LANDSCAPE",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": "Emma Lewis",
+      "press": []
     },
     {
-      "no": "012", "slug": "park-village", "name": "Park Village",
-      "place": "Camden, NW1", "year": "2018", "sector": "public",
-      "type": "STUDIO & EVENTS VENUE", "status": "BUILT, ONGOING", "unbuilt": false,
-      "photographer": null, "press": []
+      "no": "012",
+      "slug": "park-village",
+      "name": "Park Village",
+      "place": "Camden, NW1",
+      "year": "2018",
+      "sector": "public",
+      "type": "STUDIO & EVENTS VENUE",
+      "status": "BUILT, ONGOING",
+      "unbuilt": false,
+      "photographer": null,
+      "press": []
     },
     {
-      "no": "013", "slug": "rylett-crescent", "name": "Rylett Crescent",
-      "place": "Shepherd's Bush, W12", "year": "2018", "sector": "houses",
-      "type": "HOUSE / BASEMENT EXTENSION", "status": "BUILT", "unbuilt": false,
-      "photographer": null, "press": []
+      "no": "013",
+      "slug": "rylett-crescent",
+      "name": "Rylett Crescent",
+      "place": "Shepherd's Bush, W12",
+      "year": "2018",
+      "sector": "houses",
+      "type": "HOUSE / BASEMENT EXTENSION",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": null,
+      "press": []
     },
     {
-      "no": "014", "slug": "latimer-road", "name": "Latimer Road",
-      "place": "North Kensington, W10", "year": "2019", "sector": "houses",
-      "type": "HOUSE / LOFT EXTENSION", "status": "BUILT", "unbuilt": false,
-      "photographer": "Lyndon Douglas", "press": ["GRAND DESIGNS MAGAZINE"]
+      "no": "014",
+      "slug": "latimer-road",
+      "name": "Latimer Road",
+      "place": "North Kensington, W10",
+      "year": "2019",
+      "sector": "houses",
+      "type": "HOUSE / LOFT EXTENSION",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": "Lyndon Douglas",
+      "press": [
+        "GRAND DESIGNS MAGAZINE"
+      ]
     },
     {
-      "no": "015", "slug": "west-suffolk", "name": "West Suffolk",
-      "place": "Suffolk", "year": "2019", "sector": "houses",
-      "type": "HOUSE / NEW BUILD", "status": "BUILT", "unbuilt": false,
-      "photographer": null, "press": ["GRAND DESIGNS, TELEVISION 2019"]
+      "no": "015",
+      "slug": "west-suffolk",
+      "name": "West Suffolk",
+      "place": "Suffolk",
+      "year": "2019",
+      "sector": "houses",
+      "type": "HOUSE / NEW BUILD",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": null,
+      "press": [
+        "GRAND DESIGNS, TELEVISION 2019"
+      ]
     },
     {
-      "no": "016", "slug": "victualler", "name": "The Victualler",
-      "place": "Wapping, E1W", "year": "2019", "sector": "eat-drink",
-      "type": "WINE SHOP & BAR", "status": "BUILT", "unbuilt": false,
-      "photographer": "Lyndon Douglas", "press": []
+      "no": "016",
+      "slug": "victualler",
+      "name": "The Victualler",
+      "place": "Wapping, E1W",
+      "year": "2019",
+      "sector": "eat-drink",
+      "type": "WINE SHOP & BAR",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": "Lyndon Douglas",
+      "press": []
     },
     {
-      "no": "017", "slug": "highpoint", "name": "Highpoint",
-      "place": "Highgate, N6", "year": "2019", "sector": "objects",
-      "type": "TABLE / COMMISSION", "status": "MADE", "unbuilt": false,
-      "photographer": "Lyndon Douglas", "press": []
+      "no": "017",
+      "slug": "highpoint",
+      "name": "Highpoint",
+      "place": "Highgate, N6",
+      "year": "2019",
+      "sector": "objects",
+      "type": "TABLE / COMMISSION",
+      "status": "MADE",
+      "unbuilt": false,
+      "photographer": "Lyndon Douglas",
+      "press": []
     },
     {
-      "no": "018", "slug": "campden-house", "name": "Campden House",
-      "place": "Castle Cary, Somerset", "year": "2020", "sector": "houses",
-      "type": "HOUSE / EXTENSION & POOL", "status": "STATUS TO CONFIRM", "unbuilt": true,
-      "photographer": null, "press": []
+      "no": "018",
+      "slug": "campden-house",
+      "name": "Campden House",
+      "place": "Castle Cary, Somerset",
+      "year": "2020",
+      "sector": "houses",
+      "type": "HOUSE / EXTENSION & POOL",
+      "status": "STATUS TO CONFIRM",
+      "unbuilt": true,
+      "photographer": null,
+      "press": []
     },
     {
-      "no": "019", "slug": "pennard-house", "name": "Pennard House",
-      "place": "Somerset", "year": "2021", "sector": "houses",
-      "type": "HOUSE / NEW BUILD IN WALLED GARDEN", "status": "STATUS TO CONFIRM", "unbuilt": true,
-      "photographer": null, "press": []
+      "no": "019",
+      "slug": "pennard-house",
+      "name": "Pennard House",
+      "place": "Somerset",
+      "year": "2021",
+      "sector": "houses",
+      "type": "HOUSE / NEW BUILD IN WALLED GARDEN",
+      "status": "STATUS TO CONFIRM",
+      "unbuilt": true,
+      "photographer": null,
+      "press": []
     },
     {
-      "no": "020", "slug": "chatsworth-rd", "name": "Chatsworth Road",
-      "place": "Clapton, E5", "year": "2021", "sector": "houses",
-      "type": "FLAT / REFURBISHMENT", "status": "BUILT", "unbuilt": false,
-      "photographer": null, "press": []
+      "no": "020",
+      "slug": "chatsworth-rd",
+      "name": "Chatsworth Road",
+      "place": "Clapton, E5",
+      "year": "2021",
+      "sector": "houses",
+      "type": "FLAT / REFURBISHMENT",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": null,
+      "press": []
     },
     {
-      "no": "021", "slug": "chamber", "name": "Chamber",
-      "place": "—", "year": "—", "sector": "objects",
-      "type": "INSTALLATION, WITH MAT CHIVERS", "status": "BUILT", "unbuilt": false,
-      "photographer": null, "press": []
+      "no": "021",
+      "slug": "chamber",
+      "name": "Chamber",
+      "place": "—",
+      "year": "—",
+      "sector": "objects",
+      "type": "INSTALLATION, WITH MAT CHIVERS",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": null,
+      "press": []
     },
     {
-      "no": "022", "slug": "folly", "name": "Folly",
-      "place": "—", "year": "—", "sector": "objects",
-      "type": "GARDEN PERGOLA", "status": "BUILT", "unbuilt": false,
-      "photographer": null, "press": []
+      "no": "022",
+      "slug": "folly",
+      "name": "Folly",
+      "place": "—",
+      "year": "—",
+      "sector": "objects",
+      "type": "GARDEN PERGOLA",
+      "status": "BUILT",
+      "unbuilt": false,
+      "photographer": null,
+      "press": []
     },
     {
-      "no": "023", "slug": "kew-tree-house-competition", "name": "Kew Tree House",
-      "place": "Kew", "year": "—", "sector": "public",
-      "type": "COMPETITION ENTRY", "status": "COMPETITION", "unbuilt": true,
-      "photographer": null, "press": []
+      "no": "023",
+      "slug": "kew-tree-house-competition",
+      "name": "Kew Tree House",
+      "place": "Kew",
+      "year": "—",
+      "sector": "public",
+      "type": "COMPETITION ENTRY",
+      "status": "COMPETITION",
+      "unbuilt": true,
+      "photographer": null,
+      "press": []
     },
     {
-      "no": "024", "slug": "goat-hill-house", "name": "Goat Hill House",
-      "place": "Hastings, East Sussex", "year": "—", "sector": "houses",
-      "type": "HOUSE / NEW BUILD", "status": "IN DESIGN", "unbuilt": true,
-      "photographer": null, "press": []
+      "no": "024",
+      "slug": "goat-hill-house",
+      "name": "Goat Hill House",
+      "place": "Hastings, East Sussex",
+      "year": "—",
+      "sector": "houses",
+      "type": "HOUSE / NEW BUILD",
+      "status": "IN DESIGN",
+      "unbuilt": true,
+      "photographer": null,
+      "press": []
     },
     {
-      "no": "025", "slug": "culford-mews", "name": "Culford Mews",
-      "place": "De Beauvoir, N1", "year": "—", "sector": "houses",
-      "type": "HOUSE / NEW MEWS BUILD", "status": "PLANNING GRANTED", "unbuilt": true,
-      "photographer": null, "press": []
+      "no": "025",
+      "slug": "culford-mews",
+      "name": "Culford Mews",
+      "place": "De Beauvoir, N1",
+      "year": "—",
+      "sector": "houses",
+      "type": "HOUSE / NEW MEWS BUILD",
+      "status": "PLANNING GRANTED",
+      "unbuilt": true,
+      "photographer": null,
+      "press": []
     },
     {
-      "no": "026", "slug": "312-hackney-road", "name": "Hackney Road",
-      "place": "Hackney, E2", "year": "—", "sector": "houses",
-      "type": "MIXED USE", "status": "PLANNING GRANTED 2015", "unbuilt": true,
-      "photographer": null, "press": []
+      "no": "026",
+      "slug": "312-hackney-road",
+      "name": "Hackney Road",
+      "place": "Hackney, E2",
+      "year": "—",
+      "sector": "houses",
+      "type": "MIXED USE",
+      "status": "PLANNING GRANTED 2015",
+      "unbuilt": true,
+      "photographer": null,
+      "press": []
     },
     {
-      "no": "027", "slug": "social-house", "name": "Social House",
-      "place": "—", "year": "—", "sector": "houses",
-      "type": "HOUSING", "status": "CONCEPT", "unbuilt": true,
-      "photographer": null, "press": []
+      "no": "027",
+      "slug": "social-house",
+      "name": "Social House",
+      "place": "—",
+      "year": "—",
+      "sector": "houses",
+      "type": "HOUSING",
+      "status": "CONCEPT",
+      "unbuilt": true,
+      "photographer": null,
+      "press": []
     }
   ],
-  "selected": ["firs-avenue", "victualler", "west-suffolk", "highpoint", "latimer-road"]
+  "selected": [
+    "firs-avenue",
+    "victualler",
+    "west-suffolk",
+    "highpoint",
+    "latimer-road"
+  ]
 }

@@ -24,3 +24,6 @@ next-env.d.ts
 /coverage
 .vercel
 *.pem
+
+# Baseline captures used to prove a refactor changed nothing. Local only.
+/.baseline/

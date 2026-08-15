@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { byNumber, sectors, type Project } from "@/lib/content";
+import { getByNumber, sectors, type Project } from "@/lib/content";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -41,6 +41,7 @@ export default async function ArchivePage({
   const sector = params.sector ?? "all";
   const sort = (SORT_KEYS.has(params.sort ?? "") ? params.sort : "no") as SortKey;
 
+  const byNumber = await getByNumber();
   const filtered =
     sector === "all" ? byNumber : byNumber.filter((p) => p.sector === sector);
 

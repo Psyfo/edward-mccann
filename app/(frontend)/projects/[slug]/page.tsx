@@ -4,19 +4,19 @@ import { notFound } from "next/navigation";
 import { Plate } from "@/components/Plate";
 import { ProjectHero } from "@/components/ProjectHero";
 import { ScrollProgress } from "@/components/ScrollProgress";
-import { byNumber, getProject, nextProject, sectorLabel } from "@/lib/content";
+import { getByNumber, getNextProject, getProject, sectorLabel } from "@/lib/content";
 import { mediaUrl } from "@/lib/media";
 import styles from "./page.module.css";
 
 type Params = { params: Promise<{ slug: string }> };
 
-export function generateStaticParams() {
-  return byNumber.map((p) => ({ slug: p.slug }));
+export async function generateStaticParams() {
+  return (await getByNumber()).map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
-  const project = getProject(slug);
+  const project = await getProject(slug);
   if (!project) return {};
 
   const facts = [project.type, project.place, project.year, project.status]
@@ -36,10 +36,10 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 
 export default async function ProjectPage({ params }: Params) {
   const { slug } = await params;
-  const project = getProject(slug);
+  const project = await getProject(slug);
   if (!project) notFound();
 
-  const next = nextProject(slug);
+  const next = await getNextProject(slug);
   const facts: [string, string][] = [
     ["PLACE", project.place],
     ["YEAR", project.year],
