@@ -135,7 +135,7 @@ await payload.updateGlobal({
     telephone: '+44 7734 593 280',
     addresses: [
       { city: 'LONDON', lines: '105 Wilton Way\nLondon E8 1BH' },
-      { city: 'CAPE TOWN', lines: '10 Kelvin Street\nGardens' },
+      { city: 'CAPE TOWN', lines: '10 Kelvin Street\nGardens, 8001' },
     ],
   },
 });
