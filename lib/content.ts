@@ -1,7 +1,6 @@
-import "server-only";
-import { getPayload } from "payload";
-import config from "@payload-config";
 import factsData from "@/content/facts.json";
+import figuresData from "@/content/figures.json";
+import textData from "@/content/text.json";
 
 export type SectorId = "houses" | "eat-drink" | "objects" | "public";
 
@@ -57,100 +56,62 @@ export function sectorLabel(id: SectorId): string {
   return sectors.find((s) => s.id === id)?.label ?? "";
 }
 
-type MediaDoc = {
-  caption?: string | null;
-  medium?: string | null;
+type RawFigure = {
+  src: string;
+  width: number;
+  height: number;
+  fit?: string;
+  medium?: string;
+  caption?: string;
   credit?: string | null;
-  fit?: string | null;
-  derivative?: { src?: string | null; width?: number | null; height?: number | null } | null;
 };
 
-function toFigure(media: unknown): Figure | null {
-  const doc = media as MediaDoc | null;
-  const d = doc?.derivative;
-  // A media record with no derivative has not been through the pipeline yet, so
-  // there is nothing for the browser to load. Skipping is better than emitting
-  // a broken image.
-  if (!doc || !d?.src || !d.width || !d.height) return null;
+const rawFigures = figuresData as unknown as Record<string, RawFigure[]>;
+const rawText = textData as unknown as Record<string, string[]>;
+
+function toFigure(raw: RawFigure): Figure {
   return {
-    src: d.src,
-    width: d.width,
-    height: d.height,
-    fit: doc.fit === "contain" ? "contain" : "cover",
-    medium: doc.medium || "IMAGE",
-    caption: doc.caption || "",
-    credit: doc.credit || null,
+    src: raw.src,
+    width: raw.width,
+    height: raw.height,
+    fit: raw.fit === "contain" ? "contain" : "cover",
+    medium: raw.medium || "IMAGE",
+    caption: raw.caption || "",
+    credit: raw.credit ?? null,
   };
 }
 
+/**
+ * The archive, read from the snapshot in content/.
+ *
+ * Payload is where the archive is edited; this file is what the site builds
+ * from. tools/export-content.mjs turns the former into the latter, which keeps
+ * the build free of any database (neither CI nor the image build has one) and
+ * keeps the published site independent of Neon being awake.
+ */
 let cache: Project[] | null = null;
 
-/**
- * Whether the database is reachable from wherever this is running.
- *
- * The container has DATABASE_URL at runtime, but this Coolify version cannot
- * mark an environment variable as build-time, so an image build may have no
- * database at all. Rather than fail the build, the pages fall back to being
- * rendered on demand: see safeStaticParams below.
- */
-export async function databaseReachable(): Promise<boolean> {
-  if (!process.env.DATABASE_URL) return false;
-  try {
-    await getProjects();
-    return true;
-  } catch {
-    return false;
-  }
-}
-
-/**
- * Reads the archive from Payload.
- *
- * Cached for the lifetime of the process, which for a statically generated
- * build means the database is read once per build rather than once per page.
- */
-export async function getProjects(): Promise<Project[]> {
+function build(): Project[] {
   if (cache) return cache;
 
-  const payload = await getPayload({ config });
-  const result = await payload.find({
-    collection: "projects",
-    limit: 500,
-    sort: "no",
-    depth: 1,
-  });
-
-  cache = result.docs.map((doc): Project => {
-    const figures = ((doc.figures ?? []) as { image?: unknown }[])
-      .map((row) => toFigure(row.image))
-      .filter((f): f is Figure => f !== null);
-
-    const [hero, ...rest] = figures;
-    if (!hero) {
-      throw new Error(
-        `Project "${doc.slug}" has no usable imagery. Every project needs at least one figure that has been through the media pipeline.`,
-      );
-    }
-
-    return {
-      no: doc.no,
-      slug: doc.slug,
-      name: doc.name,
-      place: doc.place ?? "—",
-      year: doc.year ?? "—",
-      sector: doc.sector as SectorId,
-      type: doc.type,
-      status: doc.status,
-      unbuilt: Boolean(doc.unbuilt),
-      photographer: doc.photographer ?? null,
-      press: ((doc.press ?? []) as { entry: string }[]).map((p) => p.entry),
-      body: ((doc.body ?? []) as { text: string }[]).map((p) => p.text),
-      hero,
-      figures: rest,
-    };
-  });
+  cache = (factsData as { projects: Omit<Project, "body" | "hero" | "figures">[] }).projects.map(
+    (p): Project => {
+      const all = (rawFigures[p.slug] ?? []).map(toFigure);
+      const [hero, ...rest] = all;
+      if (!hero) {
+        throw new Error(
+          `No imagery for project "${p.slug}". Run tools/export-content.mjs, or tools/prepare-media.mjs if the renditions are missing.`,
+        );
+      }
+      return { ...p, body: rawText[p.slug] ?? [], hero, figures: rest };
+    },
+  );
 
   return cache;
+}
+
+export async function getProjects(): Promise<Project[]> {
+  return build();
 }
 
 /** Chronological, which is how the index reads. */

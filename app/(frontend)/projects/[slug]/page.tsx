@@ -10,18 +10,8 @@ import styles from "./page.module.css";
 
 type Params = { params: Promise<{ slug: string }> };
 
-/**
- * Prerender every project when the database is reachable at build time, and
- * fall back to rendering on demand when it is not. The image build has no
- * database on this host, so without the fallback the build would fail rather
- * than simply producing a site that fills its cache on first request.
- */
 export async function generateStaticParams() {
-  try {
-    return (await getByNumber()).map((p) => ({ slug: p.slug }));
-  } catch {
-    return [];
-  }
+  return (await getByNumber()).map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {

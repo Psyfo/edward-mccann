@@ -13,7 +13,10 @@
     "check": "npm run typecheck && npm run lint && npm run build",
     "content:figures": "node tools/extract-figures.mjs",
     "content:text": "node tools/build-text.mjs",
-    "media:publish": "doppler run --project edward-mccann --config dev -- node tools/prepare-media.mjs"
+    "media:publish": "doppler run --project edward-mccann --config dev -- node tools/prepare-media.mjs",
+    "content:export": "doppler run --project edward-mccann --config dev -- tsx tools/export-content.mjs",
+    "content:seed": "doppler run --project edward-mccann --config dev -- tsx tools/seed-payload.mjs",
+    "payload": "doppler run --project edward-mccann --config dev -- payload"
   },
   "dependencies": {
     "@payloadcms/db-postgres": "^3.88.0",
@@ -33,6 +36,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.1",
     "sharp": "^0.35.3",
+    "tsx": "^4.23.12",
     "typescript": "^5"
   }
 }
