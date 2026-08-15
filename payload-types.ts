@@ -69,6 +69,7 @@ export interface Config {
   collections: {
     projects: Project;
     media: Media;
+    enquiries: Enquiry;
     users: User;
     'payload-kv': PayloadKv;
     'payload-locked-documents': PayloadLockedDocument;
@@ -79,6 +80,7 @@ export interface Config {
   collectionsSelect: {
     projects: ProjectsSelect<false> | ProjectsSelect<true>;
     media: MediaSelect<false> | MediaSelect<true>;
+    enquiries: EnquiriesSelect<false> | EnquiriesSelect<true>;
     users: UsersSelect<false> | UsersSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
@@ -251,6 +253,29 @@ export interface Media {
   focalY?: number | null;
 }
 /**
+ * Messages sent from the contact page. Newest first.
+ *
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "enquiries".
+ */
+export interface Enquiry {
+  id: number;
+  name: string;
+  email: string;
+  /**
+   * Where the site is.
+   */
+  location?: string | null;
+  work?: ('houses' | 'eat-drink' | 'objects' | 'public' | 'other') | null;
+  message: string;
+  /**
+   * The practice's own note. The only field here that can be changed.
+   */
+  status?: ('new' | 'replied' | 'closed') | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
  * Who can sign in and edit the archive.
  *
  * This interface was referenced by `Config`'s JSON-Schema
@@ -313,6 +338,10 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'media';
         value: number | Media;
+      } | null)
+    | ({
+        relationTo: 'enquiries';
+        value: number | Enquiry;
       } | null)
     | ({
         relationTo: 'users';
@@ -426,6 +455,20 @@ export interface MediaSelect<T extends boolean = true> {
   height?: T;
   focalX?: T;
   focalY?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "enquiries_select".
+ */
+export interface EnquiriesSelect<T extends boolean = true> {
+  name?: T;
+  email?: T;
+  location?: T;
+  work?: T;
+  message?: T;
+  status?: T;
+  updatedAt?: T;
+  createdAt?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

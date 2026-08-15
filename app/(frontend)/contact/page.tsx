@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Datelines } from "@/components/Datelines";
+import { ContactForm } from "./ContactForm";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -53,6 +54,8 @@ export default function ContactPage() {
             </p>
           </section>
         </div>
+
+        <ContactForm />
 
         <div className={styles.details}>
           <a href={`mailto:${EMAIL}`} className={`notation ${styles.detail}`}>

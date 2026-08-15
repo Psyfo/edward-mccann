@@ -1,0 +1,204 @@
+/* The form sits on the same ink ground as the rest of the contact page, so it
+   is drawn with rules rather than boxes. An input is a line you write on. */
+
+.form {
+  margin-top: calc(var(--u) * 5);
+  border-top: 1px solid var(--ink-secondary);
+  padding-top: calc(var(--u) * 4);
+}
+
+.heading {
+  color: var(--on-dark-muted);
+  margin: 0 0 calc(var(--u) * 3);
+}
+
+.pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: calc(var(--u) * 3);
+}
+
+.field {
+  display: grid;
+  /* Stack from the top rather than filling the row. Without this, a field
+     carrying an error message is a different height from the one beside it,
+     and the two inputs stop lining up at exactly the moment someone is trying
+     to correct one of them. */
+  align-content: start;
+  gap: calc(var(--u) * 1);
+  margin: 0 0 calc(var(--u) * 3);
+  min-width: 0;
+}
+
+.label {
+  color: var(--on-dark-muted);
+}
+
+.field input,
+.field textarea,
+.field select {
+  width: 100%;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--ink-secondary);
+  border-radius: 0;
+  padding: calc(var(--u) * 1) 0;
+  color: var(--on-dark);
+  font-family: var(--font-reading);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  transition: border-color var(--t-state) var(--ease);
+}
+
+.field textarea {
+  resize: vertical;
+}
+
+.field input::placeholder {
+  color: var(--ink-muted);
+}
+
+.field input:focus,
+.field textarea:focus,
+.field select:focus {
+  outline: none;
+  border-bottom-color: var(--accent-on-dark);
+}
+
+/* Keep a visible focus ring for keyboard users, since the colour change alone
+   is not enough of a signal on its own. */
+.field input:focus-visible,
+.field textarea:focus-visible,
+.field select:focus-visible {
+  outline: 1px solid var(--accent-on-dark);
+  outline-offset: 4px;
+}
+
+.field input[aria-invalid="true"],
+.field textarea[aria-invalid="true"] {
+  border-bottom-color: var(--accent-on-dark);
+}
+
+/* The native control is unstyleable on a dark ground in several browsers, so
+   it is stripped back and given the same caret the rest of the site uses. */
+.selectWrap {
+  position: relative;
+  display: block;
+}
+
+.selectWrap select {
+  appearance: none;
+  padding-right: calc(var(--u) * 3);
+  cursor: pointer;
+}
+
+.selectWrap::after {
+  content: "\00BB";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  color: var(--on-dark-muted);
+  pointer-events: none;
+}
+
+.selectWrap select option {
+  background: var(--ink);
+  color: var(--on-dark);
+}
+
+.error,
+.formError {
+  font-family: var(--font-notation);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: var(--accent-on-dark);
+}
+
+.formError {
+  margin: 0 0 calc(var(--u) * 3);
+}
+
+.honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Matches the mailto button above it, deliberately: the two are the same
+   offer, so they should not look like different weights of decision. */
+.submit {
+  display: inline-flex;
+  align-items: center;
+  gap: calc(var(--u) * 1.75);
+  margin-top: calc(var(--u) * 1);
+  background: transparent;
+  border: 1px solid var(--on-dark);
+  border-radius: 0;
+  padding: 13px 24px;
+  color: var(--on-dark);
+  font-family: var(--font-structural);
+  font-size: 0.78125rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color var(--t-state) var(--ease),
+    color var(--t-state) var(--ease), opacity var(--t-state) var(--ease);
+}
+
+.submit:hover:not(:disabled) {
+  background: var(--on-dark);
+  color: var(--ink);
+}
+
+.submit:hover:not(:disabled) .mark {
+  color: var(--oxide);
+}
+
+.submit:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.mark {
+  color: var(--accent-on-dark);
+  font-style: normal;
+}
+
+.privacy,
+.confirmation {
+  color: var(--on-dark-muted);
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  max-width: 48ch;
+}
+
+.privacy {
+  margin: calc(var(--u) * 3) 0 0;
+}
+
+.confirmation {
+  margin: 0;
+  color: var(--on-dark);
+  font-family: var(--font-reading);
+  font-size: 1.0625rem;
+}
+
+@media (max-width: 700px) {
+  .pair {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .field input,
+  .field textarea,
+  .field select,
+  .submit {
+    transition: none;
+  }
+}

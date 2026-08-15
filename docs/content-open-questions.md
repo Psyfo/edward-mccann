@@ -107,3 +107,15 @@ Recorded here so nobody re-discovers them as bugs. Both are in
 
 Photographer credits that appeared as trailing "Photos. Name" paragraphs have
 moved into the facts layer, where they are structured data.
+
+## The contact form's privacy line needs the practice's confirmation
+
+The form carries a short line: what you send is used to reply to you, is not
+shared, and can be deleted on request. That is an accurate description of what
+the code does, and it is deliberately modest.
+
+Two things still need a decision from the practice, both of which are theirs to
+make rather than the developer's. How long enquiries are kept before they are
+deleted, since keeping them forever is a choice nobody has actually made yet.
+And whether a fuller privacy notice is wanted, given the practice operates in
+both the UK and South Africa, so UK GDPR and POPIA both apply.
