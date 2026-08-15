@@ -18,8 +18,8 @@ import "./globals.css";
  */
 const jost = localFont({
   src: [
-    { path: "./fonts/jost-400.woff2", weight: "400", style: "normal" },
-    { path: "./fonts/jost-500.woff2", weight: "500", style: "normal" },
+    { path: "../../public/fonts/jost-400.woff2", weight: "400", style: "normal" },
+    { path: "../../public/fonts/jost-500.woff2", weight: "500", style: "normal" },
   ],
   variable: "--font-jost",
   display: "swap",
@@ -27,15 +27,15 @@ const jost = localFont({
 
 const garamond = localFont({
   src: [
-    { path: "./fonts/garamond-400.woff2", weight: "400", style: "normal" },
-    { path: "./fonts/garamond-400-italic.woff2", weight: "400", style: "italic" },
+    { path: "../../public/fonts/garamond-400.woff2", weight: "400", style: "normal" },
+    { path: "../../public/fonts/garamond-400-italic.woff2", weight: "400", style: "italic" },
   ],
   variable: "--font-garamond",
   display: "swap",
 });
 
 const mono = localFont({
-  src: [{ path: "./fonts/mono-400.woff2", weight: "400", style: "normal" }],
+  src: [{ path: "../../public/fonts/mono-400.woff2", weight: "400", style: "normal" }],
   variable: "--font-mono",
   display: "swap",
 });

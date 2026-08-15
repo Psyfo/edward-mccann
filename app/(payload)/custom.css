@@ -1,0 +1,222 @@
+/*
+ * The admin, in the practice's own materials.
+ *
+ * Payload's admin is themed through its own custom properties rather than by
+ * overriding its component styles, so this stays a token file: the same paper,
+ * ink, oxide, three type voices and hairline rules the site uses, handed to
+ * Payload's existing layout. Anything that needs a rule of its own is at the
+ * bottom and kept deliberately short.
+ *
+ * The fonts are the same files the site serves, from /fonts.
+ */
+
+@font-face {
+  font-family: "Jost Admin";
+  src: url("/fonts/jost-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost Admin";
+  src: url("/fonts/jost-500.woff2") format("woff2");
+  font-weight: 500 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Garamond Admin";
+  src: url("/fonts/garamond-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Garamond Admin";
+  src: url("/fonts/garamond-400-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mono Admin";
+  src: url("/fonts/mono-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* The three voices, same jobs as on the site. */
+  --font-body: "Jost Admin", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Garamond Admin", Garamond, serif;
+  --font-mono: "Mono Admin", ui-monospace, "SF Mono", monospace;
+
+  /* Zero radius, as everywhere else. */
+  --style-radius-s: 0px;
+  --style-radius-m: 0px;
+  --style-radius-l: 0px;
+}
+
+/*
+ * Payload's elevation ramp runs from the page ground to full ink. Retuned from
+ * neutral grey to the warm paper-and-ink range, so every surface, border and
+ * muted label the admin draws lands somewhere in the practice's palette
+ * instead of next to it.
+ */
+html[data-theme="light"] {
+  --theme-bg: #f5f2ed; /* Paper */
+  --theme-text: #161412; /* Ink */
+  --theme-input-bg: #fbfaf8;
+  --theme-overlay: rgba(22, 20, 18, 0.55);
+
+  --theme-elevation-0: #fbfaf8;
+  --theme-elevation-50: #f5f2ed; /* Paper */
+  --theme-elevation-100: #ece8e1; /* Surface */
+  --theme-elevation-150: #e4dfd6;
+  --theme-elevation-200: #d8d2c7; /* Hairline */
+  --theme-elevation-250: #cfc8bb;
+  --theme-elevation-300: #c3bbac;
+  --theme-elevation-400: #a79e8d;
+  --theme-elevation-500: #8c8375;
+  --theme-elevation-600: #6e675c; /* Muted ink */
+  --theme-elevation-700: #565046;
+  --theme-elevation-800: #3b362e; /* Secondary ink */
+  --theme-elevation-900: #262219;
+  --theme-elevation-950: #1c1913;
+  --theme-elevation-1000: #161412; /* Ink */
+
+  --color-base-0: #fbfaf8;
+  --color-base-50: #f5f2ed;
+  --color-base-100: #ece8e1;
+  --color-base-150: #e4dfd6;
+  --color-base-200: #d8d2c7;
+  --color-base-250: #cfc8bb;
+  --color-base-300: #c3bbac;
+  --color-base-400: #a79e8d;
+  --color-base-500: #8c8375;
+  --color-base-600: #6e675c;
+  --color-base-700: #565046;
+  --color-base-800: #3b362e;
+  --color-base-900: #262219;
+  --color-base-1000: #161412;
+
+  /*
+   * Semantic colours stay semantic. Error has to read as error, so it keeps a
+   * red, only warmed to sit with the palette rather than fight it. Success
+   * borrows oxide, which is the accent the brand already uses for status.
+   */
+  --theme-success-50: #f2ece7;
+  --theme-success-100: #e7dbd2;
+  --theme-success-500: #8f4a2b;
+  --theme-success-600: #7c3f24;
+  --theme-success-900: #40200f;
+
+  --theme-error-50: #f8ebe9;
+  --theme-error-100: #f0d6d3;
+  --theme-error-500: #a8342f;
+  --theme-error-600: #8f2b27;
+  --theme-error-900: #4a1512;
+
+  --theme-warning-50: #f7f0e4;
+  --theme-warning-100: #efe1c8;
+  --theme-warning-500: #8a6516;
+  --theme-warning-600: #745413;
+  --theme-warning-900: #3d2c0a;
+}
+
+/* The dark admin uses the same materials inverted: ink ground, paper type. */
+html[data-theme="dark"] {
+  --theme-bg: #161412;
+  --theme-text: #f5f2ed;
+  --theme-input-bg: #1c1913;
+  --theme-overlay: rgba(22, 20, 18, 0.7);
+
+  --theme-elevation-0: #121110;
+  --theme-elevation-50: #1c1913;
+  --theme-elevation-100: #262219;
+  --theme-elevation-150: #2f2a20;
+  --theme-elevation-200: #3b362e;
+  --theme-elevation-250: #474035;
+  --theme-elevation-300: #565046;
+  --theme-elevation-400: #6e675c;
+  --theme-elevation-500: #8c8375;
+  --theme-elevation-600: #a39b8d;
+  --theme-elevation-700: #bdb5a6;
+  --theme-elevation-800: #d8d2c7;
+  --theme-elevation-900: #ece8e1;
+  --theme-elevation-950: #f0ede7;
+  --theme-elevation-1000: #f5f2ed;
+
+  --theme-success-500: #c9a288;
+  --theme-error-500: #d4756f;
+  --theme-warning-500: #c9a23f;
+}
+
+/* --------------------------------------------------------------- Details */
+
+/*
+ * Selectors below were taken from the rendered admin rather than guessed, so
+ * they match what Payload actually draws.
+ */
+
+/* Navigation is wayfinding, so it takes the structural voice in tracked caps,
+   exactly like the site's own nav. */
+.nav__link {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+}
+
+/* A document's name is a title, and titles are set in the reading voice. */
+.list-header__title,
+.render-title {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+/* The primary action is ink on paper, the same button the contact page uses,
+   and it takes oxide on hover rather than a tint of itself. */
+.btn--style-primary .btn__content,
+.btn--style-primary {
+  background-color: var(--theme-elevation-1000);
+  color: var(--theme-bg);
+  border-radius: 0;
+}
+
+.btn--style-primary:not(.btn--disabled):hover .btn__content,
+.btn--style-primary:not(.btn--disabled):hover {
+  background-color: var(--theme-success-500); /* oxide */
+  color: var(--theme-bg);
+}
+
+/* Labels and steps are the structural voice: tracked, but not so tracked that
+   a form becomes hard to scan. */
+.field-label,
+.step-nav,
+.btn__label {
+  letter-spacing: 0.06em;
+}
+
+/* Numbers, codes and dates are notation. */
+.pill,
+.row-label,
+.date-time-picker,
+.table td:first-child {
+  font-variant-numeric: tabular-nums;
+}
+
+/* One hairline, never a shadow. */
+.popup__content,
+.drawer__content,
+.card,
+.table {
+  box-shadow: none;
+  border: 1px solid var(--theme-elevation-200);
+}

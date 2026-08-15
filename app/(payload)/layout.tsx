@@ -6,6 +6,7 @@ import config from "@payload-config";
 import { handleServerFunctions, RootLayout } from "@payloadcms/next/layouts";
 import { importMap } from "./admin/importMap";
 import "@payloadcms/next/css";
+import "./custom.css";
 
 type Args = { children: React.ReactNode };
 

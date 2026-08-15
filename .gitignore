@@ -27,3 +27,5 @@ next-env.d.ts
 
 # Baseline captures used to prove a refactor changed nothing. Local only.
 /.baseline/
+.review-cred
+.review-token
