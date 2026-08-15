@@ -206,6 +206,10 @@ export interface Project {
 export interface Media {
   id: number;
   /**
+   * How this image is listed, e.g. "Latimer Road, fig. 03". Not shown on the site.
+   */
+  title?: string | null;
+  /**
    * Only for images that carry meaning on their own. Decorative or purely illustrative images can be left blank.
    */
   alt?: string | null;
@@ -393,6 +397,7 @@ export interface ProjectsSelect<T extends boolean = true> {
  * via the `definition` "media_select".
  */
 export interface MediaSelect<T extends boolean = true> {
+  title?: T;
   alt?: T;
   caption?: T;
   medium?: T;

@@ -23,6 +23,19 @@ const figures = JSON.parse(readFileSync('content/figures.json', 'utf8'));
 const payload = await getPayload({ config });
 
 /**
+ * A human name for the library.
+ *
+ * The files are content hashes inherited from the legacy CMS, so without this
+ * the media list is 474 rows of hexadecimal. The first figure of a project is
+ * its cover; the rest are numbered as they are captioned on the site.
+ */
+function figureTitle(project, index) {
+  return index === 0
+    ? `${project.name}, cover`
+    : `${project.name}, fig. ${String(index).padStart(2, '0')}`;
+}
+
+/**
  * Media are matched on the derivative path, which is content-addressed and
  * therefore stable across re-runs.
  *
@@ -31,7 +44,7 @@ const payload = await getPayload({ config });
  * can re-run the pipeline later (new widths, better encoders, higher-resolution
  * replacements) without needing the local site archive to still exist.
  */
-async function upsertMedia(fig) {
+async function upsertMedia(fig, title) {
   const existing = await payload.find({
     collection: 'media',
     where: { 'derivative.src': { equals: fig.src } },
@@ -39,6 +52,7 @@ async function upsertMedia(fig) {
   });
 
   const data = {
+    title,
     alt: '',
     caption: fig.caption ?? '',
     medium: fig.medium ?? 'IMAGE',
@@ -68,8 +82,8 @@ let projectCount = 0;
 for (const project of facts.projects) {
   const figs = figures[project.slug] ?? [];
   const mediaIds = [];
-  for (const fig of figs) {
-    const doc = await upsertMedia(fig);
+  for (const [i, fig] of figs.entries()) {
+    const doc = await upsertMedia(fig, figureTitle(project, i));
     mediaIds.push(doc.id);
     mediaCount++;
   }
