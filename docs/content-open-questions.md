@@ -49,9 +49,9 @@ captions in the practice's own voice would be the single biggest content
 improvement available: the writing on the existing site proves the author can
 do it well.
 
-**Cape Town.** ✅ Confirmed 15 August 2026: 10 Kelvin Street, Gardens. Published
-without a postal code, since none was given; add one if the practice wants post
-sent there. How the two cities should be described relative to each other, a
+**Cape Town.** ✅ Confirmed 15 August 2026: 10 Kelvin Street, Gardens, 8001. Set
+in South African order (suburb then code) rather than mirroring the London line,
+since each address should follow its own country's convention. How the two cities should be described relative to each other, a
 second office or a second base, is still open.
 
 **Practice name.** The site uses "Edward McCann Architecture" throughout. The

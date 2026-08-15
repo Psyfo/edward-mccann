@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Every project begins with a conversation. Edward McCann Architecture, 105 Wilton Way, London E8, and 10 Kelvin Street, Gardens, Cape Town.",
+    "Every project begins with a conversation. Edward McCann Architecture, 105 Wilton Way, London E8, and 10 Kelvin Street, Gardens, Cape Town 8001.",
 };
 
 const EMAIL = "info@edwardmccann.studio";
@@ -49,7 +49,7 @@ export default function ContactPage() {
             <p className={styles.address}>
               10 Kelvin Street
               <br />
-              Gardens
+              Gardens, 8001
             </p>
           </section>
         </div>
