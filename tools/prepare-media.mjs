@@ -107,31 +107,34 @@ let processed = 0;
 let uploaded = 0;
 let skipped = 0;
 
-for (const [slug, list] of Object.entries(figures)) {
-  const project = factBySlug.get(slug);
-  const built = [];
+// AVIF encoding dominates the runtime and is CPU bound, so figures are worked
+// in parallel. Kept modest: sharp already uses threads internally, and the
+// uploads share the same connection pool.
+const CONCURRENCY = 4;
 
-  for (const [i, fig] of list.entries()) {
+/** Builds one figure, returning its record, or null if it should be dropped. */
+async function buildFigure(slug, project, fig, i) {
+  {
     const abs = path.join(ARCHIVE, fig.file);
     let image;
     try {
       image = sharp(abs, { failOn: 'none' });
     } catch {
       console.warn(`  skipping unreadable ${fig.file}`);
-      continue;
+      return null;
     }
 
     const meta = await image.metadata();
     if (!meta.width || !meta.height) {
       console.warn(`  skipping dimensionless ${fig.file}`);
-      continue;
+      return null;
     }
     // Nothing this small is project photography; it is a badge, logo or icon
     // that slipped the extractor's filter. Publishing it would put third-party
     // branding back into the work.
     if (meta.width < MIN_SOURCE_WIDTH) {
       console.warn(`  skipping ${fig.file}: ${meta.width}px wide, below the ${MIN_SOURCE_WIDTH}px minimum`);
-      continue;
+      return null;
     }
     const source = readFileSync(abs);
     // Keyed purely by content, with no sequence number. An earlier version
@@ -165,7 +168,8 @@ for (const [slug, list] of Object.entries(figures)) {
       }
     }
 
-    built.push({
+    processed++;
+    return {
       src: `${base}`,
       width: meta.width,
       height: meta.height,
@@ -173,12 +177,33 @@ for (const [slug, list] of Object.entries(figures)) {
       medium: declareMedium(project, fig.file, i),
       caption: '',
       credit: i === 0 ? project?.photographer ?? null : null,
-    });
-    processed++;
+    };
   }
+}
 
-  out[slug] = built;
-  console.log(`${slug}: ${built.length} figures`);
+// Flatten every project's figures into one work list so the pool stays busy
+// rather than draining at each project boundary.
+const jobs = [];
+for (const [slug, list] of Object.entries(figures)) {
+  out[slug] = new Array(list.length).fill(null);
+  for (const [i, fig] of list.entries()) jobs.push({ slug, fig, i });
+}
+
+let cursor = 0;
+async function worker() {
+  while (cursor < jobs.length) {
+    const job = jobs[cursor++];
+    const project = factBySlug.get(job.slug);
+    out[job.slug][job.i] = await buildFigure(job.slug, project, job.fig, job.i);
+    if (processed % 25 === 0) console.log(`  ${processed}/${jobs.length} figures`);
+  }
+}
+await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+
+// Drop anything the builder rejected, preserving order.
+for (const slug of Object.keys(out)) {
+  out[slug] = out[slug].filter(Boolean);
+  console.log(`${slug}: ${out[slug].length} figures`);
 }
 
 writeFileSync(FIGURES_OUT, JSON.stringify(out, null, 1));
