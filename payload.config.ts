@@ -4,6 +4,7 @@ import { buildConfig } from "payload";
 import { postgresAdapter } from "@payloadcms/db-postgres";
 import { s3Storage } from "@payloadcms/storage-s3";
 
+import { Enquiries } from "./payload/collections/Enquiries";
 import { Media } from "./payload/collections/Media";
 import { Projects } from "./payload/collections/Projects";
 import { Users } from "./payload/collections/Users";
@@ -26,7 +27,7 @@ export default buildConfig({
     },
   },
 
-  collections: [Projects, Media, Users],
+  collections: [Projects, Media, Enquiries, Users],
   globals: [PracticePage, StudioDetails],
 
   // No rich text anywhere by design: the essay has one voice and no inline

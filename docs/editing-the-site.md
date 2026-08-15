@@ -127,6 +127,37 @@ written down:
 doppler run --project edward-mccann --config stg -- node tools/verify-roles.mjs
 ```
 
+## Enquiries
+
+Messages sent from the contact form appear under **Enquiries** in the admin,
+newest first. What the sender wrote is read only: an enquiry is a record of
+what somebody actually said, and being able to edit it in place would quietly
+destroy that. The one field that moves is **Status**, which is the practice's
+own note to itself, new to replied to closed.
+
+The form asks where the site is and what kind of work it is, so an enquiry
+arrives with enough in it to judge without a round trip.
+
+**Email notification is scaffolded but not switched on.** The enquiry is always
+stored first, and a notification is attempted afterwards only if three values
+are set in Doppler: `RESEND_API_KEY`, `ENQUIRY_NOTIFY_TO` and
+`ENQUIRY_NOTIFY_FROM`. They exist as empty placeholders in all three configs.
+Until they are filled, enquiries arrive silently in the admin and nothing is
+emailed. Sending also needs a verified sender domain, so it cannot be finished
+until the domain transfers.
+
+That order is deliberate. If the email provider is down, the enquiry is already
+in the database and only the notification is lost.
+
+**Spam.** A hidden field no person can reach catches most of it, and one
+address may send five messages an hour. A submission that trips either is
+answered with the same confirmation a person sees, because telling a script it
+failed only teaches it what to change. If real spam ever gets through, the next
+step is a challenge at the network edge rather than more rules here.
+
+**Deleting an enquiry** removes it permanently. Anyone who signs in can do it,
+which is what makes an erasure request straightforward to honour.
+
 ## Checks worth running
 
 ```bash
