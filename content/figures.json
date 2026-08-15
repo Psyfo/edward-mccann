@@ -1,89 +1,109 @@
 {
  "312-hackney-road": [
   {
-   "src": "projects/312-hackney-road/00-27734973b271",
+   "src": "projects/312-hackney-road/7a044a24ecc01f90",
    "width": 1440,
-   "height": 960,
+   "height": 447,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/312-hackney-road/01-cec9817193a7",
+   "src": "projects/312-hackney-road/27734973b271e793",
+   "width": 1440,
+   "height": 960,
+   "fit": "cover",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/312-hackney-road/cec9817193a76089",
    "width": 1440,
    "height": 829,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/312-hackney-road/02-3e7bda2ee68c",
+   "src": "projects/312-hackney-road/3e7bda2ee68cfd34",
    "width": 1440,
    "height": 783,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/312-hackney-road/03-a57fde4d6c2d",
+   "src": "projects/312-hackney-road/a57fde4d6c2d8aa6",
    "width": 1440,
    "height": 791,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/312-hackney-road/04-a44f135c7383",
+   "src": "projects/312-hackney-road/a44f135c7383f3aa",
    "width": 1440,
    "height": 960,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/312-hackney-road/05-a7240ebbc36f",
+   "src": "projects/312-hackney-road/a7240ebbc36fdd99",
    "width": 1440,
    "height": 960,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/312-hackney-road/06-7f970192faa3",
+   "src": "projects/312-hackney-road/7f970192faa3d1d0",
    "width": 1440,
    "height": 831,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/312-hackney-road/07-f1526880580f",
+   "src": "projects/312-hackney-road/f1526880580f69ad",
    "width": 1440,
    "height": 866,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/312-hackney-road/08-dcbe0ea738e6",
+   "src": "projects/312-hackney-road/dcbe0ea738e6eeda",
    "width": 1440,
    "height": 989,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/312-hackney-road/09-67c21936a1f1",
+   "src": "projects/312-hackney-road/67c21936a1f148c7",
    "width": 1440,
    "height": 1001,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/312-hackney-road/10-63c677bf1ef7",
+   "src": "projects/312-hackney-road/63c677bf1ef7c446",
    "width": 1440,
    "height": 981,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -91,65 +111,82 @@
  ],
  "antidote": [
   {
-   "src": "projects/antidote/00-b5fdcaedddd5",
+   "src": "projects/antidote/065b3b2ce8e698fc",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/antidote/01-a86249f7bcbd",
+   "src": "projects/antidote/b5fdcaedddd5949a",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/antidote/02-08e207bc716e",
+   "src": "projects/antidote/a86249f7bcbd48ee",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/antidote/03-294b13d4f441",
+   "src": "projects/antidote/08e207bc716e5b8c",
+   "width": 1440,
+   "height": 960,
+   "fit": "cover",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/antidote/294b13d4f4415ab7",
    "width": 1024,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/antidote/04-5c1b7c8815b6",
+   "src": "projects/antidote/5c1b7c8815b607e6",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/antidote/05-b5ac30ee8474",
+   "src": "projects/antidote/b5ac30ee84744179",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/antidote/06-8c83e8d83307",
+   "src": "projects/antidote/8c83e8d83307edb1",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/antidote/07-377b3576b68e",
+   "src": "projects/antidote/377b3576b68edca6",
    "width": 1440,
    "height": 752,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -157,89 +194,109 @@
  ],
  "archway-road": [
   {
-   "src": "projects/archway-road/00-29ae4a21c659",
+   "src": "projects/archway-road/57c2754ab3123d0f",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/archway-road/01-1c9f83e3fbe4",
+   "src": "projects/archway-road/29ae4a21c6591576",
+   "width": 1440,
+   "height": 960,
+   "fit": "cover",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/archway-road/1c9f83e3fbe4efc6",
    "width": 851,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/archway-road/02-17b04d76906e",
+   "src": "projects/archway-road/17b04d76906e456b",
    "width": 1440,
    "height": 593,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/archway-road/03-86d42139488b",
+   "src": "projects/archway-road/86d42139488b3dd4",
    "width": 1440,
    "height": 593,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/archway-road/04-26e8dba8dc0b",
+   "src": "projects/archway-road/26e8dba8dc0b7971",
    "width": 1440,
    "height": 593,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/archway-road/05-8508108621e5",
+   "src": "projects/archway-road/8508108621e59074",
    "width": 1440,
    "height": 593,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/archway-road/06-dc47702ea0e0",
+   "src": "projects/archway-road/dc47702ea0e06e1d",
    "width": 1440,
    "height": 593,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/archway-road/07-fa6190df14bd",
+   "src": "projects/archway-road/fa6190df14bd1c49",
    "width": 1440,
    "height": 593,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/archway-road/08-a64778a26697",
+   "src": "projects/archway-road/a64778a266979d71",
    "width": 1440,
    "height": 807,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/archway-road/09-0bcb5c127522",
+   "src": "projects/archway-road/0bcb5c127522a084",
    "width": 1440,
    "height": 814,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/archway-road/10-3dbb8ea67a72",
+   "src": "projects/archway-road/3dbb8ea67a724727",
    "width": 1440,
    "height": 830,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -247,185 +304,217 @@
  ],
  "campden-house": [
   {
-   "src": "projects/campden-house/00-3d98461f3acb",
+   "src": "projects/campden-house/77a563c5fd8ce167",
+   "width": 1920,
+   "height": 1076,
+   "fit": "cover",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/campden-house/3d98461f3acb0cbb",
    "width": 1429,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/01-ba6c4605504c",
+   "src": "projects/campden-house/ba6c4605504cda7d",
    "width": 1440,
    "height": 810,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/02-ba9f9a16dab0",
+   "src": "projects/campden-house/ba9f9a16dab0fbe9",
    "width": 1440,
    "height": 810,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/03-99475c3bae91",
+   "src": "projects/campden-house/99475c3bae91b7a4",
    "width": 880,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/04-70a0b831d18f",
+   "src": "projects/campden-house/70a0b831d18f2ff3",
    "width": 1059,
    "height": 1024,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/05-278b41699b8c",
+   "src": "projects/campden-house/278b41699b8c7e5a",
    "width": 1133,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/06-7ea65fe145b7",
+   "src": "projects/campden-house/7ea65fe145b76fef",
    "width": 1332,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/07-01a5d3261d7f",
+   "src": "projects/campden-house/01a5d3261d7f2085",
    "width": 1303,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/08-523bbb61480a",
+   "src": "projects/campden-house/523bbb61480a56ad",
    "width": 1273,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/09-31e64dcb68b7",
+   "src": "projects/campden-house/31e64dcb68b7e9a9",
    "width": 1440,
    "height": 819,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/10-2e117f92a995",
+   "src": "projects/campden-house/2e117f92a995ad90",
    "width": 1440,
    "height": 878,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/11-f548113fd066",
+   "src": "projects/campden-house/f548113fd0668956",
    "width": 810,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/12-4d09b344896f",
+   "src": "projects/campden-house/4d09b344896f308a",
    "width": 863,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/13-97ff8900c38e",
+   "src": "projects/campden-house/97ff8900c38e2a8f",
    "width": 1440,
    "height": 547,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/14-473a8a1e96bd",
+   "src": "projects/campden-house/473a8a1e96bd01cf",
    "width": 1430,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/15-33e52e466810",
+   "src": "projects/campden-house/33e52e4668106ea6",
    "width": 1440,
    "height": 589,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/16-3f600af82123",
+   "src": "projects/campden-house/3f600af82123c2c3",
    "width": 1440,
    "height": 575,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/17-296feed45ef5",
+   "src": "projects/campden-house/296feed45ef50a0f",
    "width": 1381,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/18-4e47f12507cc",
+   "src": "projects/campden-house/4e47f12507cc1c31",
    "width": 1312,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/19-5f049f215f90",
+   "src": "projects/campden-house/5f049f215f903bc7",
    "width": 1257,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/20-d696387170f5",
+   "src": "projects/campden-house/d696387170f556a4",
    "width": 1440,
    "height": 453,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/21-454503cbe668",
+   "src": "projects/campden-house/454503cbe6686f4f",
    "width": 1204,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/campden-house/22-067c14bc6c0f",
+   "src": "projects/campden-house/067c14bc6c0fcbb0",
    "width": 1440,
    "height": 1012,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -433,81 +522,100 @@
  ],
  "chamber": [
   {
-   "src": "projects/chamber/00-de0e07a68358",
+   "src": "projects/chamber/9f794f60a0400f92",
+   "width": 1440,
+   "height": 872,
+   "fit": "cover",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/chamber/de0e07a683580ddc",
    "width": 1047,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chamber/01-beab2634feca",
+   "src": "projects/chamber/beab2634feca11dd",
    "width": 1246,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chamber/02-05edc9e09287",
+   "src": "projects/chamber/05edc9e0928712e3",
    "width": 1421,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chamber/03-aaa5074c5b57",
+   "src": "projects/chamber/aaa5074c5b576d7e",
    "width": 1440,
    "height": 989,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chamber/04-a436da2dcdbc",
+   "src": "projects/chamber/a436da2dcdbc6efc",
    "width": 1386,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chamber/05-b8a30bfaadb3",
+   "src": "projects/chamber/b8a30bfaadb3efce",
    "width": 1440,
    "height": 858,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chamber/06-bf47bfb807ab",
+   "src": "projects/chamber/bf47bfb807ab9dc0",
    "width": 1440,
    "height": 803,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chamber/07-75b278ceea6a",
+   "src": "projects/chamber/75b278ceea6a8919",
    "width": 1440,
    "height": 776,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chamber/08-d70ba7b51cc1",
+   "src": "projects/chamber/d70ba7b51cc11012",
    "width": 974,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chamber/09-2dbb50afcc4b",
+   "src": "projects/chamber/2dbb50afcc4bff0a",
    "width": 1352,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -515,145 +623,172 @@
  ],
  "chatsworth-rd": [
   {
-   "src": "projects/chatsworth-rd/00-b5e23071b3d2",
-   "width": 683,
-   "height": 1024,
+   "src": "projects/chatsworth-rd/1f0fbb1ff6f230d7",
+   "width": 1440,
+   "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/01-0a1a34fd5071",
+   "src": "projects/chatsworth-rd/b5e23071b3d2fd8c",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/02-adde4e9efa4f",
+   "src": "projects/chatsworth-rd/0a1a34fd50718647",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/chatsworth-rd/adde4e9efa4fe0de",
+   "width": 683,
+   "height": 1024,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/03-66af24128189",
+   "src": "projects/chatsworth-rd/66af24128189265a",
    "width": 1146,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/04-1f8912b2275b",
+   "src": "projects/chatsworth-rd/1f8912b2275b7b98",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/05-07749ac75868",
+   "src": "projects/chatsworth-rd/07749ac758680596",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/06-c3edd27f7451",
+   "src": "projects/chatsworth-rd/c3edd27f7451b20a",
    "width": 683,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/07-e26f11603c5f",
+   "src": "projects/chatsworth-rd/e26f11603c5f91af",
    "width": 1179,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/08-d37271bada4f",
+   "src": "projects/chatsworth-rd/d37271bada4fe2e8",
    "width": 979,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/09-31cf4187c3d7",
+   "src": "projects/chatsworth-rd/31cf4187c3d7e6a1",
    "width": 725,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/10-b28a6e5cf217",
+   "src": "projects/chatsworth-rd/b28a6e5cf2176063",
    "width": 860,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/11-9df18446f3ba",
+   "src": "projects/chatsworth-rd/9df18446f3baebe2",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/12-ec00d3c21c62",
+   "src": "projects/chatsworth-rd/ec00d3c21c62d048",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/13-c163630e30e1",
+   "src": "projects/chatsworth-rd/c163630e30e16fe7",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/14-a15b54188535",
+   "src": "projects/chatsworth-rd/a15b5418853511e1",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/15-7879a908983b",
+   "src": "projects/chatsworth-rd/7879a908983b2a1a",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/16-997601e626d6",
+   "src": "projects/chatsworth-rd/997601e626d606fc",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/chatsworth-rd/17-a3226189cecc",
+   "src": "projects/chatsworth-rd/a3226189ceccfe08",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -661,105 +796,127 @@
  ],
  "culford-mews": [
   {
-   "src": "projects/culford-mews/00-457dfd2fb1d0",
+   "src": "projects/culford-mews/6aa83ebc9af50183",
+   "width": 1440,
+   "height": 960,
+   "fit": "cover",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/culford-mews/457dfd2fb1d0eb0c",
    "width": 1365,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/culford-mews/01-8f021b346a5e",
+   "src": "projects/culford-mews/8f021b346a5e3cea",
    "width": 1440,
    "height": 945,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/culford-mews/02-95ba0c5f0897",
+   "src": "projects/culford-mews/95ba0c5f08973504",
    "width": 1440,
    "height": 804,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/culford-mews/03-88f437ca1f05",
+   "src": "projects/culford-mews/88f437ca1f05bbf6",
    "width": 1200,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/culford-mews/04-2c0c18623e87",
+   "src": "projects/culford-mews/2c0c18623e875e86",
    "width": 1299,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/culford-mews/05-ba59ae55b27b",
+   "src": "projects/culford-mews/ba59ae55b27b9b9c",
    "width": 1295,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/culford-mews/06-323da5da6ee8",
+   "src": "projects/culford-mews/323da5da6ee83f6e",
    "width": 1440,
    "height": 530,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/culford-mews/07-2d7ae992535f",
+   "src": "projects/culford-mews/2d7ae992535f50f0",
    "width": 1440,
    "height": 643,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/culford-mews/08-1c943dace7df",
+   "src": "projects/culford-mews/1c943dace7dffa21",
    "width": 1440,
    "height": 542,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/culford-mews/09-23582383f357",
+   "src": "projects/culford-mews/23582383f357de9a",
    "width": 1440,
    "height": 548,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/culford-mews/10-6d803786ff29",
+   "src": "projects/culford-mews/6d803786ff294f22",
    "width": 1440,
    "height": 530,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/culford-mews/11-69497eead4a2",
+   "src": "projects/culford-mews/69497eead4a28fa5",
    "width": 1440,
    "height": 533,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/culford-mews/12-74bf69436d87",
+   "src": "projects/culford-mews/74bf69436d87b5f6",
    "width": 1440,
    "height": 662,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -767,241 +924,280 @@
  ],
  "firs-avenue": [
   {
-   "src": "projects/firs-avenue/00-d0ee0d75c733",
-   "width": 713,
-   "height": 1024,
+   "src": "projects/firs-avenue/92b9ea653449d6f4",
+   "width": 1440,
+   "height": 1000,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": "Lyndon Douglas"
   },
   {
-   "src": "projects/firs-avenue/01-ac10273971e9",
+   "src": "projects/firs-avenue/d0ee0d75c733e21f",
+   "width": 713,
+   "height": 1024,
+   "fit": "cover",
+   "medium": "PHOTOGRAPH",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/firs-avenue/ac10273971e972a1",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/02-2b88df6d0d16",
+   "src": "projects/firs-avenue/2b88df6d0d161012",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/03-86d7160ecc98",
+   "src": "projects/firs-avenue/86d7160ecc98c402",
    "width": 1440,
    "height": 1000,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/04-2e8e97116cb6",
+   "src": "projects/firs-avenue/2e8e97116cb6cca8",
    "width": 737,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/05-4cbce76a80d5",
+   "src": "projects/firs-avenue/4cbce76a80d5fbec",
    "width": 1440,
    "height": 1010,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/06-244f4a30de8d",
+   "src": "projects/firs-avenue/244f4a30de8d97b8",
    "width": 698,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/07-3eb1f551c7a7",
+   "src": "projects/firs-avenue/3eb1f551c7a77b16",
    "width": 1427,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/08-87e699a8122c",
+   "src": "projects/firs-avenue/87e699a8122c6406",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/09-754034bcadb8",
+   "src": "projects/firs-avenue/754034bcadb86a3f",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/10-3d6c9b363fe5",
+   "src": "projects/firs-avenue/3d6c9b363fe5f531",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/11-66bdcae5444a",
+   "src": "projects/firs-avenue/66bdcae5444a0d91",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/12-a45bd9ab6165",
+   "src": "projects/firs-avenue/a45bd9ab6165c440",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/13-c1682affbdbb",
+   "src": "projects/firs-avenue/c1682affbdbbd88f",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/14-88741acf5667",
+   "src": "projects/firs-avenue/88741acf5667581f",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/15-81bb5b631c26",
+   "src": "projects/firs-avenue/81bb5b631c26a465",
    "width": 1440,
    "height": 1001,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/16-7facbcb6cbec",
+   "src": "projects/firs-avenue/7facbcb6cbec21cb",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/17-ce3ce3224bba",
+   "src": "projects/firs-avenue/ce3ce3224bba1fc8",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/18-902fe0e56558",
+   "src": "projects/firs-avenue/902fe0e56558b230",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/19-197b307442cb",
+   "src": "projects/firs-avenue/197b307442cb5ba2",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/20-53ad1b191f94",
+   "src": "projects/firs-avenue/53ad1b191f945461",
    "width": 1440,
    "height": 831,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/21-f9abbacbd83a",
+   "src": "projects/firs-avenue/f9abbacbd83a2e26",
    "width": 1440,
    "height": 688,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/22-a24823d6213d",
+   "src": "projects/firs-avenue/a24823d6213d191c",
    "width": 1249,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/23-cd2d4fc1c82d",
+   "src": "projects/firs-avenue/cd2d4fc1c82dd86d",
    "width": 1165,
    "height": 1024,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/24-a6c7e6ebcf9f",
+   "src": "projects/firs-avenue/a6c7e6ebcf9f4c9e",
    "width": 1440,
    "height": 848,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/25-1e586672826f",
+   "src": "projects/firs-avenue/1e586672826f3bfa",
    "width": 1440,
    "height": 770,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/26-6aef233661b4",
+   "src": "projects/firs-avenue/6aef233661b468fd",
    "width": 732,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/27-a00740851d88",
+   "src": "projects/firs-avenue/a00740851d883b57",
    "width": 905,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/28-ee728ad327dd",
+   "src": "projects/firs-avenue/ee728ad327dded59",
    "width": 1001,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/firs-avenue/29-a894780a15b3",
+   "src": "projects/firs-avenue/a894780a15b3dade",
    "width": 909,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
@@ -1009,97 +1205,118 @@
  ],
  "folly": [
   {
-   "src": "projects/folly/00-b497259555cc",
+   "src": "projects/folly/20d5882e21a64e7b",
+   "width": 1440,
+   "height": 1080,
+   "fit": "cover",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/folly/b497259555cc98f2",
    "width": 697,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/folly/01-317641dc2b56",
+   "src": "projects/folly/317641dc2b567c56",
    "width": 768,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/folly/02-c15daa06e416",
+   "src": "projects/folly/c15daa06e416b821",
    "width": 768,
    "height": 1024,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/folly/03-501ca0b9c58f",
+   "src": "projects/folly/501ca0b9c58f9f1b",
    "width": 1365,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/folly/04-dd280d6c800f",
+   "src": "projects/folly/dd280d6c800f1bce",
    "width": 768,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/folly/05-4b15ab7ca1dc",
+   "src": "projects/folly/4b15ab7ca1dc37b9",
    "width": 1365,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/folly/06-952df9ecbb7b",
+   "src": "projects/folly/952df9ecbb7bb564",
    "width": 768,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/folly/07-0e8782bcba94",
+   "src": "projects/folly/0e8782bcba9434b6",
    "width": 768,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/folly/08-582b136ab3e2",
+   "src": "projects/folly/582b136ab3e2b125",
    "width": 768,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/folly/09-d3cb679782fc",
+   "src": "projects/folly/d3cb679782fc38a2",
    "width": 1184,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/folly/10-7558eccc4fd2",
+   "src": "projects/folly/7558eccc4fd24570",
    "width": 1440,
    "height": 825,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/folly/11-8d434ef82f0f",
+   "src": "projects/folly/8d434ef82f0fd085",
    "width": 1440,
    "height": 822,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -1107,209 +1324,244 @@
  ],
  "goat-hill-house": [
   {
-   "src": "projects/goat-hill-house/00-f29ac836c6ce",
+   "src": "projects/goat-hill-house/c4ffc155007f953c",
+   "width": 1440,
+   "height": 1017,
+   "fit": "contain",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/goat-hill-house/f29ac836c6ced38c",
    "width": 1251,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/01-e63f015424e9",
+   "src": "projects/goat-hill-house/e63f015424e9ce85",
    "width": 1440,
    "height": 1010,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/02-9d55411e2b6d",
+   "src": "projects/goat-hill-house/9d55411e2b6d11e3",
    "width": 1440,
    "height": 1009,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/03-decdfe84309d",
+   "src": "projects/goat-hill-house/decdfe84309d0e7e",
    "width": 1440,
    "height": 873,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/04-049746c5b31f",
+   "src": "projects/goat-hill-house/049746c5b31f0086",
    "width": 1440,
    "height": 481,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/05-85efaa074b10",
+   "src": "projects/goat-hill-house/85efaa074b10d1f8",
    "width": 1440,
    "height": 403,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/06-f2a6d57bbd7c",
+   "src": "projects/goat-hill-house/f2a6d57bbd7c2b7d",
    "width": 1440,
    "height": 521,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/07-3622690729e6",
+   "src": "projects/goat-hill-house/3622690729e6572f",
    "width": 1440,
    "height": 510,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/08-3a5b5995969a",
+   "src": "projects/goat-hill-house/3a5b5995969a2db0",
    "width": 1440,
    "height": 506,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/09-6b12d963c622",
+   "src": "projects/goat-hill-house/6b12d963c622a0b1",
    "width": 1440,
    "height": 458,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/10-3a56fe76f7b1",
+   "src": "projects/goat-hill-house/3a56fe76f7b10933",
    "width": 1440,
    "height": 493,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/11-e39a225db029",
+   "src": "projects/goat-hill-house/e39a225db0293da6",
    "width": 1440,
    "height": 475,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/12-322e00402287",
+   "src": "projects/goat-hill-house/322e004022871c59",
    "width": 1440,
    "height": 564,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/13-dff60849d878",
+   "src": "projects/goat-hill-house/dff60849d878f597",
    "width": 1440,
    "height": 395,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/14-0559d20bae29",
+   "src": "projects/goat-hill-house/0559d20bae297050",
    "width": 1440,
    "height": 473,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/15-a0b8fa7cb51f",
+   "src": "projects/goat-hill-house/a0b8fa7cb51f8567",
    "width": 1056,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/16-67d7008501c5",
+   "src": "projects/goat-hill-house/67d7008501c54dc9",
    "width": 1131,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/17-4cb2606c2f92",
+   "src": "projects/goat-hill-house/4cb2606c2f925631",
    "width": 1400,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/18-87008ac5b234",
+   "src": "projects/goat-hill-house/87008ac5b23493de",
    "width": 1310,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/19-243ff0010601",
+   "src": "projects/goat-hill-house/243ff001060101db",
    "width": 1206,
    "height": 1024,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/20-28747312d2eb",
+   "src": "projects/goat-hill-house/28747312d2eb9acd",
    "width": 1440,
    "height": 927,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/21-a23b30b37e90",
+   "src": "projects/goat-hill-house/a23b30b37e90ebc1",
    "width": 1096,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/22-5581e879e612",
+   "src": "projects/goat-hill-house/5581e879e612da7c",
    "width": 1440,
    "height": 848,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/23-dd12a7d2db6e",
+   "src": "projects/goat-hill-house/dd12a7d2db6e86af",
    "width": 1047,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/24-37ab320d0133",
+   "src": "projects/goat-hill-house/37ab320d0133bba2",
    "width": 1348,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/goat-hill-house/25-8dbf60c5fd21",
+   "src": "projects/goat-hill-house/8dbf60c5fd21c3c8",
    "width": 1024,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -1317,201 +1569,235 @@
  ],
  "hassett-road": [
   {
-   "src": "projects/hassett-road/00-31d8b315f4aa",
+   "src": "projects/hassett-road/a5c2ffb982d26eb3",
+   "width": 960,
+   "height": 1440,
+   "fit": "cover",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/hassett-road/31d8b315f4aa8702",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/01-7796fd6c1408",
+   "src": "projects/hassett-road/7796fd6c14083b05",
    "width": 1386,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/02-6e28510cafd0",
+   "src": "projects/hassett-road/6e28510cafd00f4d",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/03-e3a511d15aed",
+   "src": "projects/hassett-road/e3a511d15aedd54c",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/04-e6a62bfb5eb9",
+   "src": "projects/hassett-road/e6a62bfb5eb949b3",
    "width": 1100,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/05-69736ebbed21",
+   "src": "projects/hassett-road/69736ebbed218ccb",
    "width": 1186,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/06-a2339a84738e",
+   "src": "projects/hassett-road/a2339a84738e6546",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/07-bb384114f994",
+   "src": "projects/hassett-road/bb384114f9947d79",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/08-9742c3de254a",
+   "src": "projects/hassett-road/9742c3de254abc7e",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/09-2dc95d9f9c1f",
+   "src": "projects/hassett-road/2dc95d9f9c1ffe64",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/10-ce9a22bfd226",
+   "src": "projects/hassett-road/ce9a22bfd226dbcd",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/11-d82d6332d2a5",
+   "src": "projects/hassett-road/d82d6332d2a54576",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/12-5b4f2899d8a1",
+   "src": "projects/hassett-road/5b4f2899d8a1b8a2",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/13-e2ba9032642d",
+   "src": "projects/hassett-road/e2ba9032642da1f3",
    "width": 836,
    "height": 1024,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/14-16097915e858",
+   "src": "projects/hassett-road/16097915e858bd0c",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/15-0e1949dfc613",
+   "src": "projects/hassett-road/0e1949dfc6137065",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/16-2d8d1ddab6d5",
+   "src": "projects/hassett-road/2d8d1ddab6d56a3b",
    "width": 695,
    "height": 1024,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/17-131507c199e5",
+   "src": "projects/hassett-road/131507c199e50079",
    "width": 1440,
    "height": 794,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/18-c6ee0dec5ee6",
+   "src": "projects/hassett-road/c6ee0dec5ee6bc68",
    "width": 829,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/19-13fefa329df7",
+   "src": "projects/hassett-road/13fefa329df735bf",
    "width": 848,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/20-191c3ce6bd8c",
+   "src": "projects/hassett-road/191c3ce6bd8cd936",
    "width": 1440,
    "height": 718,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/21-2979f8bb5161",
+   "src": "projects/hassett-road/2979f8bb5161c28f",
    "width": 1440,
    "height": 822,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/22-da292e224074",
+   "src": "projects/hassett-road/da292e224074f01b",
    "width": 1440,
    "height": 749,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/23-7a856065b834",
+   "src": "projects/hassett-road/7a856065b8348f84",
    "width": 1440,
    "height": 735,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/hassett-road/24-0b254150b574",
+   "src": "projects/hassett-road/0b254150b5744b71",
    "width": 1440,
    "height": 718,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -1519,57 +1805,73 @@
  ],
  "highpoint": [
   {
-   "src": "projects/highpoint/00-bb602487a318",
-   "width": 686,
-   "height": 1024,
+   "src": "projects/highpoint/6503f8a2cf91b850",
+   "width": 1440,
+   "height": 933,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": "Lyndon Douglas"
   },
   {
-   "src": "projects/highpoint/01-b35baec07b36",
+   "src": "projects/highpoint/bb602487a3180ecd",
+   "width": 686,
+   "height": 1024,
+   "fit": "cover",
+   "medium": "PHOTOGRAPH",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/highpoint/b35baec07b367356",
    "width": 732,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/highpoint/02-5a62bfa87a70",
+   "src": "projects/highpoint/5a62bfa87a70cd6f",
    "width": 1310,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/highpoint/03-fcb2ca44c460",
+   "src": "projects/highpoint/fcb2ca44c460fd41",
    "width": 1440,
    "height": 980,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/highpoint/04-83998f597f98",
+   "src": "projects/highpoint/83998f597f98c116",
    "width": 1404,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/highpoint/05-3161add1945b",
+   "src": "projects/highpoint/3161add1945ba11b",
    "width": 1440,
    "height": 913,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/highpoint/06-7316fe6e368c",
+   "src": "projects/highpoint/7316fe6e368c21cd",
    "width": 1440,
    "height": 1017,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
@@ -1577,273 +1879,316 @@
  ],
  "ibberton": [
   {
-   "src": "projects/ibberton/00-aa37555239f7",
-   "width": 849,
-   "height": 1024,
+   "src": "projects/ibberton/ec2e8ef3f1076502",
+   "width": 1440,
+   "height": 1022,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": "Emma Lewis"
   },
   {
-   "src": "projects/ibberton/01-b4aafea44c07",
+   "src": "projects/ibberton/aa37555239f7ace5",
+   "width": 849,
+   "height": 1024,
+   "fit": "cover",
+   "medium": "PHOTOGRAPH",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/ibberton/b4aafea44c07c422",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/02-7c2d00dfb90b",
+   "src": "projects/ibberton/7c2d00dfb90b914e",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/03-a102518f6e12",
+   "src": "projects/ibberton/a102518f6e123bbc",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/04-43c03494b834",
+   "src": "projects/ibberton/43c03494b8346475",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/05-103145d2eef8",
+   "src": "projects/ibberton/103145d2eef8b5ea",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/06-12afc85d62f5",
+   "src": "projects/ibberton/12afc85d62f52109",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/07-477937d278e4",
+   "src": "projects/ibberton/477937d278e4c78e",
    "width": 738,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/08-dce5781a70b8",
+   "src": "projects/ibberton/dce5781a70b834d9",
    "width": 1024,
    "height": 1024,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/09-62ae2b746996",
+   "src": "projects/ibberton/62ae2b7469961cb6",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/10-cf827c2256c0",
+   "src": "projects/ibberton/cf827c2256c06339",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/11-e5b9d2456524",
+   "src": "projects/ibberton/e5b9d2456524b51a",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/12-6c8fb1f1834f",
+   "src": "projects/ibberton/6c8fb1f1834f8136",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/13-8a70d181852c",
+   "src": "projects/ibberton/8a70d181852c731d",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/14-5041211e1fbf",
+   "src": "projects/ibberton/5041211e1fbf285f",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/15-39dca6a65ca1",
+   "src": "projects/ibberton/39dca6a65ca13da4",
    "width": 682,
    "height": 1024,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/16-1420755270c5",
+   "src": "projects/ibberton/1420755270c5ccfc",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/17-f46ec064b641",
+   "src": "projects/ibberton/f46ec064b641a0a8",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/18-cde94a619351",
+   "src": "projects/ibberton/cde94a6193519737",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/19-a4176d854f46",
+   "src": "projects/ibberton/a4176d854f4662c9",
    "width": 1354,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/20-18e2393f65a3",
+   "src": "projects/ibberton/18e2393f65a32b55",
    "width": 1440,
    "height": 947,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/21-4709b76ec199",
+   "src": "projects/ibberton/4709b76ec1995b35",
    "width": 1440,
    "height": 893,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/22-19db76b44dc7",
+   "src": "projects/ibberton/19db76b44dc7df8f",
    "width": 1440,
    "height": 971,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/23-49dd4e85c025",
+   "src": "projects/ibberton/49dd4e85c0259543",
    "width": 1440,
    "height": 870,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/24-78efe95235f7",
+   "src": "projects/ibberton/78efe95235f73d3a",
    "width": 868,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/25-cd94e48aab73",
+   "src": "projects/ibberton/cd94e48aab7330ec",
    "width": 1209,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/26-d99497fec0c2",
+   "src": "projects/ibberton/d99497fec0c27f8d",
    "width": 1236,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/27-de8b690d093d",
+   "src": "projects/ibberton/de8b690d093dca54",
    "width": 1440,
    "height": 797,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/28-e4edb55e6e11",
+   "src": "projects/ibberton/e4edb55e6e117d69",
    "width": 1290,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/29-ab5d0f2ca073",
+   "src": "projects/ibberton/ab5d0f2ca0736fd7",
    "width": 1440,
    "height": 624,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/30-f238bda4027e",
+   "src": "projects/ibberton/f238bda4027ec161",
    "width": 1319,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/31-d98f04d5fdee",
+   "src": "projects/ibberton/d98f04d5fdee96ee",
    "width": 1156,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/32-a7c1416eee45",
+   "src": "projects/ibberton/a7c1416eee453238",
    "width": 1364,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/ibberton/33-94a551c7062e",
+   "src": "projects/ibberton/94a551c7062e45a6",
    "width": 1364,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
@@ -1851,57 +2196,64 @@
  ],
  "kew-tree-house-competition": [
   {
-   "src": "projects/kew-tree-house-competition/00-895e82d291eb",
+   "src": "projects/kew-tree-house-competition/895e82d291eba9ec",
    "width": 823,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/kew-tree-house-competition/01-85545f6f2c41",
+   "src": "projects/kew-tree-house-competition/85545f6f2c41067d",
    "width": 1440,
    "height": 516,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/kew-tree-house-competition/02-db33f0c8a698",
+   "src": "projects/kew-tree-house-competition/db33f0c8a6985ace",
    "width": 1440,
    "height": 669,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/kew-tree-house-competition/03-143ac2da5dfc",
+   "src": "projects/kew-tree-house-competition/143ac2da5dfc1a61",
    "width": 1212,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/kew-tree-house-competition/04-f87fd18f1a67",
+   "src": "projects/kew-tree-house-competition/f87fd18f1a672d68",
    "width": 1440,
    "height": 811,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/kew-tree-house-competition/05-e42d6c43777f",
+   "src": "projects/kew-tree-house-competition/e42d6c43777f2219",
    "width": 1427,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/kew-tree-house-competition/06-2e3b157133db",
+   "src": "projects/kew-tree-house-competition/2e3b157133db24ed",
    "width": 874,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -1909,145 +2261,172 @@
  ],
  "latimer-road": [
   {
-   "src": "projects/latimer-road/00-032f754a9ef2",
-   "width": 771,
-   "height": 1024,
+   "src": "projects/latimer-road/341427a7b0730900",
+   "width": 2000,
+   "height": 1334,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": "Lyndon Douglas"
   },
   {
-   "src": "projects/latimer-road/01-62944326ec00",
-   "width": 1440,
-   "height": 964,
+   "src": "projects/latimer-road/032f754a9ef29302",
+   "width": 771,
+   "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/02-ba38ebf24c41",
+   "src": "projects/latimer-road/62944326ec00e077",
+   "width": 1440,
+   "height": 964,
+   "fit": "cover",
+   "medium": "PHOTOGRAPH",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/latimer-road/ba38ebf24c413365",
    "width": 1440,
    "height": 953,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/03-eacdf79bb26d",
+   "src": "projects/latimer-road/eacdf79bb26db0b7",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/04-a0c04ea6383a",
+   "src": "projects/latimer-road/a0c04ea6383a74db",
    "width": 684,
    "height": 1024,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/05-d5913a609c34",
+   "src": "projects/latimer-road/d5913a609c344b44",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/06-e81ea2ddebea",
+   "src": "projects/latimer-road/e81ea2ddebeaf6ef",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/07-71dd6d52df90",
+   "src": "projects/latimer-road/71dd6d52df900484",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/08-654d9ea8a082",
+   "src": "projects/latimer-road/654d9ea8a0822b08",
    "width": 1440,
    "height": 989,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/09-91a1df7e1fa7",
+   "src": "projects/latimer-road/91a1df7e1fa7f934",
    "width": 1440,
    "height": 948,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/10-516b9d8b7f3c",
+   "src": "projects/latimer-road/516b9d8b7f3c207b",
    "width": 711,
    "height": 1024,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/11-140da300f32b",
+   "src": "projects/latimer-road/140da300f32b9687",
    "width": 1440,
    "height": 648,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/12-f74f437ede11",
+   "src": "projects/latimer-road/f74f437ede113e7e",
    "width": 1440,
    "height": 629,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/13-6331d936bff9",
+   "src": "projects/latimer-road/6331d936bff91d7a",
    "width": 1440,
    "height": 714,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/14-ec0f563b54be",
+   "src": "projects/latimer-road/ec0f563b54be7d4c",
    "width": 1378,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/15-0d4371a96ca1",
+   "src": "projects/latimer-road/0d4371a96ca1c16d",
    "width": 1366,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/16-e48cb7ae4ba1",
+   "src": "projects/latimer-road/e48cb7ae4ba1418b",
    "width": 1440,
    "height": 664,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/latimer-road/17-a655047cd217",
+   "src": "projects/latimer-road/a655047cd2175210",
    "width": 1226,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
@@ -2055,161 +2434,190 @@
  ],
  "lonsdale-square": [
   {
-   "src": "projects/lonsdale-square/00-d71bf9c7786d",
-   "width": 681,
-   "height": 1024,
+   "src": "projects/lonsdale-square/ad2697191325d470",
+   "width": 1440,
+   "height": 960,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": "Travis Levius"
   },
   {
-   "src": "projects/lonsdale-square/01-38d13ace9d5a",
-   "width": 683,
+   "src": "projects/lonsdale-square/d71bf9c7786d5ffa",
+   "width": 681,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/02-4d14220307ce",
+   "src": "projects/lonsdale-square/38d13ace9d5a4d72",
+   "width": 683,
+   "height": 1024,
+   "fit": "cover",
+   "medium": "PHOTOGRAPH",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/lonsdale-square/4d14220307ceecff",
    "width": 745,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/03-0030a0c85809",
+   "src": "projects/lonsdale-square/0030a0c85809b26c",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/04-cfbe8cba6302",
+   "src": "projects/lonsdale-square/cfbe8cba63022a55",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/05-5b5f940c7d35",
+   "src": "projects/lonsdale-square/5b5f940c7d353a00",
    "width": 653,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/06-a21d544d0866",
+   "src": "projects/lonsdale-square/a21d544d086665a8",
    "width": 699,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/07-3ce9136514a5",
+   "src": "projects/lonsdale-square/3ce9136514a5f94c",
    "width": 740,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/08-a9e23e37be95",
+   "src": "projects/lonsdale-square/a9e23e37be957eb9",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/09-97a40ceec56d",
+   "src": "projects/lonsdale-square/97a40ceec56df350",
    "width": 1440,
    "height": 970,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/10-578b40609a4c",
+   "src": "projects/lonsdale-square/578b40609a4c1a54",
    "width": 1440,
    "height": 531,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/11-f0c6774d6a15",
+   "src": "projects/lonsdale-square/f0c6774d6a155d69",
    "width": 1440,
    "height": 550,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/12-b9aa79ad0e47",
+   "src": "projects/lonsdale-square/b9aa79ad0e47777d",
    "width": 1440,
    "height": 847,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/13-3d58ed99929f",
+   "src": "projects/lonsdale-square/3d58ed99929ff353",
    "width": 1158,
    "height": 1024,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/14-f0b56e775860",
+   "src": "projects/lonsdale-square/f0b56e7758600cbf",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/15-e62d84c6a9d5",
+   "src": "projects/lonsdale-square/e62d84c6a9d55e5a",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/16-8911e8bd9fcc",
+   "src": "projects/lonsdale-square/8911e8bd9fccdbac",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/17-769139f9c75d",
+   "src": "projects/lonsdale-square/769139f9c75d490e",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/18-6c874ca0acd3",
+   "src": "projects/lonsdale-square/6c874ca0acd39a34",
    "width": 792,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/lonsdale-square/19-dad5d6db06e4",
+   "src": "projects/lonsdale-square/dad5d6db06e4151a",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
@@ -2217,177 +2625,208 @@
  ],
  "oval-road": [
   {
-   "src": "projects/oval-road/00-8573af22ba11",
+   "src": "projects/oval-road/32adb3058ab0ff3e",
    "width": 1440,
-   "height": 809,
+   "height": 1044,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": "Lyndon Douglas"
   },
   {
-   "src": "projects/oval-road/01-1b94e0314b8c",
+   "src": "projects/oval-road/8573af22ba11748c",
+   "width": 1440,
+   "height": 809,
+   "fit": "cover",
+   "medium": "PHOTOGRAPH",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/oval-road/1b94e0314b8c66dc",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/02-4a1701574304",
+   "src": "projects/oval-road/4a170157430424f0",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/03-cb2ab30b9eb4",
+   "src": "projects/oval-road/cb2ab30b9eb49850",
    "width": 1412,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/04-893220a1dca7",
+   "src": "projects/oval-road/893220a1dca76006",
    "width": 1412,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/05-9f4b3d6a0890",
+   "src": "projects/oval-road/9f4b3d6a08907c50",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/06-4308da6878c9",
+   "src": "projects/oval-road/4308da6878c911e9",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/07-a370af00a523",
+   "src": "projects/oval-road/a370af00a5237d2b",
    "width": 673,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/08-71780d7b5627",
+   "src": "projects/oval-road/71780d7b5627b073",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/09-8f76554e1166",
+   "src": "projects/oval-road/8f76554e1166e7fe",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/10-b154e891bced",
+   "src": "projects/oval-road/b154e891bced11d2",
    "width": 630,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/11-36a68a42a582",
+   "src": "projects/oval-road/36a68a42a5829e19",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/12-6f82d67fe5c1",
+   "src": "projects/oval-road/6f82d67fe5c1f9be",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/13-8b1cafe6dfe3",
+   "src": "projects/oval-road/8b1cafe6dfe3778c",
    "width": 1440,
    "height": 575,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/14-a6e1607ad8f1",
+   "src": "projects/oval-road/a6e1607ad8f1d767",
    "width": 1440,
    "height": 568,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/15-f3f1d61545a3",
+   "src": "projects/oval-road/f3f1d61545a32a16",
    "width": 1219,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/16-e8c98847189d",
+   "src": "projects/oval-road/e8c98847189ddb84",
    "width": 1365,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/17-d1b6415e9b8a",
+   "src": "projects/oval-road/d1b6415e9b8ac1a1",
    "width": 1440,
    "height": 844,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/18-228d9b0c8f41",
+   "src": "projects/oval-road/228d9b0c8f413ccc",
    "width": 1440,
    "height": 783,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/19-bffc724b062a",
+   "src": "projects/oval-road/bffc724b062a1d06",
    "width": 1440,
    "height": 883,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/20-78fc62cd46e5",
+   "src": "projects/oval-road/78fc62cd46e56550",
    "width": 1440,
    "height": 1008,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/oval-road/21-2e0040c2df60",
+   "src": "projects/oval-road/2e0040c2df60ef55",
    "width": 1440,
    "height": 986,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
@@ -2395,153 +2834,181 @@
  ],
  "park-village": [
   {
-   "src": "projects/park-village/00-f0337bad5803",
-   "width": 1440,
-   "height": 1017,
+   "src": "projects/park-village/0fc276765f2d3671",
+   "width": 2500,
+   "height": 1169,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/01-b435da14e08e",
+   "src": "projects/park-village/f0337bad58031cef",
+   "width": 1440,
+   "height": 1017,
+   "fit": "contain",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/park-village/b435da14e08ec7b2",
    "width": 626,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/02-040423d7ed02",
+   "src": "projects/park-village/040423d7ed021e2c",
    "width": 1440,
    "height": 1018,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/03-2451445c2949",
+   "src": "projects/park-village/2451445c2949bdd5",
    "width": 566,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/04-9870652a9ee6",
+   "src": "projects/park-village/9870652a9ee6c922",
    "width": 1440,
    "height": 809,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/05-b93b2134d512",
+   "src": "projects/park-village/b93b2134d512f4dc",
    "width": 1343,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/06-3edd70d95b79",
+   "src": "projects/park-village/3edd70d95b793aec",
    "width": 575,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/07-d28d57f5cfd4",
+   "src": "projects/park-village/d28d57f5cfd43fdb",
    "width": 578,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/08-ed34e2ee55b7",
+   "src": "projects/park-village/ed34e2ee55b7d93c",
    "width": 585,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/09-15fdde235184",
+   "src": "projects/park-village/15fdde235184ac71",
    "width": 1440,
    "height": 1017,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/10-810ff3b158bb",
+   "src": "projects/park-village/810ff3b158bbfefb",
    "width": 766,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/11-1ef003e54ed2",
+   "src": "projects/park-village/1ef003e54ed2f393",
    "width": 738,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/12-63b1ee2cb626",
+   "src": "projects/park-village/63b1ee2cb62610b9",
    "width": 1315,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/13-ce8877c0d61e",
+   "src": "projects/park-village/ce8877c0d61e51ad",
    "width": 812,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/14-95623659d337",
+   "src": "projects/park-village/95623659d337b73e",
    "width": 777,
    "height": 1024,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/15-bd8b7f8f8386",
+   "src": "projects/park-village/bd8b7f8f83866210",
    "width": 1440,
    "height": 704,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/16-7319a61547b9",
+   "src": "projects/park-village/7319a61547b9d3b8",
    "width": 774,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/17-97bb49265a22",
+   "src": "projects/park-village/97bb49265a221837",
    "width": 930,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/park-village/18-d0440bb37b15",
+   "src": "projects/park-village/d0440bb37b150003",
    "width": 703,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -2549,161 +3016,190 @@
  ],
  "pearson-st": [
   {
-   "src": "projects/pearson-st/00-41a6344bd057",
+   "src": "projects/pearson-st/fdf76bf730466c38",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": "Travis Levius"
   },
   {
-   "src": "projects/pearson-st/01-acbfa9871d58",
-   "width": 683,
-   "height": 1024,
+   "src": "projects/pearson-st/41a6344bd057f3df",
+   "width": 1440,
+   "height": 960,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/02-d336f1afa191",
+   "src": "projects/pearson-st/acbfa9871d58418b",
+   "width": 683,
+   "height": 1024,
+   "fit": "cover",
+   "medium": "PHOTOGRAPH",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/pearson-st/d336f1afa19143b1",
    "width": 673,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/03-e78117cbe9f3",
+   "src": "projects/pearson-st/e78117cbe9f384bd",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/04-945d66d6b5a5",
+   "src": "projects/pearson-st/945d66d6b5a5cc03",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/05-48ebe28e525d",
+   "src": "projects/pearson-st/48ebe28e525d6191",
    "width": 1440,
    "height": 979,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/06-c0b535d65574",
+   "src": "projects/pearson-st/c0b535d65574bf00",
    "width": 690,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/07-c4e874fa490c",
+   "src": "projects/pearson-st/c4e874fa490cda90",
    "width": 678,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/08-7014cb11513d",
+   "src": "projects/pearson-st/7014cb11513da333",
    "width": 682,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/09-a7889388c990",
+   "src": "projects/pearson-st/a7889388c9900782",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/10-4e43a3889c9b",
+   "src": "projects/pearson-st/4e43a3889c9b79ca",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/11-151ddd20e1f8",
+   "src": "projects/pearson-st/151ddd20e1f8a6f6",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/12-194489b27970",
+   "src": "projects/pearson-st/194489b27970d623",
    "width": 504,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/13-e3b910445789",
+   "src": "projects/pearson-st/e3b910445789d28e",
    "width": 490,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/14-a99520bfbcc2",
+   "src": "projects/pearson-st/a99520bfbcc2cc7b",
    "width": 555,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/15-3efb9118deee",
+   "src": "projects/pearson-st/3efb9118deeeb1f9",
    "width": 551,
    "height": 1024,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/16-2cd549d55882",
+   "src": "projects/pearson-st/2cd549d5588253b9",
    "width": 1210,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/17-79c3a89f3af3",
+   "src": "projects/pearson-st/79c3a89f3af37a20",
    "width": 1440,
    "height": 732,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/18-90d97efa5cc3",
+   "src": "projects/pearson-st/90d97efa5cc3edfd",
    "width": 1440,
    "height": 798,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pearson-st/19-9130852dbd1a",
+   "src": "projects/pearson-st/9130852dbd1a3bc3",
    "width": 1373,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
@@ -2711,105 +3207,127 @@
  ],
  "pennard-house": [
   {
-   "src": "projects/pennard-house/00-db7ca470e2e6",
+   "src": "projects/pennard-house/25e9001aeaa88f33",
+   "width": 1440,
+   "height": 928,
+   "fit": "cover",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/pennard-house/db7ca470e2e6411a",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pennard-house/01-45144d384276",
+   "src": "projects/pennard-house/45144d3842761e7d",
    "width": 1440,
    "height": 872,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pennard-house/02-4c35f1d0c954",
+   "src": "projects/pennard-house/4c35f1d0c95412e9",
    "width": 1440,
    "height": 969,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pennard-house/03-1ee8d8d4d672",
+   "src": "projects/pennard-house/1ee8d8d4d6728cc7",
    "width": 803,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pennard-house/04-1f972c88bc0a",
+   "src": "projects/pennard-house/1f972c88bc0afcbd",
    "width": 828,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pennard-house/05-ca30d54ffb7b",
+   "src": "projects/pennard-house/ca30d54ffb7beead",
    "width": 1440,
    "height": 693,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pennard-house/06-69f7ae182bef",
+   "src": "projects/pennard-house/69f7ae182bef58b3",
    "width": 1440,
    "height": 688,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pennard-house/07-4dacf09152d1",
+   "src": "projects/pennard-house/4dacf09152d1236c",
    "width": 1440,
    "height": 662,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pennard-house/08-f9fec788927b",
+   "src": "projects/pennard-house/f9fec788927ba46b",
    "width": 1440,
    "height": 649,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pennard-house/09-faf86738a99a",
+   "src": "projects/pennard-house/faf86738a99acbf0",
    "width": 1440,
    "height": 699,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pennard-house/10-5413aa213239",
+   "src": "projects/pennard-house/5413aa2132391e37",
    "width": 1440,
    "height": 705,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pennard-house/11-9288fc6504f0",
+   "src": "projects/pennard-house/9288fc6504f0d207",
    "width": 1440,
    "height": 691,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/pennard-house/12-88a5ddb1e7e8",
+   "src": "projects/pennard-house/88a5ddb1e7e8f198",
    "width": 1440,
    "height": 646,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -2817,241 +3335,280 @@
  ],
  "rylett-crescent": [
   {
-   "src": "projects/rylett-crescent/00-6591ec11b7cd",
+   "src": "projects/rylett-crescent/22240b589db6dabf",
+   "width": 1440,
+   "height": 1245,
+   "fit": "cover",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/rylett-crescent/6591ec11b7cddc67",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/01-83337b6bd27d",
+   "src": "projects/rylett-crescent/83337b6bd27d3692",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/02-c17a3a42b2fb",
+   "src": "projects/rylett-crescent/c17a3a42b2fb18e5",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/03-f66c95fd0d9b",
+   "src": "projects/rylett-crescent/f66c95fd0d9bf561",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/04-c355d9618511",
+   "src": "projects/rylett-crescent/c355d961851174ed",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/05-fad6984b34b5",
+   "src": "projects/rylett-crescent/fad6984b34b58036",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/06-ba6c6f230e00",
+   "src": "projects/rylett-crescent/ba6c6f230e000256",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/07-65a14fad20eb",
+   "src": "projects/rylett-crescent/65a14fad20eb9c2b",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/08-6c0c6ff7c69d",
+   "src": "projects/rylett-crescent/6c0c6ff7c69d158b",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/09-0058646b8cfb",
+   "src": "projects/rylett-crescent/0058646b8cfba967",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/10-201dd1cec6f1",
+   "src": "projects/rylett-crescent/201dd1cec6f185a6",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/11-f536ca734b79",
+   "src": "projects/rylett-crescent/f536ca734b799a58",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/12-24c45b9aca60",
+   "src": "projects/rylett-crescent/24c45b9aca60649c",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/13-e5c429f8de9e",
+   "src": "projects/rylett-crescent/e5c429f8de9e2ac6",
    "width": 1440,
    "height": 702,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/14-d9f534469aad",
+   "src": "projects/rylett-crescent/d9f534469aadb719",
    "width": 1440,
    "height": 1013,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/15-565682671a34",
+   "src": "projects/rylett-crescent/565682671a3460e3",
    "width": 1440,
    "height": 759,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/16-f7a484b951f2",
+   "src": "projects/rylett-crescent/f7a484b951f217dc",
    "width": 1440,
    "height": 788,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/17-e5c78a29afbc",
+   "src": "projects/rylett-crescent/e5c78a29afbc382b",
    "width": 1423,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/18-16aac31b0446",
+   "src": "projects/rylett-crescent/16aac31b0446dff8",
    "width": 1440,
    "height": 886,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/19-70916ea66335",
+   "src": "projects/rylett-crescent/70916ea66335e227",
    "width": 577,
    "height": 1024,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/20-9e60a6872eff",
+   "src": "projects/rylett-crescent/9e60a6872eff8626",
    "width": 661,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/21-1c842093dfc2",
+   "src": "projects/rylett-crescent/1c842093dfc29e32",
    "width": 683,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/22-6b26bfef4f45",
+   "src": "projects/rylett-crescent/6b26bfef4f459ac3",
    "width": 718,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/23-8a07acdc831f",
+   "src": "projects/rylett-crescent/8a07acdc831f53e6",
    "width": 1440,
    "height": 849,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/24-a25b10bc6d0b",
+   "src": "projects/rylett-crescent/a25b10bc6d0b9bcb",
    "width": 1440,
    "height": 1018,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/25-97b56c11a967",
+   "src": "projects/rylett-crescent/97b56c11a9673409",
    "width": 1440,
    "height": 1018,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/26-d642e33de2b4",
+   "src": "projects/rylett-crescent/d642e33de2b4fb8e",
    "width": 1440,
    "height": 1018,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/27-280381630474",
+   "src": "projects/rylett-crescent/28038163047480c9",
    "width": 1440,
    "height": 1018,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/28-cb550affd833",
+   "src": "projects/rylett-crescent/cb550affd83329d0",
    "width": 1440,
    "height": 1018,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/rylett-crescent/29-dc946cb9345b",
+   "src": "projects/rylett-crescent/dc946cb9345b0860",
    "width": 1440,
    "height": 1018,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -3059,81 +3616,100 @@
  ],
  "social-house": [
   {
-   "src": "projects/social-house/00-70b059f4a018",
-   "width": 1399,
-   "height": 1024,
+   "src": "projects/social-house/216c949ccf17b36e",
+   "width": 1440,
+   "height": 1080,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/social-house/01-1fd31653a258",
+   "src": "projects/social-house/70b059f4a018986c",
+   "width": 1399,
+   "height": 1024,
+   "fit": "contain",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/social-house/1fd31653a2589b70",
    "width": 1330,
    "height": 1024,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/social-house/02-f668072f735a",
+   "src": "projects/social-house/f668072f735aa63a",
    "width": 1235,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/social-house/03-1ae484d98e2e",
+   "src": "projects/social-house/1ae484d98e2e6d02",
    "width": 1028,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/social-house/04-79b3f456f0ae",
+   "src": "projects/social-house/79b3f456f0ae8710",
    "width": 797,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/social-house/05-240384966b4e",
+   "src": "projects/social-house/240384966b4e82e8",
    "width": 797,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/social-house/06-70372758fb62",
+   "src": "projects/social-house/70372758fb62b863",
    "width": 797,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/social-house/07-6fb2713ae8ea",
+   "src": "projects/social-house/6fb2713ae8ea9614",
    "width": 797,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/social-house/08-e17eaf00e666",
+   "src": "projects/social-house/e17eaf00e666d3af",
    "width": 797,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/social-house/09-00b1fdb792c3",
+   "src": "projects/social-house/00b1fdb792c37bdd",
    "width": 799,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -3141,81 +3717,100 @@
  ],
  "sourced": [
   {
-   "src": "projects/sourced/00-20917a3ae143",
+   "src": "projects/sourced/c1f0183d2d269207",
    "width": 1440,
-   "height": 959,
+   "height": 965,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": "Travis Levius"
   },
   {
-   "src": "projects/sourced/01-2de2215b4759",
+   "src": "projects/sourced/20917a3ae143e67c",
    "width": 1440,
    "height": 959,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/sourced/02-fd0636172e69",
+   "src": "projects/sourced/2de2215b47599cf2",
    "width": 1440,
    "height": 959,
+   "fit": "cover",
+   "medium": "PHOTOGRAPH",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/sourced/fd0636172e695550",
+   "width": 1440,
+   "height": 959,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/sourced/03-7115e2bfca75",
+   "src": "projects/sourced/7115e2bfca7581b3",
    "width": 1440,
    "height": 959,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/sourced/04-c155f79880fa",
+   "src": "projects/sourced/c155f79880fa35e4",
    "width": 1440,
    "height": 975,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/sourced/05-f9a6909b3b1e",
+   "src": "projects/sourced/f9a6909b3b1e40ca",
    "width": 1440,
    "height": 965,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/sourced/06-ac36748548ae",
+   "src": "projects/sourced/ac36748548ae04e8",
    "width": 1440,
    "height": 959,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/sourced/07-b71a7dc609e1",
+   "src": "projects/sourced/b71a7dc609e1de32",
    "width": 1440,
    "height": 1018,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/sourced/08-7793964b75be",
+   "src": "projects/sourced/7793964b75be527a",
    "width": 1440,
    "height": 1018,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/sourced/09-fc6c923946a0",
+   "src": "projects/sourced/fc6c923946a0e87c",
    "width": 1440,
    "height": 1017,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
@@ -3223,121 +3818,145 @@
  ],
  "union-wharf": [
   {
-   "src": "projects/union-wharf/00-fa6d03f70a4b",
-   "width": 683,
-   "height": 1024,
+   "src": "projects/union-wharf/bf8ed0cf2530a3d2",
+   "width": 1440,
+   "height": 749,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": "Sebastian Tiew"
   },
   {
-   "src": "projects/union-wharf/01-f8c0541a1b15",
+   "src": "projects/union-wharf/fa6d03f70a4b5ac3",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/union-wharf/02-964ec20fc5d6",
+   "src": "projects/union-wharf/f8c0541a1b155b3a",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/union-wharf/03-6fe1e2a1f9e6",
+   "src": "projects/union-wharf/964ec20fc5d6505c",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/union-wharf/04-24d0b153034f",
+   "src": "projects/union-wharf/6fe1e2a1f9e66fe9",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
+   "medium": "PHOTOGRAPH",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/union-wharf/24d0b153034f5f71",
+   "width": 683,
+   "height": 1024,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/union-wharf/05-687ccf6eeacd",
+   "src": "projects/union-wharf/687ccf6eeacd4dac",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/union-wharf/06-2799964a6334",
+   "src": "projects/union-wharf/2799964a6334933d",
    "width": 1440,
    "height": 961,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/union-wharf/07-2d8123382464",
+   "src": "projects/union-wharf/2d81233824645e5c",
    "width": 1440,
    "height": 942,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/union-wharf/08-2d4468a6ca14",
+   "src": "projects/union-wharf/2d4468a6ca14bf1f",
    "width": 718,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/union-wharf/09-ede8f969bd23",
+   "src": "projects/union-wharf/ede8f969bd23ffd0",
    "width": 1440,
    "height": 994,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/union-wharf/10-119b82efe38d",
+   "src": "projects/union-wharf/119b82efe38d101d",
    "width": 1341,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/union-wharf/11-0a80ee49fa99",
+   "src": "projects/union-wharf/0a80ee49fa9922f6",
    "width": 1372,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/union-wharf/12-bc3c86d2b65e",
+   "src": "projects/union-wharf/bc3c86d2b65e0ae1",
    "width": 1368,
    "height": 1024,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/union-wharf/13-22153db34879",
+   "src": "projects/union-wharf/22153db348794d08",
    "width": 797,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/union-wharf/14-08a644d81cd8",
+   "src": "projects/union-wharf/08a644d81cd880d3",
    "width": 758,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
@@ -3345,121 +3964,145 @@
  ],
  "victualler": [
   {
-   "src": "projects/victualler/00-ccd2c8f573fd",
-   "width": 1318,
-   "height": 1024,
+   "src": "projects/victualler/99143697378633fd",
+   "width": 1440,
+   "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": "Lyndon Douglas"
   },
   {
-   "src": "projects/victualler/01-9c8b6ef80cfd",
+   "src": "projects/victualler/ccd2c8f573fd8767",
+   "width": 1318,
+   "height": 1024,
+   "fit": "cover",
+   "medium": "PHOTOGRAPH",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/victualler/9c8b6ef80cfd011e",
    "width": 691,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/victualler/02-218e73595a30",
+   "src": "projects/victualler/218e73595a30eac6",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/victualler/03-6a6c63cba548",
+   "src": "projects/victualler/6a6c63cba548e45d",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/victualler/04-6847d4570e3c",
+   "src": "projects/victualler/6847d4570e3ce5f0",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/victualler/05-b3cd07b1092a",
+   "src": "projects/victualler/b3cd07b1092a22dd",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/victualler/06-9da4ca3e4bc2",
+   "src": "projects/victualler/9da4ca3e4bc2583b",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/victualler/07-028217dffe20",
+   "src": "projects/victualler/028217dffe209d58",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/victualler/08-73fd671e2e41",
+   "src": "projects/victualler/73fd671e2e414ccc",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/victualler/09-4111bb02fc76",
+   "src": "projects/victualler/4111bb02fc76642e",
    "width": 686,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/victualler/10-a248dde976e6",
+   "src": "projects/victualler/a248dde976e645fc",
    "width": 1440,
    "height": 977,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/victualler/11-a862141f2d56",
+   "src": "projects/victualler/a862141f2d56e1cc",
    "width": 693,
    "height": 1024,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/victualler/12-c7dfe678f9e8",
+   "src": "projects/victualler/c7dfe678f9e878dc",
    "width": 1440,
    "height": 964,
+   "fit": "cover",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/victualler/13-a23a57536a61",
+   "src": "projects/victualler/a23a57536a6131a1",
    "width": 1440,
    "height": 971,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/victualler/14-ff9d648f00c7",
+   "src": "projects/victualler/ff9d648f00c723ba",
    "width": 779,
    "height": 1024,
+   "fit": "contain",
    "medium": "PHOTOGRAPH",
    "caption": "",
    "credit": null
@@ -3467,129 +4110,154 @@
  ],
  "west-suffolk": [
   {
-   "src": "projects/west-suffolk/00-01f9d800dbbd",
+   "src": "projects/west-suffolk/e81c57db575a0fec",
+   "width": 2000,
+   "height": 1332,
+   "fit": "cover",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/west-suffolk/01f9d800dbbd12c4",
    "width": 1440,
    "height": 959,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/west-suffolk/01-e5b6f13d26c7",
+   "src": "projects/west-suffolk/e5b6f13d26c789ca",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/west-suffolk/02-e4a4acb86913",
+   "src": "projects/west-suffolk/e4a4acb869130c47",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/west-suffolk/03-60795bd7b2df",
+   "src": "projects/west-suffolk/60795bd7b2df109f",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/west-suffolk/04-746cc4d40bc7",
+   "src": "projects/west-suffolk/746cc4d40bc71e34",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/west-suffolk/05-c4d5cdb2e619",
+   "src": "projects/west-suffolk/c4d5cdb2e619ec0f",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/west-suffolk/06-7d3cc531fd3e",
+   "src": "projects/west-suffolk/7d3cc531fd3e7b56",
    "width": 662,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/west-suffolk/07-6aca8a5c0b34",
+   "src": "projects/west-suffolk/6aca8a5c0b34303b",
    "width": 740,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/west-suffolk/08-da8600272533",
+   "src": "projects/west-suffolk/da8600272533b930",
    "width": 738,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/west-suffolk/09-17690d500723",
+   "src": "projects/west-suffolk/17690d5007236c62",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/west-suffolk/10-4d57d159fddc",
+   "src": "projects/west-suffolk/4d57d159fddc4407",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/west-suffolk/11-5e2df4036815",
+   "src": "projects/west-suffolk/5e2df403681594e4",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/west-suffolk/12-403cb0c2f225",
+   "src": "projects/west-suffolk/403cb0c2f2253242",
    "width": 1169,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/west-suffolk/13-51306f50cdfa",
+   "src": "projects/west-suffolk/51306f50cdfa1db0",
    "width": 1440,
    "height": 960,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/west-suffolk/14-11e5a1e1ce3d",
+   "src": "projects/west-suffolk/11e5a1e1ce3dffde",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/west-suffolk/15-f2182cd2b4a1",
+   "src": "projects/west-suffolk/f2182cd2b4a1e62f",
    "width": 683,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
@@ -3597,41 +4265,55 @@
  ],
  "willow-tree": [
   {
-   "src": "projects/willow-tree/00-458180874538",
+   "src": "projects/willow-tree/ff4be703524b66e0",
+   "width": 1440,
+   "height": 438,
+   "fit": "contain",
+   "medium": "IMAGE",
+   "caption": "",
+   "credit": null
+  },
+  {
+   "src": "projects/willow-tree/458180874538eae0",
    "width": 1440,
    "height": 994,
+   "fit": "contain",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/willow-tree/01-1e8fa6499f15",
+   "src": "projects/willow-tree/1e8fa6499f1531af",
    "width": 986,
    "height": 1024,
+   "fit": "cover",
    "medium": "VISUALISATION",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/willow-tree/02-4c79a30b8fbc",
+   "src": "projects/willow-tree/4c79a30b8fbcc19b",
    "width": 712,
    "height": 1024,
+   "fit": "cover",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/willow-tree/03-a42429636cb0",
+   "src": "projects/willow-tree/a42429636cb02151",
    "width": 1421,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null
   },
   {
-   "src": "projects/willow-tree/04-08fdecdc8c48",
+   "src": "projects/willow-tree/08fdecdc8c48f3a1",
    "width": 1250,
    "height": 1024,
+   "fit": "contain",
    "medium": "IMAGE",
    "caption": "",
    "credit": null

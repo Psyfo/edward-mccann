@@ -10,7 +10,7 @@ export default function NotFound() {
         The work is all still here, indexed by number, place and year.
       </p>
       <p style={{ marginTop: "calc(var(--u) * 3)" }}>
-        <Link href="/index" style={{ fontStyle: "italic", fontSize: "1.125rem" }}>
+        <Link href="/archive" style={{ fontStyle: "italic", fontSize: "1.125rem" }}>
           The complete archive{" "}
           <span className="mark" aria-hidden="true">
             &#187;

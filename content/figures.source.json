@@ -1,6 +1,12 @@
 {
  "312-hackney-road": [
   {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/312-hackney-road.jpg",
+   "bytes": 210493,
+   "alt": "",
+   "curated": true
+  },
+  {
    "file": "assets/application/files/cache/thumbnails/c65bdaa2fc4dca4eca00ceda9c27e41c.jpg",
    "bytes": 303907,
    "alt": "Edward Mccann Architect London"
@@ -58,6 +64,12 @@
  ],
  "antidote": [
   {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/antidote.jpg",
+   "bytes": 226619,
+   "alt": "",
+   "curated": true
+  },
+  {
    "file": "assets/application/files/cache/thumbnails/4b30947ff22122a2176a218401869cbf.jpg",
    "bytes": 205513,
    "alt": "Edward Mccann Architect London"
@@ -99,6 +111,12 @@
   }
  ],
  "archway-road": [
+  {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/archway-road.jpg",
+   "bytes": 249058,
+   "alt": "",
+   "curated": true
+  },
   {
    "file": "assets/application/files/cache/thumbnails/088eb0801f5f06db71f6e21bfb4ae7ce.jpg",
    "bytes": 165538,
@@ -156,6 +174,12 @@
   }
  ],
  "campden-house": [
+  {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/campden-house.jpg",
+   "bytes": 1600468,
+   "alt": "",
+   "curated": true
+  },
   {
    "file": "assets/application/files/cache/thumbnails/0a7438dec34936d2c505a28f8237542b.jpg",
    "bytes": 61565,
@@ -274,6 +298,12 @@
  ],
  "chamber": [
   {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/chamber.jpg",
+   "bytes": 80601,
+   "alt": "",
+   "curated": true
+  },
+  {
    "file": "assets/application/files/cache/thumbnails/8894845f00c1ab06931b8889b68a64b7.png",
    "bytes": 377855,
    "alt": "Edward Mccann Architect London"
@@ -325,6 +355,12 @@
   }
  ],
  "chatsworth-rd": [
+  {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/chatsworth-rd.jpg",
+   "bytes": 224534,
+   "alt": "",
+   "curated": true
+  },
   {
    "file": "assets/application/files/cache/thumbnails/7ef40142b1b4ed5486c449403e834a1c.jpg",
    "bytes": 58028,
@@ -418,6 +454,12 @@
  ],
  "culford-mews": [
   {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/culford-mews.jpg",
+   "bytes": 461447,
+   "alt": "",
+   "curated": true
+  },
+  {
    "file": "assets/application/files/cache/thumbnails/b8acba71e746e9df8eb421975eb563f4.jpg",
    "bytes": 222728,
    "alt": "Edward Mccann Architect London"
@@ -484,6 +526,12 @@
   }
  ],
  "firs-avenue": [
+  {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/firs-avenue.jpg",
+   "bytes": 329357,
+   "alt": "",
+   "curated": true
+  },
   {
    "file": "assets/application/files/cache/thumbnails/5a168c4ec8558cac5928f0d1faec344a.jpg",
    "bytes": 167016,
@@ -637,6 +685,12 @@
  ],
  "folly": [
   {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/folly.jpg",
+   "bytes": 796983,
+   "alt": "",
+   "curated": true
+  },
+  {
    "file": "assets/application/files/cache/thumbnails/da277b09190397a8aead9b166c557314.jpg",
    "bytes": 258677,
    "alt": "Edward Mccann Architect London"
@@ -698,6 +752,12 @@
   }
  ],
  "goat-hill-house": [
+  {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/goat-hill-house.jpg",
+   "bytes": 542070,
+   "alt": "",
+   "curated": true
+  },
   {
    "file": "assets/application/files/cache/thumbnails/91c440fb91cfd39dac611cc3280e61d0.jpg",
    "bytes": 78849,
@@ -831,6 +891,12 @@
  ],
  "hassett-road": [
   {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/hassett-road.jpg",
+   "bytes": 387635,
+   "alt": "",
+   "curated": true
+  },
+  {
    "file": "assets/application/files/cache/thumbnails/6444d1c248c3d873db8c653cf04fb20c.jpg",
    "bytes": 143999,
    "alt": "Edward Mccann Architect London"
@@ -958,6 +1024,12 @@
  ],
  "highpoint": [
   {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/highpoint.jpg",
+   "bytes": 434141,
+   "alt": "",
+   "curated": true
+  },
+  {
    "file": "assets/application/files/cache/thumbnails/199c2dbad7730ccff6a3a16b29aa94ca.jpg",
    "bytes": 60757,
    "alt": "Edward Mccann Architect London"
@@ -994,6 +1066,12 @@
   }
  ],
  "ibberton": [
+  {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/ibberton.png",
+   "bytes": 750743,
+   "alt": "",
+   "curated": true
+  },
   {
    "file": "assets/application/files/cache/thumbnails/ef0f3f573fc43c5149a182186478beb8.jpg",
    "bytes": 139284,
@@ -1204,6 +1282,12 @@
  ],
  "latimer-road": [
   {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/latimer-road.jpg",
+   "bytes": 505496,
+   "alt": "",
+   "curated": true
+  },
+  {
    "file": "assets/application/files/cache/thumbnails/db727afa524e1904016e82a7143a4601.jpg",
    "bytes": 117422,
    "alt": "Edward Mccann Architect London"
@@ -1295,6 +1379,12 @@
   }
  ],
  "lonsdale-square": [
+  {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/lonsdale-square.jpg",
+   "bytes": 288074,
+   "alt": "",
+   "curated": true
+  },
   {
    "file": "assets/application/files/cache/thumbnails/31aee3813badc815ededcbbc17ddab49.jpg",
    "bytes": 110172,
@@ -1397,6 +1487,12 @@
   }
  ],
  "oval-road": [
+  {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/oval-road.jpg",
+   "bytes": 373341,
+   "alt": "",
+   "curated": true
+  },
   {
    "file": "assets/application/files/cache/thumbnails/c330e8ec63af7a11ad1e5d974a9b02c5.jpg",
    "bytes": 225890,
@@ -1510,6 +1606,12 @@
  ],
  "park-village": [
   {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/park-village.jpg",
+   "bytes": 339734,
+   "alt": "",
+   "curated": true
+  },
+  {
    "file": "assets/application/files/cache/thumbnails/7b8629da9c0465ab823f7db6f76d3195.jpg",
    "bytes": 70203,
    "alt": "Edward Mccann Architect London"
@@ -1606,6 +1708,12 @@
   }
  ],
  "pearson-st": [
+  {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/pearson-st.jpg",
+   "bytes": 145555,
+   "alt": "",
+   "curated": true
+  },
   {
    "file": "assets/application/files/cache/thumbnails/24fcd88542bf4128947e2052f17f49b0.jpg",
    "bytes": 84970,
@@ -1709,6 +1817,12 @@
  ],
  "pennard-house": [
   {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/pennard-house.jpg",
+   "bytes": 377566,
+   "alt": "",
+   "curated": true
+  },
+  {
    "file": "assets/application/files/cache/thumbnails/a874dd9601c82e0ff3f13fd9dac7d8e2.jpg",
    "bytes": 266489,
    "alt": "Edward Mccann Architect London"
@@ -1775,6 +1889,12 @@
   }
  ],
  "rylett-crescent": [
+  {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/rylett-crescent.jpg",
+   "bytes": 248623,
+   "alt": "",
+   "curated": true
+  },
   {
    "file": "assets/application/files/cache/thumbnails/41e407283d5eb8ac3263525f86264e9b.jpg",
    "bytes": 62877,
@@ -1928,6 +2048,12 @@
  ],
  "social-house": [
   {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/social-house.jpg",
+   "bytes": 1135442,
+   "alt": "",
+   "curated": true
+  },
+  {
    "file": "assets/application/files/cache/thumbnails/2036de06d124193c2da52eb9a61a715b.jpg",
    "bytes": 134300,
    "alt": "Edward Mccann Architect London"
@@ -1980,6 +2106,12 @@
  ],
  "sourced": [
   {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/sourced.jpg",
+   "bytes": 310223,
+   "alt": "",
+   "curated": true
+  },
+  {
    "file": "assets/application/files/cache/thumbnails/455da6566ef1b8ec55f0fed028fc720c.jpg",
    "bytes": 239127,
    "alt": "Edward Mccann Architect London"
@@ -2031,6 +2163,12 @@
   }
  ],
  "union-wharf": [
+  {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/union-wharf.jpg",
+   "bytes": 218839,
+   "alt": "",
+   "curated": true
+  },
   {
    "file": "assets/application/files/cache/thumbnails/6ad07e50570379efcbce5f650839f517.jpg",
    "bytes": 86285,
@@ -2109,6 +2247,12 @@
  ],
  "victualler": [
   {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/victualler.jpg",
+   "bytes": 312924,
+   "alt": "",
+   "curated": true
+  },
+  {
    "file": "assets/application/files/cache/thumbnails/8cc7a81ef0a38810c8ecf2d6b39e01b0.jpg",
    "bytes": 213103,
    "alt": "Edward Mccann Architect London"
@@ -2185,6 +2329,12 @@
   }
  ],
  "west-suffolk": [
+  {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/west-suffolk.jpg",
+   "bytes": 903996,
+   "alt": "",
+   "curated": true
+  },
   {
    "file": "assets/application/files/cache/thumbnails/2eaeb2cb1da8099ed839cdd4477ff33c.jpg",
    "bytes": 311663,
@@ -2267,6 +2417,12 @@
   }
  ],
  "willow-tree": [
+  {
+   "file": "../design_handoff_edward_mccann_brand/assets/heroes/willow-tree.jpg",
+   "bytes": 82135,
+   "alt": "",
+   "curated": true
+  },
   {
    "file": "assets/application/files/cache/thumbnails/146c7640c25d3d029a23e99b3fa4bdd6.jpg",
    "bytes": 204999,

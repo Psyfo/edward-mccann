@@ -56,6 +56,42 @@ and how should the two cities be described?
 legacy site used five variants (Architecture, Architects, Architectural
 Practice, Ed McCann, Mccann) and the domain says "studio".
 
+## Image resolution: what to ask the practice for
+
+The site is currently built from the imagery the old website published, which
+was sized for a 945px column in 2018. That is the ceiling, and it is the one
+thing no amount of work here can fix.
+
+Measured across all 27 projects, taking the largest version of each cover that
+exists anywhere (the legacy site or the design handoff):
+
+| Available cover width | Projects |
+|---|---|
+| at least 1440px | 26 of 27 |
+| at least 1920px | 4 of 27 |
+| at least 2880px | none |
+
+A full-bleed hero spans the viewport, so at the 21:9.5 crop it needs:
+
+| Display | Pixels needed |
+|---|---|
+| Laptop, 1440 CSS px, standard density | 1440 x 651 |
+| Desktop, 1920 CSS px, standard density | 1920 x 869 |
+| Laptop, 1440 CSS px, retina (2x) | 2880 x 1303 |
+
+So the heroes are adequate on a standard laptop, thin on a large desktop, and
+soft on any retina screen, which is most of them.
+
+**The ask:** original files from the photographers, uncropped, sRGB, longest
+edge 3000px or more. Prioritise the projects that lead the site: Firs Avenue,
+The Victualler, West Suffolk, Highpoint and Latimer Road. The credited
+photographers are Lyndon Douglas (five projects), Travis Levius (three),
+Emma Lewis and Sebastian Tiew (one each); seventeen projects have no credited
+photographer, so their source may only exist with the practice.
+
+Nothing needs to change in the build when better files arrive: drop them in and
+re-run `npm run media:publish`.
+
 ## Editorial repairs already applied
 
 Recorded here so nobody re-discovers them as bugs. Both are in

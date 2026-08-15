@@ -27,7 +27,7 @@ app server never optimises an image at request time.
 ## Layout
 
 ```text
-app/           routes: / (selected), /index (archive), /projects/[slug],
+app/           routes: / (selected), /archive (archive), /projects/[slug],
                /practice, /press, /contact, plus sitemap, robots and OG image
 components/    the design system in use: Wordmark, Plate, ProjectHero,
                IndexTable, ScrollProgress, Datelines, header and footer

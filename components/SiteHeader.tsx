@@ -7,7 +7,7 @@ import { Wordmark } from "./Wordmark";
 import styles from "./SiteHeader.module.css";
 
 const NAV = [
-  { href: "/", label: "WORK", match: (p: string) => p === "/" || p.startsWith("/projects") || p === "/index" },
+  { href: "/", label: "WORK", match: (p: string) => p === "/" || p.startsWith("/projects") || p === "/archive" },
   { href: "/practice", label: "PRACTICE", match: (p: string) => p.startsWith("/practice") },
   { href: "/press", label: "PRESS", match: (p: string) => p.startsWith("/press") },
   { href: "/contact", label: "CONTACT", match: (p: string) => p.startsWith("/contact") },

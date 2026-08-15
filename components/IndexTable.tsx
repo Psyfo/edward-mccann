@@ -43,7 +43,7 @@ export function IndexTable({
   }, [projects, sector, sort]);
 
   const setSector = (id: string) => {
-    router.replace(id === "all" ? "/index" : `/index?sector=${id}`, { scroll: false });
+    router.replace(id === "all" ? "/archive" : `/archive?sector=${id}`, { scroll: false });
   };
 
   return (

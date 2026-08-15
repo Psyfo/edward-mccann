@@ -56,7 +56,7 @@ export default function HomePage() {
       </section>
 
       <div className={styles.tail}>
-        <Link href="/index" className={styles.indexLink}>
+        <Link href="/archive" className={styles.indexLink}>
           <span className={styles.indexTitle}>
             The complete archive — 27 works, 2012 to present
           </span>{" "}

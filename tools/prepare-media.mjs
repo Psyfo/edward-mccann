@@ -47,6 +47,30 @@ const facts = JSON.parse(readFileSync(FACTS, 'utf8'));
 const figures = JSON.parse(readFileSync(FIGURES_IN, 'utf8'));
 const factBySlug = new Map(facts.projects.map((p) => [p.slug, p]));
 
+/**
+ * Decides whether an image may be cropped to fill a frame.
+ *
+ * Cropping a photograph is art direction; cropping a drawing or a white-ground
+ * render destroys information, and a plan cropped to 21:9.5 is useless. CAD
+ * output and white-ground renders are reliably bright and low-contrast, which
+ * separates them cleanly from photography (measured: drawings 228 to 239 mean
+ * luminance, photographs 81 to 164).
+ *
+ * This only decides layout. It deliberately does not set the declared medium,
+ * because a wrong claim about the work is far worse than an uncropped image.
+ */
+async function decideFit(image) {
+  try {
+    const stats = await image.stats();
+    const rgb = stats.channels.slice(0, 3);
+    const mean = rgb.reduce((a, c) => a + c.mean, 0) / rgb.length;
+    const stdev = rgb.reduce((a, c) => a + c.stdev, 0) / rgb.length;
+    return mean > 210 && stdev < 60 ? 'contain' : 'cover';
+  } catch {
+    return 'cover';
+  }
+}
+
 /** Renders and drawings are declared as such rather than passed off as photography. */
 function declareMedium(project, file, index) {
   const name = path.basename(file).toLowerCase();
@@ -110,8 +134,13 @@ for (const [slug, list] of Object.entries(figures)) {
       continue;
     }
     const source = readFileSync(abs);
-    const digest = createHash('sha256').update(source).digest('hex').slice(0, 12);
-    const base = `projects/${slug}/${String(i).padStart(2, '0')}-${digest}`;
+    // Keyed purely by content, with no sequence number. An earlier version
+    // included the figure's index, which meant inserting one image renumbered
+    // every key in the project and forced a full re-upload of work that had not
+    // changed. Content addressing makes reordering free and keeps the immutable
+    // cache headers honest.
+    const digest = createHash('sha256').update(source).digest('hex').slice(0, 16);
+    const base = `projects/${slug}/${digest}`;
 
     // Never upscale beyond a hair, but always emit at least the smallest width,
     // or a figure could be recorded with no image behind it at all.
@@ -140,6 +169,7 @@ for (const [slug, list] of Object.entries(figures)) {
       src: `${base}`,
       width: meta.width,
       height: meta.height,
+      fit: await decideFit(sharp(source, { failOn: 'none' })),
       medium: declareMedium(project, fig.file, i),
       caption: '',
       credit: i === 0 ? project?.photographer ?? null : null,

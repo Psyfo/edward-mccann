@@ -19,6 +19,26 @@
   object-fit: cover;
 }
 
+/* A drawing or white-ground render is never cropped to fill the hero: it sits
+   within it on the paper ground, and the ink gradient is dropped since there is
+   no photograph for it to sit against. */
+.frame[data-fit="contain"] {
+  background: var(--paper);
+}
+
+.frame[data-fit="contain"] .image {
+  object-fit: contain;
+}
+
+.frame[data-fit="contain"] .edge {
+  display: none;
+}
+
+.frame[data-fit="contain"] .registration {
+  mix-blend-mode: multiply;
+  color: var(--hairline);
+}
+
 .edge {
   position: absolute;
   inset: auto 0 0 0;

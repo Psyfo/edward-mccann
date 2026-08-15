@@ -43,6 +43,7 @@ export function Plate({
       className={`${styles.frame} media reveal`}
       style={{ aspectRatio: ratio ?? `${figure.width} / ${figure.height}` }}
       data-shown={revealed}
+      data-fit={figure.fit ?? "cover"}
     >
       <picture>
         <source type="image/avif" srcSet={srcSet(figure, "avif")} sizes={sizes} />

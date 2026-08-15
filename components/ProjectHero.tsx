@@ -19,7 +19,7 @@ export function ProjectHero({ project }: { project: Project }) {
   return (
     <header className={styles.hero}>
       <ViewTransition name={`hero-${project.slug}`} share="morph" default="none">
-        <div className={styles.frame}>
+        <div className={styles.frame} data-fit={figure.fit ?? "cover"}>
           <picture>
             <source type="image/avif" srcSet={srcSet(figure, "avif")} sizes="100vw" />
             <img

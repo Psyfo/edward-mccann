@@ -20,14 +20,14 @@ export function SectorFilter({ active }: { active?: string }) {
       {sectors.map((sector) => (
         <Link
           key={sector.id}
-          href={`/index?sector=${sector.id}`}
+          href={`/archive?sector=${sector.id}`}
           className={styles.item}
           data-active={active === sector.id}
         >
           {sector.label}
         </Link>
       ))}
-      <Link href="/index" className={`${styles.item} ${styles.full}`}>
+      <Link href="/archive" className={`${styles.item} ${styles.full}`}>
         FULL INDEX{" "}
         <span className="mark" aria-hidden="true">
           &#187;
