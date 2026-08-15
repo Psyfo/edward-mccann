@@ -9,7 +9,9 @@ import { readFileSync } from 'node:fs';
 const BASE = process.env.NEXT_PUBLIC_MEDIA_BASE_URL
   ?? 'https://f005.backblazeb2.com/file/edward-mccann-media';
 const WIDTHS = [640, 1280, 2000];
-const CONCURRENCY = 12;
+// Backblaze throttles bursts, so this is deliberately gentle. The check is not
+// on a hot path; being slow and trustworthy beats being fast and crying wolf.
+const CONCURRENCY = 4;
 
 const figures = JSON.parse(readFileSync('content/figures.json', 'utf8'));
 
