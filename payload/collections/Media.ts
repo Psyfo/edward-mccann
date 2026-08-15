@@ -13,10 +13,14 @@ import type { CollectionConfig } from "payload";
 export const Media: CollectionConfig = {
   slug: "media",
   admin: {
-    useAsTitle: "filename",
+    // Filenames here are content hashes inherited from the legacy CMS, so the
+    // library was unreadable when it listed them. Every record carries a
+    // human name instead, and the filename is still available as a column.
+    useAsTitle: "title",
     description:
       "Uploaded originals. The published derivatives are generated separately; see docs/content-open-questions.md.",
-    defaultColumns: ["filename", "medium", "credit", "updatedAt"],
+    defaultColumns: ["title", "medium", "credit", "filename", "updatedAt"],
+    listSearchableFields: ["title", "caption", "credit", "filename"],
   },
   access: {
     read: () => true,
@@ -28,7 +32,29 @@ export const Media: CollectionConfig = {
     disableLocalStorage: true,
     mimeTypes: ["image/*"],
   },
+  hooks: {
+    beforeValidate: [
+      ({ data }) => {
+        // Never let a record sit in the library nameless. An upload with no
+        // title falls back to its filename, which is at least something to
+        // search for until someone names it properly.
+        if (data && !data.title && data.filename) {
+          data.title = String(data.filename).replace(/\.[a-z0-9]+$/i, "");
+        }
+        return data;
+      },
+    ],
+  },
   fields: [
+    {
+      name: "title",
+      type: "text",
+      index: true,
+      admin: {
+        description:
+          "How this image is listed, e.g. \"Latimer Road, fig. 03\". Not shown on the site.",
+      },
+    },
     {
       name: "alt",
       type: "text",
