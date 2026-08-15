@@ -113,6 +113,15 @@ const envs = [
   { key: 'NEXT_PUBLIC_ALLOW_INDEXING', value: 'false' },
 ];
 
+// The admin needs the database and its own secret at runtime. The public site
+// does not: it builds from the content snapshot, so it stays up even when these
+// are wrong or the database is asleep. Passed through from the environment so
+// the values never appear in this file or in a command line.
+for (const key of ['DATABASE_URL', 'PAYLOAD_SECRET', 'B2_KEY_ID', 'B2_APPLICATION_KEY', 'B2_BUCKET_NAME', 'B2_S3_ENDPOINT', 'B2_REGION']) {
+  if (process.env[key]) envs.push({ key, value: process.env[key] });
+  else console.warn(`  ${key} not in the environment; the admin will not work without it`);
+}
+
 const existing = await api(`/applications/${app.uuid}/envs`);
 for (const env of envs) {
   const already = existing.find?.((e) => e.key === env.key);
