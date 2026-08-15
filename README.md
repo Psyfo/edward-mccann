@@ -14,11 +14,13 @@ Staging: <https://edward-mccann.lab.mahlangu.dev> (not indexed)
 | 1. Audit and preservation scrape of the legacy site | Done |
 | 2. Brand and digital identity direction | Done, in the workspace handoff folder |
 | 3. Build and staging deploy | Done |
+| 3b. Content management in Payload | Done, see [docs/editing-the-site.md](docs/editing-the-site.md) |
 | 4. Content confirmation with the practice, then production cutover | Outstanding, see [docs/content-open-questions.md](docs/content-open-questions.md) |
 
 ## Stack
 
-Next.js 16 (App Router) with TypeScript and CSS Modules. No UI framework and no
+Next.js 16 (App Router) with TypeScript and CSS Modules, and Payload for content
+management, running inside the same app rather than beside it. No UI framework and no
 utility CSS: the design is bespoke and typographic, and every token lives in
 `app/globals.css`. Deployed as a standalone Docker image on a self-hosted
 Coolify server. Imagery is pre-processed and served from Backblaze B2, so the
@@ -27,8 +29,10 @@ app server never optimises an image at request time.
 ## Layout
 
 ```text
-app/           routes: / (selected), /archive (archive), /projects/[slug],
-               /practice, /press, /contact, plus sitemap, robots and OG image
+app/(frontend)/  the public site: / (selected), /archive, /projects/[slug],
+                 /practice, /press, /contact, sitemap and OG image
+app/(payload)/   the admin at /admin and Payload's REST API
+payload/         collections and globals: the content model
 components/    the design system in use: Wordmark, Plate, ProjectHero,
                IndexTable, ScrollProgress, Datelines, header and footer
 content/       the site's data: facts.json is authored, text.json and
@@ -62,13 +66,15 @@ Content is committed structured data rather than a CMS, so the site builds
 statically and has no runtime dependencies. Regenerate it with:
 
 ```bash
-npm run content:figures   # per-project image lists from ../site-archive
-npm run content:text      # project prose, with source defects repaired
+npm run content:export    # snapshot the archive out of Payload into content/
 npm run media:publish     # process to AVIF and JPEG, upload to B2
+npm run content:seed      # import content/ into Payload (idempotent)
 ```
 
-`content/facts.json` is hand-authored and is the file to edit when the practice
-confirms places, years, statuses and credits.
+The site builds from the snapshot in `content/`, not from the database, so
+neither CI nor the image build needs Postgres and the published site has no
+runtime dependency. Editing and publishing are separate steps; see
+[docs/editing-the-site.md](docs/editing-the-site.md).
 
 ## Infrastructure
 
