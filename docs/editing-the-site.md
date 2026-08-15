@@ -74,15 +74,29 @@ rather than content, so they live in `content/facts.json`. Changing them is a
 developer job, because the filter row, the archive and the project schema all
 have to agree.
 
-## Accounts
+## Accounts and roles
+
+There are two roles.
+
+**Owner** can do everything, including adding, removing and changing accounts.
+**Editor** can do everything to the archive itself (projects, images, the
+practice and studio pages) but cannot touch accounts at all.
+
+The line sits there on purpose. Content is not the dangerous thing to lose: the
+published site is built from the JSON snapshot committed to the repo, so a
+deleted project is a git revert away and never disappears from the live site on
+its own. Accounts are the dangerous thing. Anyone who can create administrators
+can lock the owner out, and no amount of version control undoes that.
 
 Two accounts exist:
 
-- **omotola@mahlangu.dev**, the owner account.
-- **agent@edwardmccann.invalid**, a standing account for automated and assisted
-  work, so a future session can review or make edits without anyone handling a
-  password. Its credentials live in Doppler as `PAYLOAD_AGENT_EMAIL` and
-  `PAYLOAD_AGENT_PASSWORD`, never on disk.
+- The **owner**, held by whoever runs the site. The first account ever created
+  is always an owner; Payload creates it with access checks bypassed, so the
+  collection forces the role rather than trusting the default.
+- **agent@edwardmccann.invalid**, an **editor**, kept as a standing account so
+  future edits and reviews need no account created and torn down each time, and
+  nobody has to handle a password to make them. Its credentials live in Doppler
+  as `PAYLOAD_AGENT_EMAIL` and `PAYLOAD_AGENT_PASSWORD`, never on disk.
 
 To sign that account in and get a session token:
 
@@ -92,18 +106,26 @@ doppler run --project edward-mccann --config stg -- node tools/admin-session.mjs
 
 Then set it on the admin origin: `document.cookie = "payload-token=<token>; path=/"`.
 
-The address uses the reserved `.invalid` domain deliberately: it can never
+Its address uses the reserved `.invalid` domain deliberately: it can never
 receive mail, so the account cannot be recovered by email. The password in
 Doppler is the only way in, which is the intended trade for a credential nothing
-should be emailing.
+should be emailing. To rotate it, re-run the account setup, which updates
+Doppler in the same step.
 
-**Both accounts are full administrators.** Payload has no roles configured here,
-so either can edit content, delete it and manage users. If the standing account
-should be able to edit content but not manage users, that is a small change to
-the Users collection, worth making before the site is public.
+Two things the Users collection refuses to let you do, because neither can be
+undone from inside the admin afterwards:
 
-To rotate the password, re-run the account setup, which updates Doppler in the
-same step.
+- An editor cannot give itself the owner role, even though it is allowed to
+  edit its own account in every other respect.
+- The last remaining owner cannot be demoted or deleted. Make someone else an
+  owner first.
+
+To confirm all of that is actually enforced on a deployment rather than merely
+written down:
+
+```bash
+doppler run --project edward-mccann --config stg -- node tools/verify-roles.mjs
+```
 
 ## Checks worth running
 
