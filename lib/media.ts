@@ -36,10 +36,21 @@ export function fallbackSrc(figure: Figure) {
   return mediaUrl(figure.src, widths[widths.length - 1], "jpg");
 }
 
-/** A caption's declared-media line: "FIG. 03 — CAPTION — PHOTOGRAPH, CREDIT". */
+/**
+ * A caption's declared-media line: "FIG. 03 — CAPTION — PHOTOGRAPH, CREDIT".
+ *
+ * "IMAGE" is the fallback for figures whose medium could not be established
+ * from the archive, and declaring "IMAGE" declares nothing, so it is left off
+ * rather than printed. Per-image media and captions are on the list of things
+ * to confirm with the practice.
+ */
 export function figureCaption(figure: Figure, index: number) {
   const parts = [`FIG. ${String(index + 1).padStart(2, "0")}`];
   if (figure.caption) parts.push(figure.caption.toUpperCase());
-  parts.push(figure.credit ? `${figure.medium}, ${figure.credit.toUpperCase()}` : figure.medium);
+  if (figure.medium !== "IMAGE") {
+    parts.push(figure.credit ? `${figure.medium}, ${figure.credit.toUpperCase()}` : figure.medium);
+  } else if (figure.credit) {
+    parts.push(figure.credit.toUpperCase());
+  }
   return parts.join(" — ");
 }

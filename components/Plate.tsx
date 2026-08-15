@@ -1,8 +1,9 @@
 "use client";
 
-import { ViewTransition } from "react";
+import { useState, ViewTransition } from "react";
 import type { Figure } from "@/lib/content";
 import { fallbackSrc, figureCaption, srcSet } from "@/lib/media";
+import { Examine } from "./Examine";
 import { useReveal } from "./Reveal";
 import styles from "./Plate.module.css";
 
@@ -37,6 +38,14 @@ export function Plate({
 }: Props) {
   const { ref, shown } = useReveal<HTMLDivElement>();
   const revealed = priority ? true : shown;
+  const [examining, setExamining] = useState(false);
+
+  // Examinable when the image carries information the page cannot show at
+  // reading size: a drawing at any width, and anything on a small screen. The
+  // media query lives in CSS so the trigger is hidden rather than conditionally
+  // rendered, which keeps the server and client markup identical.
+  const examinable = showCaption;
+  const caption = figureCaption(figure, index);
 
   const picture = (
     <div
@@ -67,6 +76,17 @@ export function Plate({
           {figure.credit ? `${figure.medium} — ${figure.credit.toUpperCase()}` : figure.medium}
         </span>
       ) : null}
+      {examinable ? (
+        <button
+          type="button"
+          className={styles.examine}
+          data-drawing={figure.fit === "contain"}
+          onClick={() => setExamining(true)}
+        >
+          EXAMINE <span aria-hidden="true">&#187;</span>
+          <span className={styles.srOnly}>{caption}</span>
+        </button>
+      ) : null}
     </div>
   );
 
@@ -81,8 +101,11 @@ export function Plate({
       )}
       {showCaption ? (
         <figcaption className={`notation ${styles.caption} reveal-caption`} data-shown={revealed}>
-          {figureCaption(figure, index)}
+          {caption}
         </figcaption>
+      ) : null}
+      {examining ? (
+        <Examine figure={figure} caption={caption} onClose={() => setExamining(false)} />
       ) : null}
     </figure>
   );
