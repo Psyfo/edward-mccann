@@ -1,31 +1,41 @@
 import type { Metadata } from "next";
-import { EB_Garamond, Jost, Spline_Sans_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import "./globals.css";
 
-// Three voices, self-hosted by next/font so there is no third-party request
-// and no layout shift. Production may swap these for licensed futura-pt and
-// Adobe Garamond Pro under the practice's own account; the CSS variables are
-// the only contract.
-const jost = Jost({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
+/*
+ * Three voices, served from this repository.
+ *
+ * These were loaded with next/font/google, which fetches at build time and so
+ * made every build depend on reaching Google; one CI build failed exactly that
+ * way. The files are checked in by tools/fetch-fonts.mjs (SIL OFL, so
+ * self-hosting is permitted), which also keeps only the weights the stylesheets
+ * actually use.
+ *
+ * Production may swap these for licensed futura-pt and Adobe Garamond Pro under
+ * the practice's own account. The CSS variables are the only contract.
+ */
+const jost = localFont({
+  src: [
+    { path: "./fonts/jost-400.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/jost-500.woff2", weight: "500", style: "normal" },
+  ],
   variable: "--font-jost",
   display: "swap",
 });
 
-const garamond = EB_Garamond({
-  subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  style: ["normal", "italic"],
+const garamond = localFont({
+  src: [
+    { path: "./fonts/garamond-400.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/garamond-400-italic.woff2", weight: "400", style: "italic" },
+  ],
   variable: "--font-garamond",
   display: "swap",
 });
 
-const mono = Spline_Sans_Mono({
-  subsets: ["latin"],
-  weight: ["400", "500"],
+const mono = localFont({
+  src: [{ path: "./fonts/mono-400.woff2", weight: "400", style: "normal" }],
   variable: "--font-mono",
   display: "swap",
 });
