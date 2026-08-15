@@ -35,11 +35,27 @@ let ok = 0;
 const missing = [];
 let cursor = 0;
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * Backblaze rate-limits a burst of this size and answers 503, which is not the
+ * same as a missing object. Retry those with backoff so the check reports real
+ * absences rather than its own impatience. A 404 is final and never retried.
+ */
+async function head(url, attempt = 0) {
+  const res = await fetch(url, { method: 'HEAD' });
+  if (res.status === 503 && attempt < 4) {
+    await sleep(500 * 2 ** attempt);
+    return head(url, attempt + 1);
+  }
+  return res;
+}
+
 async function worker() {
   while (cursor < targets.length) {
     const t = targets[cursor++];
     try {
-      const res = await fetch(t.url, { method: 'HEAD' });
+      const res = await head(t.url);
       if (res.ok) ok++;
       else missing.push(`${t.slug}: ${res.status} ${t.url}`);
     } catch (err) {
