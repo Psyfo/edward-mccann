@@ -259,6 +259,10 @@ export interface Media {
 export interface User {
   id: number;
   name?: string | null;
+  /**
+   * Editors can change everything in the archive. Owners can also add, remove and change accounts.
+   */
+  role?: ('owner' | 'editor') | null;
   updatedAt: string;
   createdAt: string;
   email: string;
@@ -429,6 +433,7 @@ export interface MediaSelect<T extends boolean = true> {
  */
 export interface UsersSelect<T extends boolean = true> {
   name?: T;
+  role?: T;
   updatedAt?: T;
   createdAt?: T;
   email?: T;
