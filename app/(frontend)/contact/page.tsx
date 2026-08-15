@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Every project begins with a conversation. Edward McCann Architecture, 105 Wilton Way, London E8, and Cape Town.",
+    "Every project begins with a conversation. Edward McCann Architecture, 105 Wilton Way, London E8, and 10 Kelvin Street, Gardens, Cape Town.",
 };
 
 const EMAIL = "info@edwardmccann.studio";
@@ -46,7 +46,11 @@ export default function ContactPage() {
           </section>
           <section>
             <h2 className={`notation ${styles.city}`}>CAPE TOWN</h2>
-            <p className={styles.address}>Address to confirm</p>
+            <p className={styles.address}>
+              10 Kelvin Street
+              <br />
+              Gardens
+            </p>
           </section>
         </div>
 
