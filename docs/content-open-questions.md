@@ -49,8 +49,10 @@ captions in the practice's own voice would be the single biggest content
 improvement available: the writing on the existing site proves the author can
 do it well.
 
-**Cape Town.** The address is published as "to confirm". Is the office current,
-and how should the two cities be described?
+**Cape Town.** ✅ Confirmed 15 August 2026: 10 Kelvin Street, Gardens. Published
+without a postal code, since none was given; add one if the practice wants post
+sent there. How the two cities should be described relative to each other, a
+second office or a second base, is still open.
 
 **Practice name.** The site uses "Edward McCann Architecture" throughout. The
 legacy site used five variants (Architecture, Architects, Architectural
