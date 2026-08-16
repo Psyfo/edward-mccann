@@ -21,7 +21,17 @@ export const PracticePage: GlobalConfig = {
       name: "paragraphs",
       type: "array",
       labels: { singular: "Paragraph", plural: "Essay" },
-      fields: [{ name: "text", type: "textarea", required: true }],
+      fields: [
+        {
+          name: "heading",
+          type: "text",
+          admin: {
+            description:
+              "Leave blank to continue the essay. Fill it in to start a new section, the way Process does.",
+          },
+        },
+        { name: "text", type: "textarea", required: true },
+      ],
     },
     {
       name: "credentials",

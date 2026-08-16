@@ -1,5 +1,5 @@
 import type { Project } from "./content";
-import { ADDRESSES, EMAIL, PRACTICE_NAME, SITE_URL, TELEPHONE } from "./studio";
+import { PRACTICE_NAME, SITE_URL, studioAddresses, studioContact } from "./studio";
 
 /**
  * Structured data: the same claims the pages already make, in the form search
@@ -45,11 +45,11 @@ export function organisationSchema(): Json {
     "@id": ORGANISATION_ID,
     name: PRACTICE_NAME,
     url: SITE_URL,
-    email: EMAIL,
-    telephone: TELEPHONE,
+    email: studioContact().email,
+    telephone: studioContact().telephone,
     description:
       "RIBA Chartered and ARB registered architecture practice in Hackney, East London, working on houses, places to eat and drink, objects and public work.",
-    address: ADDRESSES.map((a) => ({
+    address: studioAddresses().map((a) => ({
       "@type": "PostalAddress",
       streetAddress: a.street,
       addressLocality: a.locality,

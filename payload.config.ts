@@ -40,6 +40,15 @@ export default buildConfig({
 
   db: postgresAdapter({
     pool: { connectionString: process.env.DATABASE_URL ?? "" },
+    // Schema changes are written out in db/*.sql and applied deliberately, so
+    // the automatic development push is off.
+    //
+    // It is not merely unnecessary here, it is harmful: this database holds the
+    // real archive, and push reconciles drift without asking. Twice it has hung
+    // for ten minutes holding the connection open, because it wants a decision
+    // it has no terminal to ask for, which stalls every script that opens
+    // Payload, including the export that publishes content.
+    push: false,
   }),
 
   plugins: [

@@ -546,6 +546,10 @@ export interface PracticePage {
   statement: string;
   paragraphs?:
     | {
+        /**
+         * Leave blank to continue the essay. Fill it in to start a new section, the way Process does.
+         */
+        heading?: string | null;
         text: string;
         id?: string | null;
       }[]
@@ -625,6 +629,7 @@ export interface PracticePageSelect<T extends boolean = true> {
   paragraphs?:
     | T
     | {
+        heading?: T;
         text?: T;
         id?: T;
       };

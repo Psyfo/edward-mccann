@@ -1,6 +1,9 @@
+import { Fragment } from "react";
 import type { Metadata } from "next";
 import { openGraphFor } from "@/lib/schema";
 import { Datelines } from "@/components/Datelines";
+import { Marked } from "@/components/Marked";
+import { getStudioCopy } from "@/lib/content";
 import { ContactForm } from "./ContactForm";
 import styles from "./page.module.css";
 
@@ -12,25 +15,26 @@ export const metadata: Metadata = {
     "Every project begins with a conversation. Edward McCann Architecture, 105 Wilton Way, London E8, and 10 Kelvin Street, Gardens, Cape Town 8001.",
 };
 
-const EMAIL = "info@edwardmccann.studio";
+/** Addresses are stored as one field, a line per line, the way they are set. */
+function addressLines(value: string): string[] {
+  return value
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean);
+}
 
 export default function ContactPage() {
+  const studio = getStudioCopy();
+  const EMAIL = studio.email;
+
   return (
     <div className={styles.page}>
       <div className={styles.inner}>
         <h1 className={`display ${styles.statement}`}>
-          Every project begins with a conversation{" "}
-          <span className={styles.mark} aria-hidden="true">
-            &#187;
-          </span>{" "}
-          a back and forth.
+          <Marked text={studio.contactStatement} className={styles.mark} />
         </h1>
 
-        <p className={`body-copy ${styles.lede}`}>
-          Tell us about your site and what you imagine for it. We take on
-          houses, places to eat and drink, objects and public work, from first
-          feasibility conversations to contract administration on site.
-        </p>
+        <p className={`body-copy ${styles.lede}`}>{studio.contactLede}</p>
 
         <a className={styles.button} href={`mailto:${EMAIL}`}>
           WRITE TO THE STUDIO{" "}
@@ -40,22 +44,19 @@ export default function ContactPage() {
         </a>
 
         <div className={styles.addresses}>
-          <section>
-            <h2 className={`notation ${styles.city}`}>LONDON</h2>
-            <p className={styles.address}>
-              105 Wilton Way
-              <br />
-              London E8 1BH
-            </p>
-          </section>
-          <section>
-            <h2 className={`notation ${styles.city}`}>CAPE TOWN</h2>
-            <p className={styles.address}>
-              10 Kelvin Street
-              <br />
-              Gardens, 8001
-            </p>
-          </section>
+          {studio.addresses.map((address) => (
+            <section key={address.city}>
+              <h2 className={`notation ${styles.city}`}>{address.city}</h2>
+              <p className={styles.address}>
+                {addressLines(address.lines).map((line, i, all) => (
+                  <Fragment key={line}>
+                    {line}
+                    {i < all.length - 1 ? <br /> : null}
+                  </Fragment>
+                ))}
+              </p>
+            </section>
+          ))}
         </div>
 
         <ContactForm />
@@ -64,8 +65,11 @@ export default function ContactPage() {
           <a href={`mailto:${EMAIL}`} className={`notation ${styles.detail}`}>
             {EMAIL.toUpperCase()}
           </a>
-          <a href="tel:+447734593280" className={`notation ${styles.detail}`}>
-            +44 7734 593 280
+          <a
+            href={`tel:${studio.telephone.replace(/\s/g, "")}`}
+            className={`notation ${styles.detail}`}
+          >
+            {studio.telephone}
           </a>
         </div>
 
