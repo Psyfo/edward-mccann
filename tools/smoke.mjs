@@ -78,6 +78,45 @@ if (!firstImage) {
   await expect('hero image loads', firstImage, (r) => (r.ok ? null : `HTTP ${r.status}`));
 }
 
+// Search engines read things nobody looks at while browsing, so they are only
+// ever checked deliberately. A page missing its canonical, or shipping JSON-LD
+// that does not parse, looks perfect to a visitor.
+for (const path of ['/', '/practice', '/contact', '/archive', `/projects/${facts.projects[0].slug}`]) {
+  const html = await fetch(`${BASE}${path}`).then((r) => r.text());
+  checked += 1;
+
+  const canonical = html.match(/<link rel="canonical" href="([^"]+)"/)?.[1];
+  const ogUrl = html.match(/property="og:url" content="([^"]+)"/)?.[1];
+  if (!canonical) failures.push(`${path}: no canonical`);
+  else if (!ogUrl) failures.push(`${path}: no og:url`);
+  else if (canonical !== ogUrl) failures.push(`${path}: canonical ${canonical} disagrees with og:url ${ogUrl}`);
+
+  // A page that declares openGraph replaces the layout's rather than merging,
+  // which silently drops these two. Easy to reintroduce, invisible when done.
+  for (const property of ['og:site_name', 'og:locale', 'og:title', 'og:image']) {
+    if (!html.includes(`property="${property}"`)) failures.push(`${path}: missing ${property}`);
+  }
+}
+
+for (const path of ['/', `/projects/${facts.projects[0].slug}`]) {
+  const html = await fetch(`${BASE}${path}`).then((r) => r.text());
+  checked += 1;
+  const block = html.match(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/)?.[1];
+  if (!block) {
+    failures.push(`${path}: no structured data`);
+    continue;
+  }
+  try {
+    const graph = JSON.parse(
+      block.replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/&#x27;/g, "'")
+        .replace(/&lt;/g, '<').replace(/&gt;/g, '>'),
+    )['@graph'];
+    if (!Array.isArray(graph) || graph.length === 0) failures.push(`${path}: structured data has no nodes`);
+  } catch (error) {
+    failures.push(`${path}: structured data does not parse (${error.message})`);
+  }
+}
+
 // Icons are declared in the markup and fetched by the browser separately, so a
 // wrong href is invisible while browsing: the tab just shows a blank square.
 // Next picks the URLs itself and hashes them, so the only safe check is to read

@@ -6,6 +6,7 @@ import { ProjectHero } from "@/components/ProjectHero";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { getByNumber, getNextProject, getProject, sectorLabel } from "@/lib/content";
 import { mediaUrl } from "@/lib/media";
+import { breadcrumbSchema, jsonLd, openGraphFor, projectSchema } from "@/lib/schema";
 import styles from "./page.module.css";
 
 type Params = { params: Promise<{ slug: string }> };
@@ -25,12 +26,13 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 
   return {
     title: project.name,
+    alternates: { canonical: `/projects/${slug}` },
     description: project.body[0]?.slice(0, 180) ?? facts,
-    openGraph: {
+    openGraph: openGraphFor(`/projects/${slug}`, {
       title: `${project.name} — Edward McCann Architecture`,
       description: facts,
       images: [{ url: mediaUrl(project.hero.src, 1280, "jpg"), width: 1280, alt: project.name }],
-    },
+    }),
   };
 }
 
@@ -52,6 +54,21 @@ export default async function ProjectPage({ params }: Params) {
 
   return (
     <article>
+      {/* The work itself, credited to the practice, plus where the page sits.
+          Everything here is already printed on the page above. */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: jsonLd(
+            projectSchema(project, mediaUrl(project.hero.src, 1280, "jpg")),
+            breadcrumbSchema([
+              { name: "Work", path: "/" },
+              { name: "Index", path: "/archive" },
+              { name: project.name, path: `/projects/${project.slug}` },
+            ]),
+          ),
+        }}
+      />
       <ScrollProgress />
       <ProjectHero project={project} />
 

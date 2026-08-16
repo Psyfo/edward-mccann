@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
+import { openGraphFor } from "@/lib/schema";
 import { Datelines } from "@/components/Datelines";
 import { ContactForm } from "./ContactForm";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/contact" },
+  openGraph: openGraphFor("/contact"),
   title: "Contact",
   description:
     "Every project begins with a conversation. Edward McCann Architecture, 105 Wilton Way, London E8, and 10 Kelvin Street, Gardens, Cape Town 8001.",

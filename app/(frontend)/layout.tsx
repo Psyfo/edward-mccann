@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { openGraphFor } from "@/lib/schema";
 import localFont from "next/font/local";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -44,17 +45,14 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://edwardmccann.studio
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  alternates: { canonical: "/" },
   title: {
     default: "Edward McCann Architecture",
     template: "%s — Edward McCann Architecture",
   },
   description:
     "Edward McCann Architecture is an RIBA Chartered and ARB registered practice in Hackney, East London. Houses, places to eat and drink, objects and public work.",
-  openGraph: {
-    type: "website",
-    siteName: "Edward McCann Architecture",
-    locale: "en_GB",
-  },
+  openGraph: openGraphFor("/"),
   // No icons block here on purpose. Next serves icon.svg and apple-icon.png
   // from this folder at hashed URLs of its own choosing, and writes the link
   // tags to match. Naming them here instead pointed the browser at /icon.svg,

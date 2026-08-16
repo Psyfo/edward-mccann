@@ -52,6 +52,37 @@ Wiring them means exporting both globals into `content/`, reading them through
 then the admin is misleading on exactly the fields a non-developer is most
 likely to want to change.
 
+## Search: built for launch day, switched off until then
+
+Everything search engines read is in place and can be inspected now: canonical
+addresses and Open Graph on every page, a share card for each one, per-project
+cards using the project's own cover, a sitemap covering all 32 addresses, and
+structured data describing the practice (with both addresses), each project as a
+work it created, and where each page sits.
+
+Nothing is asserted in that data which is not also visible on the page. No
+founding date, no social profiles the practice does not have, no ratings, and no
+project year unless it is a plain four-digit year, because the years are still
+marked provisional.
+
+**The site currently forbids indexing**, deliberately, so the staging address
+never reaches search results. That is a single switch, and it fails safe: a
+deployment that sets nothing stays hidden.
+
+On the day the domain moves:
+
+1. Set `NEXT_PUBLIC_SITE_URL` to `https://edwardmccann.studio` and
+   `NEXT_PUBLIC_ALLOW_INDEXING` to `true`, then redeploy. Verified: with those
+   set the build emits `Allow: /` and a sitemap on the real domain.
+2. Check `https://edwardmccann.studio/robots.txt` says `Allow: /`, and that a
+   page's canonical points at the real domain rather than the staging one.
+3. Submit the sitemap in Google Search Console, and confirm the legacy addresses
+   still resolve, since the old site's URLs were deliberately preserved.
+4. Re-run `node tools/smoke.mjs https://edwardmccann.studio`.
+
+Until step 1 happens, Lighthouse will score SEO poorly on staging and should:
+it is reporting the indexing block, which is working as intended.
+
 ## Roles exist but there is only one owner
 
 See [editing-the-site.md](./editing-the-site.md). The collection refuses to let

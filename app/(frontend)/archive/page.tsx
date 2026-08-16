@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
+import { openGraphFor } from "@/lib/schema";
 import Link from "next/link";
 import { getByNumber, sectors, type Project } from "@/lib/content";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/archive" },
+  openGraph: openGraphFor("/archive"),
   title: "Index",
   description:
     "The complete archive of Edward McCann Architecture: 27 works, with place, year, type and status declared for each.",
