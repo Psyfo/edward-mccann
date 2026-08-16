@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
+import { openGraphFor } from "@/lib/schema";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/practice" },
+  openGraph: openGraphFor("/practice"),
   title: "Practice",
   description:
     "Edward McCann Architecture is an RIBA Chartered and ARB registered practice. We believe in nose to tail design, in which initial concepts at inception are carried through to their resolution in the details and construction.",

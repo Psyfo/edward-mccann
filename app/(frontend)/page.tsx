@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ProjectCard } from "@/components/ProjectCard";
 import { SectorFilter } from "@/components/SectorFilter";
 import { getSelected } from "@/lib/content";
+import { jsonLd, organisationSchema, websiteSchema } from "@/lib/schema";
 import styles from "./page.module.css";
 
 export default async function HomePage() {
@@ -9,6 +10,12 @@ export default async function HomePage() {
 
   return (
     <div className={styles.page}>
+      {/* Who the practice is and what this site is, stated once, on the page
+          a search engine is most likely to treat as the practice's identity. */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd(organisationSchema(), websiteSchema()) }}
+      />
       <section className={styles.opening}>
         {/*
           The practice's own positioning line, verbatim from the About copy.

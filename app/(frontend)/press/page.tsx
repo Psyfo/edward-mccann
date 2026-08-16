@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
+import { openGraphFor } from "@/lib/schema";
 import Link from "next/link";
 import { getProjects } from "@/lib/content";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/press" },
+  openGraph: openGraphFor("/press"),
   title: "Press",
   description:
     "Recognition and coverage for Edward McCann Architecture: Don't Move Improve 2017, 2019 and 2022, and Grand Designs television and magazine.",
