@@ -16,7 +16,11 @@
 //   npm run content:export      then commit, and the deploy follows.
 //
 // Usage:
-//   doppler run --project edward-mccann --config dev -- node tools/export-content.mjs
+//   npm run content:export
+//
+// It has to run through tsx, not node: this file imports payload.config.ts,
+// which imports the collections without file extensions, and plain node cannot
+// resolve those.
 
 import { writeFileSync, readFileSync } from 'node:fs';
 import { getPayload } from 'payload';
