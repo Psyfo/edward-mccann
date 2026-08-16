@@ -55,10 +55,10 @@ export const metadata: Metadata = {
     siteName: "Edward McCann Architecture",
     locale: "en_GB",
   },
-  icons: {
-    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
-    apple: "/apple-icon.png",
-  },
+  // No icons block here on purpose. Next serves icon.svg and apple-icon.png
+  // from this folder at hashed URLs of its own choosing, and writes the link
+  // tags to match. Naming them here instead pointed the browser at /icon.svg,
+  // which is not a URL the build ever produces, so the favicon 404d.
 };
 
 export default function RootLayout({

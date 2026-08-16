@@ -78,6 +78,29 @@ if (!firstImage) {
   await expect('hero image loads', firstImage, (r) => (r.ok ? null : `HTTP ${r.status}`));
 }
 
+// Icons are declared in the markup and fetched by the browser separately, so a
+// wrong href is invisible while browsing: the tab just shows a blank square.
+// Next picks the URLs itself and hashes them, so the only safe check is to read
+// whatever the page actually claims and fetch it.
+const home = await fetch(`${BASE}/`).then((r) => r.text());
+const iconHrefs = [...home.matchAll(/<link[^>]+rel="(?:icon|apple-touch-icon)"[^>]*>/gi)]
+  .map((tag) => tag[0].match(/href="([^"]+)"/)?.[1])
+  .filter(Boolean);
+
+if (iconHrefs.length === 0) {
+  failures.push('markup: the homepage declares no icon at all');
+} else {
+  for (const href of iconHrefs) {
+    await expect(`icon ${href.split('?')[0]}`, new URL(href, BASE).href, (r) =>
+      !r.ok
+        ? `HTTP ${r.status}`
+        : r.headers.get('content-type')?.startsWith('image/')
+          ? null
+          : `served ${r.headers.get('content-type')} rather than an image`,
+    );
+  }
+}
+
 console.log(`${BASE}: ${checked} checks, ${failures.length} failed`);
 for (const f of failures) console.log('  FAIL', f);
 if (failures.length) process.exit(1);
