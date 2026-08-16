@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { ProjectCard } from "@/components/ProjectCard";
 import { SectorFilter } from "@/components/SectorFilter";
-import { getSelected } from "@/lib/content";
+import { getSelected, getStudioCopy } from "@/lib/content";
 import { jsonLd, organisationSchema, websiteSchema } from "@/lib/schema";
 import styles from "./page.module.css";
 
 export default async function HomePage() {
   const [lead, second, ...rest] = await getSelected();
+  const studio = getStudioCopy();
 
   return (
     <div className={styles.page}>
@@ -18,13 +19,10 @@ export default async function HomePage() {
       />
       <section className={styles.opening}>
         {/*
-          The practice's own positioning line, verbatim from the About copy.
-          It is the one piece of display type on the homepage.
+          The practice's own positioning line, edited in the admin. It is the
+          one piece of display type on the homepage.
         */}
-        <h1 className={`display ${styles.statement}`}>
-          Nose to tail design — initial concepts carried through to their
-          resolution in the details and construction.
-        </h1>
+        <h1 className={`display ${styles.statement}`}>{studio.positioningLine}</h1>
         <SectorFilter />
       </section>
 

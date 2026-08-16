@@ -1,5 +1,6 @@
 import factsData from "@/content/facts.json";
 import figuresData from "@/content/figures.json";
+import pagesData from "@/content/pages.json";
 import textData from "@/content/text.json";
 
 export type SectorId = "houses" | "eat-drink" | "objects" | "public";
@@ -142,4 +143,46 @@ export async function getSelected(): Promise<Project[]> {
   return order
     .map((slug) => projects.find((p) => p.slug === slug))
     .filter((p): p is Project => Boolean(p));
+}
+
+/* --- Page copy ---------------------------------------------------------- */
+
+export type StudioCopy = {
+  /** The display statement on the homepage. */
+  positioningLine: string;
+  /** The display line on the contact page. */
+  contactStatement: string;
+  contactLede: string;
+  email: string;
+  telephone: string;
+  addresses: { city: string; lines: string }[];
+};
+
+export type PracticeParagraph = { heading?: string; text: string };
+
+export type PracticeCopy = {
+  statement: string;
+  paragraphs: PracticeParagraph[];
+  credentials: { label: string; items: string[] }[];
+  recognition: string[];
+  colleagues: string[];
+  collaborators: string[];
+};
+
+const pages = pagesData as { studio: StudioCopy; practice: PracticeCopy };
+
+/**
+ * The words on the homepage and contact page, as edited in the admin.
+ *
+ * Synchronous because it reads the committed snapshot like everything else
+ * here, which also means the schema.org data and the visible page cannot
+ * disagree: they are the same strings.
+ */
+export function getStudioCopy(): StudioCopy {
+  return pages.studio;
+}
+
+/** The practice page's essay and lists, as edited in the admin. */
+export function getPracticeCopy(): PracticeCopy {
+  return pages.practice;
 }

@@ -89,6 +89,57 @@ if (missing.length) {
   process.exit(1);
 }
 
+// The page copy: the statements, the essay, the contact details and the two
+// addresses. These are the fields a non-developer is most likely to want to
+// change, and until they were exported here, editing them in the admin saved
+// happily and changed nothing on the site.
+const studio = await payload.findGlobal({ slug: 'studio-details' });
+const practice = await payload.findGlobal({ slug: 'practice-page' });
+
+const pages = {
+  studio: {
+    positioningLine: studio.positioningLine,
+    contactStatement: studio.contactStatement,
+    contactLede: studio.contactLede,
+    email: studio.email,
+    telephone: studio.telephone,
+    addresses: (studio.addresses ?? []).map((a) => ({ city: a.city, lines: a.lines })),
+  },
+  practice: {
+    statement: practice.statement,
+    paragraphs: (practice.paragraphs ?? []).map((p) => ({
+      ...(p.heading ? { heading: p.heading } : {}),
+      text: p.text,
+    })),
+    credentials: (practice.credentials ?? []).map((g) => ({
+      label: g.label,
+      items: (g.items ?? []).map((i) => i.text),
+    })),
+    recognition: (practice.recognition ?? []).map((r) => r.text),
+    colleagues: (practice.colleagues ?? []).map((c) => c.name),
+    collaborators: (practice.collaborators ?? []).map((c) => c.name),
+  },
+};
+
+// A page rendered from empty copy is worse than one rendered from stale copy,
+// so refuse rather than publish a blank homepage or contact page.
+const required = [
+  ['studio.positioningLine', pages.studio.positioningLine],
+  ['studio.contactStatement', pages.studio.contactStatement],
+  ['studio.email', pages.studio.email],
+  ['practice.statement', pages.practice.statement],
+];
+const empty = required.filter(([, value]) => !value);
+if (empty.length || pages.studio.addresses.length === 0 || pages.practice.paragraphs.length === 0) {
+  console.error(
+    `Refusing to export: page copy is incomplete (${
+      empty.map(([k]) => k).join(', ') || 'no addresses or no paragraphs'
+    })`,
+  );
+  process.exit(1);
+}
+
+writeFileSync('content/pages.json', JSON.stringify(pages, null, 2) + '\n');
 writeFileSync('content/facts.json', JSON.stringify(facts, null, 2) + '\n');
 writeFileSync('content/text.json', JSON.stringify(text, null, 1) + '\n');
 writeFileSync('content/figures.json', JSON.stringify(figures, null, 1) + '\n');

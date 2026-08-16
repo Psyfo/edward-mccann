@@ -35,23 +35,6 @@ the current database, recording it as already applied, and adding
 database to get wrong, and it is a job of its own rather than something to
 attach to an unrelated change.
 
-## The page copy globals are editable but nothing reads them
-
-`studio-details` and `practice-page` are seeded into Payload and appear in the
-admin, but no page consumes them: the contact page, the homepage statement and
-the practice essay are still hardcoded in the components, and
-`tools/export-content.mjs` does not write globals into the snapshot.
-
-This is worse than a missing feature. Someone editing the address in the admin
-gets a save confirmation and no change to the site, with nothing to indicate
-why. The Cape Town address had to be set in three places by hand for that
-reason.
-
-Wiring them means exporting both globals into `content/`, reading them through
-`lib/content.ts` like everything else, and deleting the hardcoded copies. Until
-then the admin is misleading on exactly the fields a non-developer is most
-likely to want to change.
-
 ## Search: built for launch day, switched off until then
 
 Everything search engines read is in place and can be inspected now: canonical

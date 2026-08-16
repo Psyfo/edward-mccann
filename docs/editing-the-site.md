@@ -74,6 +74,26 @@ rather than content, so they live in `content/facts.json`. Changing them is a
 developer job, because the filter row, the archive and the project schema all
 have to agree.
 
+## The page copy
+
+The words on the homepage, the contact page and the practice page are edited
+under **Globals** in the admin, not in the code:
+
+- **Studio details** holds the homepage statement, the contact page's statement
+  and opening paragraph, the email address, the telephone number, and the two
+  addresses. The site and the structured data search engines read are built from
+  the same fields, so they cannot drift apart.
+- **Practice page** holds the display statement, the essay, the credential
+  lists, recognition, colleagues and collaborators. A paragraph with a heading
+  starts a new section, which is how **Process** keeps its place; leave the
+  heading blank to continue the essay.
+
+Type the practice's accent mark as a normal `»` and the site sets it in oxide.
+
+Edits reach the site the same way project changes do: run `npm run
+content:export`, commit the diff, and the deploy publishes it. Until that export
+runs, a change saved in the admin is saved but not published.
+
 ## Accounts and roles
 
 There are two roles.

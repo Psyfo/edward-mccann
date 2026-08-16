@@ -103,12 +103,31 @@ check(
 );
 
 // Refused outright rather than quietly ignored.
+//
+// This attempt is real, so it has to clean up after itself. Run against a
+// deployment that has not yet picked up the access rules, the create succeeds,
+// and an earlier version of this file left exactly such an account behind on
+// staging, with the password written below. A test that can create an account
+// must be able to remove one.
+const PROBE = 'should-never-exist@edwardmccann.invalid';
 const created = await fetch(`${BASE}/api/users`, {
   method: 'POST',
   headers: auth,
-  body: JSON.stringify({ email: 'should-never-exist@edwardmccann.invalid', password: 'irrelevant', role: 'owner' }),
+  body: JSON.stringify({ email: PROBE, password: 'irrelevant', role: 'owner' }),
 });
 check('creating an account is refused', created.status === 403, `HTTP ${created.status}`);
+
+if (created.ok) {
+  const id = (await created.json().catch(() => ({})))?.doc?.id;
+  const removed = id
+    ? await fetch(`${BASE}/api/users/${id}`, { method: 'DELETE', headers: auth }).then((r) => r.ok)
+    : false;
+  check(
+    `the account this test created was removed again`,
+    removed,
+    removed ? '' : `DELETE the account ${PROBE} by hand: this deployment allows account creation`,
+  );
+}
 
 // The important one: an editor may update its own record, so the only thing
 // standing between it and ownership is field-level access on the role itself.
