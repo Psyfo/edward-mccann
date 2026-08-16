@@ -42,9 +42,18 @@ and structural engineer are named nowhere in the archive; the case-study credits
 line says so rather than inventing names.
 
 **Captions and declared media.** Every image is captioned with its medium, but
-the medium is currently inferred from filenames, so it is confidently correct
-only for drawings, models and the photographed projects. Images that could not
-be classified show no medium line rather than a meaningless one. Per-image
+the medium is inferred from filenames, so it is confidently correct only for
+drawings, models and the photographed projects. Images that could not be
+classified show no medium line rather than a meaningless one.
+
+The 27 **cover** images were classified by eye on 15 August 2026, because a
+missing medium hides the label on the card and seventeen blank cards read as a
+fault rather than a decision: 23 photographs, 3 drawings (Willow Tree, Goat Hill
+House, and Pennard House, whose cover is an aerial carrying survey annotations
+and so works as a site plan), and 1 visualisation (Campden House). Worth the
+practice confirming those last two, and Chamber, which is an installation shot
+rather than a building. The remaining images inside each project are still
+unclassified. Per-image
 captions in the practice's own voice would be the single biggest content
 improvement available: the writing on the existing site proves the author can
 do it well.
