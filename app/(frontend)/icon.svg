@@ -2,11 +2,24 @@
   <title>Edward McCann Architecture</title>
   <!-- The practice's own EM monogram, kept from the previous identity and
        redrawn as vector from the apple-touch-icon the old site served. Same
-       geometry, now sharp at any size; only the palette moved to the brand's
-       ink and paper. The mark bleeds to the left and right edges by design.
+       geometry; the mark bleeds to the left and right edges by design.
+
+       No tile: the mark sits on whatever the browser puts behind it. That
+       means it has to carry its own colour, because ink on a dark tab bar
+       would be invisible, so the fill follows the reader's theme. Browsers
+       honour a media query inside an SVG favicon, which is the only place
+       this kind of switch can happen.
+
+       The Apple touch icon keeps its paper tile: iOS composites touch icons
+       onto black, so a transparent one would come out as a dark square.
        Variants live in public/brand/. -->
-  <rect width="180" height="180" fill="#F5F2ED"/>
-  <g fill="#161412">
+  <style>
+    .mark { fill: #161412; }
+    @media (prefers-color-scheme: dark) {
+      .mark { fill: #F5F2ED; }
+    }
+  </style>
+  <g class="mark">
     <rect x="0" y="40" width="69.5" height="20.5"/>
     <rect x="0" y="78" width="42.5" height="21.5"/>
     <rect x="0" y="119" width="69.5" height="20.5"/>
