@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Entry } from "@/components/Entry";
-import { SectorFilter } from "@/components/SectorFilter";
-import { WorkGrid } from "@/components/WorkGrid";
+import { WorkBrowser } from "@/components/WorkBrowser";
 import { getByNumber, getStudioCopy } from "@/lib/content";
 import { collectionSchema, jsonLd, organisationSchema, websiteSchema } from "@/lib/schema";
 import styles from "./page.module.css";
@@ -41,12 +40,13 @@ export default async function HomePage() {
               Edward McCann Architecture — houses, places to eat and drink, objects and public work
             </h1>
           )}
-          {homepage.showSectorFilter ? <SectorFilter /> : null}
         </section>
 
-        <section aria-label="Work">
-          <WorkGrid projects={projects} showFacts={homepage.showProjectFacts} />
-        </section>
+        <WorkBrowser
+          projects={projects}
+          showFacts={homepage.showProjectFacts}
+          showFilter={homepage.showSectorFilter}
+        />
 
         <div className={styles.tail}>
           <Link href="/archive" className={styles.indexLink}>

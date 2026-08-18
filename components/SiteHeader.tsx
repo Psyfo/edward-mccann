@@ -15,6 +15,10 @@ const NAV = [
 
 export function SiteHeader() {
   const pathname = usePathname();
+  // Past this point the header is over content rather than its own band, so it
+  // sheds its ground and thins slightly. Read on a frame so a fast scroll does
+  // not queue a state update per event.
+  const [scrolled, setScrolled] = useState(false);
   // The overlay is open only for the route it was opened on, so a navigation
   // closes it without an effect having to synchronise the two.
   const [openedFor, setOpenedFor] = useState<string | null>(null);
@@ -26,6 +30,20 @@ export function SiteHeader() {
 
   // The overlay is a modal surface: it traps nothing complex, but it must
   // close on Escape and return focus to the control that opened it.
+  useEffect(() => {
+    let frame = 0;
+    const read = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => setScrolled(window.scrollY > 24));
+    };
+    read();
+    window.addEventListener("scroll", read, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", read);
+      cancelAnimationFrame(frame);
+    };
+  }, []);
+
   useEffect(() => {
     if (!open) return;
     closeRef.current?.focus();
@@ -44,8 +62,9 @@ export function SiteHeader() {
   }, [open]);
 
   return (
-    <header className={styles.header}>
-      <div className={styles.bar}>
+    <>
+      <header className={styles.header} data-scrolled={scrolled || undefined}>
+        <div className={styles.bar}>
         <Link href="/" className={styles.brand} aria-label="Edward McCann Architecture, home">
           <Wordmark withDescriptor />
         </Link>
@@ -80,9 +99,13 @@ export function SiteHeader() {
             <span />
           </span>
         </button>
-      </div>
+        </div>
+      </header>
 
-      {/* Opaque ink ground, per the mobile board: never a translucent scrim. */}
+      {/* Opaque ink ground, per the mobile board: never a translucent scrim.
+          A sibling of the header rather than a child: the header blends with
+          the page beneath it, and a blending element flattens its children
+          into that arithmetic, which would invert this panel's ink to paper. */}
       <div id={menuId} className={styles.overlay} data-open={open} aria-hidden={!open}>
         <div className={styles.overlayBar}>
           <Wordmark className={styles.overlayMark} />
@@ -116,6 +139,6 @@ export function SiteHeader() {
           ))}
         </nav>
       </div>
-    </header>
+    </>
   );
 }
