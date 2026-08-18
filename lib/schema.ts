@@ -102,6 +102,32 @@ export function projectSchema(project: Project, heroUrl: string): Json {
   };
 }
 
+/**
+ * The work the landing page holds, as an ordered list.
+ *
+ * Worth having because the landing page carries almost no prose: the practice
+ * asked for the statement and the per-project facts to come off it, so the
+ * names of the works are most of what is left to describe the page by.
+ */
+export function collectionSchema(projects: Project[]): Json {
+  return {
+    "@type": "CollectionPage",
+    "@id": `${SITE_URL}/#work`,
+    name: `${PRACTICE_NAME}, work`,
+    isPartOf: { "@id": `${SITE_URL}/#website` },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: projects.length,
+      itemListElement: projects.map((project, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: `${SITE_URL}/projects/${project.slug}`,
+        name: project.name,
+      })),
+    },
+  };
+}
+
 /** Where the page sits, so search results can show the path rather than a URL. */
 export function breadcrumbSchema(trail: { name: string; path: string }[]): Json {
   return {

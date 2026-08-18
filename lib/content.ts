@@ -147,6 +147,26 @@ export async function getSelected(): Promise<Project[]> {
 
 /* --- Page copy ---------------------------------------------------------- */
 
+export type SplashImage = {
+  src: string;
+  width: number;
+  height: number;
+  alt: string;
+  credit: string | null;
+};
+
+/** What the landing page shows. Every one of these is the practice's to change. */
+export type HomepageSettings = {
+  showStatement: boolean;
+  showProjectFacts: boolean;
+  showSectorFilter: boolean;
+  splashEnabled: boolean;
+  splash: {
+    landscape: SplashImage | null;
+    portrait: SplashImage | null;
+  };
+};
+
 export type StudioCopy = {
   /** The display statement on the homepage. */
   positioningLine: string;
@@ -156,6 +176,7 @@ export type StudioCopy = {
   email: string;
   telephone: string;
   addresses: { city: string; lines: string }[];
+  homepage: HomepageSettings;
 };
 
 export type PracticeParagraph = { heading?: string; text: string };

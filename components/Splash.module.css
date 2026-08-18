@@ -1,0 +1,198 @@
+/* The entry splash.
+   Two states, both handled in CSS so the sequence begins with the first paint
+   rather than waiting for hydration: the mark arrives on paper, and a little
+   later the photograph arrives behind it. Only the exit needs script. */
+
+.splash {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  background: var(--paper);
+  cursor: pointer;
+  /* The exit: the whole overlay lifts away and takes the photograph with it,
+     which reads as a curtain rather than a dissolve. */
+  transform: translate3d(0, 0, 0);
+  transition:
+    transform 1.05s cubic-bezier(0.76, 0, 0.24, 1),
+    opacity 1.05s cubic-bezier(0.76, 0, 0.24, 1);
+  will-change: transform;
+}
+
+.splash[data-leaving="true"] {
+  transform: translate3d(0, -100%, 0);
+  opacity: 0.92;
+  pointer-events: none;
+}
+
+.photo,
+.photo img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.photo img {
+  object-fit: cover;
+  /* Held back, then brought in once the mark has been read on its own. */
+  opacity: 0;
+  animation: photo-in 1.6s var(--ease, cubic-bezier(0.4, 0, 0.2, 1)) 2.1s forwards;
+}
+
+@keyframes photo-in {
+  from { opacity: 0; transform: scale(1.04); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* A soft darkening under the mark, so it stays legible whatever the photograph
+   does. Measuring the image and picking ink or paper was the alternative, and it
+   fails on exactly these pictures: bright sky at the top, dark planting at the
+   sides, within one frame. */
+.scrim {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  background: radial-gradient(
+    52% 40% at 50% 50%,
+    rgba(22, 20, 18, 0.5) 0%,
+    rgba(22, 20, 18, 0.32) 58%,
+    rgba(22, 20, 18, 0.1) 100%
+  );
+  animation: scrim-in 1.6s ease 2.1s forwards;
+}
+
+@keyframes scrim-in {
+  to { opacity: 1; }
+}
+
+.mark {
+  position: relative;
+  /* A shadow that follows the mark itself, which is the only thing that holds
+     on any photograph: the interior shot puts a white clerestory directly
+     behind the monogram, where a scrim strong enough to save it would have
+     dimmed the whole picture. */
+  filter: drop-shadow(0 1px 20px rgba(22, 20, 18, 0.5));
+  width: clamp(148px, 21vw, 320px);
+  height: auto;
+  /* Ink while the ground is paper. */
+  fill: var(--ink);
+  opacity: 0;
+  animation:
+    mark-in 1.15s cubic-bezier(0.22, 1, 0.36, 1) 0.12s forwards,
+    mark-invert 1.6s ease 2.1s forwards;
+}
+
+@keyframes mark-in {
+  from { opacity: 0; transform: translateY(10px) scale(0.985); letter-spacing: 0; }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Becomes paper as the photograph arrives beneath it. */
+@keyframes mark-invert {
+  to { fill: var(--on-dark, #f5f2ed); }
+}
+
+.splash[data-has-image="false"] .mark {
+  animation: mark-in 1.15s cubic-bezier(0.22, 1, 0.36, 1) 0.12s forwards;
+}
+
+.hint,
+.credit {
+  position: absolute;
+  opacity: 0;
+  color: var(--ink-muted);
+  animation: chrome-in 0.9s ease 1.25s forwards, chrome-invert 1.6s ease 2.1s forwards;
+}
+
+.hint {
+  bottom: calc(var(--u) * 5);
+  letter-spacing: 0.34em;
+}
+
+.credit {
+  right: var(--gutter);
+  bottom: calc(var(--u) * 5);
+  letter-spacing: 0.16em;
+}
+
+@keyframes chrome-in {
+  to { opacity: 0.75; }
+}
+
+@keyframes chrome-invert {
+  to { opacity: 0.72; color: var(--on-dark-muted, #a39b8d); }
+}
+
+.splash[data-has-image="false"] .hint,
+.splash[data-has-image="false"] .credit {
+  animation: chrome-in 0.9s ease 1.25s forwards;
+}
+
+.splash:focus-visible {
+  outline: 2px solid var(--oxide);
+  outline-offset: -6px;
+}
+
+/* Reduced motion: the same three states, none of them moving. The photograph
+   still arrives, because it is information rather than decoration, but nothing
+   scales, drifts or lifts. */
+@media (prefers-reduced-motion: reduce) {
+  .splash {
+    transition: opacity 0.28s linear;
+  }
+
+  .splash[data-leaving="true"] {
+    transform: none;
+    opacity: 0;
+  }
+
+  .mark,
+  .hint,
+  .credit,
+  .photo img,
+  .scrim {
+    animation-duration: 0.01ms;
+    animation-delay: 1.2s;
+  }
+
+  .mark {
+    opacity: 1;
+    animation: none;
+    fill: var(--ink);
+  }
+
+  .splash[data-has-image="true"] .mark {
+    animation: mark-invert 0.01ms linear 1.2s forwards;
+  }
+
+  @keyframes photo-in {
+    from { opacity: 0; transform: none; }
+    to   { opacity: 1; transform: none; }
+  }
+}
+
+@media (max-width: 620px) {
+  .credit {
+    right: auto;
+    left: 50%;
+    bottom: calc(var(--u) * 9);
+    transform: translateX(-50%);
+    letter-spacing: 0.1em;
+    font-size: 0.6875rem;
+  }
+
+  .hint {
+    letter-spacing: 0.28em;
+  }
+}
+
+/* The credit belongs to whichever photograph the orientation query chose. */
+.creditPortrait { display: none; }
+
+@media (orientation: portrait) {
+  .creditLandscape { display: none; }
+  .creditPortrait { display: block; }
+}

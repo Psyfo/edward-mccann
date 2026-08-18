@@ -14,7 +14,29 @@
         "city": "CAPE TOWN",
         "lines": "10 Kelvin Street\nGardens, 8001"
       }
-    ]
+    ],
+    "homepage": {
+      "showStatement": false,
+      "showProjectFacts": false,
+      "showSectorFilter": true,
+      "splashEnabled": true,
+      "splash": {
+        "landscape": {
+          "src": "splash/b0a046e305f4e017",
+          "width": 2922,
+          "height": 2480,
+          "alt": "The artist studio seen from the garden: a red panelled base under a translucent upper storey, among trees.",
+          "credit": "Agnese Sanvito"
+        },
+        "portrait": {
+          "src": "splash/95abdf1855fd67bd",
+          "width": 1800,
+          "height": 2400,
+          "alt": "A red zinc roof extension above a brick terrace, seen from the street.",
+          "credit": null
+        }
+      }
+    }
   },
   "practice": {
     "statement": "We believe in nose to tail design, in which initial concepts at inception are carried through to their resolution in the details and construction.",

@@ -6,6 +6,10 @@ import styles from "./SectorFilter.module.css";
  * The sector row from the homepage board. Each sector links into the index
  * pre-filtered, so the row works without JavaScript and every state is a real,
  * shareable URL.
+ *
+ * The first item used to read SELECTED, when the landing page showed a curated
+ * few. It shows every project now, so the label would have been describing
+ * something that stopped being true.
  */
 export function SectorFilter({ active }: { active?: string }) {
   return (
@@ -15,7 +19,7 @@ export function SectorFilter({ active }: { active?: string }) {
         className={styles.item}
         data-active={active === undefined || active === "selected"}
       >
-        SELECTED
+        ALL WORK
       </Link>
       {sectors.map((sector) => (
         <Link

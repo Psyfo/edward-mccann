@@ -608,6 +608,32 @@ export interface StudioDetail {
   email: string;
   telephone: string;
   /**
+   * What the landing page shows. Nothing here is deleted when it is switched off.
+   */
+  homepage?: {
+    /**
+     * The display line above the work. Off at the practice's request.
+     */
+    showStatement?: boolean | null;
+    /**
+     * Number, type, place and press. Off leaves the name alone.
+     */
+    showProjectFacts?: boolean | null;
+    showSectorFilter?: boolean | null;
+    /**
+     * The mark on a full screen, then a photograph, until the visitor dismisses it.
+     */
+    splashEnabled?: boolean | null;
+    /**
+     * Shown behind the mark on desktop. Without one the splash stays on paper, which is a valid state.
+     */
+    splashImage?: (number | null) | Media;
+    /**
+     * For phones, where a landscape crop loses the subject. Falls back to the landscape one.
+     */
+    splashImageMobile?: (number | null) | Media;
+  };
+  /**
    * London and Cape Town. The city name prints in mono above the address.
    */
   addresses?:
@@ -677,6 +703,16 @@ export interface StudioDetailsSelect<T extends boolean = true> {
   contactLede?: T;
   email?: T;
   telephone?: T;
+  homepage?:
+    | T
+    | {
+        showStatement?: T;
+        showProjectFacts?: T;
+        showSectorFilter?: T;
+        splashEnabled?: T;
+        splashImage?: T;
+        splashImageMobile?: T;
+      };
   addresses?:
     | T
     | {

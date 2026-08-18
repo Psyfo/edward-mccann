@@ -89,11 +89,36 @@ if (missing.length) {
   process.exit(1);
 }
 
+/**
+ * The splash photographs, as the site needs them.
+ *
+ * Only the derivative is carried across: the original sits in the bucket and is
+ * far too heavy to serve, so an image without one is treated as absent rather
+ * than published at full size by accident.
+ */
+function splashOf(homepage) {
+  const shape = (image) =>
+    image?.derivative?.src
+      ? {
+          src: image.derivative.src,
+          width: image.derivative.width,
+          height: image.derivative.height,
+          alt: image.alt ?? '',
+          credit: image.credit ?? null,
+        }
+      : null;
+
+  return {
+    landscape: shape(homepage?.splashImage),
+    portrait: shape(homepage?.splashImageMobile),
+  };
+}
+
 // The page copy: the statements, the essay, the contact details and the two
 // addresses. These are the fields a non-developer is most likely to want to
 // change, and until they were exported here, editing them in the admin saved
 // happily and changed nothing on the site.
-const studio = await payload.findGlobal({ slug: 'studio-details' });
+const studio = await payload.findGlobal({ slug: 'studio-details', depth: 1 });
 const practice = await payload.findGlobal({ slug: 'practice-page' });
 
 const pages = {
@@ -104,6 +129,13 @@ const pages = {
     email: studio.email,
     telephone: studio.telephone,
     addresses: (studio.addresses ?? []).map((a) => ({ city: a.city, lines: a.lines })),
+    homepage: {
+      showStatement: Boolean(studio.homepage?.showStatement),
+      showProjectFacts: Boolean(studio.homepage?.showProjectFacts),
+      showSectorFilter: studio.homepage?.showSectorFilter !== false,
+      splashEnabled: studio.homepage?.splashEnabled !== false,
+      splash: splashOf(studio.homepage),
+    },
   },
   practice: {
     statement: practice.statement,
