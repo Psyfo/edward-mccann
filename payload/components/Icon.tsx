@@ -1,25 +1,26 @@
 /**
- * The nav mark: the EM plan-monogram, the same drawing used as the site's
- * favicon. Two walls and three floor plates on one grid.
+ * The nav mark: the practice's own EM monogram, the same drawing the site uses
+ * as its favicon.
+ *
+ * Drawn here rather than loaded as a file so it can take the admin's own
+ * colours, which is what keeps it legible when the panel is in dark mode. The
+ * bare mark is used, with no tile, because it sits on the admin's ground.
  */
 export default function Icon() {
   return (
     <svg
-      width="26"
-      height="26"
-      viewBox="0 0 100 100"
+      width="30"
+      height="17"
+      viewBox="0 40 180 100"
       xmlns="http://www.w3.org/2000/svg"
       aria-label="Edward McCann Architecture"
     >
-      <rect width="100" height="100" fill="var(--theme-text)" />
-      <g fill="var(--theme-bg)">
-        <rect x="14" y="14" width="10" height="72" />
-        <rect x="14" y="14" width="36" height="10" />
-        <rect x="14" y="45" width="29" height="10" />
-        <rect x="14" y="76" width="36" height="10" />
-        <rect x="57" y="14" width="10" height="72" />
-        <rect x="76" y="14" width="10" height="72" />
-        <rect x="67" y="14" width="9" height="10" />
+      <g fill="var(--theme-text)">
+        <rect x="0" y="40" width="69.5" height="20.5" />
+        <rect x="0" y="78" width="42.5" height="21.5" />
+        <rect x="0" y="119" width="69.5" height="20.5" />
+        <polygon points="79.5,40 101.5,40 131.5,110.5 119.5,139.5" />
+        <rect x="158" y="40" width="22" height="100" />
       </g>
     </svg>
   );

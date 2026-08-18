@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
   <title>Edward McCann Architecture</title>
-  <!-- The EM plan-monogram (logo board, candidate 02): stencil E and M drawn on
-       one grid at a single construction weight. Rotate the E and it reads as a
-       plan: two walls and three floor plates. -->
-  <rect width="100" height="100" fill="#161412"/>
-  <g fill="#F5F2ED">
-    <rect x="14" y="14" width="10" height="72"/>
-    <rect x="14" y="14" width="36" height="10"/>
-    <rect x="14" y="45" width="29" height="10"/>
-    <rect x="14" y="76" width="36" height="10"/>
-    <rect x="57" y="14" width="10" height="72"/>
-    <rect x="76" y="14" width="10" height="72"/>
-    <rect x="67" y="14" width="9" height="10"/>
+  <!-- The practice's own EM monogram, kept from the previous identity and
+       redrawn as vector from the apple-touch-icon the old site served. Same
+       geometry, now sharp at any size; only the palette moved to the brand's
+       ink and paper. The mark bleeds to the left and right edges by design.
+       Variants live in public/brand/. -->
+  <rect width="180" height="180" fill="#F5F2ED"/>
+  <g fill="#161412">
+    <rect x="0" y="40" width="69.5" height="20.5"/>
+    <rect x="0" y="78" width="42.5" height="21.5"/>
+    <rect x="0" y="119" width="69.5" height="20.5"/>
+    <polygon points="79.5,40 101.5,40 131.5,110.5 119.5,139.5"/>
+    <rect x="158" y="40" width="22" height="100"/>
   </g>
 </svg>

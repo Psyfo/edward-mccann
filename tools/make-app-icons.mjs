@@ -15,11 +15,11 @@ const SIZE = 180; // Apple's touch icon, the size iOS asks for
 
 const svg = await readFile(SOURCE);
 
-// No transparency: iOS composites touch icons onto a white sheet, and the
-// monogram is drawn to sit on the ink ground rather than float on paper.
+// No transparency: iOS composites touch icons onto a white sheet, so the tile
+// is flattened onto paper, which is the ground the mark is drawn for.
 const png = await sharp(svg, { density: 384 })
-  .resize(SIZE, SIZE, { fit: 'contain', background: '#161412' })
-  .flatten({ background: '#161412' })
+  .resize(SIZE, SIZE, { fit: 'contain', background: '#F5F2ED' })
+  .flatten({ background: '#F5F2ED' })
   .png()
   .toBuffer();
 
