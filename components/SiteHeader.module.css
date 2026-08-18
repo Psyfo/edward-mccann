@@ -1,8 +1,30 @@
+/* The nav rides over the page and recolours itself against whatever passes
+   beneath it. The whole header blends with the page by difference, and all of
+   its content is drawn in white: white differenced against paper computes to
+   near-ink, and against ink to near-paper, so the bar reads dark on light and
+   light on dark per pixel, with no scroll positions to measure and nothing to
+   get wrong over photographs.
+
+   At rest the header sits over the page's own paper, so it looks exactly as it
+   did when it carried a paper ground of its own. What changes on scroll is the
+   frame: the hairline lets go and the bar thins, which is what makes the move
+   legible. */
+
 .header {
-  position: relative;
+  position: sticky;
+  top: 0;
   z-index: 10;
-  background: var(--paper);
-  border-bottom: var(--rule);
+  background: transparent;
+  mix-blend-mode: difference;
+  color: #fff;
+  /* White at low alpha differences to a slight darkening of whatever is
+     behind: a hairline on paper, a lift on ink. */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+  transition: border-color var(--t-nav) var(--ease);
+}
+
+.header[data-scrolled] {
+  border-bottom-color: transparent;
 }
 
 .bar {
@@ -11,14 +33,24 @@
   justify-content: space-between;
   gap: calc(var(--u) * 3);
   padding: calc(var(--u) * 3.25) var(--gutter);
+  transition: padding var(--t-nav) var(--ease);
+}
+
+.header[data-scrolled] .bar {
+  padding-top: calc(var(--u) * 1.75);
+  padding-bottom: calc(var(--u) * 1.75);
 }
 
 .brand {
   display: inline-flex;
+  color: #fff;
+  /* The wordmark's descriptor reads var(--ink-muted); under the blend its
+     muted tone is a translucent white resolved at the point of use. */
+  --ink-muted: rgba(255, 255, 255, 0.62);
 }
 
 .brand:hover {
-  color: var(--ink);
+  color: #fff;
 }
 
 .nav {
@@ -32,21 +64,27 @@
   font-weight: 400;
   letter-spacing: var(--track-nav);
   text-transform: uppercase;
-  color: var(--ink-muted);
+  color: rgba(255, 255, 255, 0.62);
   padding-bottom: 2px;
   border-bottom: 1px solid transparent;
+  transition: color var(--t-state) var(--ease);
+}
+
+.navLink:hover {
+  color: #fff;
 }
 
 /* Active state is a rule, not a colour: legible without relying on hue. */
 .active {
-  color: var(--ink);
-  border-bottom-color: var(--ink);
+  color: #fff;
+  border-bottom-color: #fff;
 }
 
 .menuButton {
   display: none;
   padding: calc(var(--u) * 1.5);
   margin: calc(var(--u) * -1.5);
+  color: #fff;
 }
 
 .bars {
@@ -57,11 +95,65 @@
 .bars span {
   display: block;
   height: 1px;
-  background: var(--ink);
+  background: #fff;
 }
 
 .bars span + span {
   margin-top: 5px;
+}
+
+/* Browsers that cannot blend get the header the site had before: paper ground,
+   ink text, always opaque. Legible everywhere, just not chameleon. */
+@supports not (mix-blend-mode: difference) {
+  .header {
+    background: var(--paper);
+    mix-blend-mode: normal;
+    color: var(--ink);
+    border-bottom: var(--rule);
+  }
+
+  .brand {
+    color: var(--ink);
+    --ink-muted: initial;
+  }
+
+  .navLink {
+    color: var(--ink-muted);
+  }
+
+  .navLink:hover,
+  .active {
+    color: var(--ink);
+  }
+
+  .active {
+    border-bottom-color: var(--ink);
+  }
+
+  .menuButton {
+    color: var(--ink);
+  }
+
+  .bars span {
+    background: var(--ink);
+  }
+}
+
+/* Forced-colour modes pick every colour themselves; blending would fight
+   them. */
+@media (forced-colors: active) {
+  .header {
+    mix-blend-mode: normal;
+    background: Canvas;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header,
+  .bar,
+  .navLink {
+    transition: none;
+  }
 }
 
 .srOnly {
