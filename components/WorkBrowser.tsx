@@ -58,6 +58,43 @@ export function WorkBrowser({ projects, showFacts, showFilter }: Props) {
   return (
     <>
       {showFilter ? (
+        <div className={styles.mobile}>
+          {/* One quiet line on a phone, where the full row reads as clutter.
+              The control is the contact form's select, same underline and
+              rotated caret, so the page speaks one language; the picker
+              itself is the platform's own, which is the most at-home a
+              filter can feel on a phone. */}
+          <span className={styles.selectWrap}>
+            <span className={`notation ${styles.selectLabel}`} aria-hidden="true">
+              SHOWING
+            </span>
+            <select
+              className={`notation ${styles.select}`}
+              aria-label="Filter work by sector"
+              value={sector ?? ""}
+              onChange={(e) => select((e.target.value || null) as SectorId | null)}
+            >
+              <option value="">ALL WORK</option>
+              {sectors.map((s) => (
+                <option key={s.id} value={s.id}>
+                  {s.label}
+                </option>
+              ))}
+            </select>
+            <span className={styles.caret} aria-hidden="true">
+              &#187;
+            </span>
+          </span>
+          <Link href="/archive" className={`${styles.item} ${styles.full}`}>
+            FULL INDEX{" "}
+            <span className="mark" aria-hidden="true">
+              &#187;
+            </span>
+          </Link>
+        </div>
+      ) : null}
+
+      {showFilter ? (
         <nav className={styles.row} aria-label="Filter work by sector">
           <Link
             href="/"

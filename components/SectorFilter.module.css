@@ -35,3 +35,82 @@
     margin-left: 0;
   }
 }
+
+/* ------------------------------------------------- The one-line mobile form */
+
+/* Hidden on desktop; at phone widths it replaces the row entirely. */
+.mobile {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .row {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: calc(var(--u) * 3);
+    margin-top: calc(var(--u) * 3);
+  }
+
+  /* The link keeps its shape; the select is what gives. */
+  .mobile .full {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .selectWrap {
+    position: relative;
+    display: inline-flex;
+    align-items: baseline;
+    gap: calc(var(--u) * 1.5);
+    /* Takes what the index link leaves, so a long sector name truncates
+       rather than shoving the link onto a second line. */
+    flex: 1;
+    min-width: 0;
+  }
+
+  .selectLabel {
+    color: var(--ink-muted);
+  }
+
+  .select {
+    appearance: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--hairline);
+    border-radius: 0;
+    padding: 0 calc(var(--u) * 2.5) 2px 0;
+    color: var(--ink);
+    font-family: var(--font-structural);
+    font-size: 0.78125rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    flex: 1;
+    min-width: 0;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .select:focus-visible {
+    outline: 1px solid var(--oxide);
+    outline-offset: 4px;
+  }
+
+  /* The site's caret: the accent mark turned to point at the picker. */
+  .caret {
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    transform: rotate(90deg);
+    color: var(--oxide);
+    pointer-events: none;
+    font-size: 0.78125rem;
+  }
+}
+
