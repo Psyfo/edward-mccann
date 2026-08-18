@@ -54,3 +54,29 @@ export function figureCaption(figure: Figure, index: number) {
   }
   return parts.join(" — ");
 }
+
+/**
+ * The splash photographs are the only images that fill a whole viewport, so
+ * they carry wider renditions than a project image ever needs. The widths are
+ * the ones tools/prepare-splash.mjs actually produced; asking for others would
+ * return a 404 rather than a smaller file.
+ */
+export const SPLASH_WIDTHS = {
+  landscape: [1280, 1920, 2560] as const,
+  portrait: [780, 1170, 1560] as const,
+};
+
+export function splashSrcSet(
+  src: string,
+  orientation: "landscape" | "portrait",
+  format: "avif" | "jpg",
+) {
+  return SPLASH_WIDTHS[orientation]
+    .map((w) => `${mediaUrl(src, w, format)} ${w}w`)
+    .join(", ");
+}
+
+export function splashFallback(src: string, orientation: "landscape" | "portrait") {
+  const widths = SPLASH_WIDTHS[orientation];
+  return mediaUrl(src, widths[widths.length - 1], "jpg");
+}

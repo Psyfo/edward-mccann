@@ -1,75 +1,64 @@
 import Link from "next/link";
-import { ProjectCard } from "@/components/ProjectCard";
+import { Entry } from "@/components/Entry";
 import { SectorFilter } from "@/components/SectorFilter";
-import { getSelected, getStudioCopy } from "@/lib/content";
-import { jsonLd, organisationSchema, websiteSchema } from "@/lib/schema";
+import { WorkGrid } from "@/components/WorkGrid";
+import { getByNumber, getStudioCopy } from "@/lib/content";
+import { collectionSchema, jsonLd, organisationSchema, websiteSchema } from "@/lib/schema";
 import styles from "./page.module.css";
 
 export default async function HomePage() {
-  const [lead, second, ...rest] = await getSelected();
+  const projects = await getByNumber();
   const studio = getStudioCopy();
+  const { homepage } = studio;
+
+  const splash =
+    homepage.splashEnabled && (homepage.splash.landscape || homepage.splash.portrait)
+      ? homepage.splash
+      : null;
 
   return (
     <div className={styles.page}>
-      {/* Who the practice is and what this site is, stated once, on the page
-          a search engine is most likely to treat as the practice's identity. */}
+      {/* Who the practice is, what this site is, and the work it holds. The
+          third matters more than usual here: with the statement switched off
+          there is almost no prose on this page, so the list of works is the
+          substance a search engine has to go on. */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLd(organisationSchema(), websiteSchema()) }}
+        dangerouslySetInnerHTML={{
+          __html: jsonLd(organisationSchema(), websiteSchema(), collectionSchema(projects)),
+        }}
       />
-      <section className={styles.opening}>
-        {/*
-          The practice's own positioning line, edited in the admin. It is the
-          one piece of display type on the homepage.
-        */}
-        <h1 className={`display ${styles.statement}`}>{studio.positioningLine}</h1>
-        <SectorFilter />
-      </section>
 
-      {/* Asymmetric lead row, then a three-up. Ratios are fixed so the grid
-          keeps its rhythm regardless of source aspect. */}
-      <section className={styles.leadRow} aria-label="Selected work">
-        {lead ? (
-          <ProjectCard
-            project={lead}
-            ratio="16 / 10.5"
-            sizes="(max-width: 700px) 100vw, 60vw"
-            priority
-            size="lead"
-          />
-        ) : null}
-        {second ? (
-          <ProjectCard
-            project={second}
-            ratio="16 / 10.5"
-            sizes="(max-width: 700px) 100vw, 38vw"
-            priority
-            size="lead"
-          />
-        ) : null}
-      </section>
+      <Entry splash={splash}>
+        <section className={styles.opening}>
+          {homepage.showStatement ? (
+            <h1 className={`display ${styles.statement}`}>{studio.positioningLine}</h1>
+          ) : (
+            // The statement is off at the practice's request, and a page with no
+            // heading is a page a search engine cannot place. This says the same
+            // thing to a crawler and a screen reader without printing it.
+            <h1 className="visually-hidden">
+              Edward McCann Architecture — houses, places to eat and drink, objects and public work
+            </h1>
+          )}
+          {homepage.showSectorFilter ? <SectorFilter /> : null}
+        </section>
 
-      <section className={styles.threeUp}>
-        {rest.map((project) => (
-          <ProjectCard
-            key={project.slug}
-            project={project}
-            ratio="4 / 5"
-            sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 30vw"
-          />
-        ))}
-      </section>
+        <section aria-label="Work">
+          <WorkGrid projects={projects} showFacts={homepage.showProjectFacts} />
+        </section>
 
-      <div className={styles.tail}>
-        <Link href="/archive" className={styles.indexLink}>
-          <span className={styles.indexTitle}>
-            The complete archive — 27 works, 2012 to present
-          </span>{" "}
-          <span className="mark" aria-hidden="true">
-            &#187;
-          </span>
-        </Link>
-      </div>
+        <div className={styles.tail}>
+          <Link href="/archive" className={styles.indexLink}>
+            <span className={styles.indexTitle}>
+              The complete archive — {projects.length} works, 2012 to present
+            </span>{" "}
+            <span className="mark" aria-hidden="true">
+              &#187;
+            </span>
+          </Link>
+        </div>
+      </Entry>
     </div>
   );
 }

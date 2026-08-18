@@ -1,0 +1,24 @@
+/* The work is visible at all times. This only adds a settling movement once the
+   splash has lifted, which is why the rule is on the entered state rather than
+   the other way round: nothing here can leave the page hidden. */
+
+.work[data-entered="true"] {
+  animation: work-in 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes work-in {
+  from {
+    opacity: 0.55;
+    transform: translate3d(0, 14px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .work[data-entered="true"] {
+    animation: none;
+  }
+}

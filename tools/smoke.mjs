@@ -26,7 +26,10 @@ async function expect(label, url, predicate) {
 // homepage, because the route name collided with index.html in static serving.
 // Each page therefore has to prove it is itself.
 const pages = [
-  { path: '/', contains: 'Nose to tail design' },
+  // Not the positioning statement any more: that is behind a switch the
+  // practice can turn off, and it is off. The archive link is on the landing
+  // page in either state.
+  { path: '/', contains: 'The complete archive' },
   { path: '/archive', contains: '27 WORKS' },
   { path: '/practice', contains: 'RIBA CHARTERED' },
   { path: '/press', contains: 'Recognition' },
@@ -76,6 +79,33 @@ if (!firstImage) {
   failures.push('markup: no image URL found on a project page');
 } else {
   await expect('hero image loads', firstImage, (r) => (r.ok ? null : `HTTP ${r.status}`));
+}
+
+// The landing page is the whole archive now, and the splash sits on top of it
+// rather than in front of it. Both of those are invisible failures if they
+// break: a splash that covered an empty page would look identical to a splash
+// that covered a full one, right up until someone dismissed it.
+{
+  const home = await fetch(`${BASE}/`).then((r) => r.text());
+  checked += 1;
+
+  const linked = new Set([...home.matchAll(/href="\/projects\/([a-z0-9-]+)"/g)].map((m) => m[1]));
+  if (linked.size !== facts.projects.length) {
+    failures.push(`/: links to ${linked.size} projects, expected all ${facts.projects.length}`);
+  }
+
+  // Every name has to be readable in the markup, because with the facts line
+  // switched off the names are nearly all the text this page has.
+  const missingNames = facts.projects.filter((p) => !home.includes(p.name));
+  if (missingNames.length) {
+    failures.push(`/: ${missingNames.length} project name(s) missing from the markup, e.g. ${missingNames[0].name}`);
+  }
+
+  // The splash must never be the only thing in the document, and it must be
+  // removable without scripts. Both are what keep it out of the way of search.
+  if (home.includes('splash-overlay') && !home.includes('.splash-overlay { display: none !important; }')) {
+    failures.push('/: the splash is present but the noscript rule that removes it is not');
+  }
 }
 
 // Search engines read things nobody looks at while browsing, so they are only
