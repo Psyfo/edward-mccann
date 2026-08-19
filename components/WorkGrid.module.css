@@ -80,17 +80,17 @@
 .name {
   font-family: var(--font-names);
   font-style: normal;
-  font-size: 0.9375rem;
-  letter-spacing: 0.02em;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
   line-height: 1.4;
   transition: color var(--t-state) var(--ease);
 }
 
+/* The hover changes the voice and the colour and nothing else: size, tracking
+   and line height hold still, so the word does not jump as the face swaps. */
 .link:hover .name {
   font-family: var(--font-reading);
   font-style: italic;
-  font-size: 1.0625rem;
-  letter-spacing: 0;
   color: var(--oxide);
 }
 
