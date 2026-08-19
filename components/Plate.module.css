@@ -113,3 +113,39 @@ a:hover .frame .chip {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+/* The image itself is the examine control now: no visible tab, per the
+   practice's review. The cursor says what tapping does on the surfaces where
+   examining is offered. */
+.examineArea {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: default;
+}
+
+.examineArea[data-drawing="true"] {
+  cursor: zoom-in;
+}
+
+@media (max-width: 760px) {
+  .examineArea {
+    cursor: zoom-in;
+  }
+}
+
+.examineArea:focus-visible {
+  outline: 1px solid var(--oxide);
+  outline-offset: 4px;
+}
+
+.examineArea picture,
+.examineArea img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+

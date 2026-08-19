@@ -94,7 +94,9 @@ export function SiteHeader() {
           onClick={() => setOpen(true)}
         >
           <span className={styles.srOnly}>Open menu</span>
-          <span className={styles.bars} aria-hidden="true">
+          {/* A plus, per the practice's review: two hairline strokes, the
+              same weight as every rule on the site. */}
+          <span className={styles.plus} aria-hidden="true">
             <span />
             <span />
           </span>

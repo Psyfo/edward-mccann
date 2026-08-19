@@ -1,18 +1,27 @@
 .body {
-  display: grid;
-  grid-template-columns: 1fr 1.7fr;
-  gap: calc(var(--u) * 9);
-  padding: calc(var(--u) * 3) var(--gutter) calc(var(--u) * 6);
+  padding: calc(var(--u) * 4) var(--gutter) calc(var(--u) * 6);
 }
 
-.no {
-  margin: 0;
+.name {
+  margin: 0 0 calc(var(--u) * 3);
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+/* The details, held to the bottom of the page per the practice's review. */
+.details {
+  padding: 0 var(--gutter);
+  margin-top: calc(var(--u) * 7);
 }
 
 .facts {
-  margin: calc(var(--u) * 3) 0 0;
+  margin: 0;
   border-top: var(--rule-ink);
   padding-top: calc(var(--u) * 2.5);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: calc(var(--u) * 8);
+  max-width: 88ch;
 }
 
 .fact {

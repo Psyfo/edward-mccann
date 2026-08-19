@@ -18,7 +18,7 @@
     "homepage": {
       "showStatement": false,
       "showProjectFacts": false,
-      "showSectorFilter": true,
+      "showSectorFilter": false,
       "splashEnabled": true,
       "splash": {
         "landscape": {

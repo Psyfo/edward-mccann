@@ -84,7 +84,7 @@ export function WorkGrid({ projects, showFacts }: Props) {
                 </picture>
               </span>
               <span className={styles.caption}>
-                <span className={`title ${styles.name}`}>{project.name}</span>
+                <span className={styles.name}>{project.name}</span>
                 {showFacts && facts ? (
                   <span className={`notation ${styles.facts}`}>{facts}</span>
                 ) : null}

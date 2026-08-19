@@ -1,12 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import type { SplashImage } from "@/lib/content";
-import { Splash } from "./Splash";
+import { Splash, type SplashSlide } from "./Splash";
 import styles from "./Entry.module.css";
 
 type Props = {
-  splash: { landscape: SplashImage | null; portrait: SplashImage | null } | null;
+  splash: SplashSlide[] | null;
   children: React.ReactNode;
 };
 
@@ -20,7 +19,7 @@ type Props = {
  * the landing page and never knows a splash was intended.
  */
 export function Entry({ splash, children }: Props) {
-  const [entered, setEntered] = useState(!splash);
+  const [entered, setEntered] = useState(!splash || splash.length === 0);
 
   return (
     <>
@@ -34,11 +33,7 @@ export function Entry({ splash, children }: Props) {
       ) : null}
 
       {splash && !entered ? (
-        <Splash
-          landscape={splash.landscape}
-          portrait={splash.portrait}
-          onDismissed={() => setEntered(true)}
-        />
+        <Splash slides={splash} onDismissed={() => setEntered(true)} />
       ) : null}
 
       <div className={styles.work} data-entered={entered}>

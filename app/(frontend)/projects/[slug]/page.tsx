@@ -72,22 +72,10 @@ export default async function ProjectPage({ params }: Params) {
       <ScrollProgress />
       <ProjectHero project={project} />
 
+      {/* The order the practice asked for: image, title, text, and the
+          details held back to the bottom of the page. */}
       <div className={styles.body}>
-        <div className={styles.factsColumn}>
-          <p className={`notation ${styles.no}`}>{project.no}</p>
-          <dl className={`notation ${styles.facts}`}>
-            {facts.map(([label, value], i) => (
-              <div key={`${label}-${i}`} className={styles.fact}>
-                <dt className={styles.factLabel}>{label}</dt>
-                <dd className={styles.factValue} data-unbuilt={label === "STATUS" && project.unbuilt}>
-                  {value}
-                </dd>
-              </div>
-            ))}
-          </dl>
-          <div className="through-line" aria-hidden="true" />
-        </div>
-
+        <h1 className={`title ${styles.name}`}>{project.name}</h1>
         <div className={styles.prose}>
           {project.body.map((paragraph, i) => (
             <p key={i} className={`body-copy ${styles.paragraph}`}>
@@ -115,6 +103,19 @@ export default async function ProjectPage({ params }: Params) {
           })}
         </section>
       ) : null}
+
+      <section className={styles.details} aria-label="Project details">
+        <dl className={`notation ${styles.facts}`}>
+          {facts.map(([label, value], i) => (
+            <div key={`${label}-${i}`} className={styles.fact}>
+              <dt className={styles.factLabel}>{label}</dt>
+              <dd className={styles.factValue} data-unbuilt={label === "STATUS" && project.unbuilt}>
+                {value}
+              </dd>
+            </div>
+          ))}
+        </dl>
+      </section>
 
       <footer className={styles.handoff}>
         <p className={`notation ${styles.credits}`}>

@@ -23,6 +23,12 @@ const FACES = [
   { family: 'EB+Garamond', axis: 'ital,wght@0,400', file: 'garamond-400' },
   { family: 'EB+Garamond', axis: 'ital,wght@1,400', file: 'garamond-400-italic' },
   { family: 'Spline+Sans+Mono', axis: 'wght@400', file: 'mono-400' },
+  // The banner face. The practice asked for Century Gothic, which is
+  // Monotype's and cannot be self-hosted; Questrial is the closest open face
+  // (same geometric single-storey construction) and sits behind it in the
+  // stack, so machines that own Century Gothic use it and everyone else sees
+  // its nearest relative rather than a random fallback.
+  { family: 'Questrial', axis: 'wght@400', file: 'questrial-400' },
 ];
 
 // A modern UA is required or Google serves legacy formats instead of woff2.

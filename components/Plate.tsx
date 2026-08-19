@@ -1,30 +1,40 @@
 "use client";
 
-import { useState, ViewTransition } from "react";
+import { useState } from "react";
+import { ViewTransition } from "react";
 import type { Figure } from "@/lib/content";
-import { fallbackSrc, figureCaption, srcSet } from "@/lib/media";
+import { srcSet, fallbackSrc } from "@/lib/media";
 import { Examine } from "./Examine";
-import { useReveal } from "./Reveal";
 import styles from "./Plate.module.css";
 
 type Props = {
   figure: Figure;
   index?: number;
-  /** CSS aspect-ratio for the frame, e.g. "4 / 5". Defaults to the source ratio. */
   ratio?: string;
   sizes: string;
-  /** LCP images opt out of lazy loading and of the reveal wipe. */
   priority?: boolean;
-  /** Shared name for a view transition morph into the case-study hero. */
   transitionName?: string;
+  /** The landing cards set this false; project plates keep it true. */
   showCaption?: boolean;
   className?: string;
 };
 
+/** What a screen reader hears for the examine control. */
+function figureCaption(figure: Figure, index: number): string {
+  if (figure.caption) return figure.caption;
+  return index > 0 ? `Image ${index}` : "Image";
+}
+
 /**
- * A single image "plate": the frame, the wipe reveal, the declared-media
- * caption. Images are plain <picture> elements pointing at pre-generated
- * bucket objects, so nothing is optimised at request time.
+ * One image, still, whole and unannotated: the practice's review took away the
+ * scroll-in reveal, the medium tab and the printed figure line, and the page
+ * is quieter for it.
+ *
+ * The examine view stayed, because a drawing at reading size is still
+ * unreadable, but it lost its visible tab: the image itself is the control,
+ * on the surfaces where examining helps (drawings anywhere, everything on a
+ * small screen), with the cursor and a screen-reader label carrying what the
+ * tab used to say.
  */
 export function Plate({
   figure,
@@ -36,74 +46,58 @@ export function Plate({
   showCaption = true,
   className,
 }: Props) {
-  const { ref, shown } = useReveal<HTMLDivElement>();
-  const revealed = priority ? true : shown;
   const [examining, setExamining] = useState(false);
-
-  // Examinable when the image carries information the page cannot show at
-  // reading size: a drawing at any width, and anything on a small screen. The
-  // media query lives in CSS so the trigger is hidden rather than conditionally
-  // rendered, which keeps the server and client markup identical.
   const examinable = showCaption;
   const caption = figureCaption(figure, index);
 
-  const picture = (
+  const image = (
+    <picture>
+      <source type="image/avif" srcSet={srcSet(figure, "avif")} sizes={sizes} />
+      <img
+        src={fallbackSrc(figure)}
+        srcSet={srcSet(figure, "jpg")}
+        sizes={sizes}
+        alt={figure.caption || ""}
+        width={figure.width}
+        height={figure.height}
+        loading={priority ? "eager" : "lazy"}
+        decoding={priority ? "sync" : "async"}
+        fetchPriority={priority ? "high" : undefined}
+      />
+    </picture>
+  );
+
+  const frame = (
     <div
-      className={`${styles.frame} media reveal`}
+      className={`${styles.frame} media`}
       style={{ aspectRatio: ratio ?? `${figure.width} / ${figure.height}` }}
-      data-shown={revealed}
       data-fit={figure.fit ?? "cover"}
     >
-      <picture>
-        <source type="image/avif" srcSet={srcSet(figure, "avif")} sizes={sizes} />
-        <img
-          src={fallbackSrc(figure)}
-          srcSet={srcSet(figure, "jpg")}
-          sizes={sizes}
-          alt={figure.caption || ""}
-          width={figure.width}
-          height={figure.height}
-          loading={priority ? "eager" : "lazy"}
-          decoding={priority ? "sync" : "async"}
-          fetchPriority={priority ? "high" : undefined}
-        />
-      </picture>
-      {/* The media declaration rides in from the edge on a paper chip. It is
-          decorative duplication where a caption is already printed below, so
-          it is only shown on cards that carry no caption. */}
-      {!showCaption && figure.medium !== "IMAGE" ? (
-        <span className={`notation ${styles.chip}`} aria-hidden="true">
-          {figure.credit ? `${figure.medium} — ${figure.credit.toUpperCase()}` : figure.medium}
-        </span>
-      ) : null}
       {examinable ? (
         <button
           type="button"
-          className={styles.examine}
+          className={styles.examineArea}
           data-drawing={figure.fit === "contain"}
           onClick={() => setExamining(true)}
         >
-          EXAMINE <span aria-hidden="true">&#187;</span>
-          <span className={styles.srOnly}>{caption}</span>
+          {image}
+          <span className={styles.srOnly}>Examine {caption}</span>
         </button>
-      ) : null}
+      ) : (
+        image
+      )}
     </div>
   );
 
   return (
-    <figure ref={ref} className={[styles.plate, className].filter(Boolean).join(" ")}>
+    <figure className={[styles.plate, className].filter(Boolean).join(" ")}>
       {transitionName ? (
         <ViewTransition name={transitionName} share="morph" default="none">
-          {picture}
+          {frame}
         </ViewTransition>
       ) : (
-        picture
+        frame
       )}
-      {showCaption ? (
-        <figcaption className={`notation ${styles.caption} reveal-caption`} data-shown={revealed}>
-          {caption}
-        </figcaption>
-      ) : null}
       {examining ? (
         <Examine figure={figure} caption={caption} onClose={() => setExamining(false)} />
       ) : null}

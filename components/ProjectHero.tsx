@@ -6,12 +6,10 @@ import { fallbackSrc, srcSet } from "@/lib/media";
 import styles from "./ProjectHero.module.css";
 
 /**
- * A layered title block, not a scrim.
- *
- * Four stacked layers, in order: the full-bleed photograph; an ink gradient
- * confined to the caption edge; the archive number set huge and cropped by the
- * frame so it reads as a printed registration mark; and the title on a solid
- * paper panel that deliberately breaks the grid where it overlaps the image.
+ * The hero is the photograph and nothing else, per the practice's review: the
+ * registration number, the ink gradient at the caption edge and the title
+ * panel that broke into the frame have all gone. The title is set beneath it
+ * by the page.
  */
 export function ProjectHero({ project }: { project: Project }) {
   const figure = project.hero;
@@ -34,32 +32,8 @@ export function ProjectHero({ project }: { project: Project }) {
               decoding="sync"
             />
           </picture>
-
-          {/* Ink only at the caption edge, never a full wash. */}
-          <div className={styles.edge} aria-hidden="true" />
-
-          {/* The registration mark: cropped by the frame on purpose. */}
-          <div className={styles.registration} aria-hidden="true">
-            {project.no}
-          </div>
-
         </div>
       </ViewTransition>
-
-      <div className={styles.panel}>
-        <h1 className={`title ${styles.name}`}>{project.name}</h1>
-        {/*
-          Declared media, but only when the declaration means something. The
-          generic fallback is not a declaration, so it is omitted rather than
-          printed: see docs/content-open-questions.md, where per-image media and
-          credits are on the confirmation list.
-        */}
-        {figure.medium !== "IMAGE" ? (
-          <p className={`notation ${styles.medium}`}>
-            {figure.credit ? `${figure.medium}, ${figure.credit.toUpperCase()}` : figure.medium}
-          </p>
-        ) : null}
-      </div>
     </header>
   );
 }
