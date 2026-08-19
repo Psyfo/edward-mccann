@@ -8,16 +8,28 @@ import styles from "./Splash.module.css";
 /** Matches the exit transition in Splash.module.css, with a little slack. */
 const EXIT_MS = 1150;
 
-type Props = {
+/** The practice asked for a change every two to three seconds. */
+const CYCLE_MS = 2600;
+
+export type SplashSlide = {
   landscape: SplashImage | null;
   portrait: SplashImage | null;
+};
+
+type Props = {
+  slides: SplashSlide[];
   /** Called once the exit has finished, so the work can come in behind it. */
   onDismissed: () => void;
 };
 
 /**
- * The entry splash: the practice's mark on a full screen, which becomes a
- * photograph, and leaves when the visitor asks it to.
+ * The entry splash: a full-bleed photograph with the practice's mark on it,
+ * changing every few seconds, leaving when the visitor asks it to.
+ *
+ * The page lands straight on the image. There was a paper beat before it, for
+ * effect, and the practice asked the fair question of whether it read as
+ * loading instead; it went. The mark is ink, clean, no shadow and no scrim,
+ * per the same review.
  *
  * It is deliberately an overlay rather than a page of its own. A page would put
  * a near-empty document at the site's most important address, and the work
@@ -30,10 +42,23 @@ type Props = {
  *
  * Shown on every load, at the practice's request.
  */
-export function Splash({ landscape, portrait, onDismissed }: Props) {
+export function Splash({ slides, onDismissed }: Props) {
   const [leaving, setLeaving] = useState(false);
+  const [active, setActive] = useState(0);
 
   const dismiss = useCallback(() => setLeaving(true), []);
+
+  // The slideshow. It stops the moment the visitor dismisses, and it never
+  // starts for a visitor who has asked for reduced motion: a picture that
+  // replaces itself unbidden is exactly the motion they asked not to have.
+  useEffect(() => {
+    if (leaving || slides.length < 2) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const timer = setInterval(() => {
+      setActive((i) => (i + 1) % slides.length);
+    }, CYCLE_MS);
+    return () => clearInterval(timer);
+  }, [leaving, slides.length]);
 
   // The exit ends on a timer rather than on transitionend. Keying it to the
   // transform transition looked tidier and was wrong: under reduced motion the
@@ -79,67 +104,69 @@ export function Splash({ landscape, portrait, onDismissed }: Props) {
     };
   }, [leaving]);
 
-  const image = landscape ?? portrait;
+  const current = slides[active];
 
   return (
     <div
       className={`splash-overlay ${styles.splash}`}
       data-leaving={leaving}
-      data-has-image={Boolean(image)}
       role="button"
       tabIndex={0}
       aria-label="Enter the site"
       onClick={dismiss}
     >
-      {image ? (
-        <picture className={styles.photo}>
-          {portrait ? (
-            <>
-              <source
-                media="(orientation: portrait)"
-                type="image/avif"
-                srcSet={splashSrcSet(portrait.src, "portrait", "avif")}
-                sizes="100vw"
-              />
-              <source
-                media="(orientation: portrait)"
-                type="image/jpeg"
-                srcSet={splashSrcSet(portrait.src, "portrait", "jpg")}
-                sizes="100vw"
-              />
-            </>
-          ) : null}
-          {landscape ? (
-            <>
-              <source
-                type="image/avif"
-                srcSet={splashSrcSet(landscape.src, "landscape", "avif")}
-                sizes="100vw"
-              />
-              <source
-                type="image/jpeg"
-                srcSet={splashSrcSet(landscape.src, "landscape", "jpg")}
-                sizes="100vw"
-              />
-            </>
-          ) : null}
-          {/* Decorative here: the photograph is atmosphere on the way in, and
-              the same work is described properly on its own page. */}
-          <img
-            src={splashFallback(image.src, landscape ? "landscape" : "portrait")}
-            alt=""
-            width={image.width}
-            height={image.height}
-            fetchPriority="high"
-            decoding="async"
-          />
-        </picture>
-      ) : null}
+      {slides.map((slide, i) => {
+        const image = slide.landscape ?? slide.portrait;
+        if (!image) return null;
+        return (
+          <picture key={i} className={styles.photo} data-active={i === active}>
+            {slide.portrait ? (
+              <>
+                <source
+                  media="(orientation: portrait)"
+                  type="image/avif"
+                  srcSet={splashSrcSet(slide.portrait.src, "portrait", "avif")}
+                  sizes="100vw"
+                />
+                <source
+                  media="(orientation: portrait)"
+                  type="image/jpeg"
+                  srcSet={splashSrcSet(slide.portrait.src, "portrait", "jpg")}
+                  sizes="100vw"
+                />
+              </>
+            ) : null}
+            {slide.landscape ? (
+              <>
+                <source
+                  type="image/avif"
+                  srcSet={splashSrcSet(slide.landscape.src, "landscape", "avif")}
+                  sizes="100vw"
+                />
+                <source
+                  type="image/jpeg"
+                  srcSet={splashSrcSet(slide.landscape.src, "landscape", "jpg")}
+                  sizes="100vw"
+                />
+              </>
+            ) : null}
+            {/* Decorative here: the photograph is atmosphere on the way in, and
+                the same work is described properly on its own page. */}
+            <img
+              src={splashFallback(image.src, slide.landscape ? "landscape" : "portrait")}
+              alt=""
+              width={image.width}
+              height={image.height}
+              fetchPriority={i === 0 ? "high" : undefined}
+              loading={i === 0 ? "eager" : "lazy"}
+              decoding="async"
+            />
+          </picture>
+        );
+      })}
 
-      <span className={styles.scrim} aria-hidden="true" />
-
-      {/* The mark is drawn rather than loaded so it can be paper on the
-          photograph and ink on the paper ground, without a second request. */}
+      {/* The mark is drawn rather than loaded so it needs no second request.
+          Ink, clean, per the review: no shadow and nothing behind it. */}
       <svg
         className={styles.mark}
         viewBox="0 40 180 100"
@@ -155,22 +182,16 @@ export function Splash({ landscape, portrait, onDismissed }: Props) {
         </g>
       </svg>
 
-      <span className={`notation ${styles.hint}`} aria-hidden="true">
-        ENTER
-      </span>
-
-      {/* One credit per photograph, each shown only in the orientation that
-          actually displays its image. Which one is on screen is decided by a
-          media query, so React cannot know it, and a single credit would have
-          put the wrong photographer's name under a picture. */}
-      {landscape?.credit ? (
+      {/* One credit per photograph, shown only in the orientation that actually
+          displays its image, and only while its slide is up. */}
+      {current?.landscape?.credit ? (
         <span className={`notation ${styles.credit} ${styles.creditLandscape}`} aria-hidden="true">
-          {landscape.credit.toUpperCase()}
+          {current.landscape.credit.toUpperCase()}
         </span>
       ) : null}
-      {portrait?.credit ? (
+      {current?.portrait?.credit ? (
         <span className={`notation ${styles.credit} ${styles.creditPortrait}`} aria-hidden="true">
-          {portrait.credit.toUpperCase()}
+          {current.portrait.credit.toUpperCase()}
         </span>
       ) : null}
     </div>

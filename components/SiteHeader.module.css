@@ -17,14 +17,10 @@
   background: transparent;
   mix-blend-mode: difference;
   color: #fff;
-  /* White at low alpha differences to a slight darkening of whatever is
-     behind: a hairline on paper, a lift on ink. */
-  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
-  transition: border-color var(--t-nav) var(--ease);
-}
-
-.header[data-scrolled] {
-  border-bottom-color: transparent;
+  /* No rule beneath the bar: removed at the practice's review. The
+     with-rule state, should they want to compare again, was
+     border-bottom: 1px solid rgba(255, 255, 255, 0.24), fading out on
+     scroll. */
 }
 
 .bar {
@@ -87,19 +83,29 @@
   color: #fff;
 }
 
-.bars {
+/* The plus: two strokes of the site's rule weight crossing at the centre. */
+.plus {
+  position: relative;
   display: block;
-  width: 22px;
+  width: 18px;
+  height: 18px;
 }
 
-.bars span {
-  display: block;
-  height: 1px;
+.plus span {
+  position: absolute;
+  inset: 0;
+  margin: auto;
   background: #fff;
 }
 
-.bars span + span {
-  margin-top: 5px;
+.plus span:first-child {
+  width: 100%;
+  height: 1px;
+}
+
+.plus span:last-child {
+  width: 1px;
+  height: 100%;
 }
 
 /* Browsers that cannot blend get the header the site had before: paper ground,
@@ -134,7 +140,7 @@
     color: var(--ink);
   }
 
-  .bars span {
+  .plus span {
     background: var(--ink);
   }
 }

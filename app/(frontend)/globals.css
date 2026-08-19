@@ -7,7 +7,10 @@
 
 :root {
   /* Colour — authored neutrals, one material accent */
-  --paper: #f5f2ed;
+  /* White at the practice's request (design review, 18 Aug 2026); the warm
+     paper #f5f2ed it replaced lives on in --on-dark, which is still the text
+     colour on ink. */
+  --paper: #ffffff;
   --surface: #ece8e1;
   --hairline: #d8d2c7;
   --ink: #161412;
@@ -23,6 +26,13 @@
   --font-structural: var(--font-jost), "Futura PT", futura-pt, sans-serif;
   --font-reading: var(--font-garamond), "Adobe Garamond Pro", Garamond, serif;
   --font-notation: var(--font-mono), ui-monospace, "SF Mono", monospace;
+  /* The banner: Century Gothic where the machine owns it, its nearest open
+     relative everywhere else. */
+  --font-banner: "Century Gothic", "CenturyGothic", var(--font-questrial), var(--font-jost), sans-serif;
+  /* Project names on the landing: the practice named Gill Sans and Calibri,
+     both platform faces, so the stack tries them in that order before the
+     site's own structural face. */
+  --font-names: "Gill Sans", "Gill Sans MT", Calibri, var(--font-jost), sans-serif;
 
   /* Scale (board 02) */
   --size-display: 3.375rem; /* 54 */

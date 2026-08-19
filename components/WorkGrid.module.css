@@ -74,12 +74,23 @@
   margin-top: calc(var(--u) * 1.5);
 }
 
+/* Sans at rest, the reading face on approach: the practice's own idea, and a
+   quietly good one, since the change of voice is the hover state, no colour
+   needed. Sized down a step because the sans sets wider than the italic. */
 .name {
-  font-size: 1.0625rem;
-  line-height: 1.35;
+  font-family: var(--font-names);
+  font-style: normal;
+  font-size: 0.9375rem;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  transition: color var(--t-state) var(--ease);
 }
 
 .link:hover .name {
+  font-family: var(--font-reading);
+  font-style: italic;
+  font-size: 1.0625rem;
+  letter-spacing: 0;
   color: var(--oxide);
 }
 

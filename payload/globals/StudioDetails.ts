@@ -63,7 +63,9 @@ export const StudioDetails: GlobalConfig = {
         {
           name: "showSectorFilter",
           type: "checkbox",
-          defaultValue: true,
+          // Off at the practice's review of 18 August 2026 ("remove the
+          // menu"); the row is one switch away if that changes.
+          defaultValue: false,
           label: "Show the sector filter",
         },
         {

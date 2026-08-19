@@ -41,6 +41,15 @@ const mono = localFont({
   display: "swap",
 });
 
+// The banner face the practice asked for is Century Gothic, which is
+// Monotype's; Questrial is its closest open relative and rides behind it in
+// the stack (see --font-banner in globals.css).
+const questrial = localFont({
+  src: [{ path: "../../public/fonts/questrial-400.woff2", weight: "400", style: "normal" }],
+  variable: "--font-questrial",
+  display: "swap",
+});
+
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://edwardmccann.studio";
 
 export const metadata: Metadata = {
@@ -63,7 +72,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en-GB" className={`${jost.variable} ${garamond.variable} ${mono.variable}`}>
+    <html lang="en-GB" className={`${jost.variable} ${garamond.variable} ${mono.variable} ${questrial.variable}`}>
       <body>
         <a href="#main" className="skip-link">
           Skip to content
