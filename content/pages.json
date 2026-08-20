@@ -20,22 +20,50 @@
       "showProjectFacts": false,
       "showSectorFilter": false,
       "splashEnabled": true,
-      "splash": {
-        "landscape": {
-          "src": "splash/b0a046e305f4e017",
-          "width": 2922,
-          "height": 2480,
-          "alt": "The artist studio seen from the garden: a red panelled base under a translucent upper storey, among trees.",
-          "credit": "Agnese Sanvito"
+      "splashSlides": [
+        {
+          "landscape": {
+            "src": "splash/b0a046e305f4e017",
+            "width": 2922,
+            "height": 2480,
+            "alt": "The artist studio seen from the garden: a red panelled base under a translucent upper storey, among trees.",
+            "credit": "Agnese Sanvito"
+          },
+          "portrait": {
+            "src": "splash/95abdf1855fd67bd",
+            "width": 1800,
+            "height": 2400,
+            "alt": "A red zinc roof extension above a brick terrace, seen from the street.",
+            "credit": null
+          }
         },
-        "portrait": {
-          "src": "splash/95abdf1855fd67bd",
-          "width": 1800,
-          "height": 2400,
-          "alt": "A red zinc roof extension above a brick terrace, seen from the street.",
-          "credit": null
+        {
+          "landscape": {
+            "src": "splash/0b51f0659df3ff09",
+            "width": 2562,
+            "height": 2480,
+            "alt": "The artist studio, red panelled base under a translucent upper storey.",
+            "credit": "Agnese Sanvito"
+          },
+          "portrait": {
+            "src": "splash/79931555338bd5ae",
+            "width": 2284,
+            "height": 3425,
+            "alt": "Inside the artist studio: white painted brick, a clerestory of small panes, and a red framed window onto the garden.",
+            "credit": "Agnese Sanvito"
+          }
+        },
+        {
+          "landscape": {
+            "src": "splash/53a7e200c5d2a045",
+            "width": 2956,
+            "height": 3983,
+            "alt": "The West Suffolk house and its outbuildings from the air.",
+            "credit": null
+          },
+          "portrait": null
         }
-      }
+      ]
     }
   },
   "practice": {

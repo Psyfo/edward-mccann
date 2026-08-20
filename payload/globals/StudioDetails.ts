@@ -76,18 +76,34 @@ export const StudioDetails: GlobalConfig = {
           admin: { description: "The mark on a full screen, then a photograph, until the visitor dismisses it." },
         },
         {
-          name: "splashImage",
-          type: "upload",
-          relationTo: "media",
-          label: "Splash photograph, landscape",
-          admin: { description: "Shown behind the mark on desktop. Without one the splash stays on paper, which is a valid state." },
-        },
-        {
-          name: "splashImageMobile",
-          type: "upload",
-          relationTo: "media",
-          label: "Splash photograph, portrait",
-          admin: { description: "For phones, where a landscape crop loses the subject. Falls back to the landscape one." },
+          name: "splashSlides",
+          type: "array",
+          label: "Splash photographs",
+          labels: { singular: "Photograph", plural: "Splash photographs" },
+          admin: {
+            description:
+              "Shown behind the mark, in this order, changing every few seconds. One is fine: with a single photograph nothing cycles. With none, the splash stays on paper, which is also a valid state. Drag to reorder.",
+          },
+          fields: [
+            {
+              name: "landscape",
+              type: "upload",
+              relationTo: "media",
+              required: true,
+              label: "Landscape",
+              admin: { description: "Used on desktop, and on phones held sideways." },
+            },
+            {
+              name: "portrait",
+              type: "upload",
+              relationTo: "media",
+              label: "Portrait (optional)",
+              admin: {
+                description:
+                  "For phones, where a landscape crop loses the subject. Left empty, the landscape one is used and cropped.",
+              },
+            },
+          ],
         },
       ],
     },
