@@ -625,13 +625,21 @@ export interface StudioDetail {
      */
     splashEnabled?: boolean | null;
     /**
-     * Shown behind the mark on desktop. Without one the splash stays on paper, which is a valid state.
+     * Shown behind the mark, in this order, changing every few seconds. One is fine: with a single photograph nothing cycles. With none, the splash stays on paper, which is also a valid state. Drag to reorder.
      */
-    splashImage?: (number | null) | Media;
-    /**
-     * For phones, where a landscape crop loses the subject. Falls back to the landscape one.
-     */
-    splashImageMobile?: (number | null) | Media;
+    splashSlides?:
+      | {
+          /**
+           * Used on desktop, and on phones held sideways.
+           */
+          landscape: number | Media;
+          /**
+           * For phones, where a landscape crop loses the subject. Left empty, the landscape one is used and cropped.
+           */
+          portrait?: (number | null) | Media;
+          id?: string | null;
+        }[]
+      | null;
   };
   /**
    * London and Cape Town. The city name prints in mono above the address.
@@ -710,8 +718,13 @@ export interface StudioDetailsSelect<T extends boolean = true> {
         showProjectFacts?: T;
         showSectorFilter?: T;
         splashEnabled?: T;
-        splashImage?: T;
-        splashImageMobile?: T;
+        splashSlides?:
+          | T
+          | {
+              landscape?: T;
+              portrait?: T;
+              id?: T;
+            };
       };
   addresses?:
     | T

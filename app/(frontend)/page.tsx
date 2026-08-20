@@ -10,50 +10,10 @@ export default async function HomePage() {
   const studio = getStudioCopy();
   const { homepage } = studio;
 
-  // The first slide is the pair the admin holds. The rest are the remaining
-  // photographs the practice supplied, placed here in code until Edward picks
-  // his set, at which point they move into the admin as a proper list. The
-  // review asked for the image to change every couple of seconds, so the
-  // cycling had to exist before the curation does.
-  const interimSlides = [
-    {
-      landscape: {
-        src: "splash/0b51f0659df3ff09",
-        width: 2562,
-        height: 2480,
-        alt: "The artist studio, red panelled base under a translucent upper storey.",
-        credit: "Agnese Sanvito",
-      },
-      portrait: {
-        src: "splash/79931555338bd5ae",
-        width: 2284,
-        height: 3425,
-        alt: "The artist studio interior, red steel over a garden window.",
-        credit: "Agnese Sanvito",
-      },
-    },
-    {
-      landscape: {
-        src: "splash/53a7e200c5d2a045",
-        width: 2956,
-        height: 3983,
-        alt: "The West Suffolk house and its outbuildings from the air.",
-        credit: null,
-      },
-      portrait: {
-        src: "splash/53a7e200c5d2a045",
-        width: 2956,
-        height: 3983,
-        alt: "The West Suffolk house and its outbuildings from the air.",
-        credit: null,
-      },
-    },
-  ];
-
+  // Every photograph on the overlay is the practice's to choose, order
+  // included: this is the list they manage in the admin, nothing more.
   const splash =
-    homepage.splashEnabled && (homepage.splash.landscape || homepage.splash.portrait)
-      ? [{ landscape: homepage.splash.landscape, portrait: homepage.splash.portrait }, ...interimSlides]
-      : null;
+    homepage.splashEnabled && homepage.splashSlides.length > 0 ? homepage.splashSlides : null;
 
   return (
     <div className={styles.page}>

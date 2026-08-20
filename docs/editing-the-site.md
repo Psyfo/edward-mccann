@@ -94,6 +94,28 @@ Edits reach the site the same way project changes do: run `npm run
 content:export`, commit the diff, and the deploy publishes it. Until that export
 runs, a change saved in the admin is saved but not published.
 
+## The entry splash
+
+The photographs behind the mark are a list under **Globals → Studio details →
+Splash photographs**. Add, remove or drag to reorder them; the overlay shows
+them in that order, changing every few seconds. One photograph is a perfectly
+good answer, in which case nothing cycles. None leaves the mark on the white
+ground, which is also a valid state, as is switching the splash off entirely.
+
+Each entry takes a **landscape** image, used on desktop and on a phone held
+sideways, and an optional **portrait** one for phones held upright, where a
+landscape crop tends to lose the subject. Left empty, the landscape image is
+used and cropped.
+
+One thing worth knowing before uploading: the splash is the only image on the
+site that fills a whole viewport, so it needs wider renditions than the project
+pipeline makes. Run `tools/prepare-splash.mjs` on the original and set the
+resulting values on the media record, or ask the developer to. A photograph
+without those renditions is skipped rather than shown at full size.
+
+As with everything else, the change reaches the site when someone runs
+`npm run content:export` and commits.
+
 ## Accounts and roles
 
 There are two roles.

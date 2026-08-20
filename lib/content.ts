@@ -161,10 +161,11 @@ export type HomepageSettings = {
   showProjectFacts: boolean;
   showSectorFilter: boolean;
   splashEnabled: boolean;
-  splash: {
+  /** In order, changing every few seconds. Managed in the admin. */
+  splashSlides: {
     landscape: SplashImage | null;
     portrait: SplashImage | null;
-  };
+  }[];
 };
 
 export type StudioCopy = {

@@ -108,10 +108,14 @@ function splashOf(homepage) {
         }
       : null;
 
-  return {
-    landscape: shape(homepage?.splashImage),
-    portrait: shape(homepage?.splashImageMobile),
-  };
+  // A slide with no usable landscape rendition is dropped rather than exported
+  // as a hole: the splash would show a blank frame for its turn in the cycle.
+  return (homepage?.splashSlides ?? [])
+    .map((slide) => ({
+      landscape: shape(slide.landscape),
+      portrait: shape(slide.portrait),
+    }))
+    .filter((slide) => slide.landscape || slide.portrait);
 }
 
 // The page copy: the statements, the essay, the contact details and the two
@@ -134,7 +138,7 @@ const pages = {
       showProjectFacts: Boolean(studio.homepage?.showProjectFacts),
       showSectorFilter: studio.homepage?.showSectorFilter !== false,
       splashEnabled: studio.homepage?.splashEnabled !== false,
-      splash: splashOf(studio.homepage),
+      splashSlides: splashOf(studio.homepage),
     },
   },
   practice: {
