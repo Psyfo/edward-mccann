@@ -105,6 +105,12 @@ function splashOf(homepage) {
           height: image.derivative.height,
           alt: image.alt ?? '',
           credit: image.credit ?? null,
+          // A photograph uploaded before this field existed, or one nobody
+          // has set it on yet, defaults to the paper mark: on a truly light
+          // photograph that is a mark slightly duller than it could be, on a
+          // dark one it is the difference between readable and not. The
+          // asymmetry is deliberate.
+          tone: image.derivative.tone === 'light' ? 'light' : 'dark',
         }
       : null;
 

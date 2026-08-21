@@ -118,6 +118,18 @@ export const Media: CollectionConfig = {
         { name: "src", type: "text" },
         { name: "width", type: "number" },
         { name: "height", type: "number" },
+        {
+          name: "tone",
+          type: "select",
+          options: [
+            { label: "Light (a dark mark reads well on it)", value: "light" },
+            { label: "Dark (a light mark reads well on it)", value: "dark" },
+          ],
+          admin: {
+            description:
+              "Only used by the splash: which single flat colour the mark should be over this photograph. Sampled from the centre of the image, where the mark sits.",
+          },
+        },
       ],
     },
   ],

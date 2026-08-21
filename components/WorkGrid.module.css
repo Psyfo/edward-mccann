@@ -74,9 +74,9 @@
   margin-top: calc(var(--u) * 1.5);
 }
 
-/* Sans at rest, the reading face on approach: the practice's own idea, and a
-   quietly good one, since the change of voice is the hover state, no colour
-   needed. Sized down a step because the sans sets wider than the italic. */
+/* The practice tried a hover that also swapped the face to Garamond italic
+   and asked to drop it: one voice throughout, the colour alone marks the
+   hover. */
 .name {
   font-family: var(--font-names);
   font-style: normal;
@@ -86,11 +86,7 @@
   transition: color var(--t-state) var(--ease);
 }
 
-/* The hover changes the voice and the colour and nothing else: size, tracking
-   and line height hold still, so the word does not jump as the face swaps. */
 .link:hover .name {
-  font-family: var(--font-reading);
-  font-style: italic;
   color: var(--oxide);
 }
 
