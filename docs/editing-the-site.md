@@ -110,8 +110,14 @@ used and cropped.
 One thing worth knowing before uploading: the splash is the only image on the
 site that fills a whole viewport, so it needs wider renditions than the project
 pipeline makes. Run `tools/prepare-splash.mjs` on the original and set the
-resulting values on the media record, or ask the developer to. A photograph
-without those renditions is skipped rather than shown at full size.
+resulting values, including the tone it prints, on the media record, or ask the
+developer to. A photograph without those renditions is skipped rather than
+shown at full size.
+
+The mark over each photograph is always one flat colour, ink or paper, picked
+per photograph so it stays legible: never a shadow, never a colour that varies
+across the mark itself. `tools/prepare-splash.mjs` samples the centre of the
+image, roughly where the mark sits, and prints which one to set.
 
 As with everything else, the change reaches the site when someone runs
 `npm run content:export` and commits.

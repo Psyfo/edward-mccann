@@ -238,6 +238,10 @@ export interface Media {
     src?: string | null;
     width?: number | null;
     height?: number | null;
+    /**
+     * Only used by the splash: which single flat colour the mark should be over this photograph. Sampled from the centre of the image, where the mark sits.
+     */
+    tone?: ('light' | 'dark') | null;
   };
   prefix?: string | null;
   updatedAt: string;
@@ -442,6 +446,7 @@ export interface MediaSelect<T extends boolean = true> {
         src?: T;
         width?: T;
         height?: T;
+        tone?: T;
       };
   prefix?: T;
   updatedAt?: T;

@@ -48,15 +48,26 @@
   object-fit: cover;
 }
 
-/* Ink, clean, 12% smaller than it first shipped, still and unshadowed on the
-   photographs the practice is choosing for exactly that to work. */
+/* Clean, 12% smaller than it first shipped, still and unshadowed. Its colour
+   is one flat pick per photograph rather than fixed ink: --mark-landscape and
+   --mark-portrait are set by the component from each slide's own tone, and
+   this reads whichever one the media query below says is actually on
+   screen. Never a per-pixel effect: the practice asked for a single best
+   colour, not the mark itself becoming patterned. */
 .mark {
   position: relative;
   width: clamp(130px, 18.5vw, 280px);
   height: auto;
-  fill: var(--ink);
+  fill: var(--mark-landscape, var(--ink));
   opacity: 0;
   animation: mark-in 1.15s cubic-bezier(0.22, 1, 0.36, 1) 0.12s forwards;
+  transition: fill 0.5s ease;
+}
+
+@media (orientation: portrait) {
+  .mark {
+    fill: var(--mark-portrait, var(--ink));
+  }
 }
 
 @keyframes mark-in {
@@ -103,6 +114,7 @@
   .mark {
     opacity: 1;
     animation: none;
+    transition: none;
   }
 
   .credit {

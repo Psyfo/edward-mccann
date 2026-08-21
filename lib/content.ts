@@ -153,6 +153,8 @@ export type SplashImage = {
   height: number;
   alt: string;
   credit: string | null;
+  /** Which flat colour the mark should be over this photograph. */
+  tone: "light" | "dark";
 };
 
 /** What the landing page shows. Every one of these is the practice's to change. */

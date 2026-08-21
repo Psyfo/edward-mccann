@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import type { CSSProperties } from "react";
 import type { SplashImage } from "@/lib/content";
 import { splashFallback, splashSrcSet } from "@/lib/media";
 import styles from "./Splash.module.css";
@@ -106,9 +107,21 @@ export function Splash({ slides, onDismissed }: Props) {
 
   const current = slides[active];
 
+  // Which flat colour the mark should be, for whichever photograph is
+  // actually visible. Landscape and portrait can be different photographs
+  // with different tones, and only a CSS media query knows which one the
+  // browser is showing, so both are set as custom properties and the
+  // stylesheet picks between them the same way it already does for the
+  // credit line.
+  const style = {
+    "--mark-landscape": current?.landscape?.tone === "light" ? "var(--ink)" : "var(--on-dark, #f5f2ed)",
+    "--mark-portrait": current?.portrait?.tone === "light" ? "var(--ink)" : "var(--on-dark, #f5f2ed)",
+  } as CSSProperties;
+
   return (
     <div
       className={`splash-overlay ${styles.splash}`}
+      style={style}
       data-leaving={leaving}
       role="button"
       tabIndex={0}
@@ -166,7 +179,10 @@ export function Splash({ slides, onDismissed }: Props) {
       })}
 
       {/* The mark is drawn rather than loaded so it needs no second request.
-          Ink, clean, per the review: no shadow and nothing behind it. */}
+          Clean, per the review: no shadow, no scrim, nothing behind it. Its
+          fill is one flat colour, ink or paper, chosen per photograph so it
+          stays readable; never a per-pixel effect, which the practice
+          specifically did not want. */}
       <svg
         className={styles.mark}
         viewBox="0 40 180 100"
