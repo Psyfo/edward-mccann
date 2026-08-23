@@ -1,5 +1,5 @@
 .page {
-  padding: calc(var(--u) * 7) var(--gutter) calc(var(--u) * 4);
+  padding: calc(var(--u) * 8) var(--gutter) calc(var(--u) * 4);
 }
 
 .head {
@@ -12,8 +12,6 @@
 }
 
 .title {
-  font-size: 2.125rem;
-  font-weight: 400;
   margin: 0;
 }
 
@@ -28,9 +26,10 @@
 }
 
 .filter {
-  font-family: var(--font-notation);
-  font-size: 0.71875rem;
-  letter-spacing: 0.06em;
+  font-family: var(--font-structural);
+  font-size: 0.78125rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
   color: var(--ink-muted);
   border-bottom: 1px solid transparent;
   padding-bottom: 2px;
