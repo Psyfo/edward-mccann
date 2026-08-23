@@ -3,26 +3,34 @@
   min-width: 0;
 }
 
+/* The frame no longer imposes a shape on the picture: it takes the picture's
+   own, bounded by the height the page allows, so nothing is cropped and a tall
+   image cannot run off the bottom of the window.
+
+   The aspect-ratio set inline still holds the space before the file arrives,
+   which is what stops the page jumping as images load. */
 .frame {
   position: relative;
-  width: 100%;
+  max-width: 100%;
+  max-height: var(--plate-height, none);
+  /* Honours the inline aspect-ratio while obeying the height cap: with a
+     height ceiling and auto width, the ratio decides how wide it ends up. */
+  height: auto;
+  width: auto;
   overflow: hidden;
 }
 
 .frame img {
+  display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
-/* Drawings and white-ground renders sit inside the frame on the paper ground
-   rather than being cropped to fill it. */
+/* Drawings and white-ground renders sit on the paper ground; photographs need
+   no ground behind them now that they are never cropped. */
 .frame[data-fit="contain"] {
   background: var(--paper);
-}
-
-.frame[data-fit="contain"] img {
-  object-fit: contain;
 }
 
 .caption {

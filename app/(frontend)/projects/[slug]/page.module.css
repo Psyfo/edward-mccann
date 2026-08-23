@@ -64,21 +64,29 @@
   margin-top: calc(var(--u) * 2.75);
 }
 
-/* Plates: portraits pair into two columns, landscapes take the full measure. */
+/* One image after another, each sized so the whole of it is on screen at once.
+   They used to pair portraits into two columns, which made a tall image half
+   the width of a wide one for no reason the pictures themselves gave.
+
+   The height cap is what does the work: a portrait photograph at full page
+   width would stand far taller than the window, so it is bounded by the
+   viewport instead and takes whatever width that leaves it. Wide images are
+   rarely tall enough for the cap to bite, so they simply run the measure. */
 .plates {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: calc(var(--u) * 2.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: calc(var(--u) * 6);
   padding: 0 var(--gutter);
-  align-items: start;
 }
 
-.landscape {
-  grid-column: 1 / -1;
-}
-
-.portrait {
-  grid-column: span 1;
+.plate {
+  /* Room for the browser chrome and a little air, so the picture reads as
+     placed on the page rather than jammed into the window. */
+  --plate-height: calc(100vh - var(--u) * 14);
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .handoff {
@@ -112,12 +120,26 @@
 }
 
 @media (max-width: 760px) {
+  /* One column already, so nothing to collapse: what changes is the height
+     cap, which is loosened because a phone's window is tall and narrow. A
+     picture bounded to the full height there would be tiny. */
+  .plate {
+    --plate-height: 78vh;
+  }
+
   .plates {
+    gap: calc(var(--u) * 4);
+  }
+
+  /* The two-column details list does not fit a phone: a long press entry
+     pushed the whole page sideways. One column, and the label sits above
+     rather than beside its value. */
+  .facts {
     grid-template-columns: 1fr;
   }
 
-  .portrait,
-  .landscape {
-    grid-column: 1 / -1;
+  .fact {
+    grid-template-columns: 1fr;
+    gap: calc(var(--u) * 0.5);
   }
 }
