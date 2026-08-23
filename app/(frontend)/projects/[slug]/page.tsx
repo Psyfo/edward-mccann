@@ -87,20 +87,18 @@ export default async function ProjectPage({ params }: Params) {
 
       {project.figures.length > 0 ? (
         <section className={styles.plates} aria-label={`${project.name}, images`}>
-          {project.figures.map((figure, i) => {
-            // Landscape plates run full measure; portraits pair up. This keeps
-            // the sequence from alternating raggedly the way the old site did.
-            const portrait = figure.height > figure.width;
-            return (
-              <Plate
-                key={figure.src}
-                figure={figure}
-                index={i + 1}
-                sizes={portrait ? "(max-width: 760px) 100vw, 46vw" : "(max-width: 760px) 100vw, 92vw"}
-                className={portrait ? styles.portrait : styles.landscape}
-              />
-            );
-          })}
+          {project.figures.map((figure, i) => (
+            // One column, each image bounded by the window's height. A tall
+            // picture ends up narrower than a wide one, decided by its own
+            // proportions rather than by a column it was assigned to.
+            <Plate
+              key={figure.src}
+              figure={figure}
+              index={i + 1}
+              className={styles.plate}
+              sizes="(max-width: 760px) 100vw, 92vw"
+            />
+          ))}
         </section>
       ) : null}
 
