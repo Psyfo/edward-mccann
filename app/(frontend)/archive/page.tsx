@@ -70,7 +70,7 @@ export default async function ArchivePage({
   return (
     <div className={styles.page}>
       <div className={styles.head}>
-        <h1 className={styles.title}>
+        <h1 className={`display ${styles.title}`}>
           Index{" "}
           <span className={`notation ${styles.count}`}>
             {`— ${rows.length} WORKS`}
