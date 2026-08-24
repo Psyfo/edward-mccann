@@ -136,6 +136,30 @@ export async function getNextProject(slug: string): Promise<Project> {
   return byNumber[(i + 1) % byNumber.length];
 }
 
+/**
+ * Other work worth a look from here.
+ *
+ * "Similar" is the sector the practice already declares for every project,
+ * not a new tag invented for this one page: same sector first, nearest by
+ * catalogue number, and the rest of the archive filling in if a sector is
+ * too small to supply the full count on its own. Twenty-seven works and four
+ * sectors means that always has enough to draw on.
+ */
+export async function getRelatedProjects(slug: string, limit = 4): Promise<Project[]> {
+  const byNumber = await getByNumber();
+  const current = byNumber.find((p) => p.slug === slug);
+  if (!current) return [];
+
+  const distance = (p: Project) => Math.abs(Number(p.no) - Number(current.no));
+  const byProximity = (a: Project, b: Project) => distance(a) - distance(b);
+
+  const others = byNumber.filter((p) => p.slug !== slug);
+  const sameSector = others.filter((p) => p.sector === current.sector).sort(byProximity);
+  const rest = others.filter((p) => p.sector !== current.sector).sort(byProximity);
+
+  return [...sameSector, ...rest].slice(0, limit);
+}
+
 /** The curated homepage set, in the order the design specifies. */
 export async function getSelected(): Promise<Project[]> {
   const projects = await getProjects();
