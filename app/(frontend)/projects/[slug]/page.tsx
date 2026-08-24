@@ -3,8 +3,15 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Plate } from "@/components/Plate";
 import { ProjectHero } from "@/components/ProjectHero";
+import { RelatedProjects } from "@/components/RelatedProjects";
 import { ScrollProgress } from "@/components/ScrollProgress";
-import { getByNumber, getNextProject, getProject, sectorLabel } from "@/lib/content";
+import {
+  getByNumber,
+  getNextProject,
+  getProject,
+  getRelatedProjects,
+  sectorLabel,
+} from "@/lib/content";
 import { mediaUrl } from "@/lib/media";
 import { breadcrumbSchema, jsonLd, openGraphFor, projectSchema } from "@/lib/schema";
 import styles from "./page.module.css";
@@ -42,6 +49,8 @@ export default async function ProjectPage({ params }: Params) {
   if (!project) notFound();
 
   const next = await getNextProject(slug);
+  const related = await getRelatedProjects(slug);
+  const archiveTotal = (await getByNumber()).length;
   const facts: [string, string][] = [
     ["PLACE", project.place],
     ["YEAR", project.year],
@@ -114,6 +123,8 @@ export default async function ProjectPage({ params }: Params) {
           ))}
         </dl>
       </section>
+
+      <RelatedProjects projects={related} total={archiveTotal} />
 
       <footer className={styles.handoff}>
         <p className={`notation ${styles.credits}`}>

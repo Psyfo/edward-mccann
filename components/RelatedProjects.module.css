@@ -1,0 +1,96 @@
+.section {
+  margin: calc(var(--u) * 7) var(--gutter) 0;
+  padding-top: calc(var(--u) * 3.5);
+  border-top: var(--rule-ink);
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: calc(var(--u) * 3);
+  flex-wrap: wrap;
+}
+
+.heading {
+  margin: 0;
+}
+
+.archiveLink {
+  font-family: var(--font-structural);
+  font-size: 0.75rem;
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.archiveLink:hover {
+  color: var(--oxide);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: calc(var(--u) * 4) calc(var(--u) * 3);
+  margin-top: calc(var(--u) * 4);
+}
+
+.link {
+  display: block;
+  min-width: 0;
+  color: inherit;
+}
+
+.frame {
+  display: block;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+}
+
+.frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Drawings and white-ground renders are never cropped; a portrait frame
+   around one sits on the paper ground instead, matching how the plates
+   themselves treat the same distinction. */
+.frame[data-fit="contain"] {
+  background: var(--paper);
+}
+
+.frame[data-fit="contain"] img {
+  object-fit: contain;
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--u) * 0.5);
+  margin-top: calc(var(--u) * 1.5);
+}
+
+.name {
+  font-family: var(--font-names);
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+  transition: color var(--t-state) var(--ease);
+}
+
+.link:hover .name {
+  color: var(--oxide);
+}
+
+.sector {
+  color: var(--ink-muted);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: calc(var(--u) * 4) calc(var(--u) * 2.5);
+  }
+}
